@@ -2,6 +2,7 @@ import { StyleSheet, View, ScrollView, ActivityIndicator } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useState, useEffect } from 'react';
+import { formatHebrewChapter, toHebrewNumeral } from '@/utils/hebrewNumbers';
 
 interface Verse {
   verseNum: number;
@@ -86,7 +87,7 @@ export default function ParshatHaMannScreen() {
             <ThemedView key={verse.verseNum} style={styles.verseContainer}>
               <ThemedView style={styles.verseNumber}>
                 <ThemedText style={styles.verseNumberText}>
-                  {verse.verseNum}
+                  {toHebrewNumeral(verse.verseNum)}
                 </ThemedText>
               </ThemedView>
 

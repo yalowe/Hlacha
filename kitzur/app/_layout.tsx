@@ -51,7 +51,7 @@ export default function RootLayout() {
           <Stack.Screen 
             name="chapter/[id]" 
             options={{ 
-              title: 'פרק',
+              title: 'סימן',
               headerBackTitle: 'חזרה',
             }} 
           />

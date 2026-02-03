@@ -15,7 +15,7 @@ export function DailyQuoteCard({ text, source }: DailyQuoteCardProps) {
   return (
     <View style={[styles.container, { backgroundColor: colors.accent.teal }]}>
       <Text style={[styles.label, { color: colors.text.onPrimary }]}>
-        Daily Quote
+        ציטוט יומי
       </Text>
       <Text style={[styles.quote, { color: colors.text.onPrimary }]}>
         "{text}"

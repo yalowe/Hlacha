@@ -25,13 +25,13 @@ export function ContinueLearningCard({ lastRead }: ContinueLearningCardProps) {
       >
         <View style={styles.content}>
           <Text style={[styles.label, { color: colors.text.onPrimary }]}>
-            Continue Learning
+            המשך לימוד
           </Text>
           <Text style={[styles.title, { color: colors.text.onPrimary }]} numberOfLines={1}>
             {lastRead.chapterLabel} • {lastRead.chapterTitle}
           </Text>
           <Text style={[styles.subtitle, { color: colors.text.onPrimary, opacity: 0.8 }]}>
-            Section {lastRead.sectionNumber}
+            סעיף {lastRead.sectionNumber}
           </Text>
         </View>
         <View style={[styles.arrow, { backgroundColor: colors.accent.teal }]}>

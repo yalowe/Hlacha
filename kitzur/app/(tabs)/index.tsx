@@ -102,6 +102,10 @@ export default function HomeScreen() {
     router.push('/parshat-hamann');
   };
 
+  const handleIggeretHaRamban = () => {
+    router.push('/iggeret-haramban');
+  };
+
   if (loading) {
     return (
       <ThemedView style={[styles.loadingContainer, { backgroundColor: colors.background.base }]}>
@@ -121,10 +125,10 @@ export default function HomeScreen() {
         {/* Header */}
         <View style={[styles.header, { backgroundColor: colors.primary.main }]}>
           <Text style={[styles.greeting, { color: colors.text.onPrimary, opacity: 0.9 }]}>
-            Welcome back
+            בראשית ברא
           </Text>
           <Text style={[styles.title, { color: colors.text.onPrimary }]}>
-            קיצור שולחן ערוך
+            לְמַעַן שְׁמוֹ בְּאַהֲבָה
           </Text>
         </View>
 
@@ -139,13 +143,13 @@ export default function HomeScreen() {
         <View style={styles.statsRow}>
           <View style={[styles.statCard, { backgroundColor: colors.surface.card }]}>
             <Text style={[styles.statLabel, { color: colors.text.secondary }]}>
-              Progress
+              התקדמות
             </Text>
             <View style={styles.progressRingContainer}>
               <ProgressRing completed={completedCount} total={totalCount} size={100} />
             </View>
             <Text style={[styles.statDetail, { color: colors.text.secondary }]}>
-              {completedCount} of {totalCount} simanim
+              {completedCount} מתוך {totalCount} סימנים
             </Text>
           </View>
           
@@ -157,7 +161,7 @@ export default function HomeScreen() {
         {/* Quick Actions */}
         <View style={styles.section}>
           <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
-            Quick Actions
+            פעולות מהירות
           </Text>
           <QuickActionsGrid
             onBrowse={handleBrowse}
@@ -166,6 +170,7 @@ export default function HomeScreen() {
             onRandom={handleRandom}
             onShnayimMikra={handleShnayimMikra}
             onParshatHaMann={handleParshatHaMann}
+            onIggeretHaRamban={handleIggeretHaRamban}
           />
         </View>
 

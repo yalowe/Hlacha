@@ -36,9 +36,10 @@ interface QuickActionsGridProps {
   onRandom: () => void;
   onShnayimMikra?: () => void;
   onParshatHaMann?: () => void;
+  onIggeretHaRamban?: () => void;
 }
 
-export function QuickActionsGrid({ onBrowse, onSearch, onBookmarks, onRandom, onShnayimMikra, onParshatHaMann }: QuickActionsGridProps) {
+export function QuickActionsGrid({ onBrowse, onSearch, onBookmarks, onRandom, onShnayimMikra, onParshatHaMann, onIggeretHaRamban }: QuickActionsGridProps) {
   return (
     <View style={styles.grid}>
       <QuickActionButton icon="📖" label="Browse" onPress={onBrowse} />
@@ -50,6 +51,9 @@ export function QuickActionsGrid({ onBrowse, onSearch, onBookmarks, onRandom, on
       )}
       {onParshatHaMann && (
         <QuickActionButton icon="🍞" label="פרשת המן" onPress={onParshatHaMann} />
+      )}
+      {onIggeretHaRamban && (
+        <QuickActionButton icon="✉️" label="איגרת הרמבן" onPress={onIggeretHaRamban} />
       )}
     </View>
   );

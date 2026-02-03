@@ -31,7 +31,7 @@
         },
         {
           "verseNum": 5,
-          "hebrew": "לֹֽא־<span class=\"mam-kq\"><span class=\"mam-kq-q\">[יִקְרְח֤וּ]</span> <span class=\"mam-kq-k\">(יקרחה)</span></span> קׇרְחָה֙ בְּרֹאשָׁ֔ם וּפְאַ֥ת זְקָנָ֖ם לֹ֣א יְגַלֵּ֑חוּ וּבִ֨בְשָׂרָ֔ם לֹ֥א יִשְׂרְט֖וּ שָׂרָֽטֶת׃",
+          "hebrew": "לֹֽא־ קׇרְחָה֙ בְּרֹאשָׁ֔ם וּפְאַ֥ת זְקָנָ֖ם לֹ֣א יְגַלֵּ֑חוּ וּבִ֨בְשָׂרָ֔ם לֹ֥א יִשְׂרְט֖וּ שָׂרָֽטֶת׃",
           "targum": "לָא יִמְרְטוּן מְרַט בְּרֵישְׁהוֹן וּפָאתָא דְדִקְנְהוֹן לָא יְגַלְּחוּן וּבְבִשְׂרְהוֹן לָא יְחַבְּלוּן חִבּוּל:",
           "english": "They shall not make baldness on their head, neither shall they shave off the corner of their beard, nor make any cuttings in their flesh."
         },
@@ -55,13 +55,13 @@
         },
         {
           "verseNum": 9,
-          "hebrew": "וּבַת֙ אִ֣ישׁ כֹּהֵ֔ן כִּ֥י תֵחֵ֖ל לִזְנ֑וֹת אֶת־אָבִ֙יהָ֙ הִ֣יא מְחַלֶּ֔לֶת בָּאֵ֖שׁ תִּשָּׂרֵֽף׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "hebrew": "וּבַת֙ אִ֣ישׁ כֹּהֵ֔ן כִּ֥י תֵחֵ֖ל לִזְנ֑וֹת אֶת־אָבִ֙יהָ֙ הִ֣יא מְחַלֶּ֔לֶת בָּאֵ֖שׁ תִּשָּׂרֵֽף׃",
           "targum": "וּבַת גְּבַר כָּהֵן אֲרֵי תִתְחַל לְמִטְעֵי מִקְּדֻשַּׁת אֲבוּהָ הִיא מִתַּחֲלָא בְּנוּרָא תִּתּוֹקָד:",
           "english": "And the daughter of any priest, if she profane herself by playing the harlot, she profanes her father: she shall be burnt with fire."
         },
         {
           "verseNum": 10,
-          "hebrew": "וְהַכֹּהֵן֩ הַגָּד֨וֹל מֵאֶחָ֜יו אֲֽשֶׁר־יוּצַ֥ק עַל־רֹאשׁ֣וֹ&thinsp;<b>׀</b> שֶׁ֤מֶן הַמִּשְׁחָה֙ וּמִלֵּ֣א אֶת־יָד֔וֹ לִלְבֹּ֖שׁ אֶת־הַבְּגָדִ֑ים אֶת־רֹאשׁוֹ֙ לֹ֣א יִפְרָ֔ע וּבְגָדָ֖יו לֹ֥א יִפְרֹֽם׃",
+          "hebrew": "וְהַכֹּהֵן֩ הַגָּד֨וֹל מֵאֶחָ֜יו אֲֽשֶׁר־יוּצַ֥ק עַל־רֹאשׁ֣וֹ׀ שֶׁ֤מֶן הַמִּשְׁחָה֙ וּמִלֵּ֣א אֶת־יָד֔וֹ לִלְבֹּ֖שׁ אֶת־הַבְּגָדִ֑ים אֶת־רֹאשׁוֹ֙ לֹ֣א יִפְרָ֔ע וּבְגָדָ֖יו לֹ֥א יִפְרֹֽם׃",
           "targum": "וְכַהֲנָא דְאִתְרַבָּא מֵאֲחוֹהִי דְּ יִתָּרִיק עַל רֵישֵׁיהּ מִשְׁחָא דִרְבוּתָא וְדִי קָרִיב יָת קֻרְבָּנֵיהּ לְמִלְבַּשׁ יָת לְבוּשַׁיָּא יָת רֵישֵׁיהּ לָא יְרַבֵּי פֵרוּעַ וּלְבוּשׁוֹהִי לָא יִבְזַע:",
           "english": "And he that is the high priest among his brethren, upon whose head the anointing oil was poured, and that is consecrated to put on the garments, shall not suffer the hair of his head to grow long, nor rend his clothes;"
         },
@@ -91,7 +91,7 @@
         },
         {
           "verseNum": 15,
-          "hebrew": "וְלֹֽא־יְחַלֵּ֥ל זַרְע֖וֹ בְּעַמָּ֑יו כִּ֛י אֲנִ֥י יְהֹוָ֖ה מְקַדְּשֽׁוֹ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "hebrew": "וְלֹֽא־יְחַלֵּ֥ל זַרְע֖וֹ בְּעַמָּ֑יו כִּ֛י אֲנִ֥י יְהֹוָ֖ה מְקַדְּשֽׁוֹ׃",
           "targum": "וְלָא יַחֵל זַרְעֵיהּ בְּעַמֵּיהּ אֲרֵי אֲנָא יְיָ מְקַדְּשֵׁיהּ:",
           "english": "Neither shall he profane his seed among his people: for I the Lord do sanctify him."
         },
@@ -145,7 +145,7 @@
         },
         {
           "verseNum": 24,
-          "hebrew": "וַיְדַבֵּ֣ר מֹשֶׁ֔ה אֶֽל־אַהֲרֹ֖ן וְאֶל־בָּנָ֑יו וְאֶֽל־כׇּל־בְּנֵ֖י יִשְׂרָאֵֽל׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וַיְדַבֵּ֣ר מֹשֶׁ֔ה אֶֽל־אַהֲרֹ֖ן וְאֶל־בָּנָ֑יו וְאֶֽל־כׇּל־בְּנֵ֖י יִשְׂרָאֵֽל׃",
           "targum": "וּמַלִּיל משֶׁה עִם אַהֲרֹן וְעִם בְּנוֹהִי וְעִם כָּל בְּנֵי יִשְׂרָאֵל:",
           "english": "And Moshe spoke to Aharon, and to his sons, and to all the children of Yisra᾽el."
         }
@@ -168,7 +168,7 @@
         },
         {
           "verseNum": 3,
-          "hebrew": "אֱמֹ֣ר אֲלֵהֶ֗ם לְדֹרֹ֨תֵיכֶ֜ם כׇּל־אִ֣ישׁ&thinsp;<b>׀</b> אֲשֶׁר־יִקְרַ֣ב מִכׇּל־זַרְעֲכֶ֗ם אֶל־הַקֳּדָשִׁים֙ אֲשֶׁ֨ר יַקְדִּ֤ישׁוּ בְנֵֽי־יִשְׂרָאֵל֙ לַֽיהֹוָ֔ה וְטֻמְאָת֖וֹ עָלָ֑יו וְנִכְרְתָ֞ה הַנֶּ֧פֶשׁ הַהִ֛וא מִלְּפָנַ֖י אֲנִ֥י יְהֹוָֽה׃",
+          "hebrew": "אֱמֹ֣ר אֲלֵהֶ֗ם לְדֹרֹ֨תֵיכֶ֜ם כׇּל־אִ֣ישׁ׀ אֲשֶׁר־יִקְרַ֣ב מִכׇּל־זַרְעֲכֶ֗ם אֶל־הַקֳּדָשִׁים֙ אֲשֶׁ֨ר יַקְדִּ֤ישׁוּ בְנֵֽי־יִשְׂרָאֵל֙ לַֽיהֹוָ֔ה וְטֻמְאָת֖וֹ עָלָ֑יו וְנִכְרְתָ֞ה הַנֶּ֧פֶשׁ הַהִ֛וא מִלְּפָנַ֖י אֲנִ֥י יְהֹוָֽה׃",
           "targum": "אֱמַר לְהוֹן לְדָרֵיכוֹן כָּל גְּבַר דִּי יִקְרַב מִכָּל בְּנֵיכוֹן לְקוּדְשַׁיָּא דִּי יְקַדְּשׁוּן בְּנֵי יִשְׂרָאֵל קֳדָם יְיָ וְסֹאבְתֵיהּ עֲלוֹהִי וְיִשְׁתֵּיצֵי אֲנָשָׁא הַהִיא מִן קֳדָמַי אֲנָא יְיָ:",
           "english": "Say to them, Whoever he be of all your seed among your generations, that approaches the holy things, which the children of Yisra᾽el hallow to the Lord, having his uncleanness upon him, that soul shall be cut off from my presence: I am the Lord."
         },
@@ -246,7 +246,7 @@
         },
         {
           "verseNum": 16,
-          "hebrew": "וְהִשִּׂ֤יאוּ אוֹתָם֙ עֲוֺ֣ן אַשְׁמָ֔ה בְּאׇכְלָ֖ם אֶת־קׇדְשֵׁיהֶ֑ם כִּ֛י אֲנִ֥י יְהֹוָ֖ה מְקַדְּשָֽׁם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וְהִשִּׂ֤יאוּ אוֹתָם֙ עֲוֺ֣ן אַשְׁמָ֔ה בְּאׇכְלָ֖ם אֶת־קׇדְשֵׁיהֶ֑ם כִּ֛י אֲנִ֥י יְהֹוָ֖ה מְקַדְּשָֽׁם׃",
           "targum": "וִיקַבְּלוּן עֲלֵיהוֹן עֲוָיָן וְחוֹבִין בְּמֵיכָלְהוֹן בְּסוֹאַבָא יָת קוּדְשֵׁיהוֹן אֲרֵי אֲנָא יְיָ מְקַדִּשְׁהוֹן:",
           "english": "and so cause them to bear the iniquity of trespass, when they eat their holy things: for I the Lord do sanctify them."
         },
@@ -300,7 +300,7 @@
         },
         {
           "verseNum": 25,
-          "hebrew": "וּמִיַּ֣ד בֶּן־נֵכָ֗ר לֹ֥א תַקְרִ֛יבוּ אֶת־לֶ֥חֶם אֱלֹהֵיכֶ֖ם מִכׇּל־אֵ֑לֶּה כִּ֣י מׇשְׁחָתָ֤ם בָּהֶם֙ מ֣וּם בָּ֔ם לֹ֥א יֵרָצ֖וּ לָכֶֽם׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "hebrew": "וּמִיַּ֣ד בֶּן־נֵכָ֗ר לֹ֥א תַקְרִ֛יבוּ אֶת־לֶ֥חֶם אֱלֹהֵיכֶ֖ם מִכׇּל־אֵ֑לֶּה כִּ֣י מׇשְׁחָתָ֤ם בָּהֶם֙ מ֣וּם בָּ֔ם לֹ֥א יֵרָצ֖וּ לָכֶֽם׃",
           "targum": "וּמִן בַּר עַמְמִין לָא תְקָרְבוּן יָת קֻרְבַּן אֱלָהָכוֹן מִכָּל אִלֵּין אֲרֵי חִבּוּלְהוֹן בְּהוֹן מוּמָא בְהוֹן לָא לְרַעֲוָא יְהוֹן לְכוֹן:",
           "english": "Neither from a stranger’s hand shall you offer the bread of your God from any of these; because their corruption is in them, their blemish is in them: they shall not be accepted for you."
         },
@@ -344,11 +344,11 @@
           "verseNum": 32,
           "hebrew": "וְלֹ֤א תְחַלְּלוּ֙ אֶת־שֵׁ֣ם קׇדְשִׁ֔י וְנִ֨קְדַּשְׁתִּ֔י בְּת֖וֹךְ בְּנֵ֣י יִשְׂרָאֵ֑ל אֲנִ֥י יְהֹוָ֖ה מְקַדִּשְׁכֶֽם׃",
           "targum": "וְלָא תְחַלְּלוּן יָת שְׁמָא דְקוּדְשַׁי וְאִתְקַדַּשׁ בְּגוֹ בְּנֵי יִשְׂרָאֵל אֲנָא יְיָ מְקַדִּשְׁכוֹן:",
-          "english": "Neither shall you profane my holy name; but I will be hallowed among the children of  Yisra᾽el: I am the Lord who make you holy,"
+          "english": "Neither shall you profane my holy name; but I will be hallowed among the children of Yisra᾽el: I am the Lord who make you holy,"
         },
         {
           "verseNum": 33,
-          "hebrew": "הַמּוֹצִ֤יא אֶתְכֶם֙ מֵאֶ֣רֶץ מִצְרַ֔יִם לִהְי֥וֹת לָכֶ֖ם לֵאלֹהִ֑ים אֲנִ֖י יְהֹוָֽה׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "הַמּוֹצִ֤יא אֶתְכֶם֙ מֵאֶ֣רֶץ מִצְרַ֔יִם לִהְי֥וֹת לָכֶ֖ם לֵאלֹהִ֑ים אֲנִ֖י יְהֹוָֽה׃",
           "targum": "דְּאַפִּיק יָתְכוֹן מֵאַרְעָא דְמִצְרַיִם לְמֶהֱוֵי לְכוֹן לֵאלָהָא אֲנָא יְיָ:",
           "english": "who brought you out of the land of Miżrayim, to be your God: I am the Lord."
         }
@@ -371,7 +371,7 @@
         },
         {
           "verseNum": 3,
-          "hebrew": "שֵׁ֣שֶׁת יָמִים֮ תֵּעָשֶׂ֣ה מְלָאכָה֒ וּבַיּ֣וֹם הַשְּׁבִיעִ֗י שַׁבַּ֤ת שַׁבָּתוֹן֙ מִקְרָא־קֹ֔דֶשׁ כׇּל־מְלָאכָ֖ה לֹ֣א תַעֲשׂ֑וּ שַׁבָּ֥ת הִוא֙ לַֽיהֹוָ֔ה בְּכֹ֖ל מוֹשְׁבֹֽתֵיכֶֽם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "שֵׁ֣שֶׁת יָמִים֮ תֵּעָשֶׂ֣ה מְלָאכָה֒ וּבַיּ֣וֹם הַשְּׁבִיעִ֗י שַׁבַּ֤ת שַׁבָּתוֹן֙ מִקְרָא־קֹ֔דֶשׁ כׇּל־מְלָאכָ֖ה לֹ֣א תַעֲשׂ֑וּ שַׁבָּ֥ת הִוא֙ לַֽיהֹוָ֔ה בְּכֹ֖ל מוֹשְׁבֹֽתֵיכֶֽם׃",
           "targum": "שִׁתָּא יוֹמִין תִּתְעֲבֵד עִבִידָא וּבְיוֹמָא שְׁבִיעָאָה שְׁבַת שְׁבָתָא מְעָרַע קַדִּישׁ כָּל עִבִידָא לָא תַעְבְּדוּן שַׁבְּתָא הִיא קֳדָם יְיָ בְּכֹל מוֹתְבָנֵיכוֹן:",
           "english": "Six days shall work be done: but the seventh day is the sabbath of solemn rest, a holy gathering; you shall do no work: it is a sabbath to the Lord in all your dwellings."
         },
@@ -401,7 +401,7 @@
         },
         {
           "verseNum": 8,
-          "hebrew": "וְהִקְרַבְתֶּ֥ם אִשֶּׁ֛ה לַיהֹוָ֖ה שִׁבְעַ֣ת יָמִ֑ים בַּיּ֤וֹם הַשְּׁבִיעִי֙ מִקְרָא־קֹ֔דֶשׁ כׇּל־מְלֶ֥אכֶת עֲבֹדָ֖ה לֹ֥א תַעֲשֽׂוּ׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וְהִקְרַבְתֶּ֥ם אִשֶּׁ֛ה לַיהֹוָ֖ה שִׁבְעַ֣ת יָמִ֑ים בַּיּ֤וֹם הַשְּׁבִיעִי֙ מִקְרָא־קֹ֔דֶשׁ כׇּל־מְלֶ֥אכֶת עֲבֹדָ֖ה לֹ֥א תַעֲשֽׂוּ׃",
           "targum": "וּתְקָרְבוּן קֻרְבָּנָא קֳדָם יְיָ שִׁבְעָא יוֹמִין בְּיוֹמָא שְׁבִיעָאָה מְעָרַע קַדִּישׁ כָּל עִבִידַת פָּלְחָן לָא תַעְבְּדוּן:",
           "english": "But you shall offer an offering made by fire to the Lord for seven days: on the seventh day is a holy gathering: you shall do no servile work."
         },
@@ -437,7 +437,7 @@
         },
         {
           "verseNum": 14,
-          "hebrew": "וְלֶ֩חֶם֩ וְקָלִ֨י וְכַרְמֶ֜ל לֹ֣א תֹֽאכְל֗וּ עַד־עֶ֙צֶם֙ הַיּ֣וֹם הַזֶּ֔ה עַ֚ד הֲבִ֣יאֲכֶ֔ם אֶת־קׇרְבַּ֖ן אֱלֹהֵיכֶ֑ם חֻקַּ֤ת עוֹלָם֙ לְדֹרֹ֣תֵיכֶ֔ם בְּכֹ֖ל מֹשְׁבֹֽתֵיכֶֽם׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "hebrew": "וְלֶ֩חֶם֩ וְקָלִ֨י וְכַרְמֶ֜ל לֹ֣א תֹֽאכְל֗וּ עַד־עֶ֙צֶם֙ הַיּ֣וֹם הַזֶּ֔ה עַ֚ד הֲבִ֣יאֲכֶ֔ם אֶת־קׇרְבַּ֖ן אֱלֹהֵיכֶ֑ם חֻקַּ֤ת עוֹלָם֙ לְדֹרֹ֣תֵיכֶ֔ם בְּכֹ֖ל מֹשְׁבֹֽתֵיכֶֽם׃",
           "targum": "וּלְחֵם וּקְלִי וּפֵרוּכָן לָא תֵיכְלוּן עַד כְּרַן יוֹמָא הָדֵין עַד אַיְתוֹאֵיכוֹן יָת קֻרְבָּן אֱלָהָכוֹן קְיַם עָלָם לְדָרֵיכוֹן בְּכֹל מוֹתְבָנֵיכוֹן:",
           "english": "And you shall eat neither bread, nor parched corn, nor green ears, until that very day, until you have brought an offering to your God: it shall be a statute for ever throughout your generations in all your dwellings."
         },
@@ -455,8 +455,8 @@
         },
         {
           "verseNum": 17,
-          "hebrew": "מִמּוֹשְׁבֹ֨תֵיכֶ֜ם תָּבִ֣יאּוּ&thinsp;<b>׀</b> לֶ֣חֶם תְּנוּפָ֗ה שְׁ֚תַּיִם שְׁנֵ֣י עֶשְׂרֹנִ֔ים סֹ֣לֶת תִּהְיֶ֔ינָה חָמֵ֖ץ תֵּאָפֶ֑ינָה בִּכּוּרִ֖ים לַֽיהֹוָֽה׃",
-          "targum": "מִמּוֹתְבָנֵיכוֹן תַּיְתוּן לְחֵם אֲרָמוּתָא תַּרְתֵּין (גְּרִיצַן) תְּרֵין עֶשְׁרוֹנִין סֻלְתָּא יְהֶוְיָן חֲמִיעַ יִתְאַפְיָן בִּכּוּרִין קֳדָם יְיָ:",
+          "hebrew": "מִמּוֹשְׁבֹ֨תֵיכֶ֜ם תָּבִ֣יאּוּ׀ לֶ֣חֶם תְּנוּפָ֗ה שְׁ֚תַּיִם שְׁנֵ֣י עֶשְׂרֹנִ֔ים סֹ֣לֶת תִּהְיֶ֔ינָה חָמֵ֖ץ תֵּאָפֶ֑ינָה בִּכּוּרִ֖ים לַֽיהֹוָֽה׃",
+          "targum": "מִמּוֹתְבָנֵיכוֹן תַּיְתוּן לְחֵם אֲרָמוּתָא תַּרְתֵּין תְּרֵין עֶשְׁרוֹנִין סֻלְתָּא יְהֶוְיָן חֲמִיעַ יִתְאַפְיָן בִּכּוּרִין קֳדָם יְיָ:",
           "english": "You shall bring out of your habitations two wave loaves of two tenth measures: they shall be of fine flour; they shall be baked with leaven; they are the firstfruits to the Lord."
         },
         {
@@ -473,19 +473,19 @@
         },
         {
           "verseNum": 20,
-          "hebrew": "וְהֵנִ֣יף הַכֹּהֵ֣ן&thinsp;<small>׀</small>&thinsp;אֹתָ֡ם עַל֩ לֶ֨חֶם הַבִּכֻּרִ֤ים תְּנוּפָה֙ לִפְנֵ֣י יְהֹוָ֔ה עַל־שְׁנֵ֖י כְּבָשִׂ֑ים קֹ֛דֶשׁ יִהְי֥וּ לַיהֹוָ֖ה לַכֹּהֵֽן׃",
+          "hebrew": "וְהֵנִ֣יף הַכֹּהֵ֣ן׀אֹתָ֡ם עַל֩ לֶ֨חֶם הַבִּכֻּרִ֤ים תְּנוּפָה֙ לִפְנֵ֣י יְהֹוָ֔ה עַל־שְׁנֵ֖י כְּבָשִׂ֑ים קֹ֛דֶשׁ יִהְי֥וּ לַיהֹוָ֖ה לַכֹּהֵֽן׃",
           "targum": "וִירִים כַּהֲנָא יָתְהוֹן עַל לְחֵם בִּכּוּרַיָּא אֲרָמוּתָא קֳדָם יְיָ עַל תְּרֵין אִמְּרִין קוּדְשָׁא יְהוֹן קֳדָם יְיָ לְכַהֲנָא:",
           "english": "And the priest shall wave them with the bread of the firstfruits for a wave offering before the Lord, with the two lambs: they shall be holy to the Lord for the priest."
         },
         {
           "verseNum": 21,
-          "hebrew": "וּקְרָאתֶ֞ם בְּעֶ֣צֶם&thinsp;<b>׀</b> הַיּ֣וֹם הַזֶּ֗ה מִֽקְרָא־קֹ֙דֶשׁ֙ יִהְיֶ֣ה לָכֶ֔ם כׇּל־מְלֶ֥אכֶת עֲבֹדָ֖ה לֹ֣א תַעֲשׂ֑וּ חֻקַּ֥ת עוֹלָ֛ם בְּכׇל־מוֹשְׁבֹ֥תֵיכֶ֖ם לְדֹרֹֽתֵיכֶֽם׃",
+          "hebrew": "וּקְרָאתֶ֞ם בְּעֶ֣צֶם׀ הַיּ֣וֹם הַזֶּ֗ה מִֽקְרָא־קֹ֙דֶשׁ֙ יִהְיֶ֣ה לָכֶ֔ם כׇּל־מְלֶ֥אכֶת עֲבֹדָ֖ה לֹ֣א תַעֲשׂ֑וּ חֻקַּ֥ת עוֹלָ֛ם בְּכׇל־מוֹשְׁבֹ֥תֵיכֶ֖ם לְדֹרֹֽתֵיכֶֽם׃",
           "targum": "וּתְעָרְעוּן בִּכְרַן יוֹמָא הָדֵין מְעָרַע קַדִּישׁ יְהֵי לְכוֹן כָּל עִבִידַת פָּלְחָן לָא תַעְבְּדוּן קְיַם עָלָם בְּכָל מוֹתְבָנֵיכוֹן לְדָרֵיכוֹן:",
           "english": "And you shall proclaim on this very same day, that it may be a holy gathering to you: you shall do no servile work: it shall be a statute for ever in all your dwellings throughout your generations."
         },
         {
           "verseNum": 22,
-          "hebrew": "וּֽבְקֻצְרְכֶ֞ם אֶת־קְצִ֣יר אַרְצְכֶ֗ם לֹֽא־תְכַלֶּ֞ה פְּאַ֤ת שָֽׂדְךָ֙ בְּקֻצְרֶ֔ךָ וְלֶ֥קֶט קְצִירְךָ֖ לֹ֣א תְלַקֵּ֑ט לֶֽעָנִ֤י וְלַגֵּר֙ תַּעֲזֹ֣ב אֹתָ֔ם אֲנִ֖י יְהֹוָ֥ה אֱלֹהֵיכֶֽם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וּֽבְקֻצְרְכֶ֞ם אֶת־קְצִ֣יר אַרְצְכֶ֗ם לֹֽא־תְכַלֶּ֞ה פְּאַ֤ת שָֽׂדְךָ֙ בְּקֻצְרֶ֔ךָ וְלֶ֥קֶט קְצִירְךָ֖ לֹ֣א תְלַקֵּ֑ט לֶֽעָנִ֤י וְלַגֵּר֙ תַּעֲזֹ֣ב אֹתָ֔ם אֲנִ֖י יְהֹוָ֥ה אֱלֹהֵיכֶֽם׃",
           "targum": "וּבְמֶחֱצָדְכוֹן יָת חֲצָדָא דְאַרְעֲכוֹן לָא תְשֵׁיצֵי פָּאתָא דְחַקְלָךְ בְּמֶחֱצָדָךְ וּלְקָטָא דַחֲצָדָךְ לָא תְלַקֵּט לְעַנְיֵי וּלְגִיּוֹרֵי תִּשְׁבּוֹק יָתְהוֹן אֲנָא יְיָ אֱלָהָכוֹן:",
           "english": "And when you reap the harvest of your land, thou shalt not altogether remove the corners of thy field when thou reapest, nor shalt thou gather any gleaning of thy harvest: thou shalt leave them to the poor, and to the stranger: I am the Lord your God."
         },
@@ -499,11 +499,11 @@
           "verseNum": 24,
           "hebrew": "דַּבֵּ֛ר אֶל־בְּנֵ֥י יִשְׂרָאֵ֖ל לֵאמֹ֑ר בַּחֹ֨דֶשׁ הַשְּׁבִיעִ֜י בְּאֶחָ֣ד לַחֹ֗דֶשׁ יִהְיֶ֤ה לָכֶם֙ שַׁבָּת֔וֹן זִכְר֥וֹן תְּרוּעָ֖ה מִקְרָא־קֹֽדֶשׁ׃",
           "targum": "מַלֵּיל עִם בְּנֵי יִשְׂרָאֵל לְמֵימָר בְּיַרְחָא שְׁבִיעָאָה בְּחַד לְיַרְחָא יְהֵי לְכוֹן נְיָחָא דּוּכְרַן יַבָּבָא מְעָרַע קַדִּישׁ:",
-          "english": "Speak to the children of Yisra᾽el, saying, In the seventh month, on the first day of the month, shall you have a sabbath, a memorial of  blowing of  horns, a holy gathering."
+          "english": "Speak to the children of Yisra᾽el, saying, In the seventh month, on the first day of the month, shall you have a sabbath, a memorial of blowing of horns, a holy gathering."
         },
         {
           "verseNum": 25,
-          "hebrew": "כׇּל־מְלֶ֥אכֶת עֲבֹדָ֖ה לֹ֣א תַעֲשׂ֑וּ וְהִקְרַבְתֶּ֥ם אִשֶּׁ֖ה לַיהֹוָֽה׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "hebrew": "כׇּל־מְלֶ֥אכֶת עֲבֹדָ֖ה לֹ֣א תַעֲשׂ֑וּ וְהִקְרַבְתֶּ֥ם אִשֶּׁ֖ה לַיהֹוָֽה׃",
           "targum": "כָּל עִבִידַת פָּלְחָנָא לָא תַעְבְּדוּן וּתְקָרְבוּן קֻרְבָּנָא קֳדָם יְיָ:",
           "english": "You shall do no servile work: but you shall offer an offering made by fire to the Lord."
         },
@@ -545,7 +545,7 @@
         },
         {
           "verseNum": 32,
-          "hebrew": "שַׁבַּ֨ת שַׁבָּת֥וֹן הוּא֙ לָכֶ֔ם וְעִנִּיתֶ֖ם אֶת־נַפְשֹׁתֵיכֶ֑ם בְּתִשְׁעָ֤ה לַחֹ֙דֶשׁ֙ בָּעֶ֔רֶב מֵעֶ֣רֶב עַד־עֶ֔רֶב תִּשְׁבְּת֖וּ שַׁבַּתְּכֶֽם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "שַׁבַּ֨ת שַׁבָּת֥וֹן הוּא֙ לָכֶ֔ם וְעִנִּיתֶ֖ם אֶת־נַפְשֹׁתֵיכֶ֑ם בְּתִשְׁעָ֤ה לַחֹ֙דֶשׁ֙ בָּעֶ֔רֶב מֵעֶ֣רֶב עַד־עֶ֔רֶב תִּשְׁבְּת֖וּ שַׁבַּתְּכֶֽם׃",
           "targum": "שְׁבַת שְׁבָתָא הוּא לְכוֹן וּתְעַנּוּן יָת נַפְשָׁתֵיכוֹן בְּתִישְׁעָא לְיַרְחָא בְּרַמְשָׁא מֵרַמְשָׁא עַד רַמְשָׁא תְּנוּחוּן נְיַחֲכוֹן:",
           "english": "It shall be to you a sabbath of solemn rest, and you shall afflict your souls: on the ninth day of the month at evening, from evening to evening shall you celebrate your sabbath."
         },
@@ -617,7 +617,7 @@
         },
         {
           "verseNum": 44,
-          "hebrew": "וַיְדַבֵּ֣ר מֹשֶׁ֔ה אֶֽת־מֹעֲדֵ֖י יְהֹוָ֑ה אֶל־בְּנֵ֖י יִשְׂרָאֵֽל׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וַיְדַבֵּ֣ר מֹשֶׁ֔ה אֶֽת־מֹעֲדֵ֖י יְהֹוָ֑ה אֶל־בְּנֵ֖י יִשְׂרָאֵֽל׃",
           "targum": "וּמַלִּיל משֶׁה יָת סְדַר מוֹעֲדַיָּא דַיְיָ וְאַלֵּפִנּוּן לִבְנֵי יִשְׂרָאֵל:",
           "english": "And Moshe declared to the children of Yisra᾽el the appointed seasons of the Lord."
         }
@@ -646,7 +646,7 @@
         },
         {
           "verseNum": 4,
-          "hebrew": "עַ֚ל הַמְּנֹרָ֣ה הַטְּהֹרָ֔ה יַעֲרֹ֖ךְ אֶת־הַנֵּר֑וֹת לִפְנֵ֥י יְהֹוָ֖ה תָּמִֽיד׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "עַ֚ל הַמְּנֹרָ֣ה הַטְּהֹרָ֔ה יַעֲרֹ֖ךְ אֶת־הַנֵּר֑וֹת לִפְנֵ֥י יְהֹוָ֖ה תָּמִֽיד׃",
           "targum": "עַל מְנַרְתָּא דָכִיתָא יַסְדַּר יָת בּוֹצִינַיָּא קֳדָם יְיָ תְּדִירָא:",
           "english": "He shall order the lamps upon the pure candlestick, before the Lord continually."
         },
@@ -676,7 +676,7 @@
         },
         {
           "verseNum": 9,
-          "hebrew": "וְהָֽיְתָה֙ לְאַהֲרֹ֣ן וּלְבָנָ֔יו וַאֲכָלֻ֖הוּ בְּמָק֣וֹם קָדֹ֑שׁ כִּ֡י קֹ֩דֶשׁ֩ קׇֽדָשִׁ֨ים ה֥וּא ל֛וֹ מֵאִשֵּׁ֥י יְהֹוָ֖ה חׇק־עוֹלָֽם׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "hebrew": "וְהָֽיְתָה֙ לְאַהֲרֹ֣ן וּלְבָנָ֔יו וַאֲכָלֻ֖הוּ בְּמָק֣וֹם קָדֹ֑שׁ כִּ֡י קֹ֩דֶשׁ֩ קׇֽדָשִׁ֨ים ה֥וּא ל֛וֹ מֵאִשֵּׁ֥י יְהֹוָ֖ה חׇק־עוֹלָֽם׃",
           "targum": "וּתְהֵי לְאַהֲרֹן וְלִבְנוֹהִי וְיֵכְלֻנֵּיהּ בַּאֲתַר קַדִּישׁ אֲרֵי קֹדֶשׁ קוּדְשִׁין הוּא לֵיהּ מִקֻּרְבָּנַיָּא דַיְיָ קְיַם עָלָם:",
           "english": "And it shall be Aharon’s and his sons’; and they shall eat it in the holy place: for it is most holy to him of the offerings of the Lord made by fire by a perpetual due."
         },
@@ -690,11 +690,11 @@
           "verseNum": 11,
           "hebrew": "וַ֠יִּקֹּ֠ב בֶּן־הָֽאִשָּׁ֨ה הַיִּשְׂרְאֵלִ֤ית אֶת־הַשֵּׁם֙ וַיְקַלֵּ֔ל וַיָּבִ֥יאוּ אֹת֖וֹ אֶל־מֹשֶׁ֑ה וְשֵׁ֥ם אִמּ֛וֹ שְׁלֹמִ֥ית בַּת־דִּבְרִ֖י לְמַטֵּה־דָֽן׃",
           "targum": "וּפָרֵשׁ בַּר אִתְּתָא בַת יִשְׂרָאֵל יָת שְׁמָא וְאַרְגֵּז וְאַיְתִיאוּ יָתֵיהּ לְוָת משֶׁה וְשׁוּם אִמֵּיהּ שְׁלֹּמִית בַּת דִּבְרִי לְשִׁבְטָא דְדָן:",
-          "english": "and the Yisra᾽elite woman’s son blasphemed the name of the Lord, and cursed. And they brought him to Moshe: (and his mother’s name was Shelomit, the daughter of Divri, of the tribe of Dan: )"
+          "english": "and the Yisra᾽elite woman’s son blasphemed the name of the Lord, and cursed. And they brought him to Moshe:"
         },
         {
           "verseNum": 12,
-          "hebrew": "וַיַּנִּיחֻ֖הוּ בַּמִּשְׁמָ֑ר לִפְרֹ֥שׁ לָהֶ֖ם עַל־פִּ֥י יְהֹוָֽה׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וַיַּנִּיחֻ֖הוּ בַּמִּשְׁמָ֑ר לִפְרֹ֥שׁ לָהֶ֖ם עַל־פִּ֥י יְהֹוָֽה׃",
           "targum": "וְאַסְּרוֹהִי בְּבֵית מַטְּרָא עַד דְּיִתְפָּרַשׁ לְהוֹן עַל גְּזֵרַת מֵימְרָא דַיְיָ:",
           "english": "and they put him in custody, that the mind of the Lord might be shown them."
         },
@@ -760,7 +760,7 @@
         },
         {
           "verseNum": 23,
-          "hebrew": "וַיְדַבֵּ֣ר מֹשֶׁה֮ אֶל־בְּנֵ֣י יִשְׂרָאֵל֒ וַיּוֹצִ֣יאוּ אֶת־הַֽמְקַלֵּ֗ל אֶל־מִחוּץ֙ לַֽמַּחֲנֶ֔ה וַיִּרְגְּמ֥וּ אֹת֖וֹ אָ֑בֶן וּבְנֵֽי־יִשְׂרָאֵ֣ל עָשׂ֔וּ כַּֽאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֶת־מֹשֶֽׁה׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וַיְדַבֵּ֣ר מֹשֶׁה֮ אֶל־בְּנֵ֣י יִשְׂרָאֵל֒ וַיּוֹצִ֣יאוּ אֶת־הַֽמְקַלֵּ֗ל אֶל־מִחוּץ֙ לַֽמַּחֲנֶ֔ה וַיִּרְגְּמ֥וּ אֹת֖וֹ אָ֑בֶן וּבְנֵֽי־יִשְׂרָאֵ֣ל עָשׂ֔וּ כַּֽאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֶת־מֹשֶֽׁה׃",
           "targum": "וּמַלִּיל משֶׁה עִם בְּנֵי יִשְׂרָאֵל וְאַפִּיקוּ יָת דְּאַרְגֵּז לְמִבָּרָא לְמַשְׁרִיתָא וּרְגָמוּ יָתֵיהּ אַבְנָא וּבְנֵי יִשְׂרָאֵל עֲבָדוּ כְּמָא דִי פַקֵּיד יְיָ יָת משֶׁה:",
           "english": "And Moshe spoke to the children of Yisra᾽el, and they brought him that had cursed out of the camp, and stoned him with stones. And the children of Yisra᾽el did as the Lord commanded Moshe."
         }

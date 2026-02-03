@@ -4,6 +4,7 @@ import { ThemedView } from '@/components/themed-view';
 import { useLocalSearchParams, router } from 'expo-router';
 import { useState, useEffect } from 'react';
 import { loadParsha, type Parsha, PARSHIOT_LIST } from '@/utils/parshaLoader';
+import { formatHebrewChapter, toHebrewNumeral } from '@/utils/hebrewNumbers';
 
 export default function ParshaScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -65,7 +66,7 @@ export default function ParshaScreen() {
           <ThemedView key={chapter.chapter} style={styles.chapterContainer}>
             <ThemedView style={styles.chapterHeader}>
               <ThemedText type="subtitle" style={styles.chapterTitle}>
-                פרק {chapter.chapter}
+                {formatHebrewChapter(chapter.chapter)}
               </ThemedText>
             </ThemedView>
 
@@ -73,7 +74,7 @@ export default function ParshaScreen() {
               <ThemedView key={verse.verseNum} style={styles.verseContainer}>
                 <ThemedView style={styles.verseNumber}>
                   <ThemedText style={styles.verseNumberText}>
-                    {verse.verseNum}
+                    {toHebrewNumeral(verse.verseNum)}
                   </ThemedText>
                 </ThemedView>
 

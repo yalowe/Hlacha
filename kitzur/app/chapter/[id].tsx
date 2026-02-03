@@ -63,7 +63,7 @@ export default function ChapterDetailScreen() {
   if (!chapter) {
     return (
       <ThemedView style={styles.container}>
-        <ThemedText style={styles.errorText}>לא נמצא פרק</ThemedText>
+        <ThemedText style={styles.errorText}>לא נמצא סימן</ThemedText>
       </ThemedView>
     );
   }

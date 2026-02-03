@@ -235,7 +235,7 @@
         },
         {
           "verseNum": 39,
-          "hebrew": "וְאַהֲרֹ֔ן בֶּן־שָׁלֹ֧שׁ וְעֶשְׂרִ֛ים וּמְאַ֖ת שָׁנָ֑ה בְּמֹת֖וֹ בְּהֹ֥ר הָהָֽר׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "hebrew": "וְאַהֲרֹ֔ן בֶּן־שָׁלֹ֧שׁ וְעֶשְׂרִ֛ים וּמְאַ֖ת שָׁנָ֑ה בְּמֹת֖וֹ בְּהֹ֥ר הָהָֽר׃",
           "targum": "וְאַהֲרֹן בַּר מְאָה וְעַשְׂרִין וּתְלַת שְׁנִין כַּד מִית בְּהוֹר טוּרָא:",
           "english": "And Aharon was a hundred and twenty three years old when he died in mount Hor."
         },
@@ -295,7 +295,7 @@
         },
         {
           "verseNum": 49,
-          "hebrew": "וַיַּחֲנ֤וּ עַל־הַיַּרְדֵּן֙ מִבֵּ֣ית הַיְשִׁמֹ֔ת עַ֖ד אָבֵ֣ל הַשִּׁטִּ֑ים בְּעַֽרְבֹ֖ת מוֹאָֽב׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "hebrew": "וַיַּחֲנ֤וּ עַל־הַיַּרְדֵּן֙ מִבֵּ֣ית הַיְשִׁמֹ֔ת עַ֖ד אָבֵ֣ל הַשִּׁטִּ֑ים בְּעַֽרְבֹ֖ת מוֹאָֽב׃",
           "targum": "וּשְׁרוֹ עַל יַרְדְּנָא מִבֵּית יְשִׁימוֹת עַד מֵישַׁר שִׁטִּין בְּמֵישְׁרַיָּא דְמוֹאָב:",
           "english": "And they pitched by the Yarden, from Bet-hayeshimot to Avel-hashshittim in the plains of Mo᾽av."
         },
@@ -337,7 +337,7 @@
         },
         {
           "verseNum": 56,
-          "hebrew": "וְהָיָ֗ה כַּאֲשֶׁ֥ר דִּמִּ֛יתִי לַעֲשׂ֥וֹת לָהֶ֖ם אֶֽעֱשֶׂ֥ה לָכֶֽם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וְהָיָ֗ה כַּאֲשֶׁ֥ר דִּמִּ֛יתִי לַעֲשׂ֥וֹת לָהֶ֖ם אֶֽעֱשֶׂ֥ה לָכֶֽם׃",
           "targum": "וִיהֵי כְּמָא דִי חֲשָׁבִית לְמֶעְבַּד לְהוֹן אַעֲבֵּד לְכוֹן:",
           "english": "Moreover it shall come to pass, that I shall do to you, as I thought to do to them."
         }
@@ -356,7 +356,7 @@
           "verseNum": 2,
           "hebrew": "צַ֞ו אֶת־בְּנֵ֤י יִשְׂרָאֵל֙ וְאָמַרְתָּ֣ אֲלֵהֶ֔ם כִּֽי־אַתֶּ֥ם בָּאִ֖ים אֶל־הָאָ֣רֶץ כְּנָ֑עַן זֹ֣את הָאָ֗רֶץ אֲשֶׁ֨ר תִּפֹּ֤ל לָכֶם֙ בְּֽנַחֲלָ֔ה אֶ֥רֶץ כְּנַ֖עַן לִגְבֻלֹתֶֽיהָ׃",
           "targum": "פַּקֵּד יָת בְּנֵי יִשְׂרָאֵל וְתֵימַר לְהוֹן אֲרֵי אַתּוּן עָלִין לְאַרְעָא דִכְנָעַן דָּא אַרְעָא דִּי תִתְפְּלֵג לְכוֹן בְּאַחֲסָנָא אַרְעָא דִכְנַעַן לִתְחוּמָהָא:",
-          "english": "Command the children of Yisra᾽el, and say to them, When you come into the land of Kena῾an; (this is the land that shall fall to you for an inheritance, the land of Kena῾an with its borders:)"
+          "english": "Command the children of Yisra᾽el, and say to them, When you come into the land of Kena῾an;"
         },
         {
           "verseNum": 3,
@@ -366,7 +366,7 @@
         },
         {
           "verseNum": 4,
-          "hebrew": "וְנָסַ֣ב לָכֶם֩ הַגְּב֨וּל מִנֶּ֜גֶב לְמַעֲלֵ֤ה עַקְרַבִּים֙ וְעָ֣בַר צִ֔נָה <span class=\"mam-kq\"><span class=\"mam-kq-k\">(והיה)</span> <span class=\"mam-kq-q\">[וְהָיוּ֙]</span></span> תּֽוֹצְאֹתָ֔יו מִנֶּ֖גֶב לְקָדֵ֣שׁ בַּרְנֵ֑עַ וְיָצָ֥א חֲצַר־אַדָּ֖ר וְעָבַ֥ר עַצְמֹֽנָה׃",
+          "hebrew": "וְנָסַ֣ב לָכֶם֩ הַגְּב֨וּל מִנֶּ֜גֶב לְמַעֲלֵ֤ה עַקְרַבִּים֙ וְעָ֣בַר צִ֔נָה תּֽוֹצְאֹתָ֔יו מִנֶּ֖גֶב לְקָדֵ֣שׁ בַּרְנֵ֑עַ וְיָצָ֥א חֲצַר־אַדָּ֖ר וְעָבַ֥ר עַצְמֹֽנָה׃",
           "targum": "וְיַסְחַר לְכוֹן תְּחוּמָא מִדְּרוֹמָא לְמַסְקָנָא דְעַקְרַבִּים וִיעִבַר לְצִן וִיהוֹן מַפְּקָנוֹהִי מִדְּרוֹמָא לִרְקַם גֵּיאָה וְיִפּוֹק לַחֲצַר אַדָּר וִיעִבַר לְעַצְמוֹן:",
           "english": "and your border shall turn from the Negev to Ma῾ale-῾aqrabbim, and pass on to Żin: and its limits shall be from the south to Qadesh-barnea, and shall go on to Ḥażar-addar, and pass on to ῾Ażmon:"
         },
@@ -432,7 +432,7 @@
         },
         {
           "verseNum": 15,
-          "hebrew": "שְׁנֵ֥י הַמַּטּ֖וֹת וַחֲצִ֣י הַמַּטֶּ֑ה לָקְח֣וּ נַחֲלָתָ֗ם מֵעֵ֛בֶר לְיַרְדֵּ֥ן יְרֵח֖וֹ קֵ֥דְמָה מִזְרָֽחָה׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "שְׁנֵ֥י הַמַּטּ֖וֹת וַחֲצִ֣י הַמַּטֶּ֑ה לָקְח֣וּ נַחֲלָתָ֗ם מֵעֵ֛בֶר לְיַרְדֵּ֥ן יְרֵח֖וֹ קֵ֥דְמָה מִזְרָֽחָה׃",
           "targum": "תְּרֵין שִׁבְטִין וּפַלְגּוּת שִׁבְטָא קַבִּילוּ אַחֲסַנְתְּהוֹן מֵעִבְרָא לְיַרְדְּנָא דִירֵחוֹ קִדּוּמָא מַדִּינְחָא:",
           "english": "the two tribes and the half tribe have received their inheritance on this side of the Yarden near Yereĥo eastward, towards the sunrising."
         },
@@ -516,7 +516,7 @@
         },
         {
           "verseNum": 29,
-          "hebrew": "אֵ֕לֶּה אֲשֶׁ֖ר צִוָּ֣ה יְהֹוָ֑ה לְנַחֵ֥ל אֶת־בְּנֵֽי־יִשְׂרָאֵ֖ל בְּאֶ֥רֶץ כְּנָֽעַן׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "אֵ֕לֶּה אֲשֶׁ֖ר צִוָּ֣ה יְהֹוָ֑ה לְנַחֵ֥ל אֶת־בְּנֵֽי־יִשְׂרָאֵ֖ל בְּאֶ֥רֶץ כְּנָֽעַן׃",
           "targum": "אִלֵּין דִּי פַּקִּיד יְיָ לְאַחֲסָנָא יָת בְּנֵי יִשְׂרָאֵל בְּאַרְעָא דִכְנָעַן:",
           "english": "These are they whom the Lord commanded to divide the inheritance to the children of Yisra᾽el in the land of Kena῾an."
         }
@@ -551,7 +551,7 @@
         },
         {
           "verseNum": 5,
-          "hebrew": "וּמַדֹּתֶ֞ם מִח֣וּץ לָעִ֗יר אֶת־פְּאַת־קֵ֣דְמָה אַלְפַּ֪יִם בָּֽאַמָּ֟ה וְאֶת־פְּאַת־נֶ֩גֶב֩ אַלְפַּ֨יִם בָּאַמָּ֜ה וְאֶת־פְּאַת־יָ֣ם&thinsp;<b>׀</b> אַלְפַּ֣יִם בָּֽאַמָּ֗ה וְאֵ֨ת פְּאַ֥ת צָפ֛וֹן אַלְפַּ֥יִם בָּאַמָּ֖ה וְהָעִ֣יר בַּתָּ֑וֶךְ זֶ֚ה יִהְיֶ֣ה לָהֶ֔ם מִגְרְשֵׁ֖י הֶעָרִֽים׃",
+          "hebrew": "וּמַדֹּתֶ֞ם מִח֣וּץ לָעִ֗יר אֶת־פְּאַת־קֵ֣דְמָה אַלְפַּ֪יִם בָּֽאַמָּ֟ה וְאֶת־פְּאַת־נֶ֩גֶב֩ אַלְפַּ֨יִם בָּאַמָּ֜ה וְאֶת־פְּאַת־יָ֣ם׀ אַלְפַּ֣יִם בָּֽאַמָּ֗ה וְאֵ֨ת פְּאַ֥ת צָפ֛וֹן אַלְפַּ֥יִם בָּאַמָּ֖ה וְהָעִ֣יר בַּתָּ֑וֶךְ זֶ֚ה יִהְיֶ֣ה לָהֶ֔ם מִגְרְשֵׁ֖י הֶעָרִֽים׃",
           "targum": "וְתִמְשְׁחוּן מִבָּרָא לְקַרְתָּא יָת רוּחַ קִדּוּמָא תְּרֵין אַלְפִין בְּאַמִּין וְיָת רוּחַ דְּרוֹמָא תְּרֵין אַלְפִין בְּאַמִּין וְיָת רוּחַ מַעַרְבָא תְּרֵין אַלְפִין בְּאַמִּין וְיָת רוּחַ צִפּוּנָא תְּרֵין אַלְפִין בְּאַמִּין וְקַרְתָּא בִמְצִיעָא דֵּין יְהֵי לְהוֹן רְוָחֵי קִרְוַיָּא:",
           "english": "And you shall measure from outside the city on the east side two thousand cubits, and on the south side two thousand cubits, and on the west side two thousand cubits, and on the north side two thousand cubits, and the city shall be in the midst: this shall be to them the open spaces of the cities."
         },
@@ -569,7 +569,7 @@
         },
         {
           "verseNum": 8,
-          "hebrew": "וְהֶֽעָרִ֗ים אֲשֶׁ֤ר תִּתְּנוּ֙ מֵאֲחֻזַּ֣ת בְּנֵי־יִשְׂרָאֵ֔ל מֵאֵ֤ת הָרַב֙ תַּרְבּ֔וּ וּמֵאֵ֥ת הַמְעַ֖ט תַּמְעִ֑יטוּ אִ֗ישׁ כְּפִ֤י נַחֲלָתוֹ֙ אֲשֶׁ֣ר יִנְחָ֔לוּ יִתֵּ֥ן מֵעָרָ֖יו לַלְוִיִּֽם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וְהֶֽעָרִ֗ים אֲשֶׁ֤ר תִּתְּנוּ֙ מֵאֲחֻזַּ֣ת בְּנֵי־יִשְׂרָאֵ֔ל מֵאֵ֤ת הָרַב֙ תַּרְבּ֔וּ וּמֵאֵ֥ת הַמְעַ֖ט תַּמְעִ֑יטוּ אִ֗ישׁ כְּפִ֤י נַחֲלָתוֹ֙ אֲשֶׁ֣ר יִנְחָ֔לוּ יִתֵּ֥ן מֵעָרָ֖יו לַלְוִיִּֽם׃",
           "targum": "וְקִרְוַיָּא דִּי תִתְּנוּן מֵאֲחוּדַת בְּנֵי יִשְׂרָאֵל מִן סַגִּיאֵי תַּסְגּוּן וּמִן זְעִירֵי תַּזְעִירוּן גְּבַר כְּפוּם אַחֲסַנְתֵּיהּ דִּי יַחְסְנוּן יִתֵּן מִקִּרְווֹהִי לְלֵוָאֵי:",
           "english": "And the cities which you shall give shall be of the possession of the children of Yisra᾽el: from them that have many you shall give many: and from them that have few you shall give few: every one shall give of the cities to the Levites according to his inheritance which he inherits."
         },
@@ -605,7 +605,7 @@
         },
         {
           "verseNum": 14,
-          "hebrew": "אֵ֣ת&thinsp;<b>׀</b> שְׁלֹ֣שׁ הֶעָרִ֗ים תִּתְּנוּ֙ מֵעֵ֣בֶר לַיַּרְדֵּ֔ן וְאֵת֙ שְׁלֹ֣שׁ הֶֽעָרִ֔ים תִּתְּנ֖וּ בְּאֶ֣רֶץ כְּנָ֑עַן עָרֵ֥י מִקְלָ֖ט תִּהְיֶֽינָה׃",
+          "hebrew": "אֵ֣ת׀ שְׁלֹ֣שׁ הֶעָרִ֗ים תִּתְּנוּ֙ מֵעֵ֣בֶר לַיַּרְדֵּ֔ן וְאֵת֙ שְׁלֹ֣שׁ הֶֽעָרִ֔ים תִּתְּנ֖וּ בְּאֶ֣רֶץ כְּנָ֑עַן עָרֵ֥י מִקְלָ֖ט תִּהְיֶֽינָה׃",
           "targum": "יָת תְּלַת קִרְוַיָּא תִּתְּנוּן מֵעִבְרָא לְיַרְדְּנָא וְיָת תְּלַת קִרְוַיָּא תִּתְּנוּן בְּאַרְעָא דִכְנָעַן קִרְוֵי שֵׁזָבוּתָא יֶהֶוְיָן:",
           "english": "You shall give three cities on this side of the Yarden, and three cities shall you give in the land of Kena῾an; cities of refuge shall they be."
         },
@@ -617,7 +617,7 @@
         },
         {
           "verseNum": 16,
-          "hebrew": "וְאִם־בִּכְלִ֨י בַרְזֶ֧ל&thinsp;<small>׀</small>&thinsp;הִכָּ֛הוּ וַיָּמֹ֖ת רֹצֵ֣חַֽ ה֑וּא מ֥וֹת יוּמַ֖ת הָרֹצֵֽחַ׃",
+          "hebrew": "וְאִם־בִּכְלִ֨י בַרְזֶ֧ל׀הִכָּ֛הוּ וַיָּמֹ֖ת רֹצֵ֣חַֽ ה֑וּא מ֥וֹת יוּמַ֖ת הָרֹצֵֽחַ׃",
           "targum": "וְאִם בְּמָאן דְפַרְזְלָא מְחָהִי וְקָטְלֵיהּ קָטוֹלָא הוּא אִתְקְטָלָא יִתְקְטֵל קָטוֹלָא:",
           "english": "And if he smite him with an instrument of iron, so that he die, he is a murderer: the murderer shall surely be put to death."
         },
@@ -725,7 +725,7 @@
         },
         {
           "verseNum": 34,
-          "hebrew": "וְלֹ֧א תְטַמֵּ֣א אֶת־הָאָ֗רֶץ אֲשֶׁ֤ר אַתֶּם֙ יֹשְׁבִ֣ים בָּ֔הּ אֲשֶׁ֥ר אֲנִ֖י שֹׁכֵ֣ן בְּתוֹכָ֑הּ כִּ֚י אֲנִ֣י יְהֹוָ֔ה שֹׁכֵ֕ן בְּת֖וֹךְ בְּנֵ֥י יִשְׂרָאֵֽל׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "hebrew": "וְלֹ֧א תְטַמֵּ֣א אֶת־הָאָ֗רֶץ אֲשֶׁ֤ר אַתֶּם֙ יֹשְׁבִ֣ים בָּ֔הּ אֲשֶׁ֥ר אֲנִ֖י שֹׁכֵ֣ן בְּתוֹכָ֑הּ כִּ֚י אֲנִ֣י יְהֹוָ֔ה שֹׁכֵ֕ן בְּת֖וֹךְ בְּנֵ֥י יִשְׂרָאֵֽל׃",
           "targum": "וְלָא תְסָאֲבוּן יָת אַרְעָא דִּי אַתּוּן יָתְבִין בַּהּ דִּי שְׁכִינְתִּי שָׁרְיָא בְּגַוָּהּ אֲרֵי אֲנָא יְיָ דִּשְׁכִנְתִּי שָׁרְיָא בְּגוֹ בְּנֵי יִשְׂרָאֵל:",
           "english": "And thou shalt not defile the land which you shall inhabit, in which I dwell: for I the Lord dwell among the children of Yisra᾽el."
         }

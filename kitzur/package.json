@@ -13,8 +13,11 @@
     "fetch:shulchan-aruch": "node ./scripts/fetch_shulchan_aruch.js",
     "fetch:shnayim-mikra": "node ./scripts/fetch_shnayim_mikra.js",
     "fetch:parshat-hamann": "node ./scripts/fetch_parshat_hamann.js",
+    "fetch:iggeret-haramban": "node ./scripts/fetch_iggeret_haramban.js",
     "fix:parshiot": "node ./scripts/fix_parshiot.js",
     "clean:parshiot": "node ./scripts/clean_parshiot.js",
+    "clean:html": "node ./scripts/clean_all_html_tags.js",
+    "convert:hebrew-numbers": "node ./scripts/convert_to_hebrew_numbers.js",
     "test:sefaria": "node ./scripts/test_sefaria_api.js",
     "convert:shulchan-aruch": "node ./scripts/convert_to_app_format.js"
   },
