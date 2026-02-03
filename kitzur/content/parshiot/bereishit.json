@@ -1,0 +1,888 @@
+{
+  "name": "Bereishit",
+  "book": "Genesis",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "<big>בְּ</big>רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+          "targum": "בְּקַדְמִין בְּרָא יְיָ יָת שְׁמַיָּא וְיָת אַרְעָא:",
+          "english": "IN THE BEGINNING God created the heaven and the earth."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃",
+          "targum": "וְאַרְעָא הֲוַת צָדְיָא וְרֵיקַנְיָא וַחֲשׁוֹכָא פָּרַשׂ עַל אַפֵּי תְהוֹמָא וְרוּחָא מִן קֳדָם יְיָ מְנַשְּׁבָא עַל אַפֵּי מַיָּא:",
+          "english": "And the earth was without form and void; and darkness was on the face of the deep. And a wind from God moved over the surface of the waters."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽיְהִי־אֽוֹר׃",
+          "targum": "וַאֲמַר יְיָ יְהֵי נְהוֹרָא וַהֲוָה נְהוֹרָא:",
+          "english": "And God said, Let there be light: and there was light."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וַיַּ֧רְא אֱלֹהִ֛ים אֶת־הָא֖וֹר כִּי־ט֑וֹב וַיַּבְדֵּ֣ל אֱלֹהִ֔ים בֵּ֥ין הָא֖וֹר וּבֵ֥ין הַחֹֽשֶׁךְ׃",
+          "targum": "וַחֲזָא יְיָ יָת נְהוֹרָא אֲרֵי טָב וְאַפְרֵשׁ יְיָ בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא:",
+          "english": "And God saw the light, that it was good: and God divided the light from the darkness."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַיִּקְרָ֨א אֱלֹהִ֤ים&thinsp;<small>׀</small>&thinsp;לָאוֹר֙ י֔וֹם וְלַחֹ֖שֶׁךְ קָ֣רָא לָ֑יְלָה וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם אֶחָֽד׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וּקְרָא יְיָ לִנְהוֹרָא יְמָמָא וְלַחֲשׁוֹכָא קְרָא לֵילְיָא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹמָא חָד:",
+          "english": "And God called the light Day, and the darkness He called Night. And there was evening and there was morning, one day."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יְהִ֥י רָקִ֖יעַ בְּת֣וֹךְ הַמָּ֑יִם וִיהִ֣י מַבְדִּ֔יל בֵּ֥ין מַ֖יִם לָמָֽיִם׃",
+          "targum": "וַאֲמַר יְיָ יְהִי רְקִיעָא בִּמְצִיעוּת מַיָּא וִיהִי מַפְרִישׁ בֵּין מַיָּא לְמַיָּא:",
+          "english": "And God said, Let there be a firmament in the midst of the waters, and let it divide water from water."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַיַּ֣עַשׂ אֱלֹהִים֮ אֶת־הָרָקִ֒יעַ֒ וַיַּבְדֵּ֗ל בֵּ֤ין הַמַּ֙יִם֙ אֲשֶׁר֙ מִתַּ֣חַת לָרָקִ֔יעַ וּבֵ֣ין הַמַּ֔יִם אֲשֶׁ֖ר מֵעַ֣ל לָרָקִ֑יעַ וַֽיְהִי־כֵֽן׃",
+          "targum": "וַעֲבַד יְיָ יָת רְקִיעָא וְאַפְרֵישׁ בֵּין מַיָּא דִּי מִלְרַע לִרְקִיעָא וּבֵין מַיָּא דִּי מֵעַל לִרְקִיעָא וַהֲוָה כֵן:",
+          "english": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וַיִּקְרָ֧א אֱלֹהִ֛ים לָֽרָקִ֖יעַ שָׁמָ֑יִם וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שֵׁנִֽי׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וּקְרָא יְיָ לִרְקִיעָא שְׁמַיָּא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹם תִּנְיָן:",
+          "english": "And God called the firmament Heaven. And there was evening and there was morning, a second day."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים יִקָּו֨וּ הַמַּ֜יִם מִתַּ֤חַת הַשָּׁמַ֙יִם֙ אֶל־מָק֣וֹם אֶחָ֔ד וְתֵרָאֶ֖ה הַיַּבָּשָׁ֑ה וַֽיְהִי־כֵֽן׃",
+          "targum": "וַאֲמַר יְיָ יִתְכַּנְשׁוּן מַיָּא מִתְּחוֹת שְׁמַיָּא לַאֲתַר חָד וְתִתְחֲזֵי יַבֶּשְׁתָּא וַהֲוָה כֵן:",
+          "english": "And God said, Let the waters under the heaven be gathered together to one place, and let the dry land appear: and it was so."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַיִּקְרָ֨א אֱלֹהִ֤ים&thinsp;<small>׀</small>&thinsp;לַיַּבָּשָׁה֙ אֶ֔רֶץ וּלְמִקְוֵ֥ה הַמַּ֖יִם קָרָ֣א יַמִּ֑ים וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+          "targum": "וּקְרָא יְיָ לְיַבֶּשְׁתָּא אַרְעָא וּלְבֵית כְּנִישׁוּת מַיָּא קְרָא יַמְמֵי וַחֲזָא יְיָ אֲרֵי טָב:",
+          "english": "And God called the dry land Earth; and the gathering together of the waters He called Seas: and God saw that it was good."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים תַּֽדְשֵׁ֤א הָאָ֙רֶץ֙ דֶּ֗שֶׁא עֵ֚שֶׂב מַזְרִ֣יעַ זֶ֔רַע עֵ֣ץ פְּרִ֞י עֹ֤שֶׂה פְּרִי֙ לְמִינ֔וֹ אֲשֶׁ֥ר זַרְעוֹ־ב֖וֹ עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃",
+          "targum": "וַאֲמַר יְיָ תַּדְאֵית אַרְעָא דִּיתְאָה עִסְבָּא דְּבַר זַרְעֵהּ מִזְדְּרַע אִילַן פֵּירִין עָבַד פֵּירִין לִזְנֵהּ דִּי בַר זַרְעֵהּ בֵּהּ עַל אַרְעָא וַהֲוָה כֵן:",
+          "english": "And God said, Let the earth bring forth grass, herb yielding seed, and fruit tree yielding fruit after its kind, whose seed is in itself, upon the earth: and it was so."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַתּוֹצֵ֨א הָאָ֜רֶץ דֶּ֠שֶׁא עֵ֣שֶׂב מַזְרִ֤יעַ זֶ֙רַע֙ לְמִינֵ֔הוּ וְעֵ֧ץ עֹֽשֶׂה־פְּרִ֛י אֲשֶׁ֥ר זַרְעוֹ־ב֖וֹ לְמִינֵ֑הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+          "targum": "וְאַפֵּקַת אַרְעָא דִּיתְאָה עִסְבָּא דְּבַר זַרְעֵהּ מִזְדְּרַע לִזְנוֹהִי וְאִילַן עָבֵד פֵּירִין דְּבַר זַרְעֵהּ בֵּהּ לִזְנוֹהִי וַחֲזָא יְיָ אֲרֵי טָב:",
+          "english": "And the earth brought forth grass, herb yielding seed after its kind, and tree yielding fruit, whose seed was in itself, after its kind: and God saw that it was good."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם שְׁלִישִֽׁי׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹם תְּלִיתָאִי:",
+          "english": "And there was evening and there was morning, a third day."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים יְהִ֤י מְאֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהַבְדִּ֕יל בֵּ֥ין הַיּ֖וֹם וּבֵ֣ין הַלָּ֑יְלָה וְהָי֤וּ לְאֹתֹת֙ וּלְמ֣וֹעֲדִ֔ים וּלְיָמִ֖ים וְשָׁנִֽים׃",
+          "targum": "וַאֲמַר יְיָ יְהוֹן נְהוֹרִין בִּרְקִיעָא דִּשְׁמַיָּא לְאַפְרָשָׁא בֵּין יְמָמָא וּבֵין לֵילְיָא וִיהוֹן לְאָתִין וּלְזִמְנִין וּלְמִימְנֵי בְהוֹן יוֹמִין וּשְׁנִין:",
+          "english": "And God said, Let there be lights in the firmament of heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:"
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וְהָי֤וּ לִמְאוֹרֹת֙ בִּרְקִ֣יעַ הַשָּׁמַ֔יִם לְהָאִ֖יר עַל־הָאָ֑רֶץ וַֽיְהִי־כֵֽן׃",
+          "targum": "וִיהוֹן לִנְהוֹרִין בִּרְקִיעָא דִּשְׁמַיָּא לְאַנְהָרָא עַל אַרְעָא וַהֲוָה כֵן:",
+          "english": "and let them be for lights in the firmament of heaven to give light upon the earth: and it was so."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וַיַּ֣עַשׂ אֱלֹהִ֔ים אֶת־שְׁנֵ֥י הַמְּאֹרֹ֖ת הַגְּדֹלִ֑ים אֶת־הַמָּא֤וֹר הַגָּדֹל֙ לְמֶמְשֶׁ֣לֶת הַיּ֔וֹם וְאֶת־הַמָּא֤וֹר הַקָּטֹן֙ לְמֶמְשֶׁ֣לֶת הַלַּ֔יְלָה וְאֵ֖ת הַכּוֹכָבִֽים׃",
+          "targum": "וַעֲבַד יְיָ יָת תְּרֵין נְהוֹרַיָּא רַבְרְבַיָּא יָת נְהוֹרָא רַבָּא לְמִשְׁלַט בִּימָמָא וְיָת נְהוֹרָא זְעֵרָא לְמִשְׁלַט בְּלֵילְיָא וְיָת כּוֹכְבַיָּא:",
+          "english": "And God made the two great lights; the greater light to rule the day, and the lesser light to rule the night: and the stars also."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיִּתֵּ֥ן אֹתָ֛ם אֱלֹהִ֖ים בִּרְקִ֣יעַ הַשָּׁמָ֑יִם לְהָאִ֖יר עַל־הָאָֽרֶץ׃",
+          "targum": "וִיהַב יָתְהוֹן יְיָ בִּרְקִיעָא דִּשְׁמַיָּא לְאַנְהָרָא עַל אַרְעָא:",
+          "english": "And God set them in the firmament of heaven to give light upon the earth,"
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וְלִמְשֹׁל֙ בַּיּ֣וֹם וּבַלַּ֔יְלָה וּֽלְהַבְדִּ֔יל בֵּ֥ין הָא֖וֹר וּבֵ֣ין הַחֹ֑שֶׁךְ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+          "targum": "וּלְמִשְׁלַט בִּימָמָא וּבְלֵילְיָא וּלְאַפְרָשָׁא בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא וַחֲזָא יְיָ אֲרֵי טָב:",
+          "english": "and to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם רְבִיעִֽי׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹם רְבִיעָאִי:",
+          "english": "And there was evening and there was morning, a fourth day."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֔ים יִשְׁרְצ֣וּ הַמַּ֔יִם שֶׁ֖רֶץ נֶ֣פֶשׁ חַיָּ֑ה וְעוֹף֙ יְעוֹפֵ֣ף עַל־הָאָ֔רֶץ עַל־פְּנֵ֖י רְקִ֥יעַ הַשָּׁמָֽיִם׃",
+          "targum": "וַאֲמַר יְיָ יִרְחֲשׁוּן מַיָּא רְחֵשׁ נַפְשָׁא חַיְתָא וְעוֹפָא יְפָרַח עַל אַרְעָא עַל אַפֵּי רְקִיעָא דִּשְׁמַיָּא:",
+          "english": "And God said, Let the waters swarm abundantly with moving creatures that have life, and let birds fly above the earth in the open firmament of heaven."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וַיִּבְרָ֣א אֱלֹהִ֔ים אֶת־הַתַּנִּינִ֖ם הַגְּדֹלִ֑ים וְאֵ֣ת כׇּל־נֶ֣פֶשׁ הַֽחַיָּ֣ה&thinsp;<small>׀</small>&thinsp;הָֽרֹמֶ֡שֶׂת אֲשֶׁר֩ שָׁרְצ֨וּ הַמַּ֜יִם לְמִֽינֵהֶ֗ם וְאֵ֨ת כׇּל־ע֤וֹף כָּנָף֙ לְמִינֵ֔הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+          "targum": "וּבְרָא יְיָ יָת תַּנִּינַיָּא רַבְרְבַיָּא וְיָת כָּל נַפְשָׁא חַיְתָא דִּרְחִשָׁא דִּי אַרְחִישׁוּ מַיָּא לִזְנֵיהוֹן וְיָת כָּל עוֹפָא דְפָרַח לִזְנוֹהִי וַחֲזָא יְיָ אֲרֵי טָב:",
+          "english": "And God created the great crocodiles, and every living creature that moves, which the waters brought forth abundantly, after their kind, and every winged bird after its kind: and God saw that it was good."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וַיְבָ֧רֶךְ אֹתָ֛ם אֱלֹהִ֖ים לֵאמֹ֑ר פְּר֣וּ וּרְב֗וּ וּמִלְא֤וּ אֶת־הַמַּ֙יִם֙ בַּיַּמִּ֔ים וְהָע֖וֹף יִ֥רֶב בָּאָֽרֶץ׃",
+          "targum": "וּבָרִיךְ יָתְהוֹן יְיָ לְמֵימָר פּוּשׁוּ וּסְגוּ וּמְלוּ יָת מַיָּא בְּיַמְמַיָּא וְעוֹפָא יִסְגֵּי בְּאַרְעָא:",
+          "english": "And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let birds multiply in the earth."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם חֲמִישִֽׁי׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹם חֲמִישָׁאִי:",
+          "english": "And there was evening and there was morning, a fifth day."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים תּוֹצֵ֨א הָאָ֜רֶץ נֶ֤פֶשׁ חַיָּה֙ לְמִינָ֔הּ בְּהֵמָ֥ה וָרֶ֛מֶשׂ וְחַֽיְתוֹ־אֶ֖רֶץ לְמִינָ֑הּ וַֽיְהִי־כֵֽן׃",
+          "targum": "וַאֲמַר יְיָ תַּפֵּק אַרְעָא נַפְשָׁא חַיְתָא לִזְנַהּ בְּעִיר וּרְחֵשׁ וְחֵוַת אַרְעָא לִזְנַהּ וַהֲוָה כֵן:",
+          "english": "And God said, Let the earth bring forth living creatures after their kind, cattle, and creeping things, and beasts of the earth after their kind: and it was so."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַיַּ֣עַשׂ אֱלֹהִים֩ אֶת־חַיַּ֨ת הָאָ֜רֶץ לְמִינָ֗הּ וְאֶת־הַבְּהֵמָה֙ לְמִינָ֔הּ וְאֵ֛ת כׇּל־רֶ֥מֶשׂ הָֽאֲדָמָ֖ה לְמִינֵ֑הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב׃",
+          "targum": "וַעֲבַד יְיָ יָת חֵוַת אַרְעָא לִזְנַהּ וְיָת בְּעִירָא לִזְנַהּ וְיָת כָּל רִחֲשָׁא דְאַרְעָא לִזְנוֹהִי וַחֲזָא יְיָ אֲרֵי טָב:",
+          "english": "And God made the beasts of the earth after their kind, and cattle after their kind, and everything that creeps on the earth after its kind: and God saw that it was good."
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֔ים נַֽעֲשֶׂ֥ה אָדָ֛ם בְּצַלְמֵ֖נוּ כִּדְמוּתֵ֑נוּ וְיִרְדּוּ֩ בִדְגַ֨ת הַיָּ֜ם וּבְע֣וֹף הַשָּׁמַ֗יִם וּבַבְּהֵמָה֙ וּבְכׇל־הָאָ֔רֶץ וּבְכׇל־הָרֶ֖מֶשׂ הָֽרֹמֵ֥שׂ עַל־הָאָֽרֶץ׃",
+          "targum": "וַאֲמַר יְיָ נַעֲבִיד אֶינָשָׁא בְּצַלְמֵנָא כִּדְמוּתָנָא וְיִשְׁלְטוּן בְּנוּנֵי יַמָּא וּבְעוֹפָא דִּשְׁמַיָּא וּבִבְעִירָא וּבְכָל אַרְעָא וּבְכָל רִחֲשָׁא דְּרָחֵשׁ עַל אַרְעָא:",
+          "english": "And God said, Let Us make Mankind in Our image, after Our likeness: and let them have dominion over the fish of the sea, and over the birds of the air, and over the cattle, and over all the earth, and over every creeping thing that creeps on the earth."
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "וַיִּבְרָ֨א אֱלֹהִ֤ים&thinsp;<small>׀</small>&thinsp;אֶת־הָֽאָדָם֙ בְּצַלְמ֔וֹ בְּצֶ֥לֶם אֱלֹהִ֖ים בָּרָ֣א אֹת֑וֹ זָכָ֥ר וּנְקֵבָ֖ה בָּרָ֥א אֹתָֽם׃",
+          "targum": "וּבְרָא יְיָ יָת אָדָם בְּצַלְמֵהּ בְּצַלְמָא דַיְיָ בְּרָא יָתֵהּ דְּכַר וְנוּקְבָא בְּרָא יָתְהוֹן:",
+          "english": "So God created Mankind in His own image, in the image of God He created him; male and female He created them."
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וַיְבָ֣רֶךְ אֹתָם֮ אֱלֹהִים֒ וַיֹּ֨אמֶר לָהֶ֜ם אֱלֹהִ֗ים פְּר֥וּ וּרְב֛וּ וּמִלְא֥וּ אֶת־הָאָ֖רֶץ וְכִבְשֻׁ֑הָ וּרְד֞וּ בִּדְגַ֤ת הַיָּם֙ וּבְע֣וֹף הַשָּׁמַ֔יִם וּבְכׇל־חַיָּ֖ה הָֽרֹמֶ֥שֶׂת עַל־הָאָֽרֶץ׃",
+          "targum": "וּבָרִיךְ יָתְהוֹן יְיָ וַאֲמַר לְהוֹן יְיָ פּוּשׁוּ וּסְגוּ וּמְלוּ יָת אַרְעָא וּתְקוּפוּ עֲלַהּ וּשְׁלוּטוּ בְּנוּנֵי יַמָּא וּבְעוֹפָא דִּשְׁמַיָּא וּבְכָל חַיְתָא דְּרָחֵשָׁא עַל אַרְעָא:",
+          "english": "And God blessed them, and God said to them, Be fruitful, and multiply, replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the birds of the air, and over every living thing that moves on the earth."
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "וַיֹּ֣אמֶר אֱלֹהִ֗ים הִנֵּה֩ נָתַ֨תִּי לָכֶ֜ם אֶת־כׇּל־עֵ֣שֶׂב&thinsp;<b>׀</b> זֹרֵ֣עַ זֶ֗רַע אֲשֶׁר֙ עַל־פְּנֵ֣י כׇל־הָאָ֔רֶץ וְאֶת־כׇּל־הָעֵ֛ץ אֲשֶׁר־בּ֥וֹ פְרִי־עֵ֖ץ זֹרֵ֣עַ זָ֑רַע לָכֶ֥ם יִֽהְיֶ֖ה לְאׇכְלָֽה׃",
+          "targum": "וַאֲמַר יְיָ הָא יְהָבִית לְכוֹן יָת כָּל עִסְבָּא דְּבַר זַרְעֵהּ מִזְדְּרַע דִּי עַל אַפֵּי כָל אַרְעָא וְיָת כָּל אִילָנָא דִּי בֵהּ פֵּירֵי אִילָנָא דְּבַר זַרְעֵהּ מִזְדְּרָע לְכוֹן יְהֵא לְמֵיכָל:",
+          "english": "And God said, Behold I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, on which is the fruit yielding seed; to you it shall be for food."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "וּֽלְכׇל־חַיַּ֣ת הָ֠אָ֠רֶץ וּלְכׇל־ע֨וֹף הַשָּׁמַ֜יִם וּלְכֹ֣ל&thinsp;<b>׀</b> רוֹמֵ֣שׂ עַל־הָאָ֗רֶץ אֲשֶׁר־בּוֹ֙ נֶ֣פֶשׁ חַיָּ֔ה אֶת־כׇּל־יֶ֥רֶק עֵ֖שֶׂב לְאׇכְלָ֑ה וַֽיְהִי־כֵֽן׃",
+          "targum": "וּלְכָל חֵוַת אַרְעָא וּלְכָל עוֹפָא דִּשְׁמַיָּא וּלְכֹל דְּרָחֵשׁ עַל אַרְעָא דִּי בֵהּ נַפְשָׁא חַיְתָא יָת כָּל יְרוֹק עִסְבָּא לְמֵיכָל וַהֲוָה כֵן:",
+          "english": "And to every beast of the earth, and to every bird of the air, and to everything that creeps on the earth, wherein there is life, I have given every green herb for food: and it was so."
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "וַיַּ֤רְא אֱלֹהִים֙ אֶת־כׇּל־אֲשֶׁ֣ר עָשָׂ֔ה וְהִנֵּה־ט֖וֹב מְאֹ֑ד וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם הַשִּׁשִּֽׁי׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וַחֲזָא יְיָ יָת כָּל דִּי עֲבַד וְהָא תַקִּין לַחֲדָא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹם שְׁתִיתָאִי:",
+          "english": "And God saw everything that He had made, and, behold, it was very good. And there was evening and there was morning, the sixth day."
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיְכֻלּ֛וּ הַשָּׁמַ֥יִם וְהָאָ֖רֶץ וְכׇל־צְבָאָֽם׃",
+          "targum": "וְאִשְׁתַּכְלָלוּ שְׁמַיָּא וְאַרְעָא וְכָל חֵילֵיהוֹן:",
+          "english": "Thus the heavens and the earth were finished, and all their host."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וַיְכַ֤ל אֱלֹהִים֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מְלַאכְתּ֖וֹ אֲשֶׁ֣ר עָשָׂ֑ה וַיִּשְׁבֹּת֙ בַּיּ֣וֹם הַשְּׁבִיעִ֔י מִכׇּל־מְלַאכְתּ֖וֹ אֲשֶׁ֥ר עָשָֽׂה׃",
+          "targum": "וְשֵׁיצֵי יְיָ בְּיוֹמָא שְׁבִיעָאָה עֲבִדְתֵּהּ דִּי עֲבָד וְנַח בְּיוֹמָא שְׁבִיעָאָה מִכָּל עֲבִדְתֵּהּ דִּי עֲבָד:",
+          "english": "And by the seventh day God ended His work which He had done; and He rested on the seventh day from all His work which He had done."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיְבָ֤רֶךְ אֱלֹהִים֙ אֶת־י֣וֹם הַשְּׁבִיעִ֔י וַיְקַדֵּ֖שׁ אֹת֑וֹ כִּ֣י ב֤וֹ שָׁבַת֙ מִכׇּל־מְלַאכְתּ֔וֹ אֲשֶׁר־בָּרָ֥א אֱלֹהִ֖ים לַעֲשֽׂוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וּבָרִיךְ יְיָ יָת יוֹמָא שְׁבִיעָאָה וְקַדִּישׁ יָתֵהּ אֲרֵי בֵהּ נַח מִכָּל עֲבִדְתֵּהּ דִּי בְרָא  יְיָ לְמֶעְבַּד:",
+          "english": "And God blessed the seventh day, and sanctified it: because in it He rested from all his work which God had created and performed."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "אֵ֣לֶּה תוֹלְד֧וֹת הַשָּׁמַ֛יִם וְהָאָ֖רֶץ בְּ<small>הִ</small>בָּֽרְאָ֑ם בְּי֗וֹם עֲשׂ֛וֹת יְהֹוָ֥ה אֱלֹהִ֖ים אֶ֥רֶץ וְשָׁמָֽיִם׃",
+          "targum": "אִלֵּין תּוּלְדַת שְׁמַיָּא וְאַרְעָא כַּד אִתְבְּרִיאוּ בְּיוֹמָא דִּי עֲבַד יְיָ אֱלֹהִים אַרְעָא וּשְׁמַיָּא:",
+          "english": "These are the generations of the heaven and of the earth when they were created, in the day that the Lord God made the earth and the heavens."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וְכֹ֣ל&thinsp;<b>׀</b> שִׂ֣יחַ הַשָּׂדֶ֗ה טֶ֚רֶם יִֽהְיֶ֣ה בָאָ֔רֶץ וְכׇל־עֵ֥שֶׂב הַשָּׂדֶ֖ה טֶ֣רֶם יִצְמָ֑ח כִּי֩ לֹ֨א הִמְטִ֜יר יְהֹוָ֤ה אֱלֹהִים֙ עַל־הָאָ֔רֶץ וְאָדָ֣ם אַ֔יִן לַֽעֲבֹ֖ד אֶת־הָֽאֲדָמָֽה׃",
+          "targum": "וְכֹל אִילָנֵי חַקְלָא עַד לָא הֲווּ בְאַרְעָא וְכָל עִסְבָּא דְחַקְלָא עַד לָא צְמָח אֲרֵי לָא אָחִית מִטְרָא יְיָ אֱלֹהִים עַל אַרְעָא וְאֱנַשׁ לֵית לְמִפְלַח יָת אַדְמְתָא:",
+          "english": "And no plant of the field was yet in the earth, and no herb of the field had yet grown: for the Lord God had not caused it to rain upon the earth, and there was not a man to till the ground."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וְאֵ֖ד יַֽעֲלֶ֣ה מִן־הָאָ֑רֶץ וְהִשְׁקָ֖ה אֶֽת־כׇּל־פְּנֵ֥י הָֽאֲדָמָֽה׃",
+          "targum": "וַעֲנָנָא הֲוָה סָלֵיק מִן אַרְעָא וְאַשְׁקֵי יָת כָּל אַפֵּי אַדְמְתָא:",
+          "english": "But there went up a mist from the earth, and watered the whole face of the ground."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַיִּ֩יצֶר֩ יְהֹוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃",
+          "targum": "וּבְרָא יְיָ אֱלֹהִים יָת אָדָם עַפְרָא מִן אַדְמְתָא וּנְפַח בְּאַפּוֹהִי נִשְׁמְתָא דְחַיֵּי וַהֲוַת בְּאָדָם לְרוּחַ מְמַלְלָא:",
+          "english": "And the Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וַיִּטַּ֞ע יְהֹוָ֧ה אֱלֹהִ֛ים גַּן־בְּעֵ֖דֶן מִקֶּ֑דֶם וַיָּ֣שֶׂם שָׁ֔ם אֶת־הָֽאָדָ֖ם אֲשֶׁ֥ר יָצָֽר׃",
+          "targum": "וּנְצִיב יְיָ אֱלֹהִים גִּינְתָא בְעֵדֶן מִלְּקַדְמִין וְאַשְׁוֵי תַמָּן יָת אָדָם דִּי בְרָא:",
+          "english": "And the Lord God planted a garden eastward in ῾Eden; and there He put the man whom He had formed."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וַיַּצְמַ֞ח יְהֹוָ֤ה אֱלֹהִים֙ מִן־הָ֣אֲדָמָ֔ה כׇּל־עֵ֛ץ נֶחְמָ֥ד לְמַרְאֶ֖ה וְט֣וֹב לְמַאֲכָ֑ל וְעֵ֤ץ הַֽחַיִּים֙ בְּת֣וֹךְ הַגָּ֔ן וְעֵ֕ץ הַדַּ֖עַת ט֥וֹב וָרָֽע׃",
+          "targum": "וְאַצְמַח יְיָ אֱלֹהִים מִן אַרְעָא כָּל אִילַן דִּמְרַגֵּג לְמֶחֱזֵי וְטַב לְמֵיכַל וְאִילַן חַיָּא בִּמְצִיעוּת גִּינְתָא וְאִילַן דְּאָכְלִין פֵּירוֹהִי חַכִּימִין בֵּין טַב לְבִישׁ:",
+          "english": "And out of the ground the Lord God made to grow every tree that is pleasant to the sight, and good for food; the tree of life also in the midst of the garden, and the tree of the knowledge of good and evil."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וְנָהָר֙ יֹצֵ֣א מֵעֵ֔דֶן לְהַשְׁק֖וֹת אֶת־הַגָּ֑ן וּמִשָּׁם֙ יִפָּרֵ֔ד וְהָיָ֖ה לְאַרְבָּעָ֥ה רָאשִֽׁים׃",
+          "targum": "וְנַהֲרָא הֲוָה נָפִיק מֵעֵדֶן לְאַשְׁקָאָה יָת גִּינְתָא וּמִתַּמָּן יִתְפָּרִשׁ וַהֲוֵי לְאַרְבְּעָה רֵישֵׁי נַהֲרִין:",
+          "english": "And a river went out of ῾Eden to water the garden; and from thence it was parted, and branched into four streams."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "שֵׁ֥ם הָֽאֶחָ֖ד פִּישׁ֑וֹן ה֣וּא הַסֹּבֵ֗ב אֵ֚ת כׇּל־אֶ֣רֶץ הַֽחֲוִילָ֔ה אֲשֶׁר־שָׁ֖ם הַזָּהָֽב׃",
+          "targum": "שׁוּם חָד פִּישׁוֹן הוּא מַקִּיף יָת כָּל אֲרַע דַּחֲוִילָה דִּי תַמָּן דַּהֲבָא:",
+          "english": "The name of the first is Pishon: that it is which compasses the whole land of Ḥavila, where there is gold;"
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וּֽזְהַ֛ב הָאָ֥רֶץ הַהִ֖וא ט֑וֹב שָׁ֥ם הַבְּדֹ֖לַח וְאֶ֥בֶן הַשֹּֽׁהַם׃",
+          "targum": "וְדַהֲבָא דְאַרְעָא הַהִיא טָב תַּמָן בְּדָלְחָא וְאַבְנֵי בוּרְלָא:",
+          "english": "and the gold of that land is good: there is bdellium and the shoham stone."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וְשֵֽׁם־הַנָּהָ֥ר הַשֵּׁנִ֖י גִּיח֑וֹן ה֣וּא הַסּוֹבֵ֔ב אֵ֖ת כׇּל־אֶ֥רֶץ כּֽוּשׁ׃",
+          "targum": "וְשׁוּם נַהֲרָא תִנְיָנָא גִּיחוֹן הוּא מַקִּיף יָת כָּל אַרְעָא דְכוּשׁ:",
+          "english": "And the name of the second river is Giĥon: it compasses the whole land of Kush."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וְשֵׁ֨ם הַנָּהָ֤ר הַשְּׁלִישִׁי֙ חִדֶּ֔קֶל ה֥וּא הַֽהֹלֵ֖ךְ קִדְמַ֣ת אַשּׁ֑וּר וְהַנָּהָ֥ר הָֽרְבִיעִ֖י ה֥וּא פְרָֽת׃",
+          "targum": "וְשׁוּם נַהֲרָא תְּלִיתָאָה דִּיגְלַת הוּא מְהַלֵּךְ לְמַדִּינְחָא דְאַתּוּר וְנַהֲרָא רְבִיעָאָה הוּא פְרָת:",
+          "english": "And the name of the third river is Ḥiddeqel: that is it which goes toward the east of Ashshur. And the fourth river is Perat."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וַיִּקַּ֛ח יְהֹוָ֥ה אֱלֹהִ֖ים אֶת־הָֽאָדָ֑ם וַיַּנִּחֵ֣הוּ בְגַן־עֵ֔דֶן לְעׇבְדָ֖הּ וּלְשׇׁמְרָֽהּ׃",
+          "targum": "וּדְבַר יְיָ אֱלֹהִים יָת אָדָם וְאַשְׁרֵיהּ בְּגִינְתָא דְעֵדֶן לְמִפְלְחַהּ וּלְמִטְרַהּ:",
+          "english": "And the Lord God took the man, and put him into the garden of ῾Eden to till it and to keep it."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וַיְצַו֙ יְהֹוָ֣ה אֱלֹהִ֔ים עַל־הָֽאָדָ֖ם לֵאמֹ֑ר מִכֹּ֥ל עֵֽץ־הַגָּ֖ן אָכֹ֥ל תֹּאכֵֽל׃",
+          "targum": "וּפַקִּיד יְיָ אֱלֹהִים עַל אָדָם לְמֵימָר מִכֹּל אִילַן גִּינְתָא מֵיכַל תֵּיכוּל:",
+          "english": "And the Lord God commanded the man, saying, Of every tree of the garden thou mayst freely eat:"
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וּמֵעֵ֗ץ הַדַּ֙עַת֙ ט֣וֹב וָרָ֔ע לֹ֥א תֹאכַ֖ל מִמֶּ֑נּוּ כִּ֗י בְּי֛וֹם אֲכׇלְךָ֥ מִמֶּ֖נּוּ מ֥וֹת תָּמֽוּת׃",
+          "targum": "וּמֵאִילָן דְּאָכְלִין פֵּירוֹהִי חַכִּימִין בֵּין טַב לְבִישׁ לָא תֵיכוּל מִנֵּהּ אֲרֵי בְּיוֹמָא דְתֵיכוּל מִנֵּהּ מֵימַת תְּמוּת:",
+          "english": "but of the tree of the knowledge of good and evil, thou shalt not eat of it: for on the day that thou eatest of it thou shalt surely die."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וַיֹּ֙אמֶר֙ יְהֹוָ֣ה אֱלֹהִ֔ים לֹא־ט֛וֹב הֱי֥וֹת הָֽאָדָ֖ם לְבַדּ֑וֹ אֶֽעֱשֶׂה־לּ֥וֹ עֵ֖זֶר כְּנֶגְדּֽוֹ׃",
+          "targum": "וַאֲמַר יְיָ אֱלֹהִים לָא תַקִּין לְמֶהֱוֵי אָדָם בִּלְחוֹדוֹהִי אַעֲבֵד לֵהּ סְמַךְ לְקִבְלֵהּ:",
+          "english": "And the Lord God said, It is not good that the man should be alone; I will make him a help to match him."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וַיִּ֩צֶר֩ יְהֹוָ֨ה אֱלֹהִ֜ים מִן־הָֽאֲדָמָ֗ה כׇּל־חַיַּ֤ת הַשָּׂדֶה֙ וְאֵת֙ כׇּל־ע֣וֹף הַשָּׁמַ֔יִם וַיָּבֵא֙ אֶל־הָ֣אָדָ֔ם לִרְא֖וֹת מַה־יִּקְרָא־ל֑וֹ וְכֹל֩ אֲשֶׁ֨ר יִקְרָא־ל֧וֹ הָֽאָדָ֛ם נֶ֥פֶשׁ חַיָּ֖ה ה֥וּא שְׁמֽוֹ׃",
+          "targum": "וּבְרָא יְיָ אֱלֹהִים מִן אַרְעָא כָּל חֵוַת בְּרָא וְיָת כָּל עוֹפָא דִּשְׁמַיָּא וְאַיְתֵהּ לְוַת אָדָם לְמֶחֱזֵי מַה יִּקְרֵי לֵהּ וְכֹל דִּי הֲוָה קָרֵי לֵהּ אָדָם נַפְשָׁא חַיְתָא הוּא שְׁמֵהּ:",
+          "english": "And out of the ground the Lord God formed every beast of the field, and every bird of the air; and brought them to the man to see what he would call them: and whatever the man called every living creature, that was its name."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיִּקְרָ֨א הָֽאָדָ֜ם שֵׁמ֗וֹת לְכׇל־הַבְּהֵמָה֙ וּלְע֣וֹף הַשָּׁמַ֔יִם וּלְכֹ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה וּלְאָדָ֕ם לֹֽא־מָצָ֥א עֵ֖זֶר כְּנֶגְדּֽוֹ׃",
+          "targum": "וּקְרָא אָדָם שְׁמָהָן לְכָל בְּעִירָא וּלְעוֹפָא דִּשְׁמַיָּא וּלְכָל חֵוַת בְּרָא וּלְאָדָם לָא אַשְׁכַּח סָמֵךְ לְקִבְלֵהּ:",
+          "english": "And the man gave names to all cattle, and to the birds of the air, and to every beast of the field; but for the man there was not found a help to match him."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וַיַּפֵּל֩ יְהֹוָ֨ה אֱלֹהִ֧ים&thinsp;<small>׀</small>&thinsp;תַּרְדֵּמָ֛ה עַל־הָאָדָ֖ם וַיִּישָׁ֑ן וַיִּקַּ֗ח אַחַת֙ מִצַּלְעֹתָ֔יו וַיִּסְגֹּ֥ר בָּשָׂ֖ר תַּחְתֶּֽנָּה׃",
+          "targum": "וּרְמָא יְיָ אֱלֹהִים שִׁינְתָא עַל אָדָם וּדְמֵךְ וּנְסִיב חֲדָא מֵעִלְעוֹהִי וּמְלֵי בִשְׂרָא תְּחוֹתַהּ:",
+          "english": "And the Lord God caused a deep sleep to fall upon the man, and he slept: and He took one of his sides, and closed up the flesh in its place,"
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וַיִּ֩בֶן֩ יְהֹוָ֨ה אֱלֹהִ֧ים&thinsp;<small>׀</small>&thinsp;אֶֽת־הַצֵּלָ֛ע אֲשֶׁר־לָקַ֥ח מִן־הָֽאָדָ֖ם לְאִשָּׁ֑ה וַיְבִאֶ֖הָ אֶל־הָֽאָדָֽם׃",
+          "targum": "וּבְנָא יְיָ אֱלֹהִים יָת עִלְעָא דִּנְסִיב מִן אָדָם לְאִתְּתָא וְאַיְתַהּ לְוַת אָדָם:",
+          "english": "and of the side, which the Lord God had taken from the man, He made a woman, and brought her to the man."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַיֹּ֘אמֶר֮ הָֽאָדָם֒ זֹ֣את הַפַּ֗עַם עֶ֚צֶם מֵֽעֲצָמַ֔י וּבָשָׂ֖ר מִבְּשָׂרִ֑י לְזֹאת֙ יִקָּרֵ֣א אִשָּׁ֔ה כִּ֥י מֵאִ֖ישׁ לֻֽקְחָה־זֹּֽאת׃",
+          "targum": "וַאֲמַר הָאָדָם הֲדָא זִמְנָא גַּרְמָא מִגַּרְמַי וּבִסְרָא מִבִּסְרִי לְדָא יִתְקְרֵי אִתְּתָא אֲרֵי מִבַּעְלָא נְסִיבָא דָא:",
+          "english": "And the man said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "עַל־כֵּן֙ יַֽעֲזׇב־אִ֔ישׁ אֶת־אָבִ֖יו וְאֶת־אִמּ֑וֹ וְדָבַ֣ק בְּאִשְׁתּ֔וֹ וְהָי֖וּ לְבָשָׂ֥ר אֶחָֽד׃",
+          "targum": "עַל כֵּן יִשְׁבּוֹק גְּבַר בֵּית מִשְׁכְּבֵי אַבוּהִי וְאִמֵּהּ וְיִדְבַּק בְּאִתְּתֵהּ וִיהוֹן לְבִסְרָא חָד:",
+          "english": "That is why a man leaves his father and his mother, and cleaves to his wife: and they become one flesh."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַיִּֽהְי֤וּ שְׁנֵיהֶם֙ עֲרוּמִּ֔ים הָֽאָדָ֖ם וְאִשְׁתּ֑וֹ וְלֹ֖א יִתְבֹּשָֽׁשׁוּ׃",
+          "targum": "וַהֲווֹ תַרְוֵיהוֹן עַרְטִילָאִין אָדָם וְאִתְּתֵהּ וְלָא מִתְכַּלְמִין:",
+          "english": "And they were both naked, the man and his wife, and they felt no shame."
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וְהַנָּחָשׁ֙ הָיָ֣ה עָר֔וּם מִכֹּל֙ חַיַּ֣ת הַשָּׂדֶ֔ה אֲשֶׁ֥ר עָשָׂ֖ה יְהֹוָ֣ה אֱלֹהִ֑ים וַיֹּ֙אמֶר֙ אֶל־הָ֣אִשָּׁ֔ה אַ֚ף כִּֽי־אָמַ֣ר אֱלֹהִ֔ים לֹ֣א תֹֽאכְל֔וּ מִכֹּ֖ל עֵ֥ץ הַגָּֽן׃",
+          "targum": "וְחִוְיָא הֲוָה חַכִּים מִכֹּל חֵוַת בְּרָא דִּי עֲבַד יְיָ אֱלֹהִים וַאֲמַר לְאִתְּתָא בְּקוּשְׁטָא אֲרֵי אֲמַר יְיָ לָא תֵיכְלוּן מִכֹּל אִילַן גִּינְתָא:",
+          "english": "Now the serpent was craftier than all the beasts of the field which the Lord God had made. And he said to the woman, Has God said, You shall not eat of any tree of the garden?"
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וַתֹּ֥אמֶר הָֽאִשָּׁ֖ה אֶל־הַנָּחָ֑שׁ מִפְּרִ֥י עֵֽץ־הַגָּ֖ן נֹאכֵֽל׃",
+          "targum": "וַאֲמָרַת אִתְּתָא לְחִוְיָא מִפֵּירֵי אִילַן גִּינְתָא נֵיכוּל:",
+          "english": "And the woman said to the serpent, We may eat of the fruit of the trees of the garden:"
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וּמִפְּרִ֣י הָעֵץ֮ אֲשֶׁ֣ר בְּתוֹךְ־הַגָּן֒ אָמַ֣ר אֱלֹהִ֗ים לֹ֤א תֹֽאכְלוּ֙ מִמֶּ֔נּוּ וְלֹ֥א תִגְּע֖וּ בּ֑וֹ פֶּן־תְּמֻתֽוּן׃",
+          "targum": "וּמִפֵּירֵי אִילָנָא דִּי בִמְצִיעוּת גִּינְתָא אֲמַר יְיָ לָא תֵיכְלוּן מִנֵּהּ וְלָא תְקַרְבוּן בֵּהּ דִּילְמָא תְּמוּתוּן:",
+          "english": "but of the fruit of the tree which is in the midst of the garden, God has said, You shall not eat of it, neither shall you touch it, lest you die."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וַיֹּ֥אמֶר הַנָּחָ֖שׁ אֶל־הָֽאִשָּׁ֑ה לֹֽא־מ֖וֹת תְּמֻתֽוּן׃",
+          "targum": "וַאֲמַר חִוְיָא לְאִיתְּתָא לָא מוּת תְּמוּתוּן:",
+          "english": "And the serpent said to the woman, You shall not surely die:"
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "כִּ֚י יֹדֵ֣עַ אֱלֹהִ֔ים כִּ֗י בְּיוֹם֙ אֲכׇלְכֶ֣ם מִמֶּ֔נּוּ וְנִפְקְח֖וּ עֵֽינֵיכֶ֑ם וִהְיִיתֶם֙ כֵּֽאלֹהִ֔ים יֹדְעֵ֖י ט֥וֹב וָרָֽע׃",
+          "targum": "אֲרֵי גַּלֵּי קֳדָם יְיָ אֲרֵי בְּיוֹמָא דְּתֵיכְלוּן מִנֵּהּ וְיִתְפַּתְּחַן עֵינֵיכוֹן וּתְהוֹן כְּרַבְרְבִין חַכִּימִין בֵּין טַב לְבִישׁ:",
+          "english": "for God knows that on the day you eat of it, then your eyes shall be opened, and you shall be as gods, knowing good and evil."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וַתֵּ֣רֶא הָֽאִשָּׁ֡ה כִּ֣י טוֹב֩ הָעֵ֨ץ לְמַאֲכָ֜ל וְכִ֧י תַֽאֲוָה־ה֣וּא לָעֵינַ֗יִם וְנֶחְמָ֤ד הָעֵץ֙ לְהַשְׂכִּ֔יל וַתִּקַּ֥ח מִפִּרְי֖וֹ וַתֹּאכַ֑ל וַתִּתֵּ֧ן גַּם־לְאִישָׁ֛הּ עִמָּ֖הּ וַיֹּאכַֽל׃",
+          "targum": "וַחֲזַת אִתְּתָא אֲרֵי טַב אִילַן לְמֵיכָל וַאֲרֵי אַסֵּי הוּא לְעַיְנִין וּמְרַגֵּג אִילָנָא לְאִסְתַּכָּלָא בֵהּ וּנְסֵיבַת מֵאִבֵּהּ וַאֲכָלַת וִיהָבַת אַף לְבַעְלַהּ עִמַּהּ וַאֲכָל:",
+          "english": "And when the woman saw that the tree was good for food, and that it was a delight to the eyes, and a tree to be desired to make one wise, she took of its fruit, and did eat, and gave also to her husband with her; and he did eat."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַתִּפָּקַ֙חְנָה֙ עֵינֵ֣י שְׁנֵיהֶ֔ם וַיֵּ֣דְע֔וּ כִּ֥י עֵֽירֻמִּ֖ם הֵ֑ם וַֽיִּתְפְּרוּ֙ עֲלֵ֣ה תְאֵנָ֔ה וַיַּעֲשׂ֥וּ לָהֶ֖ם חֲגֹרֹֽת׃",
+          "targum": "וְאִתְפַּתָּחָא עֵינֵי תַרְוֵיהוֹן וִידָעוּ אֲרֵי עַרְטִילָאִין אִינוּן וְחַטִּיטוּ לְהוֹן טַרְפֵי תְאֵנִין וַעֲבָדוּ לְהוֹן זְרָזִין:",
+          "english": "And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves loincloths."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וַֽיִּשְׁמְע֞וּ אֶת־ק֨וֹל יְהֹוָ֧ה אֱלֹהִ֛ים מִתְהַלֵּ֥ךְ בַּגָּ֖ן לְר֣וּחַ הַיּ֑וֹם וַיִּתְחַבֵּ֨א הָֽאָדָ֜ם וְאִשְׁתּ֗וֹ מִפְּנֵי֙ יְהֹוָ֣ה אֱלֹהִ֔ים בְּת֖וֹךְ עֵ֥ץ הַגָּֽן׃",
+          "targum": "וּשְׁמָעוּ יָת קַל מֵימְרָא דַּיְיָ אֱלֹהִים מְהַלֵּךְ בְּגִינְתָא לִמְנַח יוֹמָא וְאִיטַמַּר אָדָם וְאִתְּתֵהּ מִן קֳדָם יְיָ אֱלֹהִים בְּגוֹ אִילַן גִּינְתָא:",
+          "english": "And they heard the voice of the Lord God walking in the garden in the breeze of the day: and the man and his wife hid themselves from the presence of the Lord God amongst the trees of the garden."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וַיִּקְרָ֛א יְהֹוָ֥ה אֱלֹהִ֖ים אֶל־הָֽאָדָ֑ם וַיֹּ֥אמֶר ל֖וֹ אַיֶּֽכָּה׃",
+          "targum": "וּקְרָא יְיָ אֱלֹהִים לְאָדָם וַאֲמַר לֵהּ אָן אָתְּ:",
+          "english": "And the Lord God called to the man, and said to him, Where art thou?"
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַיֹּ֕אמֶר אֶת־קֹלְךָ֥ שָׁמַ֖עְתִּי בַּגָּ֑ן וָאִירָ֛א כִּֽי־עֵירֹ֥ם אָנֹ֖כִי וָאֵחָבֵֽא׃",
+          "targum": "וַאֲמַר יָת קַל מֵימְרָךְ שַׁמְעִית בְּגִינְתָא וּדְחֵילִית אֲרֵי עַרְטִילַאי אֲנָא וְאִיטַמָּרִית:",
+          "english": "And he said, I heard Thy voice in the garden, and I was afraid, because I was naked; and I hid myself."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַיֹּ֕אמֶר מִ֚י הִגִּ֣יד לְךָ֔ כִּ֥י עֵירֹ֖ם אָ֑תָּה הֲמִן־הָעֵ֗ץ אֲשֶׁ֧ר צִוִּיתִ֛יךָ לְבִלְתִּ֥י אֲכׇל־מִמֶּ֖נּוּ אָכָֽלְתָּ׃",
+          "targum": "וַאֲמַר מָן חַוֵי לָךְ אֲרֵי עַרְטִילַאי אָתְּ הֲמִן אִילָנָא דִּפַקֶּדְתָּךְ בְּדִיל דְּלָא לְמֵיכַל מִנֵּהּ אֲכָלְתְּ:",
+          "english": "And He said, Who told thee that thou wast naked? Hast thou eaten of the tree, of which I commanded thee that thou shouldst not eat?"
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַיֹּ֖אמֶר הָֽאָדָ֑ם הָֽאִשָּׁה֙ אֲשֶׁ֣ר נָתַ֣תָּה עִמָּדִ֔י הִ֛וא נָֽתְנָה־לִּ֥י מִן־הָעֵ֖ץ וָאֹכֵֽל׃",
+          "targum": "וַאֲמַר הָאָדָם אִתְּתָא דִּיהַבְתָּ עִמִּי הִיא יַהֲבַת לִי מִן אִילָנָא וַאֲכָלִית:",
+          "english": "And the man said, The woman whom Thou didst give to be with me, she gave me of the tree, and I did eat."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וַיֹּ֨אמֶר יְהֹוָ֧ה אֱלֹהִ֛ים לָאִשָּׁ֖ה מַה־זֹּ֣את עָשִׂ֑ית וַתֹּ֙אמֶר֙ הָֽאִשָּׁ֔ה הַנָּחָ֥שׁ הִשִּׁיאַ֖נִי וָאֹכֵֽל׃",
+          "targum": "וַאֲמַר יְיָ אֱלֹהִים לְאִתְּתָא מַה דָּא עַבְדָת וַאֲמָרַת אִתְּתָא חִוְיָא אַטְעַיָנִי וַאֲכָלִית:",
+          "english": "And the Lord God said to the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַיֹּ֩אמֶר֩ יְהֹוָ֨ה אֱלֹהִ֥ים&thinsp;<small>׀</small>&thinsp;אֶֽל־הַנָּחָשׁ֮ כִּ֣י עָשִׂ֣יתָ זֹּאת֒ אָר֤וּר אַתָּה֙ מִכׇּל־הַבְּהֵמָ֔ה וּמִכֹּ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה עַל־גְּחֹנְךָ֣ תֵלֵ֔ךְ וְעָפָ֥ר תֹּאכַ֖ל כׇּל־יְמֵ֥י חַיֶּֽיךָ׃",
+          "targum": "וַאֲמַר יְיָ אֱלֹהִים לְחִוְיָא אֲרֵי עֲבַדְתָּ דָּא לִיט אַתְּ מִכָּל בְּעִירָא וּמִכֹּל חֵוַת בָּרָא עַל מְעָךְ תֵּיזִיל וְעַפְרָא תֵיכוּל כָּל יוֹמֵי חַיָּיךְ:",
+          "english": "And the Lord God said to the serpent, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:"
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וְאֵיבָ֣ה&thinsp;<b>׀</b> אָשִׁ֗ית בֵּֽינְךָ֙ וּבֵ֣ין הָֽאִשָּׁ֔ה וּבֵ֥ין זַרְעֲךָ֖ וּבֵ֣ין זַרְעָ֑הּ ה֚וּא יְשׁוּפְךָ֣ רֹ֔אשׁ וְאַתָּ֖ה תְּשׁוּפֶ֥נּוּ עָקֵֽב׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וּדְבָבוּ אֱשַׁוֵּי בֵּינָךְ וּבֵין אִתְּתָא וּבֵין בְּנָךְ וּבֵין בְּנָהַהּ הוּא יְהֵי דְּכִיר לָךְ מַה דִּעֲבַדְתָּ לֵהּ מִלְּקַדְמִין וְאַתְּ תְּהֵא נָטִיר לֵהּ לְסוֹפָא:",
+          "english": "and I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "אֶֽל־הָאִשָּׁ֣ה אָמַ֗ר הַרְבָּ֤ה אַרְבֶּה֙ עִצְּבוֹנֵ֣ךְ וְהֵֽרֹנֵ֔ךְ בְּעֶ֖צֶב תֵּֽלְדִ֣י בָנִ֑ים וְאֶל־אִישֵׁךְ֙ תְּשׁ֣וּקָתֵ֔ךְ וְה֖וּא יִמְשׇׁל־בָּֽךְ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "לְאִתְּתָא אֲמַר אַסְגָּאָה אַסְגֵּי צַעֲרַיְכִי וְעִדּוּיַיְכִי בְּצְעַר תֵּלְדִי בְנִין וּלְוַת בַּעְלִךְ תְּהֵא תִּאוּבְתִּיךְ וְהוּא יִשְׁלַט בִּךְ:",
+          "english": "Unto the woman He said, I will greatly multiply the pain of thy childbearing; in sorrow thou shalt bring forth children; and yet thy desire shall be to thy husband, and he shall rule over thee."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וּלְאָדָ֣ם אָמַ֗ר כִּֽי־שָׁמַ֘עְתָּ֮ לְק֣וֹל אִשְׁתֶּ֒ךָ֒ וַתֹּ֙אכַל֙ מִן־הָעֵ֔ץ אֲשֶׁ֤ר צִוִּיתִ֙יךָ֙ לֵאמֹ֔ר לֹ֥א תֹאכַ֖ל מִמֶּ֑נּוּ אֲרוּרָ֤ה הָֽאֲדָמָה֙ בַּֽעֲבוּרֶ֔ךָ בְּעִצָּבוֹן֙ תֹּֽאכְלֶ֔נָּה כֹּ֖ל יְמֵ֥י חַיֶּֽיךָ׃",
+          "targum": "וּלְאָדָם אֲמַר אֲרֵי קַבֵּילְתָּ לְמֵימַר אִתְּתָךְ וַאֲכַלְתָּ מִן אִילָנָא דִּי פַקֵּידְתָּךְ לְמֵימַר לָא תֵיכוּל מִנֵּהּ לִיטָא אַרְעָא בְּדִילָךְ בַּעֲמַל תִּיכְלִינַהּ כָּל יוֹמֵי חַיָּיךְ:",
+          "english": "And to the man He said, Because thou hast hearkened to the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life;"
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וְק֥וֹץ וְדַרְדַּ֖ר תַּצְמִ֣יחַֽ לָ֑ךְ וְאָכַלְתָּ֖ אֶת־עֵ֥שֶׂב הַשָּׂדֶֽה׃",
+          "targum": "וְכוּבִין וְאַטְדִּין תַּצְמַח לָךְ וְתֵיכוּל יָת עִסְבָּא דְחַקְלָא:",
+          "english": "thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field;"
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "בְּזֵעַ֤ת אַפֶּ֙יךָ֙ תֹּ֣אכַל לֶ֔חֶם עַ֤ד שֽׁוּבְךָ֙ אֶל־הָ֣אֲדָמָ֔ה כִּ֥י מִמֶּ֖נָּה לֻקָּ֑חְתָּ כִּֽי־עָפָ֣ר אַ֔תָּה וְאֶל־עָפָ֖ר תָּשֽׁוּב׃",
+          "targum": "בְּזִעֲתָא דְאַפָּךְ תֵּיכוּל לַחְמָא עַד דְּתִיתוּב לְאַרְעָא דְּמִנַּהּ אִתְבְּרֵיתָא אֲרֵי עַפְרָא אַתְּ וּלְעַפְרָא תְּתוּב:",
+          "english": "in the sweat of thy face shalt thou eat bread, till thou return to the ground; for out of it wast thou taken: for dust thou art, and to dust shalt thou return."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיִּקְרָ֧א הָֽאָדָ֛ם שֵׁ֥ם אִשְׁתּ֖וֹ חַוָּ֑ה כִּ֛י הִ֥וא הָֽיְתָ֖ה אֵ֥ם כׇּל־חָֽי׃",
+          "targum": "וּקְרָא אָדָם שׁוּם אִתְּתֵהּ חַוָּה אֲרֵי הִיא הֲוַת אִמָּא דְכָל בְּנֵי אֱנָשָׁא:",
+          "english": "And the man called his wife’s name Ḥavva; because she was the mother of all living (Ḥay)."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וַיַּ֩עַשׂ֩ יְהֹוָ֨ה אֱלֹהִ֜ים לְאָדָ֧ם וּלְאִשְׁתּ֛וֹ כׇּתְנ֥וֹת ע֖וֹר וַיַּלְבִּשֵֽׁם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וַעֲבַד יְיָ אֱלֹהִים לְאָדָם וּלְאִתְּתֵהּ לְבוּשִׁין דִּיקָר עַל מְשַׁךְ בִּשְׂרֵיהוֹן וְאַלְבִּישִׁינוּן:",
+          "english": "For the man also and for his wife did the Lord God make coats of skins, and clothed them."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וַיֹּ֣אמֶר&thinsp;<b>׀</b> יְהֹוָ֣ה אֱלֹהִ֗ים הֵ֤ן הָֽאָדָם֙ הָיָה֙ כְּאַחַ֣ד מִמֶּ֔נּוּ לָדַ֖עַת ט֣וֹב וָרָ֑ע וְעַתָּ֣ה&thinsp;<b>׀</b> פֶּן־יִשְׁלַ֣ח יָד֗וֹ וְלָקַח֙ גַּ֚ם מֵעֵ֣ץ הַֽחַיִּ֔ים וְאָכַ֖ל וָחַ֥י לְעֹלָֽם׃",
+          "targum": "וַאֲמַר יְיָ אֱלֹהִים הָא אָדָם הֲוָה יְחִידַי בְּעַלְמָא מִנֵּהּ לְמִידַע טַב וּבִישׁ וּכְעַן דִּילְמָא יוֹשִׁיט יְדֵהּ וְיִסַּב אַף מֵאִילָן חַיָּיא וְיֵכוּל וִיחֵי לְעָלָם:",
+          "english": "And the Lord God said, Behold, the man is become like one of Us, knowing good and evil: and now, what if he put forth his hand, and take also of the tree of life, and eating, live for ever:"
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַֽיְשַׁלְּחֵ֛הוּ יְהֹוָ֥ה אֱלֹהִ֖ים מִגַּן־עֵ֑דֶן לַֽעֲבֹד֙ אֶת־הָ֣אֲדָמָ֔ה אֲשֶׁ֥ר לֻקַּ֖ח מִשָּֽׁם׃",
+          "targum": "וְשַׁלְּחֵהּ יְיָ אֱלֹהִים מִגִּינְתָא דְעֵדֶן לְמִפְלַח יַת אַדְמְתָא דְּאִתְבְּרִי מִתַּמָּן:",
+          "english": "therefore the Lord God sent him out of the garden of ῾Eden, to till the ground from whence he was taken."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וַיְגָ֖רֶשׁ אֶת־הָֽאָדָ֑ם וַיַּשְׁכֵּן֩ מִקֶּ֨דֶם לְגַן־עֵ֜דֶן אֶת־הַכְּרֻבִ֗ים וְאֵ֨ת לַ֤הַט הַחֶ֙רֶב֙ הַמִּתְהַפֶּ֔כֶת לִשְׁמֹ֕ר אֶת־דֶּ֖רֶךְ עֵ֥ץ הַֽחַיִּֽים׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וְתָרִךְ יָת אָדָם וְאַשְׁרֵי מִלְּקַדְמִין לְגִינְתָא דְעֵדֶן יָת כְּרוּבַיָּא וְיָת שְׁנַן חַרְבָּא דְּמִתְהַפְּכָא לְמִיטַר יָת אוֹרַח אִילַן חַיָּיא:",
+          "english": "So He drove out the man; and He placed the keruvim at the east of the garden of ῾Eden, and the bright blade of a revolving sword to guard the way to the tree of life."
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וְהָ֣אָדָ֔ם יָדַ֖ע אֶת־חַוָּ֣ה אִשְׁתּ֑וֹ וַתַּ֙הַר֙ וַתֵּ֣לֶד אֶת־קַ֔יִן וַתֹּ֕אמֶר קָנִ֥יתִי אִ֖ישׁ אֶת־יְהֹוָֽה׃",
+          "targum": "וְאָדָם יְדַע יָת חַוָּה אִתְּתֵהּ וְעַדִּיאַת וִילִידַת יָת קַיִן וַאֲמֶרֶת קָנִיתִי גַּבְרָא (מִן) קֳדָם יְיָ:",
+          "english": "And the man knew Ḥavva his wife; and she conceived, and bore Qayin saying, I have acquired a manchild from the Lord."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וַתֹּ֣סֶף לָלֶ֔דֶת אֶת־אָחִ֖יו אֶת־הָ֑בֶל וַֽיְהִי־הֶ֙בֶל֙ רֹ֣עֵה צֹ֔אן וְקַ֕יִן הָיָ֖ה עֹבֵ֥ד אֲדָמָֽה׃",
+          "targum": "וְאוֹסִיפַת לְמֵילַד יָת אֲחוֹהִי יָת הָבֶל וַהֲוָה הֶבֶל רָעֵי עָנָא וְקַיִן הֲוָה פָלַח בְּאַרְעָא:",
+          "english": "And she again bore, his brother Hevel. And Hevel was a keeper of sheep, but Qayin was a tiller of the ground."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַֽיְהִ֖י מִקֵּ֣ץ יָמִ֑ים וַיָּבֵ֨א קַ֜יִן מִפְּרִ֧י הָֽאֲדָמָ֛ה מִנְחָ֖ה לַֽיהֹוָֽה׃",
+          "targum": "וַהֲוָה מִסּוֹף יוֹמִין וְאַיְתִי קַיִן מֵאִבָּא דְאַרְעָא תִּקְרוּבְתָּא קֳדָם יְיָ:",
+          "english": "And in process of time it came to pass, that Qayin brought of the fruit of the ground an offering to the Lord."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וְהֶ֨בֶל הֵבִ֥יא גַם־ה֛וּא מִבְּכֹר֥וֹת צֹאנ֖וֹ וּמֵֽחֶלְבֵהֶ֑ן וַיִּ֣שַׁע יְהֹוָ֔ה אֶל־הֶ֖בֶל וְאֶל־מִנְחָתֽוֹ׃",
+          "targum": "וְהֶבֶל אַיְתִי אַף הוּא מִבַּכִּירֵי עָנֵהּ וּמִשַׁמִּנְהוֹן וַהֲוַת רַעֲוָא מִן קֳדָם יְיָ בְּהֶבֶל וּבְּקוּרְבָּנֵהּ:",
+          "english": "And Hevel, he also brought of the firstlings of his flock and of the fat parts thereof. And the Lord had respect to Hevel and to his offering:"
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וְאֶל־קַ֥יִן וְאֶל־מִנְחָת֖וֹ לֹ֣א שָׁעָ֑ה וַיִּ֤חַר לְקַ֙יִן֙ מְאֹ֔ד וַֽיִּפְּל֖וּ פָּנָֽיו׃",
+          "targum": "וּבְּקַיִן וּבְּקוּרְבָּנֵהּ לָא הֲוַת רַעֲוָא וּתְקֵף לְקַיִן לַחֲדָא וְאִתְכְּבִישׁוּ אַפּוֹהִי:",
+          "english": "but to Qayin and to his offering He had not respect. And Qayin was very angry, and his face fell."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וַיֹּ֥אמֶר יְהֹוָ֖ה אֶל־קָ֑יִן לָ֚מָּה חָ֣רָה לָ֔ךְ וְלָ֖מָּה נָפְל֥וּ פָנֶֽיךָ׃",
+          "targum": "וַאֲמַר יְיָ לְקָיִן לְמָא תְּקִיף לָךְ וּלְמָא אִתְכְּבִישׁוּ אַפָּיךְ:",
+          "english": "And the Lord said to Qayin, Why art thou angry? and why art thou crestfallen?"
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "הֲל֤וֹא אִם־תֵּיטִיב֙ שְׂאֵ֔ת וְאִם֙ לֹ֣א תֵיטִ֔יב לַפֶּ֖תַח חַטָּ֣את רֹבֵ֑ץ וְאֵלֶ֙יךָ֙ תְּשׁ֣וּקָת֔וֹ וְאַתָּ֖ה תִּמְשׇׁל־בּֽוֹ׃",
+          "targum": "הֲלָא אִם תּוֹטִיב עוֹבָדָךְ יִשְׁתְּבֵק לָךְ וְאִם לָא תּוֹטִיב עוֹבָדָךְ לְיוֹם דִּינָא חֶטְאָךְ נְטִיר דִיעֲתִיד לְאִתְפָּרְעָא מִנָּךְ אִם לָא תְתוּב וְאִם תְּתוּב יִשְׁתְּבֵק לָךְ:",
+          "english": "If thou doest well, shalt thou not be accepted? and if thou doest not well, sin crouches at the door, and to thee shall be his desire. Yet thou mayst rule over him."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וַיֹּ֥אמֶר קַ֖יִן אֶל־הֶ֣בֶל אָחִ֑יו וַֽיְהִי֙ בִּהְיוֹתָ֣ם בַּשָּׂדֶ֔ה וַיָּ֥קׇם קַ֛יִן אֶל־הֶ֥בֶל אָחִ֖יו וַיַּהַרְגֵֽהוּ׃",
+          "targum": "וַאֲמַר קַיִן לְהֶבֶל אַחוֹהִי וַהֲוָה בְּמֶהֱוֵיהוֹן בְּחַקְלָא וְקָם קַיִן עַל הֶבֶל אַחוֹהִי וְקַטְלֵהּ:",
+          "english": "And Qayin talked with Hevel his brother: and it came to pass, when they were in the field, that Qayin rose up against Hevel his brother, and slew him."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וַיֹּ֤אמֶר יְהֹוָה֙ אֶל־קַ֔יִן אֵ֖י הֶ֣בֶל אָחִ֑יךָ וַיֹּ֙אמֶר֙ לֹ֣א יָדַ֔עְתִּי הֲשֹׁמֵ֥ר אָחִ֖י אָנֹֽכִי׃",
+          "targum": "וַאֲמַר יְיָ לְקַיִן אָן הֶבֶל אָחוּךְ וַאֲמַר לָא יָדַעֲנָא הֲנָטֵר אָחִי אֲנָא:",
+          "english": "And the Lord said to Qayin, Where is Hevel thy brother? And he said, I know not: am I my brother’s keeper?"
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַיֹּ֖אמֶר מֶ֣ה עָשִׂ֑יתָ ק֚וֹל דְּמֵ֣י אָחִ֔יךָ צֹעֲקִ֥ים אֵלַ֖י מִן־הָֽאֲדָמָֽה׃",
+          "targum": "וַאֲמַר מֶה עֲבַדְתָּא קַל דַם זַרְעִין דִעֲתִידִין לְמֵפַק מִן אָחוּךְ קַבְלִין קֳדָמַי מִן אַרְעָא:",
+          "english": "And He said, What hast thou done? the voice of thy brother’s blood cries to Me from the ground."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וְעַתָּ֖ה אָר֣וּר אָ֑תָּה מִן־הָֽאֲדָמָה֙ אֲשֶׁ֣ר פָּצְתָ֣ה אֶת־פִּ֔יהָ לָקַ֛חַת אֶת־דְּמֵ֥י אָחִ֖יךָ מִיָּדֶֽךָ׃",
+          "targum": "וּכְעַן לִיט אָתְּ מִן אַרְעָא דִּפְתָחַת יָת פּוּמַהּ וְקַבִּילַת יָת דְּמֵהּ דְּאָחוּךְ מִן יְדָךְ:",
+          "english": "And now cursed art thou from the earth, which has opened her mouth to receive thy brother’s blood from thy hand;"
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "כִּ֤י תַֽעֲבֹד֙ אֶת־הָ֣אֲדָמָ֔ה לֹֽא־תֹסֵ֥ף תֵּת־כֹּחָ֖הּ לָ֑ךְ נָ֥ע וָנָ֖ד תִּֽהְיֶ֥ה בָאָֽרֶץ׃",
+          "targum": "אֲרֵי תִפְלַח בְאַרְעָא לָא תוֹסִיף לְמִתַּן חֵילַהּ לָךְ מִטַלְטֵל וְגָלֵי תְּהֵא בְאַרְעָא:",
+          "english": "when thou tillest the ground, it shall not henceforth yield to thee her strength; a fugitive and a vagabond shalt thou be on the earth."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וַיֹּ֥אמֶר קַ֖יִן אֶל־יְהֹוָ֑ה גָּד֥וֹל עֲוֺנִ֖י מִנְּשֹֽׂא<sup class=\"footnote-marker\">*</sup><i class=\"footnote\">(בספרי ספרד ואשכנז מִנְּשֽׂוֹא)</i>׃",
+          "targum": "וַאֲמַר קַיִן קֳדָם יְיָ סַגִּי חוֹבִי מִלְּמִשְׁבָּק:",
+          "english": "And Qayin said to the Lord, My punishment is greater than I can bear."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "הֵן֩ גֵּרַ֨שְׁתָּ אֹתִ֜י הַיּ֗וֹם מֵעַל֙ פְּנֵ֣י הָֽאֲדָמָ֔ה וּמִפָּנֶ֖יךָ אֶסָּתֵ֑ר וְהָיִ֜יתִי נָ֤ע וָנָד֙ בָּאָ֔רֶץ וְהָיָ֥ה כׇל־מֹצְאִ֖י יַֽהַרְגֵֽנִי׃",
+          "targum": "הָא תָרִיכְתָּא יָתִי יוֹמָא דֵּין מֵעַל אַפֵּי אַרְעָא וּמִן קֳדָמָךְ לֵית אֶפְשָׁר לְאִטַּמָּרָא וָאֱהִי מְטַלְטֵל וְגָלֵי בְּאַרְעָא וִיהֵי כָל דְּיִשְׁכְּחִנַנִי יִקְטְלִינַנִי:",
+          "english": "Behold, Thou hast driven me out this day from the face of the earth; and from Thy face I shall be hid; and I shall be a fugitive and a vagabond in the earth; and it shall come to pass, that anyone that finds me shall slay me."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וַיֹּ֧אמֶר ל֣וֹ יְהֹוָ֗ה לָכֵן֙ כׇּל־הֹרֵ֣ג קַ֔יִן שִׁבְעָתַ֖יִם יֻקָּ֑ם וַיָּ֨שֶׂם יְהֹוָ֤ה לְקַ֙יִן֙ א֔וֹת לְבִלְתִּ֥י הַכּוֹת־אֹת֖וֹ כׇּל־מֹצְאֽוֹ׃",
+          "targum": "וַאֲמַר לֵהּ יְיָ בְּכֵן כָּל קָטִיל קַיִן לְשַׁבְעָא דָּרִין יִתְפְּרַע מִנֵּהּ וְשַׁוִּי יְיָ לְקַיִן אָתָא בְּדִיל דְּלָא לְמִקְטַל יָתֵהּ כָּל דִיִשְׁכְּחֻנֵהּ:",
+          "english": "And the Lord said to him, Therefore whoever slays Qayin, vengeance shall be taken on him sevenfold. And the Lord set a mark upon Qayin, lest any finding him should smite him."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וַיֵּ֥צֵא קַ֖יִן מִלִּפְנֵ֣י יְהֹוָ֑ה וַיֵּ֥שֶׁב בְּאֶֽרֶץ־נ֖וֹד קִדְמַת־עֵֽדֶן׃",
+          "targum": "וּנְפַק קַיִן מִן קֳדָם יְיָ וִיתֵיב בְּאַרְעָא גָּלֵי וּמִטַּלְטַל דַּהֲוָה עֲבִידָא עֲלוֹהִי מִלְּקַדְמִין דְּגִינְתָא דְעֵדֶן:",
+          "english": "And Qayin went out from the presence of the Lord, and dwelt in the land of Nod, to the east of ῾Eden."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיֵּ֤דַע קַ֙יִן֙ אֶת־אִשְׁתּ֔וֹ וַתַּ֖הַר וַתֵּ֣לֶד אֶת־חֲנ֑וֹךְ וַֽיְהִי֙ בֹּ֣נֶה עִ֔יר וַיִּקְרָא֙ שֵׁ֣ם הָעִ֔יר כְּשֵׁ֖ם בְּנ֥וֹ חֲנֽוֹךְ׃",
+          "targum": "וִידַע קַיִן יָת אִתְּתֵהּ וְעַדִּיאַת וִילֵידַת יָת חֲנוֹךְ וַהֲוָה בָּנֵי קַרְתָּא וּקְרָא שְׁמָא דְקַרְתָּא כְּשׁוּם בְּרֵהּ חֲנוֹךְ:",
+          "english": "And Qayin knew his wife; and she conceived, and bore Ḥanokh: and he built a city, and called the name of the city, after the name of his son, Ḥanokh."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וַיִּוָּלֵ֤ד לַֽחֲנוֹךְ֙ אֶת־עִירָ֔ד וְעִירָ֕ד יָלַ֖ד אֶת־מְחֽוּיָאֵ֑ל וּמְחִיָּיאֵ֗ל יָלַד֙ אֶת־מְת֣וּשָׁאֵ֔ל וּמְתוּשָׁאֵ֖ל יָלַ֥ד אֶת־לָֽמֶךְ׃",
+          "targum": "וְאִתְיְלִיד לַחֲנוֹךְ יָת עִירָד וְעִירָד אוֹלִיד יָת מְחוּיָאֵל וּמְחִיָּיאֵל אוֹלִיד יָת מְתוּשָׁאֵל וּמְתוּשָׁאֵל אוֹלִיד יָת לָמֶךְ:",
+          "english": "And to Ḥanokh was born ῾Irad: and ῾Irad begot Meĥuya᾽el: and Meĥiyya᾽el begot Metusha᾽el: and Metusha᾽el begot Lemekh."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וַיִּֽקַּֽח־ל֥וֹ לֶ֖מֶךְ שְׁתֵּ֣י נָשִׁ֑ים שֵׁ֤ם הָֽאַחַת֙ עָדָ֔ה וְשֵׁ֥ם הַשֵּׁנִ֖ית צִלָּֽה׃",
+          "targum": "וּנְסִיב לֵהּ לֶמֶךְ תַּרְתֵּין נְשִׁין שׁוּם חֲדָא עָדָה וְשׁוּם תִּנְיֵתָא צִלָּה:",
+          "english": "And Lemekh took to him two wives: the name of the one was ῾Ada, and the name of the other Żilla."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַתֵּ֥לֶד עָדָ֖ה אֶת־יָבָ֑ל ה֣וּא הָיָ֔ה אֲבִ֕י יֹשֵׁ֥ב אֹ֖הֶל וּמִקְנֶֽה׃",
+          "targum": "וִילֵידַת עָדָה יָת יָבָל הוּא הֲוָה רַבְּהוֹן דְּיָתְבֵי מַשְׁכְּנִין וּמָרֵי בְעִיר:",
+          "english": "And ῾Ada bore Yaval: he was the father of such as dwell in tents, and of such as have cattle."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וְשֵׁ֥ם אָחִ֖יו יוּבָ֑ל ה֣וּא הָיָ֔ה אֲבִ֕י כׇּל־תֹּפֵ֥שׂ כִּנּ֖וֹר וְעוּגָֽב׃",
+          "targum": "וְשׁוּם אֲחוֹהִי יוּבָל הוּא הֲוָה רַבְּהוֹן דְּכָל דִּמְנַגֵּן עַל פּוּם נִבְלָא יָדְעֵי זְמַר כִּנּוֹרָא וְאַבּוּבָא:",
+          "english": "And his brother’s name was Yuval: he was the father of all such as handle the lyre and pipe."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וְצִלָּ֣ה גַם־הִ֗וא יָֽלְדָה֙ אֶת־תּ֣וּבַל קַ֔יִן לֹטֵ֕שׁ כׇּל־חֹרֵ֥שׁ נְחֹ֖שֶׁת וּבַרְזֶ֑ל וַֽאֲח֥וֹת תּֽוּבַל־קַ֖יִן נַֽעֲמָֽה׃",
+          "targum": "וְצִלָּה אַף הִיא יְלֵידַת יָת תּוּבַל קַיִן רַבְּהוֹן דְכָל דְּיָדְעֵי עִיבִידַת נְחָשָׁא וּפַרְזְלָא וַאֲחָתֵהּ דְתוּבַל קַיִן נַעֲמָה:",
+          "english": "And Żilla, she also bore Tuval-qayin, forger of every sharp instrument in brass and iron: and the sister of Tuval-qayin was Na῾ama."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַיֹּ֨אמֶר לֶ֜מֶךְ לְנָשָׁ֗יו עָדָ֤ה וְצִלָּה֙ שְׁמַ֣עַן קוֹלִ֔י נְשֵׁ֣י לֶ֔מֶךְ הַאְזֵ֖נָּה אִמְרָתִ֑י כִּ֣י אִ֤ישׁ הָרַ֙גְתִּי֙ לְפִצְעִ֔י וְיֶ֖לֶד לְחַבֻּרָתִֽי׃",
+          "targum": "וַאֲמַר לֶמֶךְ לִנְשׁוֹהִי עָדָה וְצִלָּה שִׁמְעַן קָלִי נְשֵׁי לֶמֶךְ אֲצֵיתָא לְמֵמְרִי לָא גַּבְרָא קְטָלִית דִּבְדִילֵהּ אֲנָא סָבִיל חוֹבִין וְאַף לָא עוּלֵימָא חַבָּלִית דִּבְדִילֵהּ יִשְׁתֵּיצֵי זַרְעִי:",
+          "english": "And Lemekh said to his wives, ῾Ada and Żilla, Hear my voice; wives of Lemekh, hearken to my speech: for I have slain a man for wounding me, and a young man for my hurt."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "כִּ֥י שִׁבְעָתַ֖יִם יֻקַּם־קָ֑יִן וְלֶ֖מֶךְ שִׁבְעִ֥ים וְשִׁבְעָֽה׃",
+          "targum": "אֲרֵי שַׁבְעָא דָּרִין אִיתְלִאוּ לְקָיִן הֲלָא לְלֶמֶךְ בְּרֵהּ שַׁבְעִין וְשַׁבְעָא:",
+          "english": "If Qayin shall be avenged sevenfold, truly Lemekh seventy and sevenfold."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַיֵּ֨דַע אָדָ֥ם עוֹד֙ אֶת־אִשְׁתּ֔וֹ וַתֵּ֣לֶד בֵּ֔ן וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ שֵׁ֑ת כִּ֣י שָֽׁת־לִ֤י אֱלֹהִים֙ זֶ֣רַע אַחֵ֔ר תַּ֣חַת הֶ֔בֶל כִּ֥י הֲרָג֖וֹ קָֽיִן׃",
+          "targum": "וִידַע אָדָם עוֹד יָת אִתְּתֵהּ וִילֵידַת בַּר וּקְרַת יָת שְׁמֵהּ שֵׁת אֲרֵי אַמָרַת יְהַב לִי יְיָ בַּר אוֹחֲרָן חֲלַף הֶבֶל דִּקַטְלֵהּ קָיִן:",
+          "english": "And Adam (Man) knew his wife again; and she bore a son, and called his name Shet: For God, said she, has appointed me another seed instead of Hevel whom Qayin slew."
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וּלְשֵׁ֤ת גַּם־הוּא֙ יֻלַּד־בֵּ֔ן וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ אֱנ֑וֹשׁ אָ֣ז הוּחַ֔ל לִקְרֹ֖א בְּשֵׁ֥ם יְהֹוָֽה׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וּלְשֵׁת אַף הוּא אִתְיְלִיד בַּר וּקְרָא יָת שְׁמֵהּ אֱנוֹשׁ בְּכֵן בְּיוֹמוֹהִי חָלוּ בְנֵי אֱנָשָׁא מִלְּצַלָּאָה בִּשְׁמָא דַּיְיָ:",
+          "english": "And to Shet, to him also there was born a son; and he called his name Enosh: then men began to call upon the Lord by name."
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "זֶ֣ה סֵ֔פֶר<sup class=\"footnote-marker\">*</sup><i class=\"footnote\">(בספרי תימן <big>סֵ֔</big>פֶר בסמ״ך גדולה)</i> תּוֹלְדֹ֖ת אָדָ֑ם בְּי֗וֹם בְּרֹ֤א אֱלֹהִים֙ אָדָ֔ם בִּדְמ֥וּת אֱלֹהִ֖ים עָשָׂ֥ה אֹתֽוֹ׃",
+          "targum": "דֵּין סְפַר תּוּלְדַת אָדָם בְּיוֹמָא דִּבְרָא יְיָ אָדָם בִּדְמוּת אֱלֹהִים עָבַד יָתֵהּ:",
+          "english": "This is the book of the generations of Adam (Man). In the day that God created mankind, in the likeness of God He made him;"
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "זָכָ֥ר וּנְקֵבָ֖ה בְּרָאָ֑ם וַיְבָ֣רֶךְ אֹתָ֗ם וַיִּקְרָ֤א אֶת־שְׁמָם֙ אָדָ֔ם בְּי֖וֹם הִבָּֽרְאָֽם׃",
+          "targum": "דְּכַר וְנוּקְבָא בְּרָאנוּן וּבָרִיךְ יָתְהוֹן וּקְרָא יָת שְׁמָהוֹן אָדָם בְּיוֹמָא דְאִתְבְּרִיאוּ:",
+          "english": "male and female He created them; and blessed them, and called their name Man, in the day when they were created."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיְחִ֣י אָדָ֗ם שְׁלֹשִׁ֤ים וּמְאַת֙ שָׁנָ֔ה וַיּ֥וֹלֶד בִּדְמוּת֖וֹ כְּצַלְמ֑וֹ וַיִּקְרָ֥א אֶת־שְׁמ֖וֹ שֵֽׁת׃",
+          "targum": "וַחֲיָא אָדָם מְאָה וּתְלָתִין שְׁנִין וְאוֹלִיד בִּדְמוּתֵהּ דְּדָמֵי לֵהּ וּקְרָא יָת שְׁמֵהּ שֵׁת:",
+          "english": "And Adam lived a hundred and thirty years, and begot a son in his own likeness, after his image; and called his name Shet:"
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וַיִּֽהְי֣וּ יְמֵי־אָדָ֗ם אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־שֵׁ֔ת שְׁמֹנֶ֥ה מֵאֹ֖ת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃",
+          "targum": "וַהֲווֹ יוֹמֵי אָדָם בָּתַר דְּאוֹלִיד יָת שֵׁת תַּמְנֵי מְאָה שְׁנִין וְאוֹלִיד בְּנִין וּבְנָן:",
+          "english": "and the days of Adam after he had begotten Shet were eight hundred years: and he begot sons and daughters:"
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַיִּֽהְי֞וּ כׇּל־יְמֵ֤י אָדָם֙ אֲשֶׁר־חַ֔י תְּשַׁ֤ע מֵאוֹת֙ שָׁנָ֔ה וּשְׁלֹשִׁ֖ים שָׁנָ֑ה וַיָּמֹֽת׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַהֲווֹ כָּל יוֹמֵי אָדָם דַחֲיָא תְּשַׁע מְאָה וּתְלָתִין שְׁנִין וּמִית:",
+          "english": "and all the days that Adam lived were nine hundred and thirty years: and he died."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וַֽיְחִי־שֵׁ֕ת חָמֵ֥שׁ שָׁנִ֖ים וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־אֱנֽוֹשׁ׃",
+          "targum": "וַחֲיָא שֵׁת מְאָה וַחֲמֵשׁ שְׁנִין וְאוֹלִיד יָת אֱנוֹשׁ:",
+          "english": "And Shet lived a hundred and five years, and begot Enosh:"
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַֽיְחִי־שֵׁ֗ת אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־אֱנ֔וֹשׁ שֶׁ֣בַע שָׁנִ֔ים וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃",
+          "targum": "וַחֲיָא שֵׁת בָּתַר דְּאוֹלִיד יָת אֱנוֹשׁ תַּמְנֵי מְאָה וּשְׁבַע שְׁנִין וְאוֹלִיד בְּנִין וּבְנָן:",
+          "english": "and Shet lived after he begot Enosh eight hundred and seven years, and begot sons and daughters:"
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וַיִּֽהְיוּ֙ כׇּל־יְמֵי־שֵׁ֔ת שְׁתֵּ֤ים עֶשְׂרֵה֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַהֲווֹ כָּל יוֹמֵי שֵׁת תְּשַׁע מְאָה וְתַרְתֵּי עַשְׂרֵי שְׁנִין וּמִית:",
+          "english": "and all the days of Shet were nine hundred and twelve years: and he died."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וַיְחִ֥י אֱנ֖וֹשׁ תִּשְׁעִ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־קֵינָֽן׃",
+          "targum": "וַחֲיָא אֱנוֹשׁ תִּשְׁעִין שְׁנִין וְאוֹלִיד יָת קֵינָן:",
+          "english": "And Enosh lived ninety years, and begot Qenan:"
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַיְחִ֣י אֱנ֗וֹשׁ אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־קֵינָ֔ן חֲמֵ֤שׁ עֶשְׂרֵה֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃",
+          "targum": "וַחֲיָא אֱנוֹשׁ בָּתַר דְאוֹלִיד יָת קֵינָן תַּמְנֵי מְאָה וַחֲמֵשׁ עַשְׂרֵי שְׁנִין וְאוֹלִיד בְּנִין וּבְנָן:",
+          "english": "and Enosh lived after he begot Qenan eight hundred and fifteen years, and begot sons and daughters:"
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַיִּֽהְיוּ֙ כׇּל־יְמֵ֣י אֱנ֔וֹשׁ חָמֵ֣שׁ שָׁנִ֔ים וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַהֲווֹ כָּל יוֹמֵי אֱנוֹשׁ תְּשַׁע מְאָה וַחֲמֵשׁ שְׁנִין וּמִית:",
+          "english": "and all the days of Enosh were nine hundred and five years: and he died."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַיְחִ֥י קֵינָ֖ן שִׁבְעִ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־מַֽהֲלַלְאֵֽל׃",
+          "targum": "וַחֲיָא קֵינָן שַׁבְעִין שְׁנִין וְאוֹלִיד יָת מַהֲלַלְאֵל:",
+          "english": "And Qenan lived seventy years, and begot Mahalal᾽el:"
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וַיְחִ֣י קֵינָ֗ן אַחֲרֵי֙ הוֹלִיד֣וֹ אֶת־מַֽהֲלַלְאֵ֔ל אַרְבָּעִ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃",
+          "targum": "וַחֲיָא קֵינָן בָּתַר דְּאוֹלִיד יָת מַהֲלַלְאֵל תַּמְנֵי מְאָה וְאַרְבְּעִין שְׁנִין וְאוֹלִיד בְּנִין וּבְנָן:",
+          "english": "and Qenan lived after he begot Mahalal᾽el eight hundred and forty years, and begot sons and daughters:"
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַיִּֽהְיוּ֙ כׇּל־יְמֵ֣י קֵינָ֔ן עֶ֣שֶׂר שָׁנִ֔ים וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַהֲווֹ כָּל יוֹמֵי קֵינָן תְּשַׁע מְאָה וַעֲשַׂר שְׁנִין וּמִית:",
+          "english": "and all the days of Qenan were nine hundred and ten years: and he died."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וַיְחִ֣י מַֽהֲלַלְאֵ֔ל חָמֵ֥שׁ שָׁנִ֖ים וְשִׁשִּׁ֣ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־יָֽרֶד׃",
+          "targum": "וַחֲיָא מַהֲלַלְאֵל שִׁתִּין וַחֲמֵשׁ שְׁנִין וְאוֹלִיד יָת יָרֶד:",
+          "english": "And Mahalal᾽el lived sixty five years, and begot Yered:"
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וַיְחִ֣י מַֽהֲלַלְאֵ֗ל אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־יֶ֔רֶד שְׁלֹשִׁ֣ים שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃",
+          "targum": "וַחֲיָא מַהֲלַלְאֵל בָּתַר דְּאוֹלִיד יָת יֶרֶד תַּמְנֵי מְאָה וּתְלָתִין שְׁנִין וְאוֹלִיד בְּנִין וּבְנָן:",
+          "english": "and Mahalal᾽el lived after he begot Yered eight hundred and thirty years, and he begot sons and daughters:"
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיִּהְיוּ֙ כׇּל־יְמֵ֣י מַהֲלַלְאֵ֔ל חָמֵ֤שׁ וְתִשְׁעִים֙ שָׁנָ֔ה וּשְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַהֲווֹ כָּל יוֹמֵי מַהֲלַלְאֵל תַּמְנֵי מְאָה וְתִשְׁעִין וַחֲמֵשׁ שְׁנִין וּמִית:",
+          "english": "and all the days of Mahalal᾽el were eight hundred and ninety five years: and he died."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וַֽיְחִי־יֶ֕רֶד שְׁתַּ֧יִם וְשִׁשִּׁ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־חֲנֽוֹךְ׃",
+          "targum": "וַחֲיָא יֶרֶד מְאָה וְשִׁתִּין וְתַרְתֵּין שְׁנִין וְאוֹלִיד יָת חֲנוֹךְ:",
+          "english": "And Yered lived a hundred and sixty two years, and he begot Ḥanokh:"
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וַֽיְחִי־יֶ֗רֶד אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־חֲנ֔וֹךְ שְׁמֹנֶ֥ה מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃",
+          "targum": "וַחֲיָא יֶרֶד בָּתַר דְּאוֹלִיד יָת חֲנוֹךְ תַּמְנֵי מְאָה שְׁנִין וְאוֹלִיד בְּנִין וּבְנָן:",
+          "english": "and Yered lived after he begot Ḥanokh eight hundred years, and begot sons and daughters:"
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיִּֽהְיוּ֙ כׇּל־יְמֵי־יֶ֔רֶד שְׁתַּ֤יִם וְשִׁשִּׁים֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַהֲווֹ כָּל יוֹמֵי יֶרֶד תְּשַׁע מְאָה וְשִׁתִּין וְתַרְתֵּין שְׁנִין וּמִית:",
+          "english": "and all the days of Yered were nine hundred and sixty two years: and he died."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וַיְחִ֣י חֲנ֔וֹךְ חָמֵ֥שׁ וְשִׁשִּׁ֖ים שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־מְתוּשָֽׁלַח׃",
+          "targum": "וַחֲיָא חֲנוֹךְ שִׁתִּין וַחֲמֵשׁ שְׁנִין וְאוֹלִיד יָת מְתוּשָׁלַח:",
+          "english": "And Ḥanokh lived sixty five years, and begot Metushelaĥ:"
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וַיִּתְהַלֵּ֨ךְ חֲנ֜וֹךְ אֶת־הָֽאֱלֹהִ֗ים אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־מְתוּשֶׁ֔לַח שְׁלֹ֥שׁ מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃",
+          "targum": "וְהַלִּיךְ חֲנוֹךְ בְּדַחַלְתָּא דַּיְיָ בָּתַר דְּאוֹלִיד יָת מְתוּשֶׁלַח תְּלַת מְאָה שְׁנִין וְאוֹלִיד בְּנִין וּבְנָן:",
+          "english": "and Ḥanokh walked with God after he begot Metushelaĥ three hundred years, and begot sons and daughters:"
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַיְהִ֖י כׇּל־יְמֵ֣י חֲנ֑וֹךְ חָמֵ֤שׁ וְשִׁשִּׁים֙ שָׁנָ֔ה וּשְׁלֹ֥שׁ מֵא֖וֹת שָׁנָֽה׃",
+          "targum": "וַהֲוָה כָּל יוֹמֵי חֲנוֹךְ תְּלַת מְאָה וְשִׁתִּין וַחֲמֵשׁ שְׁנִין:",
+          "english": "and all the days of Ḥanokh were three hundred and sixty five years:"
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וַיִּתְהַלֵּ֥ךְ חֲנ֖וֹךְ אֶת־הָֽאֱלֹהִ֑ים וְאֵינֶ֕נּוּ כִּֽי־לָקַ֥ח אֹת֖וֹ אֱלֹהִֽים׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וְהַלִּיךְ חֲנוֹךְ בְּדַחַלְתָּא דַּיְיָ וְלַיְתוֹהִי אֲרֵי (לָא) אֲמֵית יָתֵהּ יְיָ:",
+          "english": "and Ḥanokh walked with God: and he was not; for God took him."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַיְחִ֣י מְתוּשֶׁ֔לַח שֶׁ֧בַע וּשְׁמֹנִ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד אֶת־לָֽמֶךְ׃",
+          "targum": "וַחֲיָא מְתוּשֶׁלַח מְאָה וְתַמְנִין וּשְׁבַע שְׁנִין וְאוֹלִיד יָת לָמֶךְ:",
+          "english": "And Metushelaĥ lived a hundred and eighty seven years, and begot Lemekh:"
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וַיְחִ֣י מְתוּשֶׁ֗לַח אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־לֶ֔מֶךְ שְׁתַּ֤יִם וּשְׁמוֹנִים֙ שָׁנָ֔ה וּשְׁבַ֥ע מֵא֖וֹת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃",
+          "targum": "וַחֲיָא מְתוּשֶׁלַח בָּתַר דְּאוֹלִיד יָת לֶמֶךְ שְׁבַע מְאָה וְתַמְנִין וְתַרְתֵּין שְׁנִין וְאוֹלִיד בְּנִין וּבְנָן:",
+          "english": "and Metushelaĥ lived after he begot Lemekh seven hundred and eighty two years, and begot sons and daughters:"
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "וַיִּהְיוּ֙ כׇּל־יְמֵ֣י מְתוּשֶׁ֔לַח תֵּ֤שַׁע וְשִׁשִּׁים֙ שָׁנָ֔ה וּתְשַׁ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַהֲווֹ כָּל יוֹמֵי מְתוּשֶׁלַח תְּשַׁע מְאָה וְשִׁתִּין וּתְשַׁע שְׁנִין וּמִית:",
+          "english": "and all the days of Metushelaĥ were nine hundred and sixty nine years: and he died."
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וַֽיְחִי־לֶ֕מֶךְ שְׁתַּ֧יִם וּשְׁמֹנִ֛ים שָׁנָ֖ה וּמְאַ֣ת שָׁנָ֑ה וַיּ֖וֹלֶד בֵּֽן׃",
+          "targum": "וַחֲיָא לֶמֶךְ מְאָה וְתַמְנִין וְתַרְתֵּין שְׁנִין וְאוֹלִיד בָּר:",
+          "english": "And Lemekh lived a hundred and eighty two years, and begot a son:"
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "וַיִּקְרָ֧א אֶת־שְׁמ֛וֹ נֹ֖חַ לֵאמֹ֑ר זֶ֞֠ה יְנַחֲמֵ֤נוּ מִֽמַּעֲשֵׂ֙נוּ֙ וּמֵעִצְּב֣וֹן יָדֵ֔ינוּ מִן־הָ֣אֲדָמָ֔ה אֲשֶׁ֥ר אֵֽרְרָ֖הּ יְהֹוָֽה׃",
+          "targum": "וּקְרָא יָת שְׁמֵהּ נֹחַ לְמֵימָר דֵּין יְנַחֲמִנָּנָא מֵעוֹבָדָנָא וּמִלֵּאוּת יְדָנָא מִן אַרְעָא דִּי לַטְטַהּ יְיָ:",
+          "english": "and he called his name Noaĥ, saying, This one shall comfort us for our work and the toil of our hands, because of the ground which the Lord has cursed."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "וַֽיְחִי־לֶ֗מֶךְ אַֽחֲרֵי֙ הוֹלִיד֣וֹ אֶת־נֹ֔חַ חָמֵ֤שׁ וְתִשְׁעִים֙ שָׁנָ֔ה וַחֲמֵ֥שׁ מֵאֹ֖ת שָׁנָ֑ה וַיּ֥וֹלֶד בָּנִ֖ים וּבָנֽוֹת׃",
+          "targum": "וַחֲיָא לֶמֶךְ בָּתַר דְּאוֹלִיד יָת נֹחַ חֲמֵשׁ מְאָה וְתִשְׁעִין וַחֲמֵשׁ שְׁנִין וְאוֹלִיד בְּנִין וּבְנָן:",
+          "english": "And Lemekh lived after he begot Noaĥ five hundred and ninety five years, and begot sons and daughters:"
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "וַֽיְהִי֙ כׇּל־יְמֵי־לֶ֔מֶךְ שֶׁ֤בַע וְשִׁבְעִים֙ שָׁנָ֔ה וּשְׁבַ֥ע מֵא֖וֹת שָׁנָ֑ה וַיָּמֹֽת׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַהֲווֹ כָּל יוֹמֵי לֶמֶךְ שְׁבַע מְאָה וְשַׁבְעִין וּשְׁבַע שְׁנִין וּמִית:",
+          "english": "and all the days of Lemekh were seven hundred and seventy seven years: and he died."
+        },
+        {
+          "verseNum": 32,
+          "hebrew": "וַֽיְהִי־נֹ֕חַ בֶּן־חֲמֵ֥שׁ מֵא֖וֹת שָׁנָ֑ה וַיּ֣וֹלֶד נֹ֔חַ אֶת־שֵׁ֖ם אֶת־חָ֥ם וְאֶת־יָֽפֶת׃",
+          "targum": "וַהֲוָה נֹחַ בַּר חֲמֵשׁ מְאָה שְׁנִין וְאוֹלִיד נֹחַ יָת שֵׁם יָת חָם וְיָת יָפֶת:",
+          "english": "And Noaĥ was five hundred years old: and Noaĥ begot Shem, Ḥam, and Yefet."
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַֽיְהִי֙ כִּֽי־הֵחֵ֣ל הָֽאָדָ֔ם לָרֹ֖ב עַל־פְּנֵ֣י הָֽאֲדָמָ֑ה וּבָנ֖וֹת יֻלְּד֥וּ לָהֶֽם׃",
+          "targum": "וַהֲוָה כַּד שְׁרִיאוּ בְנֵי אֱנָשָׁא לְמִסְגֵּי עַל אַפֵּי אַרְעָא וּבְנָתָא אִתְיְלִידוּ לְהוֹן:",
+          "english": "And it came to pass, when men began to multiply on the face of the earth, and daughters were born to them,"
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וַיִּרְא֤וּ בְנֵי־הָֽאֱלֹהִים֙ אֶת־בְּנ֣וֹת הָֽאָדָ֔ם כִּ֥י טֹבֹ֖ת הֵ֑נָּה וַיִּקְח֤וּ לָהֶם֙ נָשִׁ֔ים מִכֹּ֖ל אֲשֶׁ֥ר בָּחָֽרוּ׃",
+          "targum": "וַחֲזוֹ בְנֵי רַבְרְבַיָּא יָת בְּנַת אֱנָשָׁא אֲרֵי שַׁפִּירָן אִנוּן וּנְסִיבוּ לְהוֹן נְשִׁין מִכֹּל דִּי אִתְרְעִיאוּ:",
+          "english": "that the distinguished men saw that the daughters of men were fair; and they took them wives of all whom they chose."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיֹּ֣אמֶר יְהֹוָ֗ה לֹֽא־יָד֨וֹן רוּחִ֤י בָֽאָדָם֙ לְעֹלָ֔ם בְּשַׁגַּ֖ם ה֣וּא בָשָׂ֑ר וְהָי֣וּ יָמָ֔יו מֵאָ֥ה וְעֶשְׂרִ֖ים שָׁנָֽה׃",
+          "targum": "וַאֲמַר יְיָ לָא יִתְקַיַם דָרָא בִישָׁא הָדֵין קֳדָמַי לְעַלָם בְּדִיל דְאִנוּן בִּשְׂרָא וְעוֹבָדֵיהוֹן בִּישַׁיָא אַרְכָא יְהִיבַת לְהוֹן מְאָה וְעַשְׂרִין שְׁנִין אִם יְתוּבוּן:",
+          "english": "And the Lord said, My spirit shall not always strive on account of man, for that he also is flesh: and his days shall be a hundred and twenty years."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "הַנְּפִלִ֞ים הָי֣וּ בָאָ֘רֶץ֮ בַּיָּמִ֣ים הָהֵם֒ וְגַ֣ם אַֽחֲרֵי־כֵ֗ן אֲשֶׁ֨ר יָבֹ֜אוּ בְּנֵ֤י הָֽאֱלֹהִים֙ אֶל־בְּנ֣וֹת הָֽאָדָ֔ם וְיָלְד֖וּ לָהֶ֑ם הֵ֧מָּה הַגִּבֹּרִ֛ים אֲשֶׁ֥ר מֵעוֹלָ֖ם אַנְשֵׁ֥י הַשֵּֽׁם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "גִּבָּרַיָּא הֲווֹ בְאַרְעָא בְּיוֹמַיָּא הָאִנּוּן וְאַף בָּתַר כֵּן דִּי יַעֲלוּן בְּנֵי רַבְרְבַיָּא לְוַת בְּנַת אֱנָשָׁא וִילִידָן לְהוֹן אִנוּן גִּבָּרַיָּא דִּמֵעָלְמָא אֱנָשִׁין דִּשְׁמָא:",
+          "english": "There were Nefilim in the earth in those days; and also after that, when the distinguished men came in to the daughters of men, and they bore children to them; the same were mighty men of old, men of renown."
+        }
+      ]
+    }
+  ]
+}

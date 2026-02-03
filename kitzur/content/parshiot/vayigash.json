@@ -1,0 +1,770 @@
+{
+  "name": "Vayigash",
+  "book": "Genesis",
+  "chapters": [
+    {
+      "chapter": 44,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיְצַ֞ו אֶת־אֲשֶׁ֣ר עַל־בֵּיתוֹ֮ לֵאמֹר֒ מַלֵּ֞א אֶת־אַמְתְּחֹ֤ת הָֽאֲנָשִׁים֙ אֹ֔כֶל כַּאֲשֶׁ֥ר יוּכְל֖וּן שְׂאֵ֑ת וְשִׂ֥ים כֶּֽסֶף־אִ֖ישׁ בְּפִ֥י אַמְתַּחְתּֽוֹ׃",
+          "targum": "וּפַקֵּיד יָת דִּי מְמַנָּא עַל בֵּיתֵיהּ לְמֵימַר מְלֵי יָת טוֹעֲנֵי גֻבְרַיָּא עִיבוּרָא כְּמָה דִי יָכְלִין לְמַטְּלֵי וְשַׁוִּי כְּסַף גְּבַר בְּפוּם טוֹעֲנֵיהּ:",
+          "english": "And he commanded the steward of his house, saying, Fill the men’s sacks with food, as much as they can carry, and put every man’s money in the mouth of his sack."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וְאֶת־גְּבִיעִ֞י גְּבִ֣יעַ הַכֶּ֗סֶף תָּשִׂים֙ בְּפִי֙ אַמְתַּ֣חַת הַקָּטֹ֔ן וְאֵ֖ת כֶּ֣סֶף שִׁבְר֑וֹ וַיַּ֕עַשׂ כִּדְבַ֥ר יוֹסֵ֖ף אֲשֶׁ֥ר דִּבֵּֽר׃",
+          "targum": "וְיָת קַלִּידִי קַלִּידָא דְכַסְפָּא תְּשַׁוֵּי בְּפוּם טוֹעֲנָא דִזְעֵירָא וְיָת כְּסַף זְבִינוֹהִי וַעֲבַד כְּפִתְגָּמָא דְיוֹסֵף דִּי מַלִּיל:",
+          "english": "And put my cup, the silver cup, in the mouth of the sack of the youngest, and his corn money. And he did according to the word that Yosef had spoken."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "הַבֹּ֖קֶר א֑וֹר וְהָאֲנָשִׁ֣ים שֻׁלְּח֔וּ הֵ֖מָּה וַחֲמֹרֵיהֶֽם׃",
+          "targum": "צַפְרָא נְהָר וְגֻבְרַיָּא אִתְפַּטָּרוּ אִנּוּן וַחֲמָרֵיהוֹן:",
+          "english": "As soon as the morning was light, the men were sent away, they and their asses."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "הֵ֠ם יָֽצְא֣וּ אֶת־הָעִיר֮ לֹ֣א הִרְחִ֒יקוּ֒ וְיוֹסֵ֤ף אָמַר֙ לַֽאֲשֶׁ֣ר עַל־בֵּית֔וֹ ק֥וּם רְדֹ֖ף אַחֲרֵ֣י הָֽאֲנָשִׁ֑ים וְהִשַּׂגְתָּם֙ וְאָמַרְתָּ֣ אֲלֵהֶ֔ם לָ֛מָּה שִׁלַּמְתֶּ֥ם רָעָ֖ה תַּ֥חַת טוֹבָֽה׃",
+          "targum": "אִנּוּן נְפָקוּ מִן קַרְתָּא לָא אַרְחִיקוּ וְיוֹסֵף אֲמַר לְדִי מְמַנָּא עַל בֵּיתֵיהּ קוּם רְדַף בָּתַר גֻּבְרַיָּא וְתַדְבְּקִנּוּן וְתֵימַר לְהוֹן לְמָה אַשְׁלֶמְתּוּן בִּישָׁא חֳלָף טַבְתָא:",
+          "english": "And when they were gone out of the city, and not yet far off, Yosef said to his steward, Up, follow after the men; and when thou dost overtake them, say to them, Why have you rewarded evil for good?"
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "הֲל֣וֹא זֶ֗ה אֲשֶׁ֨ר יִשְׁתֶּ֤ה אֲדֹנִי֙ בּ֔וֹ וְה֕וּא נַחֵ֥שׁ יְנַחֵ֖שׁ בּ֑וֹ הֲרֵעֹתֶ֖ם אֲשֶׁ֥ר עֲשִׂיתֶֽם׃",
+          "targum": "הֲלָא דֵין דְּשָׁתֵי רִבּוֹנִי בֵּיהּ וְהוּא בָּדָקָא מְבָדֵק בֵּיהּ אַבְאֶשְׁתּוּן דִּי עֲבַדְתּוּן:",
+          "english": "Is not this that from which my lord drinks, and whereby indeed he divines? you have done evil in so doing."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וַֽיַּשִּׂגֵ֑ם וַיְדַבֵּ֣ר אֲלֵהֶ֔ם אֶת־הַדְּבָרִ֖ים הָאֵֽלֶּה׃",
+          "targum": "וְאַדְבֵּיקִנּוּן וּמַלִּיל עִמְּהוֹן יָת פִּתְגָּמַיָּא הָאִלֵּין:",
+          "english": "And he overtook them, and he spoke to them these same words."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַיֹּאמְר֣וּ אֵלָ֔יו לָ֚מָּה יְדַבֵּ֣ר אֲדֹנִ֔י כַּדְּבָרִ֖ים הָאֵ֑לֶּה חָלִ֙ילָה֙ לַעֲבָדֶ֔יךָ מֵעֲשׂ֖וֹת כַּדָּבָ֥ר הַזֶּֽה׃",
+          "targum": "וַאֲמָרוּ לֵיהּ לְמָה יְמַלֵּל רִבּוֹנִי כְּפִתְגָּמַיָּא הָאִלֵּין חַס לְעַבְדָיךְ מִלְּמֶעְבַּד כְּפִתְגָּמָא הָדֵין:",
+          "english": "And they said to him, Why does my lord say these words? Far be it from thy servants to do according to this thing:"
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "הֵ֣ן כֶּ֗סֶף אֲשֶׁ֤ר מָצָ֙אנוּ֙ בְּפִ֣י אַמְתְּחֹתֵ֔ינוּ הֱשִׁיבֹ֥נוּ אֵלֶ֖יךָ מֵאֶ֣רֶץ כְּנָ֑עַן וְאֵ֗יךְ נִגְנֹב֙ מִבֵּ֣ית אֲדֹנֶ֔יךָ כֶּ֖סֶף א֥וֹ זָהָֽב׃",
+          "targum": "הָא כַסְפָּא דִּי אַשְׁכַּחְנָא בְּפוּם טוֹעֲנָנָא אֲתֵיבְנוֹהִי לָךְ מֵאַרְעָא דִכְנָעַן וְאֶכְדֵּין נִגְנוּב מִבֵּית רִבּוֹנָךְ כַּסְפָּא אוֹ דַהֲבָא (מָנִין דִּכְסַף אוֹ מָנִין דִּדְהָב):",
+          "english": "behold, the money, which we found in our sacks’ mouths, we brought again to thee out of the land of Kena῾an: how then should we steal out of thy lord’s house silver or gold?"
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "אֲשֶׁ֨ר יִמָּצֵ֥א אִתּ֛וֹ מֵעֲבָדֶ֖יךָ וָמֵ֑ת וְגַם־אֲנַ֕חְנוּ נִֽהְיֶ֥ה לַֽאדֹנִ֖י לַעֲבָדִֽים׃",
+          "targum": "דִּי יִשְׁתְּכַח עִמֵּיהּ מֵעַבְדָיךְ וּמִית וְאַף אֲנַחְנָא נְהֵי לְרִבּוֹנִי לְעַבְדִּין:",
+          "english": "With whomever of thy servants it be found, let him die, and we also will be my lord’s bondmen."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַיֹּ֕אמֶר גַּם־עַתָּ֥ה כְדִבְרֵיכֶ֖ם כֶּן־ה֑וּא אֲשֶׁ֨ר יִמָּצֵ֤א אִתּוֹ֙ יִהְיֶה־לִּ֣י עָ֔בֶד וְאַתֶּ֖ם תִּהְי֥וּ נְקִיִּֽם׃",
+          "targum": "וַאֲמַר אַף כְּעַן כְּפִתְגָּמֵיכוֹן כֶּן הוּא דִּי יִשְׁתְּכַח עִמֵּיהּ יְהֵי לִי עַבְדָּא וְאַתּוּן תְּהוֹן זַכָּאִין:",
+          "english": "And he said, Now also let it be according to your words: he with whom it is found shall be my bondman; and you shall be blameless."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַֽיְמַהֲר֗וּ וַיּוֹרִ֛דוּ אִ֥ישׁ אֶת־אַמְתַּחְתּ֖וֹ אָ֑רְצָה וַֽיִּפְתְּח֖וּ אִ֥ישׁ אַמְתַּחְתּֽוֹ׃",
+          "targum": "וְאוֹחִיאוּ וּנְחִיתוּ (ס\"א וְאַחִיתוּ) גְּבַר יָת טוֹעֲנֵיהּ לְאַרְעָא וּפְתָחוּ גְּבַר טוֹעֲנֵיהּ:",
+          "english": "Then they speedily took down every man his sack to the ground, and opened every man his sack."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַיְחַפֵּ֕שׂ בַּגָּד֣וֹל הֵחֵ֔ל וּבַקָּטֹ֖ן כִּלָּ֑ה וַיִּמָּצֵא֙ הַגָּבִ֔יעַ בְּאַמְתַּ֖חַת בִּנְיָמִֽן׃",
+          "targum": "וּבְלַשׁ בְּרַבָּא שָׁרִי וּבִזְעֵירָא שֵׁצִי וְאִשְׁתְּכַח קַלִּידָא בְּטוֹעֲנָא דְּבִנְיָמִן:",
+          "english": "And he searched, and began at the eldest, and ended at the youngest: and the cup was found in Binyamin’s sack."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וַֽיִּקְרְע֖וּ שִׂמְלֹתָ֑ם וַֽיַּעֲמֹס֙ אִ֣ישׁ עַל־חֲמֹר֔וֹ וַיָּשֻׁ֖בוּ הָעִֽירָה׃",
+          "targum": "וּבְזָעוּ לְבוּשֵׁיהוֹן וּרְמוֹ גְּבַר עַל חֲמָרֵיהּ וְתָבוּ לְקַרְתָּא:",
+          "english": "Then they rent their clothes, and loaded every man his ass, and returned to the city."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַיָּבֹ֨א יְהוּדָ֤ה וְאֶחָיו֙ בֵּ֣יתָה יוֹסֵ֔ף וְה֖וּא עוֹדֶ֣נּוּ שָׁ֑ם וַיִּפְּל֥וּ לְפָנָ֖יו אָֽרְצָה׃",
+          "targum": "וְעַל יְהוּדָה וַאֲחוֹהִי לְבֵית יוֹסֵף וְהוּא עַד כְּעַן תַּמָּן וּנְפָלוּ קֳדָמוֹהִי לְאַרְעָא:",
+          "english": "And Yehuda and his brethren came to Yosef’s house; for he was still there: and they fell before him to the ground."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וַיֹּ֤אמֶר לָהֶם֙ יוֹסֵ֔ף מָֽה־הַמַּעֲשֶׂ֥ה הַזֶּ֖ה אֲשֶׁ֣ר עֲשִׂיתֶ֑ם הֲל֣וֹא יְדַעְתֶּ֔ם כִּֽי־נַחֵ֧שׁ יְנַחֵ֛שׁ אִ֖ישׁ אֲשֶׁ֥ר כָּמֹֽנִי׃",
+          "targum": "וַאֲמַר לְהוֹן יוֹסֵף מָה עוֹבָדָא הָדֵין דִּי עֲבַדְתּוּן הֲלָא יְדַעְתּוּן אֲרֵי בָדָקָא מְבָדֵק גַּבְרָא דִּי כְוָתִי:",
+          "english": "And Yosef said to them, What deed is this that you have done? do you not know that such a man as I can certainly divine?"
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וַיֹּ֣אמֶר יְהוּדָ֗ה מַה־נֹּאמַר֙ לַֽאדֹנִ֔י מַה־נְּדַבֵּ֖ר וּמַה־נִּצְטַדָּ֑ק הָאֱלֹהִ֗ים מָצָא֙ אֶת־עֲוֺ֣ן עֲבָדֶ֔יךָ הִנֶּ֤נּוּ עֲבָדִים֙ לַֽאדֹנִ֔י גַּם־אֲנַ֕חְנוּ גַּ֛ם אֲשֶׁר־נִמְצָ֥א הַגָּבִ֖יעַ בְּיָדֽוֹ׃",
+          "targum": "וַאֲמַר יְהוּדָה מַה נֵּימַר לְרִבּוֹנִי מַה נְּמַלֵּל וּמַה נִּזְכֵּי מִן קֳדָם יְיָ אִשְׁתְּכַח יָת חוֹבָא בְעַבְדָּיךְ הָא אֲנַחְנָא עַבְדִּין לְרִבּוֹנִי אַף אֲנַחְנָא אַף דְּאִשְׁתְּכַח קַלִּידָא בִּידֵיהּ:",
+          "english": "And Yehuda said, What shall we say to my lord? what shall we speak? or how shall we clear ourselves? God has found out the iniquity of thy servants: behold, we are my lord’s bondmen, both we, and he also with whom the cup is found."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיֹּ֕אמֶר חָלִ֣ילָה לִּ֔י מֵעֲשׂ֖וֹת זֹ֑את הָאִ֡ישׁ אֲשֶׁר֩ נִמְצָ֨א הַגָּבִ֜יעַ בְּיָד֗וֹ ה֚וּא יִהְיֶה־לִּ֣י עָ֔בֶד וְאַתֶּ֕ם עֲל֥וּ לְשָׁל֖וֹם אֶל־אֲבִיכֶֽם׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַאֲמַר חַס לִי מִלְּמֶעְבַּד דָּא גַּבְרָא דִּי יִשְׁתְּכַח קַלִּידָא בִּידֵיהּ הוּא יְהֵי לִי עַבְדָּא וְאַתּוּן סְקוֹ לִשְׁלַם לְוַת אֲבוּכוֹן:",
+          "english": "And he said, Far be it from me that I should do so: but the man in whose hand the cup is found, he shall be my bondman; and as for you, go up in peace to your father."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וַיִּגַּ֨שׁ אֵלָ֜יו יְהוּדָ֗ה וַיֹּ֘אמֶר֮ בִּ֣י אֲדֹנִי֒ יְדַבֶּר־נָ֨א עַבְדְּךָ֤ דָבָר֙ בְּאׇזְנֵ֣י אֲדֹנִ֔י וְאַל־יִ֥חַר אַפְּךָ֖ בְּעַבְדֶּ֑ךָ כִּ֥י כָמ֖וֹךָ כְּפַרְעֹֽה׃",
+          "targum": "וּקְרֵב לְוָתֵיהּ יְהוּדָה וַאֲמַר בְּבָעוּ רִבּוֹנִי יְמַלֶּל כְּעַן עַבְדָךְ פִּתְגָּמָא קֳדָם רִבּוֹנִי וְלָא יִתְקֵף רוּגְזָךְ בְּעַבְדָךְ אֲרֵי כְפַרְעֹה כֶּן אָתְּ:",
+          "english": "Then Yehuda came near to him, and said, Oh my lord, let thy servant, I pray thee, speak a word in my lord’s ears, and let not thy anger burn against thy servant: for thou art even as Par῾o."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "אֲדֹנִ֣י שָׁאַ֔ל אֶת־עֲבָדָ֖יו לֵאמֹ֑ר הֲיֵשׁ־לָכֶ֥ם אָ֖ב אוֹ־אָֽח׃",
+          "targum": "רִבּוֹנִי שְׁאִיל יָת עַבְדוֹהִי לְמֵימָר הַאִית לְכוֹן אַבָּא אוֹ אָחָא:",
+          "english": "My lord asked his servants, saying, Have you a father, or a brother?"
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַנֹּ֙אמֶר֙ אֶל־אֲדֹנִ֔י יֶשׁ־לָ֙נוּ֙ אָ֣ב זָקֵ֔ן וְיֶ֥לֶד זְקֻנִ֖ים קָטָ֑ן וְאָחִ֣יו מֵ֔ת וַיִּוָּתֵ֨ר ה֧וּא לְבַדּ֛וֹ לְאִמּ֖וֹ וְאָבִ֥יו אֲהֵבֽוֹ׃",
+          "targum": "וַאֲמַרְנָא לְרִבּוֹנִי אִית לָנָא אַבָּא סָבָא וּבַר סִיבְתִין זְעֵיר וְאָחוּהִי מִית וְאִשְׁתָּאַר הוּא בִּלְחוֹדוֹהִי לְאִמֵּהּ וַאֲבוּהִי רְחִים לֵהּ:",
+          "english": "And we said to my lord, We have a father, an old man, and a child of his old age, a little one; and his brother is dead, and he alone is left of his mother, and his father loves him."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וַתֹּ֙אמֶר֙ אֶל־עֲבָדֶ֔יךָ הוֹרִדֻ֖הוּ אֵלָ֑י וְאָשִׂ֥ימָה עֵינִ֖י עָלָֽיו׃",
+          "targum": "וַאֲמַרְתָּ לְעַבְדָיךְ אֲחִיתוֹהִי לְוָתִי וֶאֱשַׁוֵּי עֵינִי עֲלוֹהִי:",
+          "english": "And thou didst say to thy servants, Bring him down to me, that I may set my eyes upon him."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וַנֹּ֙אמֶר֙ אֶל־אֲדֹנִ֔י לֹא־יוּכַ֥ל הַנַּ֖עַר לַעֲזֹ֣ב אֶת־אָבִ֑יו וְעָזַ֥ב אֶת־אָבִ֖יו וָמֵֽת׃",
+          "targum": "וַאֲמַרְנָא לְרִבּוֹנִי לָא יִכּוּל עוּלֵימָא לְמִשְׁבַּק יָת אֲבוּהִי וְאִם יִשְׁבּוֹק יָת אֲבוּהִי וּמִית:",
+          "english": "And we said to my lord, The lad cannot leave his father: for if he should leave his father, his father would die."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַתֹּ֙אמֶר֙ אֶל־עֲבָדֶ֔יךָ אִם־לֹ֥א יֵרֵ֛ד אֲחִיכֶ֥ם הַקָּטֹ֖ן אִתְּכֶ֑ם לֹ֥א תֹסִפ֖וּן לִרְא֥וֹת פָּנָֽי׃",
+          "targum": "וַאֲמַרְתָּ לְעַבְדָיךְ אִם לָא יֵחוֹת אֲחוּכוֹן זְעֵירָא עִמְּכוֹן לָא תוֹסְפוּן לְמֶחֱזֵי אַפָּי:",
+          "english": "And thou didst say to thy servants, Unless your youngest brother comes down with you, you shall see my face no more."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וַֽיְהִי֙ כִּ֣י עָלִ֔ינוּ אֶֽל־עַבְדְּךָ֖ אָבִ֑י וַנַּ֨גֶּד־ל֔וֹ אֵ֖ת דִּבְרֵ֥י אֲדֹנִֽי׃",
+          "targum": "וַהֲוָה כַּד סְלֵיקְנָא לְעַבְדָךְ אַבָּא וְחַוֵּינָא לֵיהּ יָת פִּתְגָּמֵי רִבּוֹנִי:",
+          "english": "And it came to pass when we came up to thy servant my father, we told him the words of my lord."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַיֹּ֖אמֶר אָבִ֑ינוּ שֻׁ֖בוּ שִׁבְרוּ־לָ֥נוּ מְעַט־אֹֽכֶל׃",
+          "targum": "וַאֲמַר אָבוּנָא תּוּבוּ זְבוּנוּ לָנָא זְעֵיר עִיבוּרָא:",
+          "english": "And our father said, Go back, and buy us a little food."
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וַנֹּ֕אמֶר לֹ֥א נוּכַ֖ל לָרֶ֑דֶת אִם־יֵשׁ֩ אָחִ֨ינוּ הַקָּטֹ֤ן אִתָּ֙נוּ֙ וְיָרַ֔דְנוּ כִּי־לֹ֣א נוּכַ֗ל לִרְאוֹת֙ פְּנֵ֣י הָאִ֔ישׁ וְאָחִ֥ינוּ הַקָּטֹ֖ן אֵינֶ֥נּוּ אִתָּֽנוּ׃",
+          "targum": "וַאֲמַרְנָא לָא נִכּוּל לְמֵיחָת אִם אִית אָחוּנָא זְעֵירָא עִמָּנָא וְנֵחוֹת אֲרֵי לָא נִכּוּל לְמֶחֱזֵי אַפֵּי גַבְרָא וְאָחוּנָא זְעֵירָא לֵיתוֹהִי עִמָּנָא:",
+          "english": "And we said, We cannot go down: if our youngest brother be with us, then will we go down: for we may not see the man’s face, unless our youngest brother is with us."
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "וַיֹּ֛אמֶר עַבְדְּךָ֥ אָבִ֖י אֵלֵ֑ינוּ אַתֶּ֣ם יְדַעְתֶּ֔ם כִּ֥י שְׁנַ֖יִם יָֽלְדָה־לִּ֥י אִשְׁתִּֽי׃",
+          "targum": "וַאֲמַר עַבְדָךְ אַבָּא לָנָא אַתּוּן יְדַעְתּוּן אֲרֵי תְרֵין יְלִידַת לִי אִתְּתִי:",
+          "english": "And thy servant my father said to us, You know that my wife bore me two sons:"
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וַיֵּצֵ֤א הָֽאֶחָד֙ מֵֽאִתִּ֔י וָאֹמַ֕ר אַ֖ךְ טָרֹ֣ף טֹרָ֑ף וְלֹ֥א רְאִיתִ֖יו עַד־הֵֽנָּה׃",
+          "targum": "וּנְפַק חַד מִלְּוָתִי וַאֲמָרִית בְּרַם מִקְטַל קְטִיל וְלָא חֲזִתֵּיהּ עַד כְּעָן:",
+          "english": "and the one went out from me, and I said, Surely he is torn in pieces; and I saw him not since:"
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "וּלְקַחְתֶּ֧ם גַּם־אֶת־זֶ֛ה מֵעִ֥ם פָּנַ֖י וְקָרָ֣הוּ אָס֑וֹן וְהֽוֹרַדְתֶּ֧ם אֶת־שֵׂיבָתִ֛י בְּרָעָ֖ה שְׁאֹֽלָה׃",
+          "targum": "וְתַדְבְּרוּן אַף יָת דֵּין מִן קֳדָמַי וִיעַרְעִנֵּיהּ מוֹתָא וְתַחֲתוּן יָת שִׂבְתִי בְּבִישְׁתָא לִשְׁאוֹל:",
+          "english": "and if you take this also from me, and mischief befall him, you shall bring down my grey hairs with sorrow to She᾽ol."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "וְעַתָּ֗ה כְּבֹאִי֙ אֶל־עַבְדְּךָ֣ אָבִ֔י וְהַנַּ֖עַר אֵינֶ֣נּוּ אִתָּ֑נוּ וְנַפְשׁ֖וֹ קְשׁוּרָ֥ה בְנַפְשֽׁוֹ׃",
+          "targum": "וּכְעַן כְּמֵיתִי לְוַת עַבְדָךְ אַבָּא וְעוּלֵימָא לֵיתוֹהִי עִמָּנָא וְנַפְשֵׁיהּ חֲבִיבָא לֵהּ כְּנַפְשֵׁיהּ:",
+          "english": "Now therefore when I come to thy servant my father, and the lad is not with us; seeing that his life is bound up in the lad’s life;"
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "וְהָיָ֗ה כִּרְאוֹת֛וֹ כִּי־אֵ֥ין הַנַּ֖עַר וָמֵ֑ת וְהוֹרִ֨ידוּ עֲבָדֶ֜יךָ אֶת־שֵׂיבַ֨ת עַבְדְּךָ֥ אָבִ֛ינוּ בְּיָג֖וֹן שְׁאֹֽלָה׃",
+          "targum": "וִיהֵי כַּד יֶחֱזֵי אֲרֵי לֵית עוּלֵימָא וּמִית וְיַחֲתוּן עַבְדָיךְ יָת שִׂיבַת עַבְדָךְ אָבוּנָא בְּדָווֹנָא לִשְׁאוֹל:",
+          "english": "it shall come to pass, when he sees that the lad is not with us, that he will die: and thy servants shall bring down the grey hairs of thy servant our father with sorrow to She᾽ol."
+        },
+        {
+          "verseNum": 32,
+          "hebrew": "כִּ֤י עַבְדְּךָ֙ עָרַ֣ב אֶת־הַנַּ֔עַר מֵעִ֥ם אָבִ֖י לֵאמֹ֑ר אִם־לֹ֤א אֲבִיאֶ֙נּוּ֙ אֵלֶ֔יךָ וְחָטָ֥אתִי לְאָבִ֖י כׇּל־הַיָּמִֽים׃",
+          "targum": "אַרֵי עַבְדָךְ מְעָרַב בְּעוּלֵימָא מִן אַבָּא לְמֵימָר אִם לָא אַיְתִנֵּיהּ לְוָתָךְ וָאֱהִי חָטֵי לְאַבָּא כָּל יוֹמַיָּא:",
+          "english": "For thy servant became surety for the lad to my father, saying, If I bring him not to thee, then I shall have sinned to my father for ever."
+        },
+        {
+          "verseNum": 33,
+          "hebrew": "וְעַתָּ֗ה יֵֽשֶׁב־נָ֤א עַבְדְּךָ֙ תַּ֣חַת הַנַּ֔עַר עֶ֖בֶד לַֽאדֹנִ֑י וְהַנַּ֖עַר יַ֥עַל עִם־אֶחָֽיו׃",
+          "targum": "וּכְעַן יֵתֶב כְּעַן עַבְדָךְ תְּחוֹת עוּלֵימָא עַבְדָא לְרִבּוֹנִי וְעוּלֵימָא יִסַּק עִם אֲחוּהִי:",
+          "english": "Now therefore, I pray thee, let thy servant remain instead of the lad a bondman to my lord; and let the lad go up with his brothers."
+        },
+        {
+          "verseNum": 34,
+          "hebrew": "כִּי־אֵיךְ֙ אֶֽעֱלֶ֣ה אֶל־אָבִ֔י וְהַנַּ֖עַר אֵינֶ֣נּוּ אִתִּ֑י פֶּ֚ן אֶרְאֶ֣ה בָרָ֔ע אֲשֶׁ֥ר יִמְצָ֖א אֶת־אָבִֽי׃",
+          "targum": "אֲרֵי אֶכְדֵּין אֶסַּק לְוַת אַבָּא וְעוּלֵימָא לֵיתוֹהִי עִמִּי דִּלְמָא אֶחֱזֵי בְּבִישׁוּ דִּי יִשְׁתְּכַח יָת אַבָּא:",
+          "english": "For how shall I go up to my father, and the lad be not with me? lest I see the evil that shall come on my father."
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וְלֹֽא־יָכֹ֨ל יוֹסֵ֜ף לְהִתְאַפֵּ֗ק לְכֹ֤ל הַנִּצָּבִים֙ עָלָ֔יו וַיִּקְרָ֕א הוֹצִ֥יאוּ כׇל־אִ֖ישׁ מֵעָלָ֑י וְלֹא־עָ֤מַד אִישׁ֙ אִתּ֔וֹ בְּהִתְוַדַּ֥ע יוֹסֵ֖ף אֶל־אֶחָֽיו׃",
+          "targum": "וְלָא יְכִיל יוֹסֵף לְאִתְחַסָּנָא לְכֹל דְּקָיְמִין עִלָּו‍ֹהִי וּקְרָא אַפִּיקוּ כָל אֱנַשׁ מֵעִלָּוָי וְלָא קָם אֱנַשׁ עִמֵּיהּ כַּד אִתְיְדַע יוֹסֵף לְוַת אֲחוֹהִי:",
+          "english": "Then Yosef could not restrain himself before all them that stood by him; and he cried, Cause every man to go out from me. And no man stood with him, while Yosef made himself known to his brethren."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וַיִּתֵּ֥ן אֶת־קֹל֖וֹ בִּבְכִ֑י וַיִּשְׁמְע֣וּ מִצְרַ֔יִם וַיִּשְׁמַ֖ע בֵּ֥ית פַּרְעֹֽה׃",
+          "targum": "וִיהַב יָת קָלֵיהּ בִּבְכִיתָא וּשְׁמָעוּ מִצְרַיִם וּשְׁמַע אֱנַשׁ בֵּית פַּרְעֹה:",
+          "english": "And he wept aloud: and Miżrayim and the house of Par῾o heard."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיֹּ֨אמֶר יוֹסֵ֤ף אֶל־אֶחָיו֙ אֲנִ֣י יוֹסֵ֔ף הַע֥וֹד אָבִ֖י חָ֑י וְלֹֽא־יָכְל֤וּ אֶחָיו֙ לַעֲנ֣וֹת אֹת֔וֹ כִּ֥י נִבְהֲל֖וּ מִפָּנָֽיו׃",
+          "targum": "וַאֲמַר יוֹסֵף לַאֲחוֹהִי אֲנָא יוֹסֵף הַעַד כְּעַן אַבָּא קַיָּם וְלָא יָכִילוּ אֲחוֹהִי לַאֲתָבָא יָתֵיהּ פִּתְגָּם אֲרֵי אִתְבְּהִילוּ מִן קֳדָמוֹהִי:",
+          "english": "And Yosef said to his brethren, I am Yosef: does my father yet live? And his brothers could not answer him; for they were terrified at his presence."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וַיֹּ֨אמֶר יוֹסֵ֧ף אֶל־אֶחָ֛יו גְּשׁוּ־נָ֥א אֵלַ֖י וַיִּגָּ֑שׁוּ וַיֹּ֗אמֶר אֲנִי֙ יוֹסֵ֣ף אֲחִיכֶ֔ם אֲשֶׁר־מְכַרְתֶּ֥ם אֹתִ֖י מִצְרָֽיְמָה׃",
+          "targum": "וַאֲמַר יוֹסֵף לַאֲחוֹהִי קְרִיבוּ כְעַן לְוָתִי וּקְרִיבוּ וַאֲמַר אֲנָא יוֹסֵף אֲחוּכוֹן דִּי זַבִּנְתּוּן יָתִי לְמִצְרָיִם:",
+          "english": "And Yosef said to his brothers, Come near to me, I pray you. And they came near. And he said, I am Yosef your brother, whom you sold into Miżrayim."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וְעַתָּ֣ה&thinsp;<b>׀</b> אַל־תֵּעָ֣צְב֗וּ וְאַל־יִ֙חַר֙ בְּעֵ֣ינֵיכֶ֔ם כִּֽי־מְכַרְתֶּ֥ם אֹתִ֖י הֵ֑נָּה כִּ֣י לְמִֽחְיָ֔ה שְׁלָחַ֥נִי אֱלֹהִ֖ים לִפְנֵיכֶֽם׃",
+          "targum": "וּכְעַן לָא תִתְּנְסוּן וְלָא יִתְקָף בְּעֵינֵיכוֹן אֲרֵי זַבִּנְתּוּן יָתִי הָכָא אֲרֵי לְקַיָּמָא שַׁלְּחַנִי יְיָ קֳדָמֵיכוֹן:",
+          "english": "Now therefore be not grieved, nor angry with yourselves, that you sold me here: for God did send me before you to preserve life."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "כִּי־זֶ֛ה שְׁנָתַ֥יִם הָרָעָ֖ב בְּקֶ֣רֶב הָאָ֑רֶץ וְעוֹד֙ חָמֵ֣שׁ שָׁנִ֔ים אֲשֶׁ֥ר אֵין־חָרִ֖ישׁ וְקָצִֽיר׃",
+          "targum": "אֲרֵי דְנַן תַּרְתֵּין שְׁנִין כַּפְנָא בְּגוֹ אַרְעָא וְעוֹד חָמֵשׁ שְׁנִין דִּי לֵית זְרוֹעָא וַחֲצָדָא:",
+          "english": "For these two years has the famine been in the land: and there are five more years, in which there shall neither be ploughing nor harvest."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַיִּשְׁלָחֵ֤נִי אֱלֹהִים֙ לִפְנֵיכֶ֔ם לָשׂ֥וּם לָכֶ֛ם שְׁאֵרִ֖ית בָּאָ֑רֶץ וּלְהַחֲי֣וֹת לָכֶ֔ם לִפְלֵיטָ֖ה גְּדֹלָֽה׃",
+          "targum": "וְשַׁלְּחַנִי יְיָ קֳדָמֵיכוֹן לְשַׁוָּאָה לְכוֹן שְׁאָרָא בְּאַרְעָא וּלְקַיָּמָא לְכוֹן לְשֵׁיזָבָא רַבָּא:",
+          "english": "And God sent me before you to preserve you a remnant in the earth, and to save your lives by a great deliverance."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וְעַתָּ֗ה לֹֽא־אַתֶּ֞ם שְׁלַחְתֶּ֤ם אֹתִי֙ הֵ֔נָּה כִּ֖י הָאֱלֹהִ֑ים וַיְשִׂימֵ֨נִֽי לְאָ֜ב לְפַרְעֹ֗ה וּלְאָדוֹן֙ לְכׇל־בֵּית֔וֹ וּמֹשֵׁ֖ל בְּכׇל־אֶ֥רֶץ מִצְרָֽיִם׃",
+          "targum": "וּכְעַן לָא אַתּוּן שְׁלַחְתּוּן יָתִי הָכָא אֶלָּהֵן מִן קֳדָם יְיָ וְשַׁוְּיַנִי לְאַבָּא לְפַרְעֹה וּלְרִבּוֹן לְכָל אֱנַשׁ בֵּיתֵיהּ וְשַׁלִּיט בְּכָל אַרְעָא דְמִצְרָיִם:",
+          "english": "So now it was not you that sent me here, but God: and He has made me a father to Par῾o, and lord of all his house, and a ruler throughout all the land of Miżrayim."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "מַהֲרוּ֮ וַעֲל֣וּ אֶל־אָבִי֒ וַאֲמַרְתֶּ֣ם אֵלָ֗יו כֹּ֤ה אָמַר֙ בִּנְךָ֣ יוֹסֵ֔ף שָׂמַ֧נִי אֱלֹהִ֛ים לְאָד֖וֹן לְכׇל־מִצְרָ֑יִם רְדָ֥ה אֵלַ֖י אַֽל־תַּעֲמֹֽד׃",
+          "targum": "אוֹחוּ וּסְקוֹ לְוַת אַבָּא וְתֵימְרוּן לֵיהּ כִּדְנַן אֲמַר בְּרָךְ יוֹסֵף שַׁוְּיַנִי יְיָ לְרִבּוֹן לְכָל מִצְרָיִם חוּת לְוָתִי לָא תִתְעַכָּב:",
+          "english": "Hasten, and go up to my father, and say to him, Thus says thy son Yosef, God has made me lord of all Miżrayim: come down to me, do not delay:"
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וְיָשַׁבְתָּ֣ בְאֶֽרֶץ־גֹּ֗שֶׁן וְהָיִ֤יתָ קָרוֹב֙ אֵלַ֔י אַתָּ֕ה וּבָנֶ֖יךָ וּבְנֵ֣י בָנֶ֑יךָ וְצֹאנְךָ֥ וּבְקָרְךָ֖ וְכׇל־אֲשֶׁר־לָֽךְ׃",
+          "targum": "וְתֵתֵיב בְּאַרְעָא דְגשֶׁן וּתְהֵי קָרִיב לִי אַתְּ וּבְנָךְ וּבְנֵי בְנָךְ וְעָנָךְ וְתוֹרָךְ וְכָל דִּי לָךְ:",
+          "english": "and thou shalt dwell in the land of Goshen, and thou shalt be near me, thou, and thy children, and thy children’s children, and thy flocks, and thy herds, and all that thou hast:"
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וְכִלְכַּלְתִּ֤י אֹֽתְךָ֙ שָׁ֔ם כִּי־ע֛וֹד חָמֵ֥שׁ שָׁנִ֖ים רָעָ֑ב פֶּן־תִּוָּרֵ֛שׁ אַתָּ֥ה וּבֵֽיתְךָ֖ וְכׇל־אֲשֶׁר־לָֽךְ׃",
+          "targum": "וְאֵזוּן יָתָךְ תַּמָּן אֲרֵי עוֹד חֲמֵשׁ שְׁנִין כַּפְנָא דִּלְמָא תִתְמַסְכַּן אַתְּ וֶאֱנַשׁ בֵּיתָךְ וְכָל דִּי לָךְ:",
+          "english": "and there will I nourish thee; for there are still five years of famine; lest thou, and thy household, and all that thou hast, come to poverty."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וְהִנֵּ֤ה עֵֽינֵיכֶם֙ רֹא֔וֹת וְעֵינֵ֖י אָחִ֣י בִנְיָמִ֑ין כִּי־פִ֖י הַֽמְדַבֵּ֥ר אֲלֵיכֶֽם׃",
+          "targum": "וְהָא עֵינֵיכוֹן חֲזָן וְעֵינֵי אָחִי בִנְיָמִין אֲרֵי בְלִישָׁנְכוֹן אֲנָא מְמַלֵּל עִמְּכוֹן:",
+          "english": "And, behold, your eyes see, and the eyes of my brother Binyamin, that it is my mouth that speaks to you."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וְהִגַּדְתֶּ֣ם לְאָבִ֗י אֶת־כׇּל־כְּבוֹדִי֙ בְּמִצְרַ֔יִם וְאֵ֖ת כׇּל־אֲשֶׁ֣ר רְאִיתֶ֑ם וּמִֽהַרְתֶּ֛ם וְהוֹרַדְתֶּ֥ם אֶת־אָבִ֖י הֵֽנָּה׃",
+          "targum": "וּתְחַוּוּן לְאַבָּא יָת כָּל יְקָרִי בְּמִצְרַיִם וְיָת כָּל דִּי חֲזֵיתוּן וְתוֹחוּן וְתַחֲתוּן יָת אַבָּא הָכָא:",
+          "english": "And you shall tell my father of all my glory in Miżrayim, and of all that you have seen: and you shall hasten and bring down my father here."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַיִּפֹּ֛ל עַל־צַוְּארֵ֥י בִנְיָֽמִן־אָחִ֖יו וַיֵּ֑בְךְּ וּבִ֨נְיָמִ֔ן בָּכָ֖ה עַל־צַוָּארָֽיו׃",
+          "targum": "וּנְפַל עַל צַוְּארֵי בִנְיָמִן אֲחוּהִי וּבְכָא וּבִנְיָמִן בְּכָא עַל צַוְּארֵיהּ:",
+          "english": "And he fell on his brother Binyamin’s neck, and wept; and Binyamin wept on his neck."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וַיְנַשֵּׁ֥ק לְכׇל־אֶחָ֖יו וַיֵּ֣בְךְּ עֲלֵהֶ֑ם וְאַ֣חֲרֵי כֵ֔ן דִּבְּר֥וּ אֶחָ֖יו אִתּֽוֹ׃",
+          "targum": "וּנְשַׁק לְכָל אֲחוֹהִי וּבְכָא עֲלֵיהוֹן וּבָתַר כֵּן מַלִּילוּ אֲחוֹהִי עִמֵּיהּ:",
+          "english": "And he kissed all his brethren, and wept on them: and after that his brethren talked with him."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וְהַקֹּ֣ל נִשְׁמַ֗ע בֵּ֤ית פַּרְעֹה֙ לֵאמֹ֔ר בָּ֖אוּ אֲחֵ֣י יוֹסֵ֑ף וַיִּיטַב֙ בְּעֵינֵ֣י פַרְעֹ֔ה וּבְעֵינֵ֖י עֲבָדָֽיו׃",
+          "targum": "וְקָלָא אִשְׁתְּמַע לְבֵית פַּרְעֹה לְמֵימַר עַלּוּ אֲחֵי יוֹסֵף וּשְׁפַר בְּעֵינֵי פַרְעֹה וּבְעֵינֵי עַבְדּוֹהִי:",
+          "english": "And the report was heard in Par῾o’s house, saying, Yosef’s brethren are come: and it pleased Par῾o well, and his servants."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיֹּ֤אמֶר פַּרְעֹה֙ אֶל־יוֹסֵ֔ף אֱמֹ֥ר אֶל־אַחֶ֖יךָ זֹ֣את עֲשׂ֑וּ טַֽעֲנוּ֙ אֶת־בְּעִ֣ירְכֶ֔ם וּלְכוּ־בֹ֖אוּ אַ֥רְצָה כְּנָֽעַן׃",
+          "targum": "וַאֲמַר פַּרְעֹה לְיוֹסֵף אֱמַר לְאַחָיךְ דָּא עִיבִידוּ טְעוּנוּ יָת בְּעִירְכוֹן וֶאֱזִילוּ אוֹבִילוּ לְאַרְעָא דִכְנָעַן:",
+          "english": "And Par῾o said to Yosef, Say to thy brethren, Do this: load your beasts, and go, get you to the land of Kena῾an;"
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וּקְח֧וּ אֶת־אֲבִיכֶ֛ם וְאֶת־בָּתֵּיכֶ֖ם וּבֹ֣אוּ אֵלָ֑י וְאֶתְּנָ֣ה לָכֶ֗ם אֶת־טוּב֙ אֶ֣רֶץ מִצְרַ֔יִם וְאִכְל֖וּ אֶת־חֵ֥לֶב הָאָֽרֶץ׃",
+          "targum": "וּדְבָרוּ יָת אֲבוּכוֹן וְיָת אֱנַשׁ בָּתֵּיכוֹן וְעוּלוּ לְוָתִי וְאֶתֵּן לְכוֹן יָת טוּב אַרְעָא דְמִצְרַיִם וְתֵיכְלוּן יָת טוּבָא דְאַרְעָא:",
+          "english": "and take your father and your households, and come to me: and I will give you the good of the land of Miżrayim, and you shall eat the fat of the land."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וְאַתָּ֥ה צֻוֵּ֖יתָה זֹ֣את עֲשׂ֑וּ קְחוּ־לָכֶם֩ מֵאֶ֨רֶץ מִצְרַ֜יִם עֲגָל֗וֹת לְטַפְּכֶם֙ וְלִנְשֵׁיכֶ֔ם וּנְשָׂאתֶ֥ם אֶת־אֲבִיכֶ֖ם וּבָאתֶֽם׃",
+          "targum": "וְאַתְּ מְפַקָּדָא דָּא עִיבִידוּ סִיבוּ לְכוֹן מֵאַרְעָא דְמִצְרַיִם עֶגְלָן לְטַפְלֵיכוֹן וְלִנְשֵׁיכוֹן וְתִטְּלוּן יָת אֲבוּכוֹן וְתֵיתוּן:",
+          "english": "Now thou art commanded, do this; take wagons out of the land of Miżrayim for your little ones, and for your wives, and bring your father, and come."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וְעֵ֣ינְכֶ֔ם אַל־תָּחֹ֖ס עַל־כְּלֵיכֶ֑ם כִּי־ט֛וּב כׇּל־אֶ֥רֶץ מִצְרַ֖יִם לָכֶ֥ם הֽוּא׃",
+          "targum": "וְעֵינְכוֹן לָא תְחוּס עַל מָנֵיכוֹן אֲרֵי טַב כָּל אַרְעָא דְמִצְרַיִם דִּלְכוֹן הוּא:",
+          "english": "Also give no thought to your goods; for the good of all the land of Miżrayim is yours."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וַיַּֽעֲשׂוּ־כֵן֙ בְּנֵ֣י יִשְׂרָאֵ֔ל וַיִּתֵּ֨ן לָהֶ֥ם יוֹסֵ֛ף עֲגָל֖וֹת עַל־פִּ֣י פַרְעֹ֑ה וַיִּתֵּ֥ן לָהֶ֛ם צֵדָ֖ה לַדָּֽרֶךְ׃",
+          "targum": "וַעֲבָדוּ כֵן בְּנֵי יִשְׂרָאֵל וִיהַב לְהוֹן יוֹסֵף עֶגְלָן עַל מֵימַר פַּרְעֹה וִיהַב לְהוֹן זְוָדִין לְאָרְחָא:",
+          "english": "And the children of Yisra᾽el did so: and Yosef gave them wagons, according to the commandment of Par῾o, and gave them provision for the way."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "לְכֻלָּ֥ם נָתַ֛ן לָאִ֖ישׁ חֲלִפ֣וֹת שְׂמָלֹ֑ת וּלְבִנְיָמִ֤ן נָתַן֙ שְׁלֹ֣שׁ מֵא֣וֹת כֶּ֔סֶף וְחָמֵ֖שׁ חֲלִפֹ֥ת שְׂמָלֹֽת׃",
+          "targum": "לְכָלְּהוֹן יְהַב לִגְבַר אִצְטְלַוָּן דִּלְבוּשָׁא וּלְבִנְיָמִן יְהַב תְּלָת מְאָה סִלְעִין דִּכְסַף וַחֲמֵשׁ אִצְטְלַוָּן דִּלְבוּשִׁין:",
+          "english": "To all of them he gave each man changes of clothing; but to Binyamin he gave three hundred pieces of silver, and five changes of clothing."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וּלְאָבִ֞יו שָׁלַ֤ח כְּזֹאת֙ עֲשָׂרָ֣ה חֲמֹרִ֔ים נֹשְׂאִ֖ים מִטּ֣וּב מִצְרָ֑יִם וְעֶ֣שֶׂר אֲתֹנֹ֡ת נֹֽ֠שְׂאֹ֠ת בָּ֣ר וָלֶ֧חֶם וּמָז֛וֹן לְאָבִ֖יו לַדָּֽרֶךְ׃",
+          "targum": "וְלַאֲבוּהִי שְׁלַח כְּדָא עַסְרָא חֲמָרִין טְעִינִין מִטּוּבָא דְמִצְרָיִם וַעֲסַר אַתְנָן טְעִינָן עִיבוּר וּלְחֵם וּזְוָדִין לַאֲבוּהִי לְאָרְחָא:",
+          "english": "And to his father he sent after this manner; ten asses laden with the good things of Miżrayim and ten she asses laden with corn and bread and food for his father by the way."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וַיְשַׁלַּ֥ח אֶת־אֶחָ֖יו וַיֵּלֵ֑כוּ וַיֹּ֣אמֶר אֲלֵהֶ֔ם אַֽל־תִּרְגְּז֖וּ בַּדָּֽרֶךְ׃",
+          "targum": "וְשַׁלַּח יָת אֲחוֹהִי וַאֲזָלוּ וַאֲמַר לְהוֹן לָא תִתְנַצּוּן בְּאָרְחָא:",
+          "english": "So he sent his brethren away, and they departed: and he said to them, See that you do not fall out by the way."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַֽיַּעֲל֖וּ מִמִּצְרָ֑יִם וַיָּבֹ֙אוּ֙ אֶ֣רֶץ כְּנַ֔עַן אֶֽל־יַעֲקֹ֖ב אֲבִיהֶֽם׃",
+          "targum": "וּסְלִיקוּ מִמִּצְרָיִם וַאֲתוֹ לְאַרְעָא דִכְנַעַן לְוַת יַעֲקֹב אֲבוּהוֹן:",
+          "english": "And they went up out of Miżrayim, and came to the land of Kena῾an to Ya῾aqov their father,"
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וַיַּגִּ֨דוּ ל֜וֹ לֵאמֹ֗ר ע֚וֹד יוֹסֵ֣ף חַ֔י וְכִֽי־ה֥וּא מֹשֵׁ֖ל בְּכׇל־אֶ֣רֶץ מִצְרָ֑יִם וַיָּ֣פׇג לִבּ֔וֹ כִּ֥י לֹא־הֶאֱמִ֖ין לָהֶֽם׃",
+          "targum": "וְחַוִּיאוּ לֵיהּ לְמֵימַר עוֹד כְּעַן יוֹסֵף קַיָּם וַאֲרֵי הוּא שַׁלִּיט בְּכָל אַרְעָא דְמִצְרָיִם וַהֲווֹ מִלַּיָּא פָּיְגָן עַל לִבֵּיהּ אֲרֵי לָא הֵימִין לְהוֹן:",
+          "english": "and told him, saying, Yosef is still alive, and he is governor over all the land of Miżrayim. And his heart fainted, for he believed them not."
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "וַיְדַבְּר֣וּ אֵלָ֗יו אֵ֣ת כׇּל־דִּבְרֵ֤י יוֹסֵף֙ אֲשֶׁ֣ר דִּבֶּ֣ר אֲלֵהֶ֔ם וַיַּרְא֙ אֶת־הָ֣עֲגָל֔וֹת אֲשֶׁר־שָׁלַ֥ח יוֹסֵ֖ף לָשֵׂ֣את אֹת֑וֹ וַתְּחִ֕י ר֖וּחַ יַעֲקֹ֥ב אֲבִיהֶֽם׃",
+          "targum": "וּמַלִּילוּ עִמֵּיהּ יָת כָּל פִּתְגָּמֵי יוֹסֵף דִּי מַלִּיל עִמְּהוֹן וַחֲזָא יָת עֲגַלָּתָא דִּשְׁלַח יוֹסֵף לְמִטַּל יָתֵיהּ וּשְׁרַת רוּחַ נְבוּאָה לְוַת יַעֲקֹב אֲבוּהוֹן:",
+          "english": "And they told him all the words of Yosef, which he had said to them: and when he saw the wagons which Yosef had sent to carry him, the spirit of Ya῾aqov their father revived:"
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וַיֹּ֙אמֶר֙ יִשְׂרָאֵ֔ל רַ֛ב עוֹד־יוֹסֵ֥ף בְּנִ֖י חָ֑י אֵֽלְכָ֥ה וְאֶרְאֶ֖נּוּ בְּטֶ֥רֶם אָמֽוּת׃",
+          "targum": "וַאֲמַר יִשְׂרָאֵל סַגִּי לִי חֶדְוָא עַד כְּעַן יוֹסֵף בְּרִי קַיָּם אֱזֵיל וְאֶחֱזִנֵּיהּ עַד לָא אֵמוּת:",
+          "english": "and Yisra᾽el said, It is enough; Yosef my son is still alive: I will go and see him before I die."
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיִּסַּ֤ע יִשְׂרָאֵל֙ וְכׇל־אֲשֶׁר־ל֔וֹ וַיָּבֹ֖א בְּאֵ֣רָה שָּׁ֑בַע וַיִּזְבַּ֣ח זְבָחִ֔ים לֵאלֹהֵ֖י אָבִ֥יו יִצְחָֽק׃",
+          "targum": "וּנְטַל יִשְׂרָאֵל וְכָל דִּי לֵיהּ וַאֲתָא לִבְאֵר שָׁבַע וּדְבַח דִּבְחִין לֵאלָהֵהּ אֲבוּהִי יִצְחָק:",
+          "english": "And Yisra᾽el took his journey with all that he had, and came to Be᾽er-sheva, and offered sacrifices to the God of his father Yiżĥaq."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וַיֹּ֨אמֶר אֱלֹהִ֤ים&thinsp;<small>׀</small>&thinsp;לְיִשְׂרָאֵל֙ בְּמַרְאֹ֣ת הַלַּ֔יְלָה וַיֹּ֖אמֶר יַעֲקֹ֣ב&thinsp;<small>׀</small>&thinsp;יַעֲקֹ֑ב וַיֹּ֖אמֶר הִנֵּֽנִי׃",
+          "targum": "וַאֲמַר יְיָ לְיִשְׂרָאֵל בְּחֶזְוֵי דְלֵילְיָא וַאֲמַר יַעֲקֹב יַעֲקֹב וַאֲמַר הָא אֲנָא:",
+          "english": "And God spoke to Yisra᾽el in the visions of the night, and said, Ya῾aqov, Ya῾aqov. And he said, Here I am."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיֹּ֕אמֶר אָנֹכִ֥י הָאֵ֖ל אֱלֹהֵ֣י אָבִ֑יךָ אַל־תִּירָא֙ מֵרְדָ֣ה מִצְרַ֔יְמָה כִּֽי־לְג֥וֹי גָּד֖וֹל אֲשִֽׂימְךָ֥ שָֽׁם׃",
+          "targum": "וַאֲמַר אֲנָא אֵל אֱלָהָא דְאָבוּךְ לָא תִדְחַל מִלְּמֵיחַת לְמִצְרַיִם אֲרֵי לְעַם סַגִּי אֲשַׁוִּנָּךְ תַּמָּן:",
+          "english": "And He said, I am God, the God of thy father: fear not to go down to Miżrayim; for I will there make of thee a great nation:"
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "אָנֹכִ֗י אֵרֵ֤ד עִמְּךָ֙ מִצְרַ֔יְמָה וְאָנֹכִ֖י אַֽעַלְךָ֣ גַם־עָלֹ֑ה וְיוֹסֵ֕ף יָשִׁ֥ית יָד֖וֹ עַל־עֵינֶֽיךָ׃",
+          "targum": "אֲנָא אֵחוֹת עִמָּךְ לְמִצְרַיִם וַאֲנָא אַסֵּקִנָּךְ אַף אַסָּקָא וְיוֹסֵף יְשַׁוֵּי יְדוֹהִי עַל עֵינָיךְ:",
+          "english": "I will go down with thee into Miżrayim; and I will also surely bring thee up again: and Yosef shall put his hand on thy eyes."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַיָּ֥קׇם יַעֲקֹ֖ב מִבְּאֵ֣ר שָׁ֑בַע וַיִּשְׂא֨וּ בְנֵֽי־יִשְׂרָאֵ֜ל אֶת־יַעֲקֹ֣ב אֲבִיהֶ֗ם וְאֶת־טַפָּם֙ וְאֶת־נְשֵׁיהֶ֔ם בָּעֲגָל֕וֹת אֲשֶׁר־שָׁלַ֥ח פַּרְעֹ֖ה לָשֵׂ֥את אֹתֽוֹ׃",
+          "targum": "וְקָם יַעֲקֹב מִבְּאֵרָא דְשָׁבַע וּנְטָלוּ בְנֵי יִשְׂרָאֵל יָת יַעֲקֹב אֲבוּהוֹן וְיָת טַפְלְהוֹן וְיָת נְשֵׁיהוֹן בַּעֲגַלְתָּא דִּי שְׁלַח פַּרְעֹה לְמִטַּל יָתֵיהּ:",
+          "english": "And Ya῾aqov rose up from Be᾽er-sheva, and the sons of Yisra᾽el carried Ya῾aqov their father, and their little ones, and their wives, in the wagons which Par῾o had sent to carry him."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וַיִּקְח֣וּ אֶת־מִקְנֵיהֶ֗ם וְאֶת־רְכוּשָׁם֙ אֲשֶׁ֤ר רָֽכְשׁוּ֙ בְּאֶ֣רֶץ כְּנַ֔עַן וַיָּבֹ֖אוּ מִצְרָ֑יְמָה יַעֲקֹ֖ב וְכׇל־זַרְע֥וֹ אִתּֽוֹ׃",
+          "targum": "וּדְבָרוּ יָת גֵּיתֵיהוֹן וְיָת קִנְיָנְהוֹן דִּי קְנוֹ בְּאַרְעָא דִכְנַעַן וַאֲתוֹ לְמִצְרָיִם יַעֲקֹב וְכָל בְּנוֹהִי עִמֵּיהּ:",
+          "english": "And they took their cattle, and their goods, which they had acquired in the land of Kena῾an; and came to Miżrayim, Ya῾aqov, and all his seed with him:"
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "בָּנָ֞יו וּבְנֵ֤י בָנָיו֙ אִתּ֔וֹ בְּנֹתָ֛יו וּבְנ֥וֹת בָּנָ֖יו וְכׇל־זַרְע֑וֹ הֵבִ֥יא אִתּ֖וֹ מִצְרָֽיְמָה׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "בְּנוֹהִי וּבְנֵי בְנוֹהִי עִמֵּיהּ בְּנָתֵיהּ וּבְנַת בְּנוֹהִי וְכָל זַרְעֵיהּ אָעֵיל עִמֵּיהּ לְמִצְרָיִם:",
+          "english": "his sons, and his sons’ sons with him, his daughters, and his sons’ daughters, and all his seed brought he with him to Miżrayim."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וְאֵ֨לֶּה שְׁמ֧וֹת בְּנֵֽי־יִשְׂרָאֵ֛ל הַבָּאִ֥ים מִצְרַ֖יְמָה יַעֲקֹ֣ב וּבָנָ֑יו בְּכֹ֥ר יַעֲקֹ֖ב רְאוּבֵֽן׃",
+          "targum": "וְאִלֵּין שְׁמָהַת בְּנֵי יִשְׂרָאֵל דְּעַלּוּ לְמִצְרַיִם יַעֲקֹב וּבְנוֹהִי בּוּכְרָא דְיַעֲקֹב רְאוּבֵן:",
+          "english": "And these are the names of the children of Yisra᾽el, who came into Miżrayim, Ya῾aqov and his sons: Re᾽uven, Ya῾aqov’s firstborn."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וּבְנֵ֖י רְאוּבֵ֑ן חֲנ֥וֹךְ וּפַלּ֖וּא וְחֶצְרֹ֥ן וְכַרְמִֽי׃",
+          "targum": "וּבְנֵי רְאוּבֵן חֲנוֹךְ וּפַלּוּא וְחֶצְרֹן וְכַרְמִי:",
+          "english": "And the sons of Re᾽uven; Ḥanokh, and Pallu, and Ḥeżron, and Karmi."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וּבְנֵ֣י שִׁמְע֗וֹן יְמוּאֵ֧ל וְיָמִ֛ין וְאֹ֖הַד וְיָכִ֣ין וְצֹ֑חַר וְשָׁא֖וּל בֶּן־הַֽכְּנַעֲנִֽית׃",
+          "targum": "וּבְנֵי שִׁמְעוֹן יְמוּאֵל וְיָמִין וְאֹהַד וְיָכִין וְצֹחַר וְשָׁאוּל בַּר כְּנַעֲנֵיתָא:",
+          "english": "And the sons of Shim῾on; Yemu᾽el, and Yamin, and Ohad, and Yakhin, and Żoĥar, and Sha᾽ul the son of the Kena῾anite woman."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וּבְנֵ֖י לֵוִ֑י גֵּרְשׁ֕וֹן קְהָ֖ת וּמְרָרִֽי׃",
+          "targum": "וּבְנֵי לֵוִי גֵּרְשׁוֹן קְהָת וּמְרָרִי:",
+          "english": "And the sons of Levi; Gershon, Qehat, and Merari."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וּבְנֵ֣י יְהוּדָ֗ה עֵ֧ר וְאוֹנָ֛ן וְשֵׁלָ֖ה וָפֶ֣רֶץ וָזָ֑רַח וַיָּ֨מׇת עֵ֤ר וְאוֹנָן֙ בְּאֶ֣רֶץ כְּנַ֔עַן וַיִּהְי֥וּ בְנֵי־פֶ֖רֶץ חֶצְרֹ֥ן וְחָמֽוּל׃",
+          "targum": "וּבְנֵי יְהוּדָה עֵר וְאוֹנָן וְשֵׁלָה וָפֶרֶץ וָזָרַח וּמִית עֵר וְאוֹנָן בְּאַרְעָא דִכְנַעַן וַהֲווֹ בְנֵי פֶרֶץ חֶצְרֹן וְחָמוּל:",
+          "english": "And the sons of Yehuda; ῾Er, and Onan, and Shela, and Pereż, and Zeraĥ: but ῾Er and Onan died in the land of Kena῾an. And the sons of Pereż were Ḥeżron and Ḥamul."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וּבְנֵ֖י יִשָּׂשכָ֑ר תּוֹלָ֥ע וּפֻוָ֖ה וְי֥וֹב וְשִׁמְרֹֽן׃",
+          "targum": "וּבְנֵי יִשָּׂשׂכָר תּוֹלָע וּפֻוָּה וְיוֹב וְשִׁמְרוֹן:",
+          "english": "And the sons of Yissakhar; Tola, and Puvva, and Yov, and Shimron."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וּבְנֵ֖י זְבֻל֑וּן סֶ֥רֶד וְאֵל֖וֹן וְיַחְלְאֵֽל׃",
+          "targum": "וּבְנֵי זְבֻלוּן סֶרֶד וְאֵלוֹן וְיַחְלְאֵל:",
+          "english": "And the sons of Zevulun; Sered, and Elon, and Yaĥle᾽el."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "אֵ֣לֶּה&thinsp;<b>׀</b> בְּנֵ֣י לֵאָ֗ה אֲשֶׁ֨ר יָֽלְדָ֤ה לְיַעֲקֹב֙ בְּפַדַּ֣ן אֲרָ֔ם וְאֵ֖ת דִּינָ֣ה בִתּ֑וֹ כׇּל־נֶ֧פֶשׁ בָּנָ֛יו וּבְנוֹתָ֖יו שְׁלֹשִׁ֥ים וְשָׁלֹֽשׁ׃",
+          "targum": "אִלֵּין בְּנֵי לֵאָה דִּיְלִידַת לְיַעֲקֹב בְּפַדַּן אֲרָם וְיָת דִּינָה בְרַתֵּהּ כָּל נֶפֶשׁ בְּנוֹהִי וּבְנָתֵיהּ תְּלָתִין וּתְלָת:",
+          "english": "These are the sons of Le᾽a, whom she bore to Ya῾aqov in Paddan-aram, with his daughter Dina: all the souls of his sons and his daughters were thirty three."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וּבְנֵ֣י גָ֔ד צִפְי֥וֹן וְחַגִּ֖י שׁוּנִ֣י וְאֶצְבֹּ֑ן עֵרִ֥י וַֽאֲרוֹדִ֖י וְאַרְאֵלִֽי׃",
+          "targum": "וּבְנֵי גָד צִפְיוֹן וְחַגִּי שׁוּנִי וְאֶצְבּוֹן עֵרִי וַאֲרוֹדִי וְאַרְאֵלִי:",
+          "english": "And the sons of Gad; Żifyon, and Ḥaggi, Shuni, and Eżbon, ῾Eri, and Arodi, and Ar᾽eli."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וּבְנֵ֣י אָשֵׁ֗ר יִמְנָ֧ה וְיִשְׁוָ֛ה וְיִשְׁוִ֥י וּבְרִיעָ֖ה וְשֶׂ֣רַח אֲחֹתָ֑ם וּבְנֵ֣י בְרִיעָ֔ה חֶ֖בֶר וּמַלְכִּיאֵֽל׃",
+          "targum": "וּבְנֵי אָשֵׁר יִמְנָה וְיִשְׁוָה וְיִשְׁוִי וּבְרִיעָה וְשֶׂרַח אֲחַתְהוֹן וּבְנֵי בְרִיעָה חֶבֶר וּמַלְכִּיאֵל:",
+          "english": "And the sons of Asher; Yimna, and Yishva, and Yishvi, and Beri῾a, and Seraĥ their sister: and the sons of Beri῾a were Ḥever and Malki᾽el."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "אֵ֚לֶּה בְּנֵ֣י זִלְפָּ֔ה אֲשֶׁר־נָתַ֥ן לָבָ֖ן לְלֵאָ֣ה בִתּ֑וֹ וַתֵּ֤לֶד אֶת־אֵ֙לֶּה֙ לְיַעֲקֹ֔ב שֵׁ֥שׁ עֶשְׂרֵ֖ה נָֽפֶשׁ׃",
+          "targum": "אִלֵּין בְּנֵי זִלְפָּה דִּיהַב לָבָן לְלֵאָה בְרַתֵּיהּ וִילִידַת יָת אִלֵּין לְיַעֲקֹב שִׁית עֶשְׂרֵי נַפְשָׁא:",
+          "english": "These are the sons of Zilpa, whom Lavan gave to Le᾽a his daughter, and these she bore to Ya῾aqov, sixteen souls."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "בְּנֵ֤י רָחֵל֙ אֵ֣שֶׁת יַעֲקֹ֔ב יוֹסֵ֖ף וּבִנְיָמִֽן׃",
+          "targum": "בְּנֵי רָחֵל אִתַּת יַעֲקֹב יוֹסֵף וּבִנְיָמִן:",
+          "english": "The sons of Raĥel, Ya῾aqov’s wife; Yosef and Binyamin."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיִּוָּלֵ֣ד לְיוֹסֵף֮ בְּאֶ֣רֶץ מִצְרַ֒יִם֒ אֲשֶׁ֤ר יָֽלְדָה־לּוֹ֙ אָֽסְנַ֔ת בַּת־פּ֥וֹטִי פֶ֖רַע<sup class=\"footnote-marker\">*</sup><i class=\"footnote\">(בספרי תימן פּֽוֹטִיפֶ֖רַע בתיבה אחת)</i> כֹּהֵ֣ן אֹ֑ן אֶת־מְנַשֶּׁ֖ה וְאֶת־אֶפְרָֽיִם׃",
+          "targum": "וְאִתְיְלִידוּ לְיוֹסֵף בְּאַרְעָא דְמִצְרַיִם דִּילִידַת לֵהּ אָסְנַת בַּת פּוֹטִי פֶרַע רַבָּא דְאוֹן יָת מְנַשֶּׁה וְיָת אֶפְרָיִם:",
+          "english": "And to Yosef in the land of Miżrayim were born Menashshe and Efrayim, whom Asenat, daughter of Poti-fera; the priest of On bore to him."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וּבְנֵ֣י בִנְיָמִ֗ן בֶּ֤לַע וָבֶ֙כֶר֙ וְאַשְׁבֵּ֔ל גֵּרָ֥א וְנַעֲמָ֖ן אֵחִ֣י וָרֹ֑אשׁ מֻפִּ֥ים וְחֻפִּ֖ים וָאָֽרְדְּ׃",
+          "targum": "וּבְנֵי בִנְיָמִן בֶּלַע וָבֶכֶר וְאַשְׁבֵּל גֵּרָא וְנַעֲמָן אֵחִי וָרֹאשׁ מֻפִּים וְחֻפִּים וָאָרְדְּ:",
+          "english": "And the sons of Binyamin were Bela, and Bekher, and Ashbel, Gera, and Na῾aman, Eĥi, and Rosh, Muppim, and Ḥuppim, and Ard."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "אֵ֚לֶּה בְּנֵ֣י רָחֵ֔ל אֲשֶׁ֥ר יֻלַּ֖ד לְיַעֲקֹ֑ב כׇּל־נֶ֖פֶשׁ אַרְבָּעָ֥ה עָשָֽׂר׃",
+          "targum": "אִלֵּין בְּנֵי רָחֵל דְּאִתְיְלִידוּ לְיַעֲקֹב כָּל נַפְשָׁא אַרְבְּעָה עֲשָׂר:",
+          "english": "These are the sons of Raĥel, who were born to Ya῾aqov: all the souls were fourteen."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וּבְנֵי־דָ֖ן חֻשִֽׁים׃",
+          "targum": "וּבְנֵי דָן חֻשִׁים:",
+          "english": "And the sons of Dan; Ḥushim."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וּבְנֵ֖י נַפְתָּלִ֑י יַחְצְאֵ֥ל וְגוּנִ֖י וְיֵ֥צֶר וְשִׁלֵּֽם׃",
+          "targum": "וּבְנֵי נַפְתָּלִי יַחְצְאֵל וְגוּנִי וְיֵצֶר וְשִׁלֵּם:",
+          "english": "And the sons of Naftali; Yaĥże᾽el, and Guni, and Yeżer, and Shillem."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "אֵ֚לֶּה בְּנֵ֣י בִלְהָ֔ה אֲשֶׁר־נָתַ֥ן לָבָ֖ן לְרָחֵ֣ל בִּתּ֑וֹ וַתֵּ֧לֶד אֶת־אֵ֛לֶּה לְיַעֲקֹ֖ב כׇּל־נֶ֥פֶשׁ שִׁבְעָֽה׃",
+          "targum": "אִלֵּין בְּנֵי בִלְהָה דִּיהַב לָבָן לְרָחֵל בְּרַתֵּיהּ וִילִידַת יָת אִלֵּין לְיַעֲקֹב כָּל נַפְשָׁא שִׁבְעָא:",
+          "english": "These are the sons of Bilha, whom Lavan gave to Raĥel his daughter, and she bore these to Ya῾aqov: all the souls were seven."
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "כׇּל־הַ֠נֶּ֠פֶשׁ הַבָּאָ֨ה לְיַעֲקֹ֤ב מִצְרַ֙יְמָה֙ יֹצְאֵ֣י יְרֵכ֔וֹ מִלְּבַ֖ד נְשֵׁ֣י בְנֵי־יַעֲקֹ֑ב כׇּל־נֶ֖פֶשׁ שִׁשִּׁ֥ים וָשֵֽׁשׁ׃",
+          "targum": "כָּל נַפְשָׁא דְּעַלָּא לְיַעֲקֹב לְמִצְרַיִם נָפְקֵי יַרְכֵּיהּ בַּר מִנְּשֵׁי בְנֵי יַעֲקֹב כָּל נַפְשָׁתָא שִׁתִּין וְשִׁית:",
+          "english": "All the souls that came with Ya῾aqov into Miżrayim, who came out of his loins, besides Ya῾aqov’s sons’ wives, all the souls were sixty six."
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "וּבְנֵ֥י יוֹסֵ֛ף אֲשֶׁר־יֻלַּד־ל֥וֹ בְמִצְרַ֖יִם נֶ֣פֶשׁ שְׁנָ֑יִם כׇּל־הַנֶּ֧פֶשׁ לְבֵֽית־יַעֲקֹ֛ב הַבָּ֥אָה מִצְרַ֖יְמָה שִׁבְעִֽים׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וּבְנֵי יוֹסֵף דִּי אִתְיְלִידוּ לֵיהּ בְּמִצְרַיִם נַפְשָׁתָא תְרֵין כָּל נַפְשָׁתָא לְבֵית יַעֲקֹב דְּעַלּוּ לְמִצְרַיִם שִׁבְעִין:",
+          "english": "And the sons of Yosef, who were born him in Miżrayim, were two souls: all the souls of the house of Ya῾aqov who came into Miżrayim were seventy."
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וְאֶת־יְהוּדָ֞ה שָׁלַ֤ח לְפָנָיו֙ אֶל־יוֹסֵ֔ף לְהוֹרֹ֥ת לְפָנָ֖יו גֹּ֑שְׁנָה וַיָּבֹ֖אוּ אַ֥רְצָה גֹּֽשֶׁן׃",
+          "targum": "וְיָת יְהוּדָה שְׁלַח קֳדָמוֹהִי לְוַת יוֹסֵף לְפַנָּאָה קֳדָמוֹהִי לְגשֶׁן וַאֲתוֹ לְאַרְעָא דְגשֶׁן:",
+          "english": "And he sent Yehuda before him to Yosef, to show the way before him to Goshen; and they came into the land of Goshen."
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "וַיֶּאְסֹ֤ר יוֹסֵף֙ מֶרְכַּבְתּ֔וֹ וַיַּ֛עַל לִקְרַֽאת־יִשְׂרָאֵ֥ל אָבִ֖יו גֹּ֑שְׁנָה וַיֵּרָ֣א אֵלָ֗יו וַיִּפֹּל֙ עַל־צַוָּארָ֔יו וַיֵּ֥בְךְּ עַל־צַוָּארָ֖יו עֽוֹד׃",
+          "targum": "וְטַקִּיס יוֹסֵף רְתִכּוֹהִי וּסְלֵיק לְקַדָּמוּת יִשְׂרָאֵל אֲבוּהִי לְגשֶׁן וְאִתְגְּלִי לֵיהּ וּנְפַל עַל צַוְּרֵיהּ וּבְכָא עַל צַוְּרֵיהּ עוֹד:",
+          "english": "And Yosef made ready his chariot, and went up to meet Yisra᾽el his father, to Goshen, and presented himself to him; and he fell on his neck, and wept on his neck a good while."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "וַיֹּ֧אמֶר יִשְׂרָאֵ֛ל אֶל־יוֹסֵ֖ף אָמ֣וּתָה הַפָּ֑עַם אַחֲרֵי֙ רְאוֹתִ֣י אֶת־פָּנֶ֔יךָ כִּ֥י עוֹדְךָ֖ חָֽי׃",
+          "targum": "וַאֲמַר יִשְׂרָאֵל לְיוֹסֵף אִלּוּ אֲנָא מָיִת זִמְנָא הָדָא מְנַחֵם אֲנָא בָּתַר דַּחֲזֵיתִי יָת אַפָּיךְ אֲרֵי עַד כְּעַן אַתְּ קַיָּם:",
+          "english": "And Yisra᾽el said to Yosef, Now let me die, since I have seen thy face, because thou art still alive."
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "וַיֹּ֨אמֶר יוֹסֵ֤ף אֶל־אֶחָיו֙ וְאֶל־בֵּ֣ית אָבִ֔יו אֶעֱלֶ֖ה וְאַגִּ֣ידָה לְפַרְעֹ֑ה וְאֹֽמְרָ֣ה אֵלָ֔יו אַחַ֧י וּבֵית־אָבִ֛י אֲשֶׁ֥ר בְּאֶֽרֶץ־כְּנַ֖עַן בָּ֥אוּ אֵלָֽי׃",
+          "targum": "וַאֲמַר יוֹסֵף לַאֲחוֹהִי וּלְבֵית אֲבוּהִי אֶסַּק וְאֵחַוֵּי לְפַרְעֹה וְאֵימַר לֵיהּ אַחַי וּבֵית אַבָּא דִּי בְאַרְעָא דִכְנַעַן עַלּוּ לְוָתִי:",
+          "english": "And Yosef said to his brethren, and to his father’s house, I will go up, and tell Par῾o, and say to him, My brethren, and my father’s house, who were in the land of Kena῾an, are come to me;"
+        },
+        {
+          "verseNum": 32,
+          "hebrew": "וְהָאֲנָשִׁים֙ רֹ֣עֵי צֹ֔אן כִּֽי־אַנְשֵׁ֥י מִקְנֶ֖ה הָי֑וּ וְצֹאנָ֧ם וּבְקָרָ֛ם וְכׇל־אֲשֶׁ֥ר לָהֶ֖ם הֵבִֽיאוּ׃",
+          "targum": "וְגֻבְרַיָּא רָעֵי עָנָא אֲרֵי גֻבְרֵי מָרֵי גֵיתֵי הֲווֹ וְעָנְהוֹן וְתוֹרְהוֹן וְכָל דִּי לְהוֹן אַיְתִיאוּ:",
+          "english": "and the men are shepherds, for they have ever been owners of cattle; and they have brought their flocks, and their herds, and all that they have."
+        },
+        {
+          "verseNum": 33,
+          "hebrew": "וְהָיָ֕ה כִּֽי־יִקְרָ֥א לָכֶ֖ם פַּרְעֹ֑ה וְאָמַ֖ר מַה־מַּעֲשֵׂיכֶֽם׃",
+          "targum": "וִיהֵי אֲרֵי יִקְרֵי לְכוֹן פַּרְעֹה וְיֵימַר מָה עוֹבָדֵיכוֹן:",
+          "english": "And it shall come to pass, when Par῾o shall call you, and shall say, What is your occupation?"
+        },
+        {
+          "verseNum": 34,
+          "hebrew": "וַאֲמַרְתֶּ֗ם אַנְשֵׁ֨י מִקְנֶ֜ה הָי֤וּ עֲבָדֶ֙יךָ֙ מִנְּעוּרֵ֣ינוּ וְעַד־עַ֔תָּה גַּם־אֲנַ֖חְנוּ גַּם־אֲבֹתֵ֑ינוּ בַּעֲב֗וּר תֵּשְׁבוּ֙ בְּאֶ֣רֶץ גֹּ֔שֶׁן כִּֽי־תוֹעֲבַ֥ת מִצְרַ֖יִם כׇּל־רֹ֥עֵה צֹֽאן׃",
+          "targum": "וְתֵימְרוּן גֻּבְרֵי מָרֵי גֵיתֵי הֲווֹ עַבְדָּיךְ מֵעוּלֵמָנָא וְעַד כְּעַן אַף אֲנַחְנָא אַף אֲבְהָתָנָא בְּדִיל דִּי תֵיתְבוּן בְּאַרְעָא דְגשֶׁן אֲרֵי מְרַחֲקִין מִצְרָאֵי כָּל רָעֵי עָנָא:",
+          "english": "that you shall say, Thy servants’ trade has been about cattle from our youth even until now, both we, and also our fathers: that you may dwell in the land of Goshen; for every shepherd is an abomination to Miżrayim."
+        }
+      ]
+    },
+    {
+      "chapter": 47,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיָּבֹ֣א יוֹסֵף֮ וַיַּגֵּ֣ד לְפַרְעֹה֒ וַיֹּ֗אמֶר אָבִ֨י וְאַחַ֜י וְצֹאנָ֤ם וּבְקָרָם֙ וְכׇל־אֲשֶׁ֣ר לָהֶ֔ם בָּ֖אוּ מֵאֶ֣רֶץ כְּנָ֑עַן וְהִנָּ֖ם בְּאֶ֥רֶץ גֹּֽשֶׁן׃",
+          "targum": "וַאֲתָא יוֹסֵף וְחַוִּי לְפַרְעֹה וַאֲמַר אַבָּא וְאַחַי וְעָנְהוֹן וְתוֹרְהוֹן וְכָל דִּי לְהוֹן אֲתוֹ מֵאַרְעָא דִכְנָעַן וְהָא אִנּוּן בְּאַרְעָא דְגשֶׁן:",
+          "english": "Then Yosef came and told Par῾o, and said, My father and my brethren, and their flocks, and their herds, and all that they have, are come out of the land of Kena῾an; and, behold, they are in the land of Goshen."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וּמִקְצֵ֣ה אֶחָ֔יו לָקַ֖ח חֲמִשָּׁ֣ה אֲנָשִׁ֑ים וַיַּצִּגֵ֖ם לִפְנֵ֥י פַרְעֹֽה׃",
+          "targum": "וּמִקְצַת מִן אֲחוֹהִי דְּבַר חַמְשָׁא גֻבְרִין וַאֲקֵימִנּוּן קֳדָם פַּרְעֹה:",
+          "english": "And he took some of his brothers, five men, and presented them to Par῾o."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיֹּ֧אמֶר פַּרְעֹ֛ה אֶל־אֶחָ֖יו מַה־מַּעֲשֵׂיכֶ֑ם וַיֹּאמְר֣וּ אֶל־פַּרְעֹ֗ה רֹעֵ֥ה צֹאן֙ עֲבָדֶ֔יךָ גַּם־אֲנַ֖חְנוּ גַּם־אֲבוֹתֵֽינוּ׃",
+          "targum": "וַאֲמַר פַּרְעֹה לַאֲחוֹהִי מָה עוֹבָדֵיכוֹן וַאֲמָרוּ לְפַרְעֹה רָעֵי עָנָא עַבְדָּיךְ אַף אֲנַחְנָא אַף אֲבְהָתָנָא:",
+          "english": "And Par῾o said to his brothers, What is your occupation? And they said to Par῾o, Thy servants are shepherds, both we, and also our fathers."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וַיֹּאמְר֣וּ אֶל־פַּרְעֹ֗ה לָג֣וּר בָּאָ֘רֶץ֮ בָּ֒אנוּ֒ כִּי־אֵ֣ין מִרְעֶ֗ה לַצֹּאן֙ אֲשֶׁ֣ר לַעֲבָדֶ֔יךָ כִּֽי־כָבֵ֥ד הָרָעָ֖ב בְּאֶ֣רֶץ כְּנָ֑עַן וְעַתָּ֛ה יֵֽשְׁבוּ־נָ֥א עֲבָדֶ֖יךָ בְּאֶ֥רֶץ גֹּֽשֶׁן׃",
+          "targum": "וַאֲמָרוּ לְוַת פַּרְעֹה לְאִתּוֹתָבָא בְאַרְעָא אֲתֵינָא אֲרֵי לֵית רַעֲיָא לְעָנָא דִּי לְעַבְדָּיךְ אֲרֵי תַקִּיף כַּפְנָא בְּאַרְעָא דִכְנָעַן וּכְעַן יֵתְבוּן כְּעַן עַבְדָּיךְ בְּאַרְעָא דְגשֶׁן:",
+          "english": "They said moreover to Par῾o, To sojourn in the land are we come; for thy servants have no pasture for their flocks; for the famine is severe in the land of Kena῾an: now therefore, we pray thee, let thy servants dwell in the land of Goshen."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַיֹּ֣אמֶר פַּרְעֹ֔ה אֶל־יוֹסֵ֖ף לֵאמֹ֑ר אָבִ֥יךָ וְאַחֶ֖יךָ בָּ֥אוּ אֵלֶֽיךָ׃",
+          "targum": "וַאֲמַר פַּרְעֹה לְיוֹסֵף לְמֵימָר אֲבוּךְ וְאַחָיךְ אֲתוֹ לְוָתָךְ:",
+          "english": "And Par῾o spoke to Yosef, saying, Thy father and thy brethren are come to thee:"
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "אֶ֤רֶץ מִצְרַ֙יִם֙ לְפָנֶ֣יךָ הִ֔וא בְּמֵיטַ֣ב הָאָ֔רֶץ הוֹשֵׁ֥ב אֶת־אָבִ֖יךָ וְאֶת־אַחֶ֑יךָ יֵשְׁבוּ֙ בְּאֶ֣רֶץ גֹּ֔שֶׁן וְאִם־יָדַ֗עְתָּ וְיֶשׁ־בָּם֙ אַנְשֵׁי־חַ֔יִל וְשַׂמְתָּ֛ם שָׂרֵ֥י מִקְנֶ֖ה עַל־אֲשֶׁר־לִֽי׃",
+          "targum": "אַרְעָא דְמִצְרַיִם קֳדָמָךְ הִיא בִּדְשַׁפִּיר בְּאַרְעָא אוֹתֵיב יָת אֲבוּךְ וְיָת אַחָיךְ יֵתְבוּן בְּאַרְעָא דְגשֶׁן וְאִם יָדַעְתְּ וְאִית בְּהוֹן גֻּבְרִין דְּחֵילָא וּתְמַנִּנּוּן רַבָּנֵי גֵיתֵי עַל דִּי לִי:",
+          "english": "the land of Miżrayim is before thee; in the best of the land make thy father and brethren to dwell; in the land of Goshen let them dwell: and if thou knowst any able men among them, then make them rulers over my cattle."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַיָּבֵ֤א יוֹסֵף֙ אֶת־יַֽעֲקֹ֣ב אָבִ֔יו וַיַּֽעֲמִדֵ֖הוּ לִפְנֵ֣י פַרְעֹ֑ה וַיְבָ֥רֶךְ יַעֲקֹ֖ב אֶת־פַּרְעֹֽה׃",
+          "targum": "וְאַיְתִי יוֹסֵף יָת יַעֲקֹב אֲבוּהִי וַאֲקִימִנֵּיהּ קֳדָם פַּרְעֹה וּבָרִיךְ יַעֲקֹב יָת פַּרְעֹה:",
+          "english": "And Yosef brought in Ya῾aqov his father, and set him before Par῾o: and Ya῾aqov blessed Par῾o."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וַיֹּ֥אמֶר פַּרְעֹ֖ה אֶֽל־יַעֲקֹ֑ב כַּמָּ֕ה יְמֵ֖י שְׁנֵ֥י חַיֶּֽיךָ׃",
+          "targum": "וַאֲמַר פַּרְעֹה לְיַעֲקֹב כַּמָּה יוֹמֵי שְׁנֵי חַיָּךְ:",
+          "english": "And Par῾o said to Ya῾aqov, How old art thou?"
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וַיֹּ֤אמֶר יַעֲקֹב֙ אֶל־פַּרְעֹ֔ה יְמֵי֙ שְׁנֵ֣י מְגוּרַ֔י שְׁלֹשִׁ֥ים וּמְאַ֖ת שָׁנָ֑ה מְעַ֣ט וְרָעִ֗ים הָיוּ֙ יְמֵי֙ שְׁנֵ֣י חַיַּ֔י וְלֹ֣א הִשִּׂ֗יגוּ אֶת־יְמֵי֙ שְׁנֵי֙ חַיֵּ֣י אֲבֹתַ֔י בִּימֵ֖י מְגוּרֵיהֶֽם׃",
+          "targum": "וַאֲמַר יַעֲקֹב לְפַרְעֹה יוֹמֵי שְׁנֵי תוֹתָבוּתַי מְאָה וּתְלָתִין שְׁנִין זְעֵירִין וּבִישִׁין הֲווֹ יוֹמֵי שְׁנֵי חַיַּי וְלָא אַדְבִּיקוּ יָת יוֹמֵי שְׁנֵי חַיֵּי אֲבָהָתַי בְּיוֹמֵי תּוֹתָבוּתְהוֹן:",
+          "english": "And Ya῾aqov said to Par῾o, The days of the years of my sojournings are a hundred and thirty years: few and evil have the days of the years of my life been, and they have not attained to the days of the years of the life of my fathers in the days of their sojournings."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַיְבָ֥רֶךְ יַעֲקֹ֖ב אֶת־פַּרְעֹ֑ה וַיֵּצֵ֖א מִלִּפְנֵ֥י פַרְעֹֽה׃",
+          "targum": "וּבָרִיךְ יַעֲקֹב יָת פַּרְעֹה וּנְפַק מִן קֳדָם פַּרְעֹה:",
+          "english": "And Ya῾aqov blessed Par῾o, and went out from before Par῾o."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַיּוֹשֵׁ֣ב יוֹסֵף֮ אֶת־אָבִ֣יו וְאֶת־אֶחָיו֒ וַיִּתֵּ֨ן לָהֶ֤ם אֲחֻזָּה֙ בְּאֶ֣רֶץ מִצְרַ֔יִם בְּמֵיטַ֥ב הָאָ֖רֶץ בְּאֶ֣רֶץ רַעְמְסֵ֑ס כַּאֲשֶׁ֖ר צִוָּ֥ה פַרְעֹֽה׃",
+          "targum": "וְאוֹתֵיב יוֹסֵף יָת אֲבוּהִי וְיָת אֲחוֹהִי וִיהַב לְהוֹן אַחֲסָנָא בְּאַרְעָא דְמִצְרַיִם בִּדְשַׁפִּיר בְּאַרְעָא בְּאַרְעָא דְרַעְמְּסֵס כְּמָא דִי פַקִּיד פַּרְעֹה:",
+          "english": "And Yosef provided abodes for his father and his brethren, and gave them a possession in the land of Miżrayim, in the best of the land, in the land of Ra῾meses, as Par῾o had commanded."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַיְכַלְכֵּ֤ל יוֹסֵף֙ אֶת־אָבִ֣יו וְאֶת־אֶחָ֔יו וְאֵ֖ת כׇּל־בֵּ֣ית אָבִ֑יו לֶ֖חֶם לְפִ֥י הַטָּֽף׃",
+          "targum": "וְזָן יוֹסֵף יָת אֲבוּהִי וְיָת אֲחוֹהִי וְיָת כָּל בֵּית אֲבוּהִי לַחְמָא לְפוּם טַפְלָא:",
+          "english": "And Yosef nourished his father, and his brethren, and all his father’s household, with bread, according to their little ones."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וְלֶ֤חֶם אֵין֙ בְּכׇל־הָאָ֔רֶץ כִּֽי־כָבֵ֥ד הָרָעָ֖ב מְאֹ֑ד וַתֵּ֜לַהּ אֶ֤רֶץ מִצְרַ֙יִם֙ וְאֶ֣רֶץ כְּנַ֔עַן מִפְּנֵ֖י הָרָעָֽב׃",
+          "targum": "וְלַחְמָא לֵית בְּכָל אַרְעָא אֲרֵי תַקִּיף כַּפְנָא לַחֲדָא וְאִשְׁתַּלְהֵי עַמָּא דְאַרְעָא דְמִצְרַיִם וְעַמָּא דְאַרְעָא דִכְנַעַן מִן קֳדָם כַּפְנָא:",
+          "english": "And there was no bread in all the land; for the famine was very severe, so that the land of Miżrayim and all the land of Kena῾an languished by reason of the famine."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַיְלַקֵּ֣ט יוֹסֵ֗ף אֶת־כׇּל־הַכֶּ֙סֶף֙ הַנִּמְצָ֤א בְאֶֽרֶץ־מִצְרַ֙יִם֙ וּבְאֶ֣רֶץ כְּנַ֔עַן בַּשֶּׁ֖בֶר אֲשֶׁר־הֵ֣ם שֹׁבְרִ֑ים וַיָּבֵ֥א יוֹסֵ֛ף אֶת־הַכֶּ֖סֶף בֵּ֥יתָה פַרְעֹֽה׃",
+          "targum": "וְלַקִּיט יוֹסֵף יָת כָּל כַּסְפָּא דְּאִשְׁתְּכַח בְּאַרְעָא דְמִצְרַיִם וּבְאַרְעָא דִכְנַעַן בְּעִיבוּרָא דִּי אִנּוּן זָבְנִין וְאַיְתֵי יוֹסֵף יָת כַּסְפָּא לְבֵית פַּרְעֹה:",
+          "english": "And Yosef gathered up all the money that was found in the land of Miżrayim, and in the land of Kena῾an, for the corn which they bought: and Yosef brought the money to Par῾o’s house."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וַיִּתֹּ֣ם הַכֶּ֗סֶף מֵאֶ֣רֶץ מִצְרַ֘יִם֮ וּמֵאֶ֣רֶץ כְּנַ֒עַן֒ וַיָּבֹ֩אוּ֩ כׇל־מִצְרַ֨יִם אֶל־יוֹסֵ֤ף לֵאמֹר֙ הָֽבָה־לָּ֣נוּ לֶ֔חֶם וְלָ֥מָּה נָמ֖וּת נֶגְדֶּ֑ךָ כִּ֥י אָפֵ֖ס כָּֽסֶף׃",
+          "targum": "וּשְׁלִים כַּסְפָּא מֵאַרְעָא דְמִצְרַיִם וּמֵאַרְעָא דִכְנַעַן וַאֲתוֹ כָל מִצְרָאֵי לְוַת יוֹסֵף לְמֵימַר הַב לָנָא לַחְמָא וּלְמָה נְמוּת לְקִבְלָךְ אֲרֵי שְׁלִים כַּסְפָּא:",
+          "english": "And when money failed in the land of Miżrayim, and in the land of Kena῾an, all Miżrayim came to Yosef, and said, Give us bread: for why should we die in thy presence? for the money fails."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וַיֹּ֤אמֶר יוֹסֵף֙ הָב֣וּ מִקְנֵיכֶ֔ם וְאֶתְּנָ֥ה לָכֶ֖ם בְּמִקְנֵיכֶ֑ם אִם־אָפֵ֖ס כָּֽסֶף׃",
+          "targum": "וַאֲמַר יוֹסֵף הָבוּ גֵיתֵיכוֹן וְאֶתֵּן לְכוֹן בְּגֵיתֵיכוֹן אִם שְׁלִים כַּסְפָּא:",
+          "english": "And Yosef said, Give your cattle; and I will give you for your cattle, if money fail."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיָּבִ֣יאוּ אֶת־מִקְנֵיהֶם֮ אֶל־יוֹסֵף֒ וַיִּתֵּ֣ן לָהֶם֩ יוֹסֵ֨ף לֶ֜חֶם בַּסּוּסִ֗ים וּבְמִקְנֵ֥ה הַצֹּ֛אן וּבְמִקְנֵ֥ה הַבָּקָ֖ר וּבַחֲמֹרִ֑ים וַיְנַהֲלֵ֤ם בַּלֶּ֙חֶם֙ בְּכׇל־מִקְנֵהֶ֔ם בַּשָּׁנָ֖ה הַהִֽוא׃",
+          "targum": "וְאַיְתִיּוּ יָת גֵּיתֵיהוֹן לְוַת יוֹסֵף וִיהַב לְהוֹן יוֹסֵף לַחְמָא בְּסוּסָוָתָא וּבְגֵיתֵי עָנָא וּבְגֵיתֵי תוֹרִין וּבַחֲמָרִין וְזָנִנּוּן בְּלַחְמָא בְּכָל גֵּיתֵיהוֹן בְּשַׁתָּא הַהִיא:",
+          "english": "And they brought their cattle to Yosef; and Yosef gave them bread in exchange for horses, and for the flocks, and for the herds, and for the asses: and he fed them with bread in exchange for all their cattle for that year."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וַתִּתֹּם֮ הַשָּׁנָ֣ה הַהִוא֒ וַיָּבֹ֨אוּ אֵלָ֜יו בַּשָּׁנָ֣ה הַשֵּׁנִ֗ית וַיֹּ֤אמְרוּ לוֹ֙ לֹֽא־נְכַחֵ֣ד מֵֽאֲדֹנִ֔י כִּ֚י אִם־תַּ֣ם הַכֶּ֔סֶף וּמִקְנֵ֥ה הַבְּהֵמָ֖ה אֶל־אֲדֹנִ֑י לֹ֤א נִשְׁאַר֙ לִפְנֵ֣י אֲדֹנִ֔י בִּלְתִּ֥י אִם־גְּוִיָּתֵ֖נוּ וְאַדְמָתֵֽנוּ׃",
+          "targum": "וּשְׁלִימַת שַׁתָּא הַהִיא וַאֲתוֹ לְוָתֵיהּ בְּשַׁתָּא תִנְיֵתָא וַאֲמָרוּ לֵיהּ לָא נְכַסֵּי מִן רִבּוֹנִי אֶלָּהֵין שְׁלִים כַּסְפָּא וְגֵיתֵי בְעִירָא לְוַת רִבּוֹנִי לָא אִשְׁתָּאַר קֳדָם רִבּוֹנִי אֶלָּהֵין גְּוִיָּתָנָא וְאַרְעָנָא:",
+          "english": "When that year was ended, they came to him in the second year, and said to him, We will not hide from my lord, how that our money is spent; my lord also has our herds of cattle; there is nothing left in the sight of my lord, but our bodies, and our lands:"
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "לָ֧מָּה נָמ֣וּת לְעֵינֶ֗יךָ גַּם־אֲנַ֙חְנוּ֙ גַּ֣ם אַדְמָתֵ֔נוּ קְנֵֽה־אֹתָ֥נוּ וְאֶת־אַדְמָתֵ֖נוּ בַּלָּ֑חֶם וְנִֽהְיֶ֞ה אֲנַ֤חְנוּ וְאַדְמָתֵ֙נוּ֙ עֲבָדִ֣ים לְפַרְעֹ֔ה וְתֶן־זֶ֗רַע וְנִֽחְיֶה֙ וְלֹ֣א נָמ֔וּת וְהָאֲדָמָ֖ה לֹ֥א תֵשָֽׁם׃",
+          "targum": "לְמָה נְמוּת לְעֵינָיךְ אַף אֲנַחְנָא אַף אַרְעָתָנָא קְנֵי יָתָנָא וְיָת אַרְעָתָנָא בְּלַחְמָא וּנְהֵי אֲנַחְנָא וְאַרְעָתָנָא עַבְדִּין לְפַרְעֹה וְהַב בַּר זַרְעָא וְנֵיחֵי וְלָא נְמוּת וְאַרְעָא לָא תְבוּר:",
+          "english": "why shall we die before thy eyes, both we and our land? buy us and our land for bread, and we and our land will be servants to Par῾o: and give us grain, that we may live, and not die, that the land be not desolate."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיִּ֨קֶן יוֹסֵ֜ף אֶת־כׇּל־אַדְמַ֤ת מִצְרַ֙יִם֙ לְפַרְעֹ֔ה כִּֽי־מָכְר֤וּ מִצְרַ֙יִם֙ אִ֣ישׁ שָׂדֵ֔הוּ כִּֽי־חָזַ֥ק עֲלֵהֶ֖ם הָרָעָ֑ב וַתְּהִ֥י הָאָ֖רֶץ לְפַרְעֹֽה׃",
+          "targum": "וּקְנָא יוֹסֵף יָת כָּל אַרְעָא דְמִצְרַיִם לְפַרְעֹה אֲרֵי זַבִּינוּ מִצְרַיִם גְּבַר חַקְלֵיהּ אֲרֵי תְקֵיף עֲלֵיהוֹן כַּפְנָא וַהֲוַת אַרְעָא לְפַרְעֹה:",
+          "english": "And Yosef bought all the land of Miżrayim for Par῾o; for Miżrayim sold every man his field, because the famine prevailed over them: so the land became Par῾o’s."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וְאֶ֨ת־הָעָ֔ם הֶעֱבִ֥יר אֹת֖וֹ לֶעָרִ֑ים מִקְצֵ֥ה גְבוּל־מִצְרַ֖יִם וְעַד־קָצֵֽהוּ׃",
+          "targum": "וְיָת עַמָּא אַעְבַּר יָתֵיהּ מִקְּרֵי לִקְרֵי מִסְּיָפֵי תְּחוּם מִצְרַיִם וְעַד סוֹפֵיהּ:",
+          "english": "And as for the people, he removed them to the cities from one end of the borders of Miżrayim, to the other end."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "רַ֛ק אַדְמַ֥ת הַכֹּהֲנִ֖ים לֹ֣א קָנָ֑ה כִּי֩ חֹ֨ק לַכֹּהֲנִ֜ים מֵאֵ֣ת פַּרְעֹ֗ה וְאָֽכְל֤וּ אֶת־חֻקָּם֙ אֲשֶׁ֨ר נָתַ֤ן לָהֶם֙ פַּרְעֹ֔ה עַל־כֵּ֕ן לֹ֥א מָכְר֖וּ אֶת־אַדְמָתָֽם׃",
+          "targum": "לְחוֹד אַרְעָא דְכֻמָּרַיָּא לָא זַבִּין אֲרֵי חֳלָקָא לְכֻמָּרַיָּא מִלְּוַת פַּרְעֹה וְאָכְלִין יָת חֳלָקְהוֹן דִּיהַב לְהוֹן פַּרְעֹה עַל כֵּן לָא זַבִּינוּ יָת אַרְעֲהוֹן:",
+          "english": "Only the land of the priests he bought not; for the priests had a portion assigned them by Par῾o, and did eat their portion which Par῾o gave them: therefore they sold not their lands."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַיֹּ֤אמֶר יוֹסֵף֙ אֶל־הָעָ֔ם הֵן֩ קָנִ֨יתִי אֶתְכֶ֥ם הַיּ֛וֹם וְאֶת־אַדְמַתְכֶ֖ם לְפַרְעֹ֑ה הֵֽא־לָכֶ֣ם זֶ֔רַע וּזְרַעְתֶּ֖ם אֶת־הָאֲדָמָֽה׃",
+          "targum": "וַאֲמַר יוֹסֵף לְעַמָּא הָא זְבֵנִית יָתְכוֹן יוֹמָא דֵין וְיָת אַרְעֲכוֹן לְפַרְעֹה הֵא לְכוֹן בַּר זַרְעָא וְתִזְרְעוּן יָת אַרְעָא:",
+          "english": "Then Yosef said to the people, Behold, I have bought you this day and your land for Par῾o: lo, here is grain for you, and you shall sow the land."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וְהָיָה֙ בַּתְּבוּאֹ֔ת וּנְתַתֶּ֥ם חֲמִישִׁ֖ית לְפַרְעֹ֑ה וְאַרְבַּ֣ע הַיָּדֹ֡ת יִהְיֶ֣ה לָכֶם֩ לְזֶ֨רַע הַשָּׂדֶ֧ה וּֽלְאׇכְלְכֶ֛ם וְלַאֲשֶׁ֥ר בְּבָתֵּיכֶ֖ם וְלֶאֱכֹ֥ל לְטַפְּכֶֽם׃",
+          "targum": "וִיהֵי בְּאָעוֹלֵי עֲלַלְתָּא וְתִתְּנוּן חַד מִן חַמְשָׁא לְפַרְעֹה וְאַרְבַּע חֳלָקִין יְהֵא לְכוֹן לְבַר זְרַע חַקְלָא וּלְמֵיכַלְכוֹן וְלֶאֱנַשׁ בְּבָתֵּיכוֹן וּלְמֵיכַל לְטַפְלְכוֹן:",
+          "english": "And it shall come to pass at harvest times, that you shall give the fifth part to Par῾o, and four parts shall be your own, for seed of the field, and for your food, and for them of your households, and for food for your little ones."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַיֹּאמְר֖וּ הֶחֱיִתָ֑נוּ נִמְצָא־חֵן֙ בְּעֵינֵ֣י אֲדֹנִ֔י וְהָיִ֥ינוּ עֲבָדִ֖ים לְפַרְעֹֽה׃",
+          "targum": "וַאֲמָרוּ קַיִּמְתָּנָא נַשְׁכַּח רַחֲמִין בְּעֵינֵי רִבּוֹנִי וּנְהֵי עַבְדִּין לְפַרְעֹה:",
+          "english": "And they said, Thou hast saved our lives: let us find favour in the sight of my lord, and we will be Par῾o’s servants."
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וַיָּ֣שֶׂם אֹתָ֣הּ יוֹסֵ֡ף לְחֹק֩ עַד־הַיּ֨וֹם הַזֶּ֜ה עַל־אַדְמַ֥ת מִצְרַ֛יִם לְפַרְעֹ֖ה לַחֹ֑מֶשׁ רַ֞ק אַדְמַ֤ת הַכֹּֽהֲנִים֙ לְבַדָּ֔ם לֹ֥א הָיְתָ֖ה לְפַרְעֹֽה׃",
+          "targum": "וְשַׁוִּי יָתַהּ יוֹסֵף לִגְזֵרָא עַד יוֹמָא הָדֵין עַל אַרְעָא דְמִצְרַיִם דִּיהוֹן יָהֲבִין חַד מִן חַמְשָׁא לְפַרְעֹה לְחוֹד אַרְעָא דְכֻמָּרַיָּא בִּלְחוֹדֵהוֹן לָא הֲוַת לְפַרְעֹה:",
+          "english": "And Yosef made it a law over the land of Miżrayim to this day, that Par῾o should have the fifth part; except the land of the priests only, which became not Par῾o’s."
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "וַיֵּ֧שֶׁב יִשְׂרָאֵ֛ל בְּאֶ֥רֶץ מִצְרַ֖יִם בְּאֶ֣רֶץ גֹּ֑שֶׁן וַיֵּאָחֲז֣וּ בָ֔הּ וַיִּפְר֥וּ וַיִּרְבּ֖וּ מְאֹֽד׃",
+          "targum": "וִיתֵיב יִשְׂרָאֵל בְּאַרְעָא דְמִצְרַיִם בְּאַרְעָא דְגשֶׁן וְאַחֲסִינוּ בַהּ וּנְפִישׁוּ וּסְגִיאוּ לַחֲדָא:",
+          "english": "And Yisra᾽el dwelt in the land of Miżrayim in the country of Goshen; and they took possession of it, and grew, and multiplied exceedingly."
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וַיְחִ֤י יַעֲקֹב֙ בְּאֶ֣רֶץ מִצְרַ֔יִם שְׁבַ֥ע עֶשְׂרֵ֖ה שָׁנָ֑ה וַיְהִ֤י יְמֵֽי־יַעֲקֹב֙ שְׁנֵ֣י חַיָּ֔יו שֶׁ֣בַע שָׁנִ֔ים וְאַרְבָּעִ֥ים וּמְאַ֖ת שָׁנָֽה׃",
+          "targum": "וַחֲיָא יַעֲקֹב בְּאַרְעָא דְמִצְרַיִם שְׁבַע עֶשְׂרֵי שְׁנִין וַהֲווֹ יוֹמֵי יַעֲקֹב שְׁנֵי חַיּוֹהִי מְאָה וְאַרְבְּעִין וּשְׁבַע שְׁנִין:",
+          "english": "And Ya῾aqov lived in the land of Miżrayim seventeen years: so the whole age of Ya῾aqov was a hundred and forty seven years."
+        }
+      ]
+    }
+  ]
+}

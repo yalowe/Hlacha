@@ -68,8 +68,8 @@ function convertToAppFormat(inputFile, outputDir, partInfo) {
       }))
     };
     
-    // Save to file
-    const filename = `siman-${simanNum.padStart(3, '0')}.json`;
+    // Save to file - filename must match the ID for uniqueness
+    const filename = `${partInfo.outputDir}-${simanNum.padStart(3, '0')}.json`;
     const filePath = path.join(fullOutputDir, filename);
     
     fs.writeFileSync(

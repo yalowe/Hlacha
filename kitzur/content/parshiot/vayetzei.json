@@ -1,0 +1,973 @@
+{
+  "name": "Vayetzei",
+  "book": "Genesis",
+  "chapters": [
+    {
+      "chapter": 28,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיִּקְרָ֥א יִצְחָ֛ק אֶֽל־יַעֲקֹ֖ב וַיְבָ֣רֶךְ אֹת֑וֹ וַיְצַוֵּ֙הוּ֙ וַיֹּ֣אמֶר ל֔וֹ לֹֽא־תִקַּ֥ח אִשָּׁ֖ה מִבְּנ֥וֹת כְּנָֽעַן׃",
+          "targum": "וּקְרָא יִצְחָק לְיַעֲקֹב וּבָרִיךְ יָתֵיהּ וּפַקְּדֵיהּ וַאֲמַר לֵיהּ לָא תִסַּב אִתְּתָא מִבְּנַת כְּנָעַן:",
+          "english": "And Yiżĥaq called Ya῾aqov, and blessed him, and charged him, and said to him, Thou shalt not take a wife of the daughters of Kena῾an."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "ק֥וּם לֵךְ֙ פַּדֶּ֣נָֽה אֲרָ֔ם בֵּ֥יתָה בְתוּאֵ֖ל אֲבִ֣י אִמֶּ֑ךָ וְקַח־לְךָ֤ מִשָּׁם֙ אִשָּׁ֔ה מִבְּנ֥וֹת לָבָ֖ן אֲחִ֥י אִמֶּֽךָ׃",
+          "targum": "קוּם אִזֵּיל לְפַדַּן אֲרָם לְבֵית בְּתוּאֵל אֲבוּהָא דְאִמָּךְ וְסַב לָךְ מִתַּמָּן אִתְּתָא מִבְּנַת לָבָן אֲחוּהָא דְאִמָּךְ:",
+          "english": "Arise, go to Paddan-aram, to the house of Betu᾽el thy mother’s father; and take thee a wife from there of the daughters of Lavan thy mother’s brother."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וְאֵ֤ל שַׁדַּי֙ יְבָרֵ֣ךְ אֹֽתְךָ֔ וְיַפְרְךָ֖ וְיַרְבֶּ֑ךָ וְהָיִ֖יתָ לִקְהַ֥ל עַמִּֽים׃",
+          "targum": "וְאֵל שַׁדַּי יְבָרֵךְ יָתָךְ וְיַפְּשָׁךְ וְיַסְגִּנָּךְ וּתְהֵי לְכִנְשַׁת שִׁבְטִין:",
+          "english": "And God Almighty bless thee, and make thee fruitful, and multiply thee, that thou mayst be a multitude of people;"
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וְיִֽתֶּן־לְךָ֙ אֶת־בִּרְכַּ֣ת אַבְרָהָ֔ם לְךָ֖ וּלְזַרְעֲךָ֣ אִתָּ֑ךְ לְרִשְׁתְּךָ֙ אֶת־אֶ֣רֶץ מְגֻרֶ֔יךָ אֲשֶׁר־נָתַ֥ן אֱלֹהִ֖ים לְאַבְרָהָֽם׃",
+          "targum": "וְיִתֶּן לָךְ יָת בִּרְכְּתָא דְאַבְרָהָם לָךְ וְלִבְנָךְ עִמָּךְ לְמֵירְתָךְ יָת אֲרַע תּוֹתָבוּתָךְ דִּי יְהַב יְיָ לְאַבְרָהָם:",
+          "english": "and give thee the blessing of Avraham, to thee, and to thy seed with thee; that thou mayst inherit the land in which thou art a sojourner, and which God gave to Avraham."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַיִּשְׁלַ֤ח יִצְחָק֙ אֶֽת־יַעֲקֹ֔ב וַיֵּ֖לֶךְ פַּדֶּ֣נָֽה אֲרָ֑ם אֶל־לָבָ֤ן בֶּן־בְּתוּאֵל֙ הָֽאֲרַמִּ֔י אֲחִ֣י רִבְקָ֔ה אֵ֥ם יַעֲקֹ֖ב וְעֵשָֽׂו׃",
+          "targum": "וּשְׁלַח יִצְחָק יָת יַעֲקֹב וַאֲזַל לְפַדַּן אֲרָם לְוַת לָבָן בַּר בְּתוּאֵל אֲרַמָּאָה אֲחוּהָא דְרִבְקָה אִמֵּיהּ דְּיַעֲקֹב וְעֵשָׂו:",
+          "english": "And Yiżĥaq sent away Ya῾aqov: and he went to Paddan-aram to Lavan, son of Betu᾽el the Arammian, the brother of Rivqa, mother of Ya῾aqov and ῾Esav."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וַיַּ֣רְא עֵשָׂ֗ו כִּֽי־בֵרַ֣ךְ יִצְחָק֮ אֶֽת־יַעֲקֹב֒ וְשִׁלַּ֤ח אֹתוֹ֙ פַּדֶּ֣נָֽה אֲרָ֔ם לָקַֽחַת־ל֥וֹ מִשָּׁ֖ם אִשָּׁ֑ה בְּבָרְכ֣וֹ אֹת֔וֹ וַיְצַ֤ו עָלָיו֙ לֵאמֹ֔ר לֹֽא־תִקַּ֥ח אִשָּׁ֖ה מִבְּנ֥וֹת כְּנָֽעַן׃",
+          "targum": "וַחֲזָא עֵשָׂו אֲרֵי בָרִיךְ יִצְחָק יָת יַעֲקֹב וְשַׁלַּח יָתֵיהּ לְפַדַּן אֲרָם לְמִסַּב לֵיהּ מִתַּמָּן אִתְּתָא כַּד בָּרִיךְ יָתֵיהּ וּפַקִּיד עֲלוֹהִי לְמֵימַר לָא תִסַּב אִתְּתָא מִבְּנַת כְּנָעַן:",
+          "english": "When ῾Esav saw that Yiżĥaq had blessed Ya῾aqov, and sent him away to Paddan-aram, to take him a wife from there; and that as he blessed him he gave him a charge, saying, Thou shalt not take a wife of the daughters of Kena῾an:"
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַיִּשְׁמַ֣ע יַעֲקֹ֔ב אֶל־אָבִ֖יו וְאֶל־אִמּ֑וֹ וַיֵּ֖לֶךְ פַּדֶּ֥נָֽה אֲרָֽם׃",
+          "targum": "וְקַבִּיל יַעֲקֹב מִן אֲבוּהִי וּמִן אִמֵּיהּ וַאֲזַל לְפַדַּן אֲרָם:",
+          "english": "and that Ya῾aqov obeyed his father and his mother, and was gone to Paddan-aram,"
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וַיַּ֣רְא עֵשָׂ֔ו כִּ֥י רָע֖וֹת בְּנ֣וֹת כְּנָ֑עַן בְּעֵינֵ֖י יִצְחָ֥ק אָבִֽיו׃",
+          "targum": "וַחֲזָא עֵשָׂו אֲרֵי בִישָׁא בְּנַת כְּנָעַן בְּעֵינֵי יִצְחָק אֲבוּהִי:",
+          "english": "and ῾Esav saw that the daughters of Kena῾an pleased not Yiżĥaq his father;"
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וַיֵּ֥לֶךְ עֵשָׂ֖ו אֶל־יִשְׁמָעֵ֑אל וַיִּקַּ֡ח אֶֽת־מָחֲלַ֣ת&thinsp;<b>׀</b> בַּת־יִשְׁמָעֵ֨אל בֶּן־אַבְרָהָ֜ם אֲח֧וֹת נְבָי֛וֹת עַל־נָשָׁ֖יו ל֥וֹ לְאִשָּֽׁה׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וַאֲזַל עֵשָׂו לְוַת יִשְׁמָעֵאל וּנְסִיב יָת מַחֲלַת בַּת יִשְׁמָעֵאל בַּר אַבְרָהָם אֲחָתֵיהּ דִּנְבָיוֹת עַל נְשׁוֹהִי לֵיהּ לְאִנְתּוּ:",
+          "english": "then ῾Esav went and took to wife besides the wives he had, Maĥalat the daughter of Yishma᾽el Avraham’s son, the sister of Nevayot."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַיֵּצֵ֥א יַעֲקֹ֖ב מִבְּאֵ֣ר שָׁ֑בַע וַיֵּ֖לֶךְ חָרָֽנָה׃",
+          "targum": "וּנְפַק יַעֲקֹב מִבְּאֵרָא דְשָׁבַע וַאֲזַל לְחָרָן:",
+          "english": "And Ya῾aqov went out from Be᾽er-sheva, and went toward Ḥaran."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַיִּפְגַּ֨ע בַּמָּק֜וֹם וַיָּ֤לֶן שָׁם֙ כִּי־בָ֣א הַשֶּׁ֔מֶשׁ וַיִּקַּח֙ מֵאַבְנֵ֣י הַמָּק֔וֹם וַיָּ֖שֶׂם מְרַֽאֲשֹׁתָ֑יו וַיִּשְׁכַּ֖ב בַּמָּק֥וֹם הַהֽוּא׃",
+          "targum": "וַעֲרַע בְּאַתְרָא וּבָת תַּמָּן אֲרֵי עַל שִׁמְשָׁא וּנְסִיב מֵאַבְנֵי אַתְרָא וְשַׁוִּי אִסָּדוֹהִי וּשְׁכִיב בְּאַתְרָא הַהוּא:",
+          "english": "And he lighted on a certain place, and tarried there all night, because the sun was set; and he took of the stones of that place, and put them under his head, and lay down in that place to sleep."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַֽיַּחֲלֹ֗ם וְהִנֵּ֤ה סֻלָּם֙ מֻצָּ֣ב אַ֔רְצָה וְרֹאשׁ֖וֹ מַגִּ֣יעַ הַשָּׁמָ֑יְמָה וְהִנֵּה֙ מַלְאֲכֵ֣י אֱלֹהִ֔ים עֹלִ֥ים וְיֹרְדִ֖ים בּֽוֹ׃",
+          "targum": "וַחֲלַם וְהָא סֻלְמָא נָעִיץ בְּאַרְעָא וְרֵישֵׁיהּ מָטֵי עַד צֵית שְׁמַיָּא וְהָא מַלְאָכַיָּא דַיְיָ סָלְקִין וְנָחֲתִין בֵּהּ:",
+          "english": "And he dreamed, and behold a ladder set up on the earth, and the top of it reached to heaven: and behold the angels of God ascending and descending on it."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וְהִנֵּ֨ה יְהֹוָ֜ה נִצָּ֣ב עָלָיו֮ וַיֹּאמַר֒ אֲנִ֣י יְהֹוָ֗ה אֱלֹהֵי֙ אַבְרָהָ֣ם אָבִ֔יךָ וֵאלֹהֵ֖י יִצְחָ֑ק הָאָ֗רֶץ אֲשֶׁ֤ר אַתָּה֙ שֹׁכֵ֣ב עָלֶ֔יהָ לְךָ֥ אֶתְּנֶ֖נָּה וּלְזַרְעֶֽךָ׃",
+          "targum": "וְהָא יְקָרָא דַיְיָ מְעַתַּד עִלָּווֹהִי וַאֲמַר אֲנָא יְיָ אֱלָהֵהּ דְּאַבְרָהָם אָבוּךְ וֵאֱלָהֵהּ דְּיִצְחָק אַרְעָא דִּי אַתְּ שָׁרֵי עֲלַהּ לָךְ אֶתְּנִנַּהּ וְלִבְנָךְ:",
+          "english": "And, behold, the Lord stood above it, and said, I am the Lord God of Avraham thy father, and the God of Yiżĥaq: the land on which thou liest, to thee will I give it, and to thy seed;"
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וְהָיָ֤ה זַרְעֲךָ֙ כַּעֲפַ֣ר הָאָ֔רֶץ וּפָרַצְתָּ֛ יָ֥מָּה וָקֵ֖דְמָה וְצָפֹ֣נָה וָנֶ֑גְבָּה וְנִבְרְכ֥וּ בְךָ֛ כׇּל־מִשְׁפְּחֹ֥ת הָאֲדָמָ֖ה וּבְזַרְעֶֽךָ׃",
+          "targum": "וִיהוֹן בְּנָךְ סַגִּיאִין כְּעַפְרָא דְאַרְעָא וְתִתְקֵף לְמַעַרְבָא וּלְמָדִינְחָא וּלְצִפּוּנָא וּלְדָרוֹמָא וְיִתְבָּרְכוּן בְּדִילָךְ כֹּל זַרְעֲיַת אַרְעָא וּבְדִיל בְּנָךְ:",
+          "english": "and thy seed shall be as the dust of the earth, and thou shalt spread abroad to the west, and to the east, and to the north, and to the south: and in thee and in thy seed shall all the families of the earth be blessed."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וְהִנֵּ֨ה אָנֹכִ֜י עִמָּ֗ךְ וּשְׁמַרְתִּ֙יךָ֙ בְּכֹ֣ל אֲשֶׁר־תֵּלֵ֔ךְ וַהֲשִׁ֣בֹתִ֔יךָ אֶל־הָאֲדָמָ֖ה הַזֹּ֑את כִּ֚י לֹ֣א אֶֽעֱזׇבְךָ֔ עַ֚ד אֲשֶׁ֣ר אִם־עָשִׂ֔יתִי אֵ֥ת אֲשֶׁר־דִּבַּ֖רְתִּי לָֽךְ׃",
+          "targum": "וְהָא מֵימְרִי בְּסַעְדָּךְ וְאֶטְּרִנָּךְ בְּכָל אֲתַר דִּי תְהַךְ וַאֲתֵיבִנָּךְ לְאַרְעָא הָדָא אֲרֵי לָא אֶשְׁבְּקִנָּךְ עַד דִּי אֶעְבֵּיד יָת דְּמַלֵּלִית לָךְ:",
+          "english": "And, behold, I am with thee, and will keep thee in all places to which thou goest, and will bring thee back to this land; for I will not leave thee, until I have done that which I have spoken to thee of."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וַיִּיקַ֣ץ יַעֲקֹב֮ מִשְּׁנָתוֹ֒ וַיֹּ֕אמֶר אָכֵן֙ יֵ֣שׁ יְהֹוָ֔ה בַּמָּק֖וֹם הַזֶּ֑ה וְאָנֹכִ֖י לֹ֥א יָדָֽעְתִּי׃",
+          "targum": "וְאִתְּעַר יַעֲקֹב מִשִּׁנְתֵּיהּ וַאֲמַר בְּקוּשְׁטָא (אִית) יְקָרָא דַיְיָ שָׁרֵי בְּאַתְרָא הָדֵין וַאֲנָא לָא הֲוֵיתִי יְדָע:",
+          "english": "And Ya῾aqov awoke out of his sleep, and he said, Surely the Lord is in this place; and I knew it not."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיִּירָא֙ וַיֹּאמַ֔ר מַה־נּוֹרָ֖א הַמָּק֣וֹם הַזֶּ֑ה אֵ֣ין זֶ֗ה כִּ֚י אִם־בֵּ֣ית אֱלֹהִ֔ים וְזֶ֖ה שַׁ֥עַר הַשָּׁמָֽיִם׃",
+          "targum": "וּדְחִיל וַאֲמַר מָה דְּחִילוּ אַתְרָא הָדֵין לֵית דֵּין אֲתַר הֶדְיוֹט אֶלָּהֵין אֲתַר דְּרַעֲוָא בֵיהּ מִן קֳדָם יְיָ וְדֵין תְּרַע קֳבֵל שְׁמַיָּא:",
+          "english": "And he was afraid, and said, How dreadful is this place! this is no other than the house of God, and this is the gate of heaven."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וַיַּשְׁכֵּ֨ם יַעֲקֹ֜ב בַּבֹּ֗קֶר וַיִּקַּ֤ח אֶת־הָאֶ֙בֶן֙ אֲשֶׁר־שָׂ֣ם מְרַֽאֲשֹׁתָ֔יו וַיָּ֥שֶׂם אֹתָ֖הּ מַצֵּבָ֑ה וַיִּצֹ֥ק שֶׁ֖מֶן עַל־רֹאשָֽׁהּ׃",
+          "targum": "וְאַקְדֵּים יַעֲקֹב בְּצַפְרָא וּנְסִיב יָת אַבְנָא דִּי שַׁוִּי אִסָּדוֹהִי וְשַׁוִּי יָתַהּ קָמָא וַאֲרִיק מִשְׁחָא עַל רֵישַׁהּ:",
+          "english": "And Ya῾aqov rose up early in the morning, and took the stone that he had put under his head, and set it up for a pillar, and poured oil on the top of it."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וַיִּקְרָ֛א אֶת־שֵֽׁם־הַמָּק֥וֹם הַה֖וּא בֵּֽית־אֵ֑ל וְאוּלָ֛ם ל֥וּז שֵׁם־הָעִ֖יר לָרִאשֹׁנָֽה׃",
+          "targum": "וּקְרָא יָת שְׁמָא דְאַתְרָא הַהוּא בֵּית אֵל וּבְרַם לוּז שְׁמָא דְקַרְתָּא בְּקַדְמֵיתָא:",
+          "english": "And he called the name of that place Bet-el: but the name of that city was called Luz at first."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיִּדַּ֥ר יַעֲקֹ֖ב נֶ֣דֶר לֵאמֹ֑ר אִם־יִהְיֶ֨ה אֱלֹהִ֜ים עִמָּדִ֗י וּשְׁמָרַ֙נִי֙ בַּדֶּ֤רֶךְ הַזֶּה֙ אֲשֶׁ֣ר אָנֹכִ֣י הוֹלֵ֔ךְ וְנָֽתַן־לִ֥י לֶ֛חֶם לֶאֱכֹ֖ל וּבֶ֥גֶד לִלְבֹּֽשׁ׃",
+          "targum": "וְקַיִּים יַעֲקֹב קְיָם לְמֵימָר אִם יְהֵא מֵימְרָא דַיְיָ בְּסַעְדִּי וְיִטְּרִנַּנִי בְּאָרְחָא הָדֵין דִּי אֲנָא אָזֵל וְיִתֶּן לִי לַחֲמָא (נ\"א לְחֵם) לְמֵיכַל וּכְסוּ לְמִלְבָּשׁ:",
+          "english": "And Ya῾aqov vowed a vow, saying, If God will be with me, and will keep me in this way that I go, and will give me bread to eat, and clothing to wear,"
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וְשַׁבְתִּ֥י בְשָׁל֖וֹם אֶל־בֵּ֣ית אָבִ֑י וְהָיָ֧ה יְהֹוָ֛ה לִ֖י לֵאלֹהִֽים׃",
+          "targum": "וְאֵתוּב בִּשְׁלַם לְבֵית אַבָּא וִיהֵא מֵימְרָא דַיְיָ לִי לֵאלָהָא:",
+          "english": "so that I come back to my father’s house in peace, then the Lord shall be my God:"
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וְהָאֶ֣בֶן הַזֹּ֗את אֲשֶׁר־שַׂ֙מְתִּי֙ מַצֵּבָ֔ה יִהְיֶ֖ה בֵּ֣ית אֱלֹהִ֑ים וְכֹל֙ אֲשֶׁ֣ר תִּתֶּן־לִ֔י עַשֵּׂ֖ר אֲעַשְּׂרֶ֥נּוּ לָֽךְ׃",
+          "targum": "וְאַבְנָא הָדָא דִּי שַׁוֵּיתִי קָמָא תְּהֵי דִּי אֵהֵי פָלַח עֲלַהּ מִן קֳדָם יְיָ וְכֹל דִּי תִּתֶּן לִי חַד מִן עַשְׂרָא אַפְרְשִׁנֵּיהּ קֳדָמָךְ:",
+          "english": "and this stone, which I have set for a pillar, shall be God’s house: and of all that Thou shalt give me I will surely give the tenth to Thee."
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיִּשָּׂ֥א יַעֲקֹ֖ב רַגְלָ֑יו וַיֵּ֖לֶךְ אַ֥רְצָה בְנֵי־קֶֽדֶם׃",
+          "targum": "וּנְטַל יַעֲקֹב רַגְלוֹהִי (נ\"א רִיגְלוֹהִי) וַאֲזַל לַאֲרַע בְּנֵי מָדִינְחָא:",
+          "english": "Then Ya῾aqov lifted up his feet, and went to the land of the people of the east."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וַיַּ֞רְא וְהִנֵּ֧ה בְאֵ֣ר בַּשָּׂדֶ֗ה וְהִנֵּה־שָׁ֞ם שְׁלֹשָׁ֤ה עֶדְרֵי־צֹאן֙ רֹבְצִ֣ים עָלֶ֔יהָ כִּ֚י מִן־הַבְּאֵ֣ר הַהִ֔וא יַשְׁק֖וּ הָעֲדָרִ֑ים וְהָאֶ֥בֶן גְּדֹלָ֖ה עַל־פִּ֥י הַבְּאֵֽר׃",
+          "targum": "וַחֲזָא וְהָא בֵירָא בְחַקְלָא וְהָא תַמָּן תְּלָתָא עֶדְרִין דְּעָן רְבִיעִין עֲלַהּ אֲרֵי מִן בֵּירָא הַהִיא מַשְׁקָן עֲדָרַיָּא וְאַבְנָא רַבְּתָא עַל פּוּמָא דְבֵירָא:",
+          "english": "And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well’s mouth."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וְנֶאֶסְפוּ־שָׁ֣מָּה כׇל־הָעֲדָרִ֗ים וְגָלְל֤וּ אֶת־הָאֶ֙בֶן֙ מֵעַל֙ פִּ֣י הַבְּאֵ֔ר וְהִשְׁק֖וּ אֶת־הַצֹּ֑אן וְהֵשִׁ֧יבוּ אֶת־הָאֶ֛בֶן עַל־פִּ֥י הַבְּאֵ֖ר לִמְקֹמָֽהּ׃",
+          "targum": "וּמִתְכַּנְּשִׁין לְתַמָּן כָּל עֲדָרַיָּא וּמְגַנְדְּרִין יָת אַבְנָא מֵעַל פּוּמָא דְבֵירָא וּמַשְׁקָן יָת עָנָא וּמְתִיבִין יָת אַבְנָא עַל פּוּמָא דְבֵירָא לְאַתְרַהּ:",
+          "english": "And there were all the flocks gathered: and they rolled the stone from the well’s mouth, and watered the sheep, and put the stone back upon the well’s mouth in its place."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וַיֹּ֤אמֶר לָהֶם֙ יַעֲקֹ֔ב אַחַ֖י מֵאַ֣יִן אַתֶּ֑ם וַיֹּ֣אמְר֔וּ מֵחָרָ֖ן אֲנָֽחְנוּ׃",
+          "targum": "וַאֲמַר לְהוֹן יַעֲקֹב אַחַי מְנָן אַתּוּן וַאֲמָרוּ מֵחָרָן אֲנָחְנָא:",
+          "english": "And Ya῾aqov said to them, My brethren, where are you from? And they said, Of Ḥaran are we."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַיֹּ֣אמֶר לָהֶ֔ם הַיְדַעְתֶּ֖ם אֶת־לָבָ֣ן בֶּן־נָח֑וֹר וַיֹּאמְר֖וּ יָדָֽעְנוּ׃",
+          "targum": "וַאֲמַר לְהוֹן הַיְדַעְתּוּן יָת לָבָן בַּר נָחוֹר וַאֲמָרוּ יְדַעְנָן:",
+          "english": "And he said to them, Do you know Lavan the son of Naĥor? And they said, We know him."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וַיֹּ֥אמֶר לָהֶ֖ם הֲשָׁל֣וֹם ל֑וֹ וַיֹּאמְר֣וּ שָׁל֔וֹם וְהִנֵּה֙ רָחֵ֣ל בִּתּ֔וֹ בָּאָ֖ה עִם־הַצֹּֽאן׃",
+          "targum": "וַאֲמַר לְהוֹן הַשְׁלַם לֵיהּ וַאֲמָרוּ שְׁלַם וְהָא רָחֵל בְּרַתֵּיהּ אָתְיָא עִם עָנָא:",
+          "english": "And he said to them, Is he well? And they said, He is well: and, behold, Raĥel his daughter comes with the sheep."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַיֹּ֗אמֶר הֵ֥ן עוֹד֙ הַיּ֣וֹם גָּד֔וֹל לֹא־עֵ֖ת הֵאָסֵ֣ף הַמִּקְנֶ֑ה הַשְׁק֥וּ הַצֹּ֖אן וּלְכ֥וּ רְעֽוּ׃",
+          "targum": "וַאֲמַר הָא עוֹד יוֹמָא סַגִּי לָא עִדַּן לְמִכְנַשׁ בְּעִיר אַשְׁקוּ עָנָא וְאִזִּילוּ רְעוּ:",
+          "english": "And he said, Lo, it is yet high day, neither is it time that the cattle should be gathered together: water the sheep, and go and feed them."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וַיֹּאמְרוּ֮ לֹ֣א נוּכַל֒ עַ֣ד אֲשֶׁ֤ר יֵאָֽסְפוּ֙ כׇּל־הָ֣עֲדָרִ֔ים וְגָֽלְלוּ֙ אֶת־הָאֶ֔בֶן מֵעַ֖ל פִּ֣י הַבְּאֵ֑ר וְהִשְׁקִ֖ינוּ הַצֹּֽאן׃",
+          "targum": "וַאֲמָרוּ לָא נִכּוּל עַד דִּי מִתְכַּנְּשִׁין כָּל עֲדָרַיָּא וִיגַנְדְּרוּן יָת אַבְנָא מֵעַל פּוּמָא דְבֵירָא וְנַשְׁקֵי עָנָא:",
+          "english": "And they said, We cannot, until all the flocks are gathered together, and till they roll the stone from the well’s mouth; then we may water the sheep."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "עוֹדֶ֖נּוּ מְדַבֵּ֣ר עִמָּ֑ם וְרָחֵ֣ל&thinsp;<b>׀</b> בָּ֗אָה עִם־הַצֹּאן֙ אֲשֶׁ֣ר לְאָבִ֔יהָ כִּ֥י רֹעָ֖ה הִֽוא׃",
+          "targum": "עַד דְּהוּא מְמַלֵּל עִמְּהוֹן וְרָחֵל אָתַת עִם עָנָא דִּי לַאֲבוּהָ אֲרֵי רָעִיתָא הִיא:",
+          "english": "And while he was still speaking with them, Raĥel came with her father’s sheep: for she kept them."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַיְהִ֡י כַּאֲשֶׁר֩ רָאָ֨ה יַעֲקֹ֜ב אֶת־רָחֵ֗ל בַּת־לָבָן֙ אֲחִ֣י אִמּ֔וֹ וְאֶת־צֹ֥אן לָבָ֖ן אֲחִ֣י אִמּ֑וֹ וַיִּגַּ֣שׁ יַעֲקֹ֗ב וַיָּ֤גֶל אֶת־הָאֶ֙בֶן֙ מֵעַל֙ פִּ֣י הַבְּאֵ֔ר וַיַּ֕שְׁקְ אֶת־צֹ֥אן לָבָ֖ן אֲחִ֥י אִמּֽוֹ׃",
+          "targum": "וַהֲוָה כַּד חֲזָא יַעֲקֹב יָת רָחֵל בַּת לָבָן אֲחוּהָא דְאִמֵּיהּ וְיָת עָנָא דְלָבָן אֲחוּהָא דְאִמֵּיהּ וּקְרֵב יַעֲקֹב וְגַנְדַּר יָת אַבְנָא מֵעַל פּוּמָא דְבֵירָא וְאַשְׁקֵי יָת עָנָא דְלָבָן אֲחוּהָא דְאִמֵּיהּ:",
+          "english": "And it came to pass, when Ya῾aqov saw Raĥel the daughter of Lavan his mother’s brother, and the sheep of Lavan his mother’s brother, that Ya῾aqov went near, and rolled the stone from the well’s mouth, and watered the flock of Lavan his mother’s brother."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַיִּשַּׁ֥ק יַעֲקֹ֖ב לְרָחֵ֑ל וַיִּשָּׂ֥א אֶת־קֹל֖וֹ וַיֵּֽבְךְּ׃",
+          "targum": "וּנְשַׁק יַעֲקֹב לְרָחֵל וַאֲרֵם יָת קָלֵיהּ וּבְכָא:",
+          "english": "And Ya῾aqov kissed Raĥel, and raised his voice, and wept."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַיַּגֵּ֨ד יַעֲקֹ֜ב לְרָחֵ֗ל כִּ֣י אֲחִ֤י אָבִ֙יהָ֙ ה֔וּא וְכִ֥י בֶן־רִבְקָ֖ה ה֑וּא וַתָּ֖רׇץ וַתַּגֵּ֥ד לְאָבִֽיהָ׃",
+          "targum": "וְחַוִּי יַעֲקֹב לְרָחֵל אֲרֵי בַר אֲחָה דְאָבוּהָ הוּא וַאֲרֵי בַר רִבְקָה הוּא וּרְהָטַת וְחַוִּיאַת לְאָבוּהָ:",
+          "english": "And Ya῾aqov told Raĥel that he was her father’s brother, and that he was Rivqa’s son: and she ran and told her father."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וַיְהִי֩ כִשְׁמֹ֨עַ לָבָ֜ן אֶת־שֵׁ֣מַע&thinsp;<b>׀</b> יַעֲקֹ֣ב בֶּן־אֲחֹת֗וֹ וַיָּ֤רׇץ לִקְרָאתוֹ֙ וַיְחַבֶּק־לוֹ֙ וַיְנַשֶּׁק־ל֔וֹ וַיְבִיאֵ֖הוּ אֶל־בֵּית֑וֹ וַיְסַפֵּ֣ר לְלָבָ֔ן אֵ֥ת כׇּל־הַדְּבָרִ֖ים הָאֵֽלֶּה׃",
+          "targum": "וַהֲוָה כַּד שְׁמַע לָבָן יָת שֵׁמַע יַעֲקֹב בַּר אֲחָתֵיהּ וּרְהַט לְקַדָּמוּתֵיהּ וְגַפֵּף לֵיהּ וְנַשִּׁיק לֵיהּ וְאַעֲלֵיהּ לְבֵיתֵיהּ וְאִשְׁתָּעִי לְלָבָן יָת כָּל פִּתְגָּמַיָּא הָאִלֵּין:",
+          "english": "And it came to pass, when Lavan heard the tidings of Ya῾aqov his sister’s son, that he ran to meet him, and embraced him, and kissed him, and brought him to his house. And he told Lavan all these things."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַיֹּ֤אמֶר לוֹ֙ לָבָ֔ן אַ֛ךְ עַצְמִ֥י וּבְשָׂרִ֖י אָ֑תָּה וַיֵּ֥שֶׁב עִמּ֖וֹ חֹ֥דֶשׁ יָמִֽים׃",
+          "targum": "וַאֲמַר לֵיהּ לָבָן בְּרַם קָרִיבִי וּבִשְׂרִי אָתְּ וִיתֵיב עִמֵּיהּ יְרַח יוֹמִין:",
+          "english": "And Lavan said to him, Surely thou art my bone and my flesh. And he stayed with him a month."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וַיֹּ֤אמֶר לָבָן֙ לְיַעֲקֹ֔ב הֲכִי־אָחִ֣י אַ֔תָּה וַעֲבַדְתַּ֖נִי חִנָּ֑ם הַגִּ֥ידָה לִּ֖י מַה־מַּשְׂכֻּרְתֶּֽךָ׃",
+          "targum": "וַאֲמַר לָבָן לְיַעֲקֹב הֲמִדְּאָחִי אַתְּ וְתִפְלְחִנַּנִי מַגָּן חַוִּי לִי מָה אַגְרָךְ:",
+          "english": "And Lavan said to Ya῾aqov, Because thou art my brother, shouldst thou therefore serve me for nothing? tell me, what shall thy wages be?"
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וּלְלָבָ֖ן שְׁתֵּ֣י בָנ֑וֹת שֵׁ֤ם הַגְּדֹלָה֙ לֵאָ֔ה וְשֵׁ֥ם הַקְּטַנָּ֖ה רָחֵֽל׃",
+          "targum": "וּלְלָבָן תַּרְתֵּין בְּנָן שׁוּם רַבְּתָא לֵאָה וְשׁוּם זְעֶרְתָּא רָחֵל:",
+          "english": "And Lavan had two daughters: the name of the elder was Le᾽a, and the name of the younger was Raĥel."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וְעֵינֵ֥י לֵאָ֖ה רַכּ֑וֹת וְרָחֵל֙ הָֽיְתָ֔ה יְפַת־תֹּ֖אַר וִיפַ֥ת מַרְאֶֽה׃",
+          "targum": "וְעֵינֵי לֵאָה יָאֲיָן וְרָחֵל הֲוַת שַׁפִּירָא בְרֵיוָא וְיָאֲיָא בְחֶזְוָא:",
+          "english": "And Le᾽a’s eyes were weak; but Raĥel was beautiful and well favoured."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וַיֶּאֱהַ֥ב יַעֲקֹ֖ב אֶת־רָחֵ֑ל וַיֹּ֗אמֶר אֶֽעֱבׇדְךָ֙ שֶׁ֣בַע שָׁנִ֔ים בְּרָחֵ֥ל בִּתְּךָ֖ הַקְּטַנָּֽה׃",
+          "targum": "וּרְחֵם יַעֲקֹב יָת רָחֵל וַאֲמַר אֶפְלְחִנָּךְ שְׁבַע שְׁנִין בְּרָחֵל בְּרַתָּךְ זְעֶרְתָּא:",
+          "english": "And Ya῾aqov loved Raĥel; and said, I will serve thee seven years for Raĥel thy younger daughter."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וַיֹּ֣אמֶר לָבָ֗ן ט֚וֹב תִּתִּ֣י אֹתָ֣הּ לָ֔ךְ מִתִּתִּ֥י אֹתָ֖הּ לְאִ֣ישׁ אַחֵ֑ר שְׁבָ֖ה עִמָּדִֽי׃",
+          "targum": "וַאֲמַר לָבָן טַב דְּאֶתֵּן יָתַהּ לָךְ מִדְּאֶתֵּן יָתַהּ לִגְבַר אָחֳרָן תִּיב עִמִּי:",
+          "english": "And Lavan said, It is better that I give her to thee, than that I should give her to another man: stay with me."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיַּעֲבֹ֧ד יַעֲקֹ֛ב בְּרָחֵ֖ל שֶׁ֣בַע שָׁנִ֑ים וַיִּהְי֤וּ בְעֵינָיו֙ כְּיָמִ֣ים אֲחָדִ֔ים בְּאַהֲבָת֖וֹ אֹתָֽהּ׃",
+          "targum": "וּפְלַח יַעֲקֹב בְּרָחֵל שְׁבַע שְׁנִין וַהֲווֹ בְעֵינוֹהִי כְּיוֹמִין זְעִירִין כַּד רְחֵים יָתַהּ:",
+          "english": "And Ya῾aqov served seven years for Raĥel and they seemed to him but a few days, for the love he had to her."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וַיֹּ֨אמֶר יַעֲקֹ֤ב אֶל־לָבָן֙ הָבָ֣ה אֶת־אִשְׁתִּ֔י כִּ֥י מָלְא֖וּ יָמָ֑י וְאָב֖וֹאָה אֵלֶֽיהָ׃",
+          "targum": "וַאֲמַר יַעֲקֹב לְלָבָן הַב יָת אִתְּתִי אֲרֵי אַשְׁלֵמִית יוֹמֵי פָלְחָנִי וְאֵעוֹל לְוָתַהּ:",
+          "english": "And Ya῾aqov said to Lavan, Give me my wife, for my days are fulfilled, that I may go in to her."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וַיֶּאֱסֹ֥ף לָבָ֛ן אֶת־כׇּל־אַנְשֵׁ֥י הַמָּק֖וֹם וַיַּ֥עַשׂ מִשְׁתֶּֽה׃",
+          "targum": "וּכְנַשׁ לָבָן יָת כָּל אֲנָשֵׁי אַתְרָא וַעֲבַד מִשְׁתְּיָא:",
+          "english": "And Lavan gathered together all the men of the place, and made a feast."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַיְהִ֣י בָעֶ֔רֶב וַיִּקַּח֙ אֶת־לֵאָ֣ה בִתּ֔וֹ וַיָּבֵ֥א אֹתָ֖הּ אֵלָ֑יו וַיָּבֹ֖א אֵלֶֽיהָ׃",
+          "targum": "וַהֲוָה בְרַמְשָׁא וּדְבַר יָת לֵאָה בְרַתֵּיהּ וְאָעֵיל יָתַהּ לְוָתֵיהּ וְעַל לְוָתַהּ:",
+          "english": "And it came to pass in the evening, that he took Le᾽a his daughter, and brought her to him; and he went in to her."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וַיִּתֵּ֤ן לָבָן֙ לָ֔הּ אֶת־זִלְפָּ֖ה שִׁפְחָת֑וֹ לְלֵאָ֥ה בִתּ֖וֹ שִׁפְחָֽה׃",
+          "targum": "וִיהַב לָבָן לַהּ יָת זִלְפָּה אַמְתֵיהּ לְלֵאָה בְרַתֵּיהּ לְאַמְהוּ:",
+          "english": "And Lavan gave to his daughter Le᾽a Zilpa his maid for a handmaid."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַיְהִ֣י בַבֹּ֔קֶר וְהִנֵּה־הִ֖וא לֵאָ֑ה וַיֹּ֣אמֶר אֶל־לָבָ֗ן מַה־זֹּאת֙ עָשִׂ֣יתָ לִּ֔י הֲלֹ֤א בְרָחֵל֙ עָבַ֣דְתִּי עִמָּ֔ךְ וְלָ֖מָּה רִמִּיתָֽנִי׃",
+          "targum": "וַהֲוָה בְצַפְרָא וְהָא הִיא לֵאָה וַאֲמַר לְלָבָן מָה דָא עֲבַדְתָּ לִּי הֲלָא בְרָחֵל פְּלָחִית עִמָּךְ וּלְמָא שַׁקַּרְתָּ בִּי:",
+          "english": "And it came to pass, that in the morning, behold, it was Le᾽a: and he said to Lavan, What is this thou hast done to me? did not I serve with thee for Raĥel? why then hast thou beguiled me?"
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וַיֹּ֣אמֶר לָבָ֔ן לֹא־יֵעָשֶׂ֥ה כֵ֖ן בִּמְקוֹמֵ֑נוּ לָתֵ֥ת הַצְּעִירָ֖ה לִפְנֵ֥י הַבְּכִירָֽה׃",
+          "targum": "וַאֲמַר לָבָן לָא אִתְעֲבֵד כְּדֵין בְּאַתְרָנָא לְמִתַּן זְעֶרְתָּא קֳדָם רַבְּתָא:",
+          "english": "And Lavan said, It must not be so done in our country, to give the younger before the firstborn."
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "מַלֵּ֖א שְׁבֻ֣עַ זֹ֑את וְנִתְּנָ֨ה לְךָ֜ גַּם־אֶת־זֹ֗את בַּעֲבֹדָה֙ אֲשֶׁ֣ר תַּעֲבֹ֣ד עִמָּדִ֔י ע֖וֹד שֶֽׁבַע־שָׁנִ֥ים אֲחֵרֽוֹת׃",
+          "targum": "אַשְׁלִים שְׁבוּעֲתָא דְדָא וְנִתֵּן לָךְ אַף יָת דָּא בְּפָלְחָנָא דִּי תִפְלַח עִמִּי עוֹד שְׁבַע שְׁנִין אָחֳרָנִין:",
+          "english": "Fulfil her week, and we will give thee this also for the service which thou shalt serve with me yet another seven years."
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וַיַּ֤עַשׂ יַעֲקֹב֙ כֵּ֔ן וַיְמַלֵּ֖א שְׁבֻ֣עַ זֹ֑את וַיִּתֶּן־ל֛וֹ אֶת־רָחֵ֥ל בִּתּ֖וֹ ל֥וֹ לְאִשָּֽׁה׃",
+          "targum": "וַעֲבַד יַעֲקֹב כֵּן וְאַשְׁלֵים שְׁבוּעֲתָא דְדָא וִיהַב לֵיהּ יָת רָחֵל בְּרַתֵּיהּ לֵיהּ לְאִנְתּוּ:",
+          "english": "And Ya῾aqov did so, and fulfilled her week: and he gave him Raĥel his daughter to wife also."
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "וַיִּתֵּ֤ן לָבָן֙ לְרָחֵ֣ל בִּתּ֔וֹ אֶת־בִּלְהָ֖ה שִׁפְחָת֑וֹ לָ֖הּ לְשִׁפְחָֽה׃",
+          "targum": "וִיהַב לָבָן לְרָחֵל בְּרַתֵּיהּ יָת בִּלְהָה אַמְתֵיהּ לַהּ לְאַמְהוּ:",
+          "english": "And Lavan gave to Raĥel his daughter Bilha his maid to be her handmaid."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "וַיָּבֹא֙ גַּ֣ם אֶל־רָחֵ֔ל וַיֶּאֱהַ֥ב גַּֽם־אֶת־רָחֵ֖ל מִלֵּאָ֑ה וַיַּעֲבֹ֣ד עִמּ֔וֹ ע֖וֹד שֶֽׁבַע־שָׁנִ֥ים אֲחֵרֽוֹת׃",
+          "targum": "וְעַל אַף לְוַת רָחֵל וּרְחֵים אַף יָת רָחֵל מִלֵּאָה וּפְלַח עִמֵּיהּ עוֹד שְׁבַע שְׁנִין אָחֳרָנִין:",
+          "english": "And he went in also to Raĥel, and moreover he loved Raĥel more than Le᾽a, and served with him yet another seven years."
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "וַיַּ֤רְא יְהֹוָה֙ כִּֽי־שְׂנוּאָ֣ה לֵאָ֔ה וַיִּפְתַּ֖ח אֶת־רַחְמָ֑הּ וְרָחֵ֖ל עֲקָרָֽה׃",
+          "targum": "וַחֲזָא יְיָ אֲרֵי שְׂנִיאֲתָא לֵאָה וִיהַב לַהּ עִדּוּי וְרָחֵל עַקְרָא:",
+          "english": "And when the Lord saw that Le᾽a was hated, He opened her womb: but Raĥel was barren."
+        },
+        {
+          "verseNum": 32,
+          "hebrew": "וַתַּ֤הַר לֵאָה֙ וַתֵּ֣לֶד בֵּ֔ן וַתִּקְרָ֥א שְׁמ֖וֹ רְאוּבֵ֑ן כִּ֣י אָֽמְרָ֗ה כִּֽי־רָאָ֤ה יְהֹוָה֙ בְּעׇנְיִ֔י כִּ֥י עַתָּ֖ה יֶאֱהָבַ֥נִי אִישִֽׁי׃",
+          "targum": "וְעַדִּיאַת לֵאָה וִילִידַת בָּר וּקְרַת שְׁמֵיהּ רְאוּבֵן אֲרֵי אֲמֶרֶת אֲרֵי גְלִי קֳדָם יְיָ עֻלְבּוֹנִי אֲרֵי כְעַן יִרְחֲמִנַּנִי בַעְלִי:",
+          "english": "And Le᾽a conceived, and bore a son, and she called his name Re᾽uven: for she said, Surely the Lord has looked upon my affliction; now therefore my husband will love me."
+        },
+        {
+          "verseNum": 33,
+          "hebrew": "וַתַּ֣הַר עוֹד֮ וַתֵּ֣לֶד בֵּן֒ וַתֹּ֗אמֶר כִּֽי־שָׁמַ֤ע יְהֹוָה֙ כִּֽי־שְׂנוּאָ֣ה אָנֹ֔כִי וַיִּתֶּן־לִ֖י גַּם־אֶת־זֶ֑ה וַתִּקְרָ֥א שְׁמ֖וֹ שִׁמְעֽוֹן׃",
+          "targum": "וְעַדִּיאַת עוֹד וִילִידַת בָּר וַאֲמֶרֶת אֲרֵי שְׁמִיעַ קֳדָם יְיָ אֲרֵי שְׂנִיאֲתָא אֲנָא וִיהַב לִי אַף יָת דֵּין וּקְרַת שְׁמֵיהּ שִׁמְעוֹן:",
+          "english": "And she conceived again, and bore a son; and said, Because the Lord has heard that I was hated, He has therefore given me this son also: and she called his name Shim῾on."
+        },
+        {
+          "verseNum": 34,
+          "hebrew": "וַתַּ֣הַר עוֹד֮ וַתֵּ֣לֶד בֵּן֒ וַתֹּ֗אמֶר עַתָּ֤ה הַפַּ֙עַם֙ יִלָּוֶ֤ה אִישִׁי֙ אֵלַ֔י כִּֽי־יָלַ֥דְתִּי ל֖וֹ שְׁלֹשָׁ֣ה בָנִ֑ים עַל־כֵּ֥ן קָרָֽא־שְׁמ֖וֹ לֵוִֽי׃",
+          "targum": "וְעַדִּיאַת עוֹד וִילִידַת בָּר וַאֲמֶרֶת הָדָא זִמְנָא יִתְחַבַּר לִי בַעְלִי אֲרֵי יְלֵידִית לֵיהּ תְּלָתָא בְנִין עַל כֵּן קְרָא שְׁמֵיהּ לֵוִי:",
+          "english": "And she conceived again, and bore a son; and said, Now this time will my husband be joined to me, because I have born him three sons; therefore was his name called Levi."
+        },
+        {
+          "verseNum": 35,
+          "hebrew": "וַתַּ֨הַר ע֜וֹד וַתֵּ֣לֶד בֵּ֗ן וַתֹּ֙אמֶר֙ הַפַּ֙עַם֙ אוֹדֶ֣ה אֶת־יְהֹוָ֔ה עַל־כֵּ֛ן קָרְאָ֥ה שְׁמ֖וֹ יְהוּדָ֑ה וַֽתַּעֲמֹ֖ד מִלֶּֽדֶת׃",
+          "targum": "וְעַדִּיאַת עוֹד וִילִידַת בָּר וַאֲמֶרֶת הָדָא זִמְנָא אוֹדֶה קֳדָם יְיָ עַל כֵּן קְרַת שְׁמֵיהּ יְהוּדָה וְקָמַת מִלְּמֵילַד:",
+          "english": "And she conceived again, and bore a son and she said, Now will I praise the Lord: therefore she called his name Yehuda, and she left off bearing."
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַתֵּ֣רֶא רָחֵ֗ל כִּ֣י לֹ֤א יָֽלְדָה֙ לְיַעֲקֹ֔ב וַתְּקַנֵּ֥א רָחֵ֖ל בַּאֲחֹתָ֑הּ וַתֹּ֤אמֶר אֶֽל־יַעֲקֹב֙ הָֽבָה־לִּ֣י בָנִ֔ים וְאִם־אַ֖יִן מֵתָ֥ה אָנֹֽכִי׃",
+          "targum": "וַחֲזַת רָחֵל אֲרֵי לָא יְלִידַת לְיַעֲקֹב וְקַנִּיאַת רָחֵל בַּאֲחָתַהּ וַאֲמֶרֶת לְיַעֲקֹב הַב לִי בְנִין וְאִם לָא מֵיתָא אֲנָא:",
+          "english": "And when Raĥel saw that she bore Ya῾aqov no children, Raĥel envied her sister; and said, Give me children, or else I die."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וַיִּֽחַר־אַ֥ף יַעֲקֹ֖ב בְּרָחֵ֑ל וַיֹּ֗אמֶר הֲתַ֤חַת אֱלֹהִים֙ אָנֹ֔כִי אֲשֶׁר־מָנַ֥ע מִמֵּ֖ךְ פְּרִי־בָֽטֶן׃",
+          "targum": "וּתְקֵיף רוּגְזָא דְיַעֲקֹב בְּרָחֵל וַאֲמַר הָא מִנִּי אַתְּ בַּעְיָא הֲלָא מִן קֳדָם יְיָ תִּבְעִין דִּי מְנַע מִנִּיךְ וַלְדָא דִמְעִין:",
+          "english": "And Ya῾aqov’s anger burned against Raĥel: and he said, Am I in the place of God, Who has withheld from thee the fruit of the womb?"
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַתֹּ֕אמֶר הִנֵּ֛ה אֲמָתִ֥י בִלְהָ֖ה בֹּ֣א אֵלֶ֑יהָ וְתֵלֵד֙ עַל־בִּרְכַּ֔י וְאִבָּנֶ֥ה גַם־אָנֹכִ֖י מִמֶּֽנָּה׃",
+          "targum": "וַאֲמֶרֶת הָא אַמְתִי בִלְהָה עוּל לְוָתַהּ וּתְלִיד וַאֲנָא אֱרַבֵּי וְאֶתְבְּנֵי אַף אֲנָא מִנַּהּ:",
+          "english": "And she said, Behold my maid Bilha, go in to her; and she shall bear upon my knees, that I may also have children by her."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וַתִּתֶּן־ל֛וֹ אֶת־בִּלְהָ֥ה שִׁפְחָתָ֖הּ לְאִשָּׁ֑ה וַיָּבֹ֥א אֵלֶ֖יהָ יַעֲקֹֽב׃",
+          "targum": "וִיהָבַת לֵיהּ יָת בִּלְהָה אַמְתַהּ לְאִנְתּוּ וְעַל לְוָתַהּ יַעֲקֹב:",
+          "english": "And she gave him Bilha her handmaid to wife: and Ya῾aqov went in to her."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַתַּ֣הַר בִּלְהָ֔ה וַתֵּ֥לֶד לְיַעֲקֹ֖ב בֵּֽן׃",
+          "targum": "וְעַדִּיאַת בִּלְהָה וִילִידַת לְיַעֲקֹב בָּר:",
+          "english": "And Bilha conceived, and bore Ya῾aqov a son."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וַתֹּ֤אמֶר רָחֵל֙ דָּנַ֣נִּי אֱלֹהִ֔ים וְגַם֙ שָׁמַ֣ע בְּקֹלִ֔י וַיִּתֶּן־לִ֖י בֵּ֑ן עַל־כֵּ֛ן קָרְאָ֥ה שְׁמ֖וֹ דָּֽן׃",
+          "targum": "וַאֲמֶרֶת רָחֵל דְּנַנִּי יְיָ וְאַף קַבִּיל צְלוֹתִי וִיהַב לִי בָּר עַל כֵּן קְרַת שְׁמֵיהּ דָּן:",
+          "english": "And Raĥel said, God has judged me, and has also heard my voice, and has given me a son: therefore called she his name Dan."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַתַּ֣הַר ע֔וֹד וַתֵּ֕לֶד בִּלְהָ֖ה שִׁפְחַ֣ת רָחֵ֑ל בֵּ֥ן שֵׁנִ֖י לְיַעֲקֹֽב׃",
+          "targum": "וְעַדִּיאַת עוֹד וִילִידַת בִּלְהָה אַמְתָא דְרָחֵל בָּר תִּנְיָן לְיַעֲקֹב:",
+          "english": "And Bilha Raĥel’s maid conceived again, and bore Ya῾aqov a second son."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וַתֹּ֣אמֶר רָחֵ֗ל נַפְתּוּלֵ֨י אֱלֹהִ֧ים&thinsp;<small>׀</small>&thinsp;נִפְתַּ֛לְתִּי עִם־אֲחֹתִ֖י גַּם־יָכֹ֑לְתִּי וַתִּקְרָ֥א שְׁמ֖וֹ נַפְתָּלִֽי׃",
+          "targum": "וַאֲמֶרֶת רָחֵל קַבִּיל יְיָ בָּעוּתִי בְּאִתְחַנָּנוּתִי בִּצְלוֹתִי חֲמֵידַת דִּיהֵי לִי וְלַד כַּאֲחָתִי אַף אִתְיְהִיב לִי וּקְרַת שְׁמֵיהּ נַפְתָּלִי:",
+          "english": "And Raĥel said, With great wrestlings have I wrestled with my sister, and I have prevailed: and she called his name Naftali."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וַתֵּ֣רֶא לֵאָ֔ה כִּ֥י עָמְדָ֖ה מִלֶּ֑דֶת וַתִּקַּח֙ אֶת־זִלְפָּ֣ה שִׁפְחָתָ֔הּ וַתִּתֵּ֥ן אֹתָ֛הּ לְיַעֲקֹ֖ב לְאִשָּֽׁה׃",
+          "targum": "וַחֲזַת לֵאָה אֲרֵי קָמַת מִלְּמֵילַד וּדְבָרַת יָת זִלְפָּה אַמְתַהּ וִיהָבַת יָתַהּ לְיַעֲקֹב לְאִנְתּוּ:",
+          "english": "When Le᾽a saw that she had stopped bearing, she took Zilpa her maid, and gave her to Ya῾aqov to wife."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַתֵּ֗לֶד זִלְפָּ֛ה שִׁפְחַ֥ת לֵאָ֖ה לְיַעֲקֹ֥ב בֵּֽן׃",
+          "targum": "וִילִידַת זִלְפָּה אַמְתָא דְלֵאָה לְיַעֲקֹב בָּר:",
+          "english": "And Zilpa Le᾽a’s maid bore Ya῾aqov a son."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַתֹּ֥אמֶר לֵאָ֖ה <span class=\"mam-kq\"><span class=\"mam-kq-k\">(בגד)</span> <span class=\"mam-kq-q\">[בָּ֣א גָ֑ד]</span></span> וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ גָּֽד׃",
+          "targum": "וַאֲמֶרֶת לֵאָה אֲתָא גָד וּקְרַת יָת שְׁמֵיהּ גָּד:",
+          "english": "And Le᾽a said, Fortune comes, and she called his name Gad."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַתֵּ֗לֶד זִלְפָּה֙ שִׁפְחַ֣ת לֵאָ֔ה בֵּ֥ן שֵׁנִ֖י לְיַעֲקֹֽב׃",
+          "targum": "וִילִידַת זִלְפָּה אַמְתָא דְלֵאָה בָּר תִּנְיָן לְיַעֲקֹב:",
+          "english": "And Zilpa Le᾽a’s maid bore Ya῾aqov a second son."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וַתֹּ֣אמֶר לֵאָ֔ה בְּאׇשְׁרִ֕י כִּ֥י אִשְּׁר֖וּנִי בָּנ֑וֹת וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ אָשֵֽׁר׃",
+          "targum": "וַאֲמֶרֶת לֵאָה תֻּשְׁבַּחְתָּא הֲוַת לִי אֲרֵי בְכֵן יְשַׁבְּחֻנַּנִי נְשַׁיָּא וּקְרַת יָת שְׁמֵיהּ אָשֵׁר:",
+          "english": "And Le᾽a said, Happy am I, for the daughters will call me blessed: and she called his name Asher."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַיֵּ֨לֶךְ רְאוּבֵ֜ן בִּימֵ֣י קְצִיר־חִטִּ֗ים וַיִּמְצָ֤א דֽוּדָאִים֙ בַּשָּׂדֶ֔ה וַיָּבֵ֣א אֹתָ֔ם אֶל־לֵאָ֖ה אִמּ֑וֹ וַתֹּ֤אמֶר רָחֵל֙ אֶל־לֵאָ֔ה תְּנִי־נָ֣א לִ֔י מִדּוּדָאֵ֖י בְּנֵֽךְ׃",
+          "targum": "וַאֲזַל רְאוּבֵן בְּיוֹמֵי חֲצַד חִטִּין וְאַשְׁכַּח יַבְרוּחִין בְּחַקְלָא וְאַיְתִי יָתְהוֹן לְלֵאָה אִמֵּיהּ וַאֲמֶרֶת רָחֵל לְלֵאָה הָבִי כְעַן לִי מִיַּבְרוּחֵי דִּבְרִיךְ:",
+          "english": "And Re᾽uven went in the days of the wheat harvest, and found mandrakes in the field, and brought them to his mother Le᾽a. Then Raĥel said to Le᾽a, Give me, I pray thee, of thy son’s mandrakes."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וַתֹּ֣אמֶר לָ֗הּ הַמְעַט֙ קַחְתֵּ֣ךְ אֶת־אִישִׁ֔י וְלָקַ֕חַת גַּ֥ם אֶת־דּוּדָאֵ֖י בְּנִ֑י וַתֹּ֣אמֶר רָחֵ֗ל לָכֵן֙ יִשְׁכַּ֤ב עִמָּךְ֙ הַלַּ֔יְלָה תַּ֖חַת דּוּדָאֵ֥י בְנֵֽךְ׃",
+          "targum": "וַאֲמֶרֶת לַהּ הַזְעֵיר דִּדְבַרְתְּ יָת בַּעְלִי וְתִסְּבִין אַף יָת יַבְרוּחֵי דִּבְרִי וַאֲמֶרֶת רָחֵל בְּכֵן יִשְׁכּוּב עִמָךְ בְּלֵילְיָא חֳלַף יַבְרוּחֵי דִבְרִיךְ:",
+          "english": "And she said to her, Is it a small matter that thou hast taken my husband? and wouldst thou take away my son’s mandrakes also? And Raĥel said, Therefore he shall lie with thee tonight for thy son’s mandrakes."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וַיָּבֹ֨א יַעֲקֹ֣ב מִן־הַשָּׂדֶה֮ בָּעֶ֒רֶב֒ וַתֵּצֵ֨א לֵאָ֜ה לִקְרָאת֗וֹ וַתֹּ֙אמֶר֙ אֵלַ֣י תָּב֔וֹא כִּ֚י שָׂכֹ֣ר שְׂכַרְתִּ֔יךָ בְּדוּדָאֵ֖י בְּנִ֑י וַיִּשְׁכַּ֥ב עִמָּ֖הּ בַּלַּ֥יְלָה הֽוּא׃",
+          "targum": "וַאֲתָא (נ\"א וְעַל) יַעֲקֹב מִן חַקְלָא בְּרַמְשָׁא וּנְפָקַת לֵאָה לְקַדָּמוּתֵיהּ וַאֲמֶרֶת לְוָתִי תֵיעוֹל אֲרֵי מֵיגַר אֲגַרְתִּיךְ בְּיַבְרוּחֵי דִּבְרִי וּשְׁכִיב עִמַּהּ בְּלֵילְיָא הוּא:",
+          "english": "And Ya῾aqov came out of the field in the evening, and Le᾽a went out to meet him, and said, Thou must come in to me; for indeed I have hired thee with my son’s mandrakes. And he lay with her that night."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיִּשְׁמַ֥ע אֱלֹהִ֖ים אֶל־לֵאָ֑ה וַתַּ֛הַר וַתֵּ֥לֶד לְיַעֲקֹ֖ב בֵּ֥ן חֲמִישִֽׁי׃",
+          "targum": "וְקַבִּיל יְיָ צְלוֹתַהּ דְּלֵאָה וְעַדִּיאַת וִילִידַת לְיַעֲקֹב בַּר חֲמִישָׁאִי:",
+          "english": "And God hearkened to Le᾽a, and she conceived, and bore Ya῾aqov a fifth son."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וַתֹּ֣אמֶר לֵאָ֗ה נָתַ֤ן אֱלֹהִים֙ שְׂכָרִ֔י אֲשֶׁר־נָתַ֥תִּי שִׁפְחָתִ֖י לְאִישִׁ֑י וַתִּקְרָ֥א שְׁמ֖וֹ יִשָּׂשכָֽר׃",
+          "targum": "וַאֲמֶרֶת לֵאָה יְהַב יְיָ אַגְרִי דִּיהָבִית אַמְתִי לְבַעְלִי וּקְרַת שְׁמֵיהּ יִשָּׂשׂכָר:",
+          "english": "And Le᾽a said, God has given me my hire, because I have given my maiden to my husband: and she called his name Yissakhar."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וַתַּ֤הַר עוֹד֙ לֵאָ֔ה וַתֵּ֥לֶד בֵּן־שִׁשִּׁ֖י לְיַעֲקֹֽב׃",
+          "targum": "וְעַדִּיאַת עוֹד לֵאָה וִילִידַת בַּר שִׁתִיתָאִי לְיַעֲקֹב:",
+          "english": "And Le᾽a conceived again, and bore Ya῾aqov a sixth son."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַתֹּ֣אמֶר לֵאָ֗ה זְבָדַ֨נִי אֱלֹהִ֥ים&thinsp;<small>׀</small>&thinsp;אֹתִי֮ זֵ֣בֶד טוֹב֒ הַפַּ֙עַם֙ יִזְבְּלֵ֣נִי אִישִׁ֔י כִּֽי־יָלַ֥דְתִּי ל֖וֹ שִׁשָּׁ֣ה בָנִ֑ים וַתִּקְרָ֥א אֶת־שְׁמ֖וֹ זְבֻלֽוּן׃",
+          "targum": "וַאֲמֶרֶת לֵאָה יְהַב יְיָ יָתֵיהּ לִי חֳלַק טַב הָדָא זִמְנָא יְהֵי מְדוֹרֵיהּ דְּבַעְלִי לְוָתִי אֲרֵי יְלֵידִית לֵיהּ שִׁתָּא בְנִין וּקְרַת יָת שְׁמֵיהּ זְבֻלוּן:",
+          "english": "And Le᾽a said, God has endowed me with a good dowry; now will my husband dwell with me, because I have born him six sons: and she called his name Zevulun."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וְאַחַ֖ר יָ֣לְדָה בַּ֑ת וַתִּקְרָ֥א אֶת־שְׁמָ֖הּ דִּינָֽה׃",
+          "targum": "וּבָתַר כֵּן יְלִידַת בְּרַתָּא וּקְרַת יָת שְׁמַהּ דִּינָה:",
+          "english": "And afterwards she bore a daughter, and called her name Dina."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וַיִּזְכֹּ֥ר אֱלֹהִ֖ים אֶת־רָחֵ֑ל וַיִּשְׁמַ֤ע אֵלֶ֙יהָ֙ אֱלֹהִ֔ים וַיִּפְתַּ֖ח אֶת־רַחְמָֽהּ׃",
+          "targum": "וְעַל דּוּכְרָנָא דְרָחֵל קֳדָם יְיָ וְקַבִּיל צְלוֹתַהּ יְיָ וִיהַב לַהּ עִדּוּי:",
+          "english": "And God remembered Raĥel, and God hearkened to her, and opened her womb."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַתַּ֖הַר וַתֵּ֣לֶד בֵּ֑ן וַתֹּ֕אמֶר אָסַ֥ף אֱלֹהִ֖ים אֶת־חֶרְפָּתִֽי׃",
+          "targum": "וְעַדִּיאַת וִילִידַת בָּר וַאֲמֶרֶת כְּנַשׁ יְיָ יָת חִסּוּדִי:",
+          "english": "And she conceived, and bore a son; and said, God has taken away my reproach:"
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וַתִּקְרָ֧א אֶת־שְׁמ֛וֹ יוֹסֵ֖ף לֵאמֹ֑ר יֹסֵ֧ף יְהֹוָ֛ה לִ֖י בֵּ֥ן אַחֵֽר׃",
+          "targum": "וּקְרַת יָת שְׁמֵיהּ יוֹסֵף לְמֵימָר יוֹסֵף יְיָ לִי בַּר אָחֳרָן:",
+          "english": "and she called his name Yosef; and said, The Lord shall add to me another son."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַיְהִ֕י כַּאֲשֶׁ֛ר יָלְדָ֥ה רָחֵ֖ל אֶת־יוֹסֵ֑ף וַיֹּ֤אמֶר יַעֲקֹב֙ אֶל־לָבָ֔ן שַׁלְּחֵ֙נִי֙ וְאֵ֣לְכָ֔ה אֶל־מְקוֹמִ֖י וּלְאַרְצִֽי׃",
+          "targum": "וַהֲוָה כַּד יְלִידַת רָחֵל יָת יוֹסֵף וַאֲמַר יַעֲקֹב לְלָבָן שַׁלְּחַנִי וְאֵיהַךְ לְאַתְרִי וּלְאַרְעִי:",
+          "english": "And it came to pass, when Raĥel had born Yosef, that Ya῾aqov said to Lavan, Send me away, that I may go to my own place, and to my country."
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "תְּנָ֞ה אֶת־נָשַׁ֣י וְאֶת־יְלָדַ֗י אֲשֶׁ֨ר עָבַ֧דְתִּי אֹֽתְךָ֛ בָּהֵ֖ן וְאֵלֵ֑כָה כִּ֚י אַתָּ֣ה יָדַ֔עְתָּ אֶת־עֲבֹדָתִ֖י אֲשֶׁ֥ר עֲבַדְתִּֽיךָ׃",
+          "targum": "הַב יָת נְשַׁי וְיָת בְּנַי דִּי פְלָחִית יָתָךְ בְּהֵן וְאֵזֵיל אֲרֵי אַתְּ יְדַעְתָּ יָת פָּלְחָנִי דִּפְלָחִתָּךְ:",
+          "english": "Give me my wives and my children, for whom I have served thee, and let me go: for thou knowst my service which I have done thee."
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "וַיֹּ֤אמֶר אֵלָיו֙ לָבָ֔ן אִם־נָ֛א מָצָ֥אתִי חֵ֖ן בְּעֵינֶ֑יךָ נִחַ֕שְׁתִּי וַיְבָרְכֵ֥נִי יְהֹוָ֖ה בִּגְלָלֶֽךָ׃",
+          "targum": "וַאַמַר לֵיהּ לָבָן אִם כְּעַן אַשְׁכָּחִית רַחֲמִין קֳדָמָךְ נַסֵּיתִי וּבָרְכַנִי יְיָ בְּדִילָךְ:",
+          "english": "And Lavan said to him, I pray thee, if I have found favour in thine eyes, I have learned by signs that the Lord has blessed me for thy sake."
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וַיֹּאמַ֑ר נׇקְבָ֧ה שְׂכָרְךָ֛ עָלַ֖י וְאֶתֵּֽנָה׃",
+          "targum": "וַאֲמָר פָּרֵישׁ אַגְרָךְ עֲלַי וְאֶתֵּן:",
+          "english": "And he said, Appoint me thy wages, and I will give it."
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "וַיֹּ֣אמֶר אֵלָ֔יו אַתָּ֣ה יָדַ֔עְתָּ אֵ֖ת אֲשֶׁ֣ר עֲבַדְתִּ֑יךָ וְאֵ֛ת אֲשֶׁר־הָיָ֥ה מִקְנְךָ֖ אִתִּֽי׃",
+          "targum": "וַאֲמַר לֵיהּ אַתְּ יְדַעְתָּ יָת דִּפְלָחִתָּךְ וְיָת דַּהֲוָה בְעִירָךְ עִמִּי:",
+          "english": "And he said to him, Thou knowst how I have served thee, and how thy cattle were with me."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "כִּ֡י מְעַט֩ אֲשֶׁר־הָיָ֨ה לְךָ֤ לְפָנַי֙ וַיִּפְרֹ֣ץ לָרֹ֔ב וַיְבָ֧רֶךְ יְהֹוָ֛ה אֹתְךָ֖ לְרַגְלִ֑י וְעַתָּ֗ה מָתַ֛י אֶֽעֱשֶׂ֥ה גַם־אָנֹכִ֖י לְבֵיתִֽי׃",
+          "targum": "אֲרֵי זְעֵיר דִּי הֲוָה לָךְ קֳדָמַי וּתְקֵיף לְמִסְגֵּי וּבָרִיךְ יְיָ יָתָךְ בְּדִילִי וּכְעַן אֵימָתַי אֶעְבֵּיד אַף אֲנָא לְבֵיתִי:",
+          "english": "For the little which thou hadst before I came is now increased to a multitude; and the Lord has blessed thee since my coming: and now when shall I provide for my own house also?"
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "וַיֹּ֖אמֶר מָ֣ה אֶתֶּן־לָ֑ךְ וַיֹּ֤אמֶר יַעֲקֹב֙ לֹא־תִתֶּן־לִ֣י מְא֔וּמָה אִם־תַּֽעֲשֶׂה־לִּי֙ הַדָּבָ֣ר הַזֶּ֔ה אָשׁ֛וּבָה אֶרְעֶ֥ה צֹֽאנְךָ֖ אֶשְׁמֹֽר׃",
+          "targum": "וַאֲמַר מָה אֶתֶּן לָךְ וַאֲמַר יַעֲקֹב לָא תִתֶּן לִי מִדַּעַם אִם תַּעְבֶּד לִי פִּתְגָּמָא הָדֵין אֱתוּב אֶרְעֵי עָנָךְ אֶטָּר:",
+          "english": "And he said, What shall I give thee? And Ya῾aqov said, Thou shalt not give me anything: if thou wilt do this thing for me, I will again feed and keep thy flock."
+        },
+        {
+          "verseNum": 32,
+          "hebrew": "אֶֽעֱבֹ֨ר בְּכׇל־צֹֽאנְךָ֜ הַיּ֗וֹם הָסֵ֨ר מִשָּׁ֜ם כׇּל־שֶׂ֣ה&thinsp;<b>׀</b> נָקֹ֣ד וְטָל֗וּא וְכׇל־שֶׂה־חוּם֙ בַּכְּשָׂבִ֔ים וְטָל֥וּא וְנָקֹ֖ד בָּעִזִּ֑ים וְהָיָ֖ה שְׂכָרִֽי׃",
+          "targum": "אֶעְבַּר בְּכָל עָנָךְ יוֹמָא דֵין הַעֲדֵי (נ\"א אַעְדִּי) מִתַּמָּן כָּל אִמָּר נְמוֹר וּרְקוֹעַ וְכָל אִמָּר שְׁחוּם בְּאִמְּרַיָּא וּרְקוֹעַ וּנְמוֹר בְּעִזַּיָּא וִיהֵי אַגְרִי:",
+          "english": "I will pass through all thy flock today, removing from there all the speckled and spotted cattle, and all the brown ones among the sheep, and the spotted and speckled among the goats: and of such shall be my hire."
+        },
+        {
+          "verseNum": 33,
+          "hebrew": "וְעָֽנְתָה־בִּ֤י צִדְקָתִי֙ בְּי֣וֹם מָחָ֔ר כִּֽי־תָב֥וֹא עַל־שְׂכָרִ֖י לְפָנֶ֑יךָ כֹּ֣ל אֲשֶׁר־אֵינֶ֩נּוּ֩ נָקֹ֨ד וְטָל֜וּא בָּֽעִזִּ֗ים וְחוּם֙ בַּכְּשָׂבִ֔ים גָּנ֥וּב ה֖וּא אִתִּֽי׃",
+          "targum": "וְתַסְהֵד בִּי זָכוּתִי בְּיוֹם דִּמְחָר אֲרֵי תֵיעוֹל עַל אַגְרִי קֳדָמָךְ כֹּל דִּי לֵיתוֹהִי נְמוֹר וּרְקוֹעַ בְּעִזַּיָּא וּשְׁחוּם בְּאִמְּרַיָּא גְּנוּבָא הוּא עִמִּי:",
+          "english": "So shall my righteousness answer for me in time to come, when thou shalt come to see my hire before thy face: every one that is not speckled and spotted among the goats, and brown among the sheep, that shall be counted stolen with me."
+        },
+        {
+          "verseNum": 34,
+          "hebrew": "וַיֹּ֥אמֶר לָבָ֖ן הֵ֑ן ל֖וּ יְהִ֥י כִדְבָרֶֽךָ׃",
+          "targum": "וַאֲמַר לָבָן בְּרָם לְוַי יְהֵי כְפִתְגָּמָךְ:",
+          "english": "And Lavan said, Behold, would it might be according to thy word."
+        },
+        {
+          "verseNum": 35,
+          "hebrew": "וַיָּ֣סַר בַּיּוֹם֩ הַה֨וּא אֶת־הַתְּיָשִׁ֜ים הָֽעֲקֻדִּ֣ים וְהַטְּלֻאִ֗ים וְאֵ֤ת כׇּל־הָֽעִזִּים֙ הַנְּקֻדּ֣וֹת וְהַטְּלֻאֹ֔ת כֹּ֤ל אֲשֶׁר־לָבָן֙ בּ֔וֹ וְכׇל־ח֖וּם בַּכְּשָׂבִ֑ים וַיִּתֵּ֖ן בְּיַד־בָּנָֽיו׃",
+          "targum": "וְאַעְדִּי בְיוֹמָא הַהוּא יָת תְּיָשַׁיָּא רְגוֹלַיָּא וּרְקוֹעַיָּא וְיָת כָּל עִזַיָּא נְמוֹרְתָא וּרְקוֹעֲתָא כֹּל דִּי חִוָּר בֵּיהּ וְכָל דִּשְׁחוּם בְּאִמְּרַיָּא וִיהַב בְּיַד בְּנוֹהִי:",
+          "english": "And he removed that day the he goats that were streaked and spotted, and all the she goats that were speckled and spotted, and every one that had some white in it, and all the brown ones among the sheep, and gave them into the hand of his sons."
+        },
+        {
+          "verseNum": 36,
+          "hebrew": "וַיָּ֗שֶׂם דֶּ֚רֶךְ שְׁלֹ֣שֶׁת יָמִ֔ים בֵּינ֖וֹ וּבֵ֣ין יַעֲקֹ֑ב וְיַעֲקֹ֗ב רֹעֶ֛ה אֶת־צֹ֥אן לָבָ֖ן הַנּוֹתָרֹֽת׃",
+          "targum": "וְשַׁוִּי מַהֲלַךְ תְּלָתָא יוֹמִין בֵּינוֹהִי וּבֵין יַעֲקֹב וְיַעֲקֹב רָעֵי יָת עָנָא דְלָבָן דְּאִשְׁתָּאֳרַן:",
+          "english": "And he set three days’ journey between himself and Ya῾aqov: and Ya῾aqov tended the rest of Lavan’s flocks."
+        },
+        {
+          "verseNum": 37,
+          "hebrew": "וַיִּֽקַּֽח־ל֣וֹ יַעֲקֹ֗ב מַקַּ֥ל לִבְנֶ֛ה לַ֖ח וְל֣וּז וְעַרְמ֑וֹן וַיְפַצֵּ֤ל בָּהֵן֙ פְּצָל֣וֹת לְבָנ֔וֹת מַחְשֹׂף֙ הַלָּבָ֔ן אֲשֶׁ֖ר עַל־הַמַּקְלֽוֹת׃",
+          "targum": "וּנְסִיב לֵיהּ יַעֲקֹב חוּטְרִין דִּלְבָן רַטִּיבִין דִּדְלוּז וְדִדְלוּף וְקַלִיף בְּהוֹן קִלְפִין חִוָּרִין קִלוּף חִוָּר דִּי עַל חוּטְרַיָּא:",
+          "english": "And Ya῾aqov took him rods of green poplar, and of the almond and plane tree; and peeled white streaks in them, and made the white appear which was in the rods."
+        },
+        {
+          "verseNum": 38,
+          "hebrew": "וַיַּצֵּ֗ג אֶת־הַמַּקְלוֹת֙ אֲשֶׁ֣ר פִּצֵּ֔ל בָּרְהָטִ֖ים בְּשִֽׁקְת֣וֹת הַמָּ֑יִם אֲשֶׁר֩ תָּבֹ֨אןָ הַצֹּ֤אן לִשְׁתּוֹת֙ לְנֹ֣כַח הַצֹּ֔אן וַיֵּחַ֖מְנָה בְּבֹאָ֥ן לִשְׁתּֽוֹת׃",
+          "targum": "וְדַעֵיץ יָת חוּטְרַיָּא דִּי קַלִּיף בִּרְהָטַיָּא אֲתַר בֵּית שָׁקְיָא דְמַיָּא אֲתַר דְּאָתָן (נ\"א דְּאָתְיָן) עָנָא לְמִשְׁתֵּי לְקִבְלֵהוֹן דְּעָנָא וּמִתְיַחֲמָן בְּמֵיתֵיהוֹן לְמִשְׁתֵּי:",
+          "english": "And he set the rods which he had peeled before the flocks in the gutters in the watering troughs when the flocks came to drink, that they should conceive when they came to drink."
+        },
+        {
+          "verseNum": 39,
+          "hebrew": "וַיֶּחֱמ֥וּ הַצֹּ֖אן אֶל־הַמַּקְל֑וֹת וַתֵּלַ֣דְןָ הַצֹּ֔אן עֲקֻדִּ֥ים נְקֻדִּ֖ים וּטְלֻאִֽים׃",
+          "targum": "וְאִתְיַחֲמָא עָנָא בְּחוּטְרַיָּא וִילִידָא עָנָא רְגוֹלִין נְמוֹרִין וּרְקוֹעִין:",
+          "english": "And the flocks conceived before the rods, and brought forth cattle streaked, speckled, and spotted."
+        },
+        {
+          "verseNum": 40,
+          "hebrew": "וְהַכְּשָׂבִים֮ הִפְרִ֣יד יַעֲקֹב֒ וַ֠יִּתֵּ֠ן פְּנֵ֨י הַצֹּ֧אן אֶל־עָקֹ֛ד וְכׇל־ח֖וּם בְּצֹ֣אן לָבָ֑ן וַיָּֽשֶׁת־ל֤וֹ עֲדָרִים֙ לְבַדּ֔וֹ וְלֹ֥א שָׁתָ֖ם עַל־צֹ֥אן לָבָֽן׃",
+          "targum": "וְאִמְּרַיָּא אַפְרֵשׁ יַעֲקֹב וִיהַב בְּרֵישׁ עָנָא כָּל דִּרְגוֹל וְכָל דִּשְׁחוּם בְּעָנָא דְלָבָן וְשַׁוִּי לֵיהּ עֶדְרִין בִּלְחוֹדוֹהִי וְלָא עֲרֵבִנּוּן עִם עָנָא דְלָבָן:",
+          "english": "And Ya῾aqov separated the lambs, and set the faces of the flocks toward the streaked and all the brown in the flock of Lavan; and he put his own flocks by themselves, and put them not to Lavan’s cattle."
+        },
+        {
+          "verseNum": 41,
+          "hebrew": "וְהָיָ֗ה בְּכׇל־יַחֵם֮ הַצֹּ֣אן הַמְקֻשָּׁרוֹת֒ וְשָׂ֨ם יַעֲקֹ֧ב אֶת־הַמַּקְל֛וֹת לְעֵינֵ֥י הַצֹּ֖אן בָּרְהָטִ֑ים לְיַחְמֵ֖נָּה בַּמַּקְלֽוֹת׃",
+          "targum": "וַהֲוֵי בְּכָל עִדַּן דְּמִתְיַחֲמָן עָנָא מְבַכַּרְתָּא וּמְשַׁוִּי יַעֲקֹב יָת חוּטְרַיָּא לְעֵינֵי עָנָא בִּרְהָטַיָּא לְיַחָמוּתְהוֹן בְּחוּטְרַיָּא:",
+          "english": "And it came to pass, whenever the stronger cattle did conceive, that Ya῾aqov laid the rods before the eyes of the cattle in the gutters, that they might conceive among the rods."
+        },
+        {
+          "verseNum": 42,
+          "hebrew": "וּבְהַעֲטִ֥יף הַצֹּ֖אן לֹ֣א יָשִׂ֑ים וְהָיָ֤ה הָעֲטֻפִים֙ לְלָבָ֔ן וְהַקְּשֻׁרִ֖ים לְיַעֲקֹֽב׃",
+          "targum": "וּבְלַקִּישׁוּת עָנָא לָא מְשַׁוֵּי וַהֲווֹ לַקְּשַׁיָא לְלָבָן וּבַכִּירַיָּא לְיַעֲקֹב:",
+          "english": "But when the cattle were feeble, he did not put them in: so the feebler were Lavan’s, and the stronger Ya῾aqov’s."
+        },
+        {
+          "verseNum": 43,
+          "hebrew": "וַיִּפְרֹ֥ץ הָאִ֖ישׁ מְאֹ֣ד מְאֹ֑ד וַֽיְהִי־לוֹ֙ צֹ֣אן רַבּ֔וֹת וּשְׁפָחוֹת֙ וַעֲבָדִ֔ים וּגְמַלִּ֖ים וַחֲמֹרִֽים׃",
+          "targum": "וּתְקֵיף גַּבְרָא לַחֲדָא לַחֲדָא וַהֲווֹ לֵיהּ עָן סַגִּיאָן וַאַמְהָן וְעַבְדִּין וְגַמְלִין וַחֲמָרִין:",
+          "english": "And the man increased exceedingly, and had much cattle, and maidservants, and menservants, and camels, and asses."
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיִּשְׁמַ֗ע אֶת־דִּבְרֵ֤י בְנֵֽי־לָבָן֙ לֵאמֹ֔ר לָקַ֣ח יַעֲקֹ֔ב אֵ֖ת כׇּל־אֲשֶׁ֣ר לְאָבִ֑ינוּ וּמֵאֲשֶׁ֣ר לְאָבִ֔ינוּ עָשָׂ֕ה אֵ֥ת כׇּל־הַכָּבֹ֖ד הַזֶּֽה׃",
+          "targum": "וּשְׁמַע יָת פִּתְגָּמֵי בְנֵי לָבָן דְּאָמְרִין נְסִיב יַעֲקֹב יָת כָּל דִּי לְאָבוּנָא וּמִדִּי לְאָבוּנָא קְנָא יָת כָּל נִכְסַיָּא הָדֵין:",
+          "english": "And he heard the words of Lavan’s sons, saying, Ya῾aqov has taken away all that was our father’s; and of that which was our father’s has he gotten all his glory."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וַיַּ֥רְא יַעֲקֹ֖ב אֶת־פְּנֵ֣י לָבָ֑ן וְהִנֵּ֥ה אֵינֶ֛נּוּ עִמּ֖וֹ כִּתְמ֥וֹל שִׁלְשֽׁוֹם׃",
+          "targum": "וַחֲזָא יַעֲקֹב יָת סְבַר אַפֵּי לָבָן וְהָא לֵיתוֹהִי עִמֵּיהּ כְּמֵאִתְמַלֵּי וּמִדְּקַמּוֹהִי:",
+          "english": "And Ya῾aqov beheld the face of Lavan, and, behold, it was not towards him as before."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיֹּ֤אמֶר יְהֹוָה֙ אֶֽל־יַעֲקֹ֔ב שׁ֛וּב אֶל־אֶ֥רֶץ אֲבוֹתֶ֖יךָ וּלְמוֹלַדְתֶּ֑ךָ וְאֶֽהְיֶ֖ה עִמָּֽךְ׃",
+          "targum": "וַאֲמַר יְיָ לְיַעֲקֹב תּוּב לְאַרְעָא דַאֲבָהָתָךְ וּלְיַלָּדְתָּךְ וִיהֵי מֵימְרִי בְּסַעְדָּךְ:",
+          "english": "And the Lord said to Ya῾aqov, Return to the land of thy fathers, and to thy kindred; and I will be with thee."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וַיִּשְׁלַ֣ח יַעֲקֹ֔ב וַיִּקְרָ֖א לְרָחֵ֣ל וּלְלֵאָ֑ה הַשָּׂדֶ֖ה אֶל־צֹאנֽוֹ׃",
+          "targum": "וּשְׁלַח יַעֲקֹב וּקְרָא לְרָחֵל וּלְלֵאָה לְחַקְלָא לְוַת עָנֵיהּ:",
+          "english": "And Ya῾aqov sent and called Raĥel and Le᾽a to the field to his flock,"
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַיֹּ֣אמֶר לָהֶ֗ן רֹאֶ֤ה אָנֹכִי֙ אֶת־פְּנֵ֣י אֲבִיכֶ֔ן כִּֽי־אֵינֶ֥נּוּ אֵלַ֖י כִּתְמֹ֣ל שִׁלְשֹׁ֑ם וֵֽאלֹהֵ֣י אָבִ֔י הָיָ֖ה עִמָּדִֽי׃",
+          "targum": "וַאֲמַר לְהֵן חָזֵי אֲנָא יָת סְבַר אַפֵּי אֲבוּכֶן אֲרֵי לֵיתוֹהִי עִמִּי כְּמֵאִתְמַלִּי וּמִדְּקַמּוֹהִי וֵאלָהֵהּ דְּאַבָּא הֲוָה בְּסַעְדִּי:",
+          "english": "and he said to them, I see your father’s face, that it is not towards me as before; but the God of my father has been with me."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וְאַתֵּ֖נָה יְדַעְתֶּ֑ן כִּ֚י בְּכׇל־כֹּחִ֔י עָבַ֖דְתִּי אֶת־אֲבִיכֶֽן׃",
+          "targum": "וְאַתִּין יְדַעְתִּין אֲרֵי בְּכָל חֵילִי פְּלָחִית יָת אֲבוּכֶן:",
+          "english": "And you know that with all my power I have served your father."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וַאֲבִיכֶן֙ הֵ֣תֶל בִּ֔י וְהֶחֱלִ֥ף אֶת־מַשְׂכֻּרְתִּ֖י עֲשֶׂ֣רֶת מֹנִ֑ים וְלֹֽא־נְתָנ֣וֹ אֱלֹהִ֔ים לְהָרַ֖ע עִמָּדִֽי׃",
+          "targum": "וַאֲבוּכֶן שְׁקַּר בִּי וְאַשְׁנִי יָת אַגְרִי עֲשַׂר זִמְנִין וְלָא שָׁבְקֵיהּ יְיָ לְאַבְאָשָׁא עִמִּי:",
+          "english": "And your father has deceived me, and changed my wages ten times; but God did not allow him to hurt me."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "אִם־כֹּ֣ה יֹאמַ֗ר נְקֻדִּים֙ יִהְיֶ֣ה שְׂכָרֶ֔ךָ וְיָלְד֥וּ כׇל־הַצֹּ֖אן נְקֻדִּ֑ים וְאִם־כֹּ֣ה יֹאמַ֗ר עֲקֻדִּים֙ יִהְיֶ֣ה שְׂכָרֶ֔ךָ וְיָלְד֥וּ כׇל־הַצֹּ֖אן עֲקֻדִּֽים׃",
+          "targum": "אִם כְּדֵין הֲוָה אֲמַר נְמוֹרִין יְהֵא אַגְרָךְ וִילִידָן כָּל עָנָא נְמוֹרִין וְאִם כְּדֵין הֲוָה אֲמַר רְגוֹלִין יְהֵא אַגְרָךְ וִילִידָן כָּל עָנָא רְגוֹלִין:",
+          "english": "If he said thus, The speckled shall be thy wages; then all the flock bore speckled: and if he said thus, The streaked shall be thy hire; then all the flock bore streaked."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וַיַּצֵּ֧ל אֱלֹהִ֛ים אֶת־מִקְנֵ֥ה אֲבִיכֶ֖ם וַיִּתֶּן־לִֽי׃",
+          "targum": "וְאַפְרֵשׁ יְיָ יָת גֵּיתֵי דַאֲבוּכוֹן וִיהַב לִי:",
+          "english": "Thus God has taken away the cattle of your father, and given it to me."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וַיְהִ֗י בְּעֵת֙ יַחֵ֣ם הַצֹּ֔אן וָאֶשָּׂ֥א עֵינַ֛י וָאֵ֖רֶא בַּחֲל֑וֹם וְהִנֵּ֤ה הָֽעַתֻּדִים֙ הָעֹלִ֣ים עַל־הַצֹּ֔אן עֲקֻדִּ֥ים נְקֻדִּ֖ים וּבְרֻדִּֽים׃",
+          "targum": "וַהֲוָה בְּעִדַּן דְּאִתְיַחֲמָא עָנָא וּזְקָפִית עַיְנַי וַחֲזֵית בְּחֶלְמָא וְהָא תְיָשַׁיָּא דְּסָלְקִין עַל עָנָא רְגוֹלִין נְמוֹרִין וּפַצִּיחִין:",
+          "english": "And it came to pass at the time that the flock conceived, that I raised my eyes, and saw in a dream, and, behold, the rams which leaped upon the cattle were streaked, speckled, and grizzled."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַיֹּ֨אמֶר אֵלַ֜י מַלְאַ֧ךְ הָאֱלֹהִ֛ים בַּחֲל֖וֹם יַֽעֲקֹ֑ב וָאֹמַ֖ר הִנֵּֽנִי׃",
+          "targum": "וַאֲמַר לִי מַלְאָכָא דַיְיָ בְּחֶלְמָא יַעֲקֹב וַאֲמָרִית הָא אֲנָא:",
+          "english": "And the angel of God spoke to me in a dream, saying, Ya῾aqov: And I said, Here I am."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַיֹּ֗אמֶר שָׂא־נָ֨א עֵינֶ֤יךָ וּרְאֵה֙ כׇּל־הָֽעַתֻּדִים֙ הָעֹלִ֣ים עַל־הַצֹּ֔אן עֲקֻדִּ֥ים נְקֻדִּ֖ים וּבְרֻדִּ֑ים כִּ֣י רָאִ֔יתִי אֵ֛ת כׇּל־אֲשֶׁ֥ר לָבָ֖ן עֹ֥שֶׂה לָּֽךְ׃",
+          "targum": "וַאֲמַר זְקוֹף כְּעַן עַיְנָךְ וַחֲזֵי כָּל תְּיָשַׁיָּא דְּסָלְקִין עַל עָנָא רְגוֹלִין נְמוֹרִין וּפַצִּיחִין אֲרֵי גְלֵי קֳדָמַי יָת כָּל דִּי לָבָן עָבֵד לָךְ:",
+          "english": "And he said, Lift up now thy eyes, and see, all the rams which leap upon the flock are streaked, speckled, and grizzled: for I have seen all that Lavan does to thee."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "אָנֹכִ֤י הָאֵל֙ בֵּֽית־אֵ֔ל אֲשֶׁ֨ר מָשַׁ֤חְתָּ שָּׁם֙ מַצֵּבָ֔ה אֲשֶׁ֨ר נָדַ֥רְתָּ לִּ֛י שָׁ֖ם נֶ֑דֶר עַתָּ֗ה ק֥וּם צֵא֙ מִן־הָאָ֣רֶץ הַזֹּ֔את וְשׁ֖וּב אֶל־אֶ֥רֶץ מוֹלַדְתֶּֽךָ׃",
+          "targum": "אֲנָא אֱלָהָא דְּאִתְגְּלֵיתִי עֲלָךְ בְּבֵית אֵל דִּי מְשַׁחְתָּא תַמָּן קָמָא דִּי קַיִּמְתָּא קֳדָמַי תַּמָּן קְיָם כְּעַן קוּם פּוּק מִן אַרְעָא הָדָא וְתוּב לְאַרְעָא יַלָּדוּתָךְ:",
+          "english": "I am the God of Bet-el, where thou didst anoint a pillar, and where thou didst vow a vow to me: now arise, get out of this land, and return to the land of thy birth."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַתַּ֤עַן רָחֵל֙ וְלֵאָ֔ה וַתֹּאמַ֖רְנָה ל֑וֹ הַע֥וֹד לָ֛נוּ חֵ֥לֶק וְנַחֲלָ֖ה בְּבֵ֥ית אָבִֽינוּ׃",
+          "targum": "וַאֲתִיבַת רָחֵל וְלֵאָה וַאֲמָרַן לֵיהּ הַעוֹד (כְּעַן) לָנָא חֳלָק וְאַחֲסָנָא בְּבֵית אֲבוּנָא:",
+          "english": "And Raĥel and Le᾽a answered and said to him, Is there yet any portion or inheritance for us in our father’s house?"
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "הֲל֧וֹא נׇכְרִיּ֛וֹת נֶחְשַׁ֥בְנוּ ל֖וֹ כִּ֣י מְכָרָ֑נוּ וַיֹּ֥אכַל גַּם־אָכ֖וֹל אֶת־כַּסְפֵּֽנוּ׃",
+          "targum": "הֲלָא נוּכְרָאָן אִתְחֲשַׁבְנָא לֵיהּ אֲרֵי זַבְּנָנָא וַאֲכַל אַף מֵיכַל יָת כַּסְפָּנָא:",
+          "english": "Are we not counted strangers by him? for he has sold us, and has quite devoured also our money."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "כִּ֣י כׇל־הָעֹ֗שֶׁר אֲשֶׁ֨ר הִצִּ֤יל אֱלֹהִים֙ מֵֽאָבִ֔ינוּ לָ֥נוּ ה֖וּא וּלְבָנֵ֑ינוּ וְעַתָּ֗ה כֹּל֩ אֲשֶׁ֨ר אָמַ֧ר אֱלֹהִ֛ים אֵלֶ֖יךָ עֲשֵֽׂה׃",
+          "targum": "אֲרֵי כָל עוּתְרָא דִּי אַפְרֵשׁ יְיָ מֵאֲבוּנָא דִּילָנָא הוּא וּלְבָנָנָא וּכְעַן כֹּל דִּי אֲמַר יְיָ לָךְ עָבֵד:",
+          "english": "For all the riches which God has taken from our father, it is ours, and our children’s: now then, whatever God has said to thee, do."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיָּ֖קׇם יַעֲקֹ֑ב וַיִּשָּׂ֛א אֶת־בָּנָ֥יו וְאֶת־נָשָׁ֖יו עַל־הַגְּמַלִּֽים׃",
+          "targum": "וְקָם יַעֲקֹב וּנְטַל יָת בְּנוֹהִי וְיָת נְשׁוֹהִי עַל גַּמְלַיָּא:",
+          "english": "Then Ya῾aqov rose up, and set his sons and his wives on the camels;"
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וַיִּנְהַ֣ג אֶת־כׇּל־מִקְנֵ֗הוּ וְאֶת־כׇּל־רְכֻשׁוֹ֙ אֲשֶׁ֣ר רָכָ֔שׁ מִקְנֵה֙ קִנְיָנ֔וֹ אֲשֶׁ֥ר רָכַ֖שׁ בְּפַדַּ֣ן אֲרָ֑ם לָב֛וֹא אֶל־יִצְחָ֥ק אָבִ֖יו אַ֥רְצָה כְּנָֽעַן׃",
+          "targum": "וּדְבַר יָת כָּל גֵּיתוֹהִי וְיָת כָּל קִנְיָנֵיהּ דִּקְנָא גֵּיתֵי קִנְיָנֵיהּ דִּי קְנָא בְּפַדַּן אֲרָם לְמֵיתֵי לְוַת יִצְחָק אֲבוּהִי לְאַרְעָא כְנָעַן:",
+          "english": "and he carried away all his cattle, and all his goods which he had acquired, the cattle of his getting, which he had acquired in Paddan-aram, to go to Yiżĥaq his father in the land of Kena῾an."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וְלָבָ֣ן הָלַ֔ךְ לִגְזֹ֖ז אֶת־צֹאנ֑וֹ וַתִּגְנֹ֣ב רָחֵ֔ל אֶת־הַתְּרָפִ֖ים אֲשֶׁ֥ר לְאָבִֽיהָ׃",
+          "targum": "וְלָבָן אֲזַל לְמִגַּז יָת עָנֵיהּ וְכַסִּיאַת רָחֵל יָת צַלְמָנַיָּא דִּי לַאֲבוּהָא:",
+          "english": "And Lavan went to shear his sheep. Now Raĥel had stolen the images that were her father’s."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיִּגְנֹ֣ב יַעֲקֹ֔ב אֶת־לֵ֥ב לָבָ֖ן הָאֲרַמִּ֑י עַל־בְּלִי֙ הִגִּ֣יד ל֔וֹ כִּ֥י בֹרֵ֖חַ הֽוּא׃",
+          "targum": "וְכַסִּי יַעֲקֹב מִן לִבָּא דְלָבָן אֲרַמָּאָה עַל דְּלָא חַוִּי לֵיהּ אֲרֵי אָזֵל הוּא:",
+          "english": "And Ya῾aqov outwitted Lavan the Arammian, in that he told him not that he fled."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וַיִּבְרַ֥ח הוּא֙ וְכׇל־אֲשֶׁר־ל֔וֹ וַיָּ֖קׇם וַיַּעֲבֹ֣ר אֶת־הַנָּהָ֑ר וַיָּ֥שֶׂם אֶת־פָּנָ֖יו הַ֥ר הַגִּלְעָֽד׃",
+          "targum": "וַאֲזַל הוּא וְכָל דִּי לֵיהּ וְקָם וַעֲבַר יָת פְּרָת וְשַׁוִּי יָת אַפּוֹהִי לְטוּרָא דְגִלְעָד:",
+          "english": "So he fled with all that he had; and he rose up, and passed over the river and set his face toward the mount Gil῾ad."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וַיֻּגַּ֥ד לְלָבָ֖ן בַּיּ֣וֹם הַשְּׁלִישִׁ֑י כִּ֥י בָרַ֖ח יַעֲקֹֽב׃",
+          "targum": "וְאִתְחֲוָה לְלָבָן בְּיוֹמָא תְלִיתָאָה אֲרֵי אָזֵל יַעֲקֹב:",
+          "english": "And it was told Lavan on the third day that Ya῾aqov was fled."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וַיִּקַּ֤ח אֶת־אֶחָיו֙ עִמּ֔וֹ וַיִּרְדֹּ֣ף אַחֲרָ֔יו דֶּ֖רֶךְ שִׁבְעַ֣ת יָמִ֑ים וַיַּדְבֵּ֥ק אֹת֖וֹ בְּהַ֥ר הַגִּלְעָֽד׃",
+          "targum": "וּדְבַר יָת אָחוּהִי עִמֵּיהּ וּרְדַף בַּתְרוֹהִי מַהֲלַךְ שִׁבְעַת יוֹמִין וְאַדְבֵּק יָתֵיהּ בְּטוּרָא דְגִלְעָד:",
+          "english": "And he took his brethren with him, and pursued after him a seven days’ journey; and they overtook him in the mount Gil῾ad."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וַיָּבֹ֧א אֱלֹהִ֛ים אֶל־לָבָ֥ן הָאֲרַמִּ֖י בַּחֲלֹ֣ם הַלָּ֑יְלָה וַיֹּ֣אמֶר ל֗וֹ הִשָּׁ֧מֶר לְךָ֛ פֶּן־תְּדַבֵּ֥ר עִֽם־יַעֲקֹ֖ב מִטּ֥וֹב עַד־רָֽע׃",
+          "targum": "וַאֲתָא מֵימַר מִן קֳדָם יְיָ לְוַת לָבָן אֲרַמָּאָה בְּחֵילְמָא דְלֵילְיָא וַאֲמַר לֵיהּ אִסְתַּמַּר לָךְ דִּילְמָא תְמַלֵּיל עִם יַעֲקֹב מִטַּב עַד בִּישׁ:",
+          "english": "And God came to Lavan the Arammian in a dream by night, and said to him, Take heed that thou speak not to Ya῾aqov either good or bad. Then Lavan overtook Ya῾aqov."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וַיַּשֵּׂ֥ג לָבָ֖ן אֶֽת־יַעֲקֹ֑ב וְיַעֲקֹ֗ב תָּקַ֤ע אֶֽת־אׇהֳלוֹ֙ בָּהָ֔ר וְלָבָ֛ן תָּקַ֥ע אֶת־אֶחָ֖יו בְּהַ֥ר הַגִּלְעָֽד׃",
+          "targum": "וְאַדְבֵּיק לָבָן יָת יַעֲקֹב וְיַעֲקֹב פְּרַס יָת מַשְׁכְּנֵיהּ בְּטוּרָא וְלָבָן אַשְׁרֵי יָת אֲחוֹהִי בְּטוּרָא דְגִלְעָד:",
+          "english": "Now Ya῾aqov had pitched his tent in the mount: and Lavan with his brethren pitched in the mount of Gil῾ad."
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וַיֹּ֤אמֶר לָבָן֙ לְיַעֲקֹ֔ב מֶ֣ה עָשִׂ֔יתָ וַתִּגְנֹ֖ב אֶת־לְבָבִ֑י וַתְּנַהֵג֙ אֶת־בְּנֹתַ֔י כִּשְׁבֻי֖וֹת חָֽרֶב׃",
+          "targum": "וַאֲמַר לָבָן לְיַעֲקֹב מָה עֲבַדְתָּ וְכַסֵּיתָא מִנִּי וּדְבַרְתָּא יָת בְּנָתַי כְּשַׁבְיוֹת חַרְבָּא:",
+          "english": "And Lavan said to Ya῾aqov, What hast thou done, that thou hast cheated me, and carried away my daughters, as captives taken with the sword?"
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "לָ֤מָּה נַחְבֵּ֙אתָ֙ לִבְרֹ֔חַ וַתִּגְנֹ֖ב אֹתִ֑י וְלֹא־הִגַּ֣דְתָּ לִּ֔י וָֽאֲשַׁלֵּחֲךָ֛ בְּשִׂמְחָ֥ה וּבְשִׁרִ֖ים בְּתֹ֥ף וּבְכִנּֽוֹר׃",
+          "targum": "לְמָה אִטְמַרְתָּ לְמֵיזַל וְכַסֵּיתָא מִנִּי וְלָא חַוֵּיתָא לִי וְשַׁלָּחִתָּךְ פּוֹן בְּחֶדְוָא וּבְתוּשְׁבְּחָן בְּתוּפִין וּבְכִנָּרִין:",
+          "english": "Why didst thou flee away secretly, and rob me; and didst not tell me, that I might have sent thee away with mirth, and with songs, with timbrel, and with lyre?"
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וְלֹ֣א נְטַשְׁתַּ֔נִי לְנַשֵּׁ֥ק לְבָנַ֖י וְלִבְנֹתָ֑י עַתָּ֖ה הִסְכַּ֥לְתָּֽ עֲשֽׂוֹ׃",
+          "targum": "וְלָא שְׁבַקְתַּנִי לְנַשָּׁקָא לִבְנַי וְלִבְנָתָי כְּעַן אַסְכֶּלְתָּא לְמֶעְבָּד:",
+          "english": "And hast not suffered me to kiss my sons and my daughters? thou hast now done foolishly."
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "יֶשׁ־לְאֵ֣ל יָדִ֔י לַעֲשׂ֥וֹת עִמָּכֶ֖ם רָ֑ע וֵֽאלֹהֵ֨י אֲבִיכֶ֜ם אֶ֣מֶשׁ&thinsp;<b>׀</b> אָמַ֧ר אֵלַ֣י לֵאמֹ֗ר הִשָּׁ֧מֶר לְךָ֛ מִדַּבֵּ֥ר עִֽם־יַעֲקֹ֖ב מִטּ֥וֹב עַד־רָֽע׃",
+          "targum": "אִית חֵילָא בִידִי לְמֶעְבַּד עִמְּכוֹן בִּישׁ וֵאלָהָא דַאֲבוּכוֹן בְּרַמְשָׁא אֲמַר לִי לְמֵימַר אִסְתַּמַּר לָךְ מִלְּמַלָּלָא עִם יַעֲקֹב מִטַּב עַד בִּישׁ:",
+          "english": "It is in the power of my hand to do you hurt: but the God of your father spoke to me last night, saying, Take thou heed that thou speak not to Ya῾aqov either good or bad."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "וְעַתָּה֙ הָלֹ֣ךְ הָלַ֔כְתָּ כִּֽי־נִכְסֹ֥ף נִכְסַ֖פְתָּה לְבֵ֣ית אָבִ֑יךָ לָ֥מָּה גָנַ֖בְתָּ אֶת־אֱלֹהָֽי׃",
+          "targum": "וּכְעַן מֵיזַל אֲזַלְתָּ אֲרֵי חַמָּדָא חַמֵּדְתָּא לְבֵית אָבוּךְ לְמָא נְסִבְתָּא יָת דַּחַלְתִּי:",
+          "english": "And now, though thou wouldst needs be gone, because thou dost long after thy father’s house, yet why hast thou stolen my gods?"
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "וַיַּ֥עַן יַעֲקֹ֖ב וַיֹּ֣אמֶר לְלָבָ֑ן כִּ֣י יָרֵ֔אתִי כִּ֣י אָמַ֔רְתִּי פֶּן־תִּגְזֹ֥ל אֶת־בְּנוֹתֶ֖יךָ מֵעִמִּֽי׃",
+          "targum": "וַאֲתֵיב יַעֲקֹב וַאֲמַר לְלָבָן אֲרֵי דְחֵילִית אֲרֵי אֲמָרִית דִּילְמָא תָנֵיס יָת בְּנָתָךְ מִנִּי:",
+          "english": "And Ya῾aqov answered and said to Lavan, Because I was afraid: for I said, Perhaps thou wouldst take by force thy daughters from me."
+        },
+        {
+          "verseNum": 32,
+          "hebrew": "עִ֠ם אֲשֶׁ֨ר תִּמְצָ֣א אֶת־אֱלֹהֶ֘יךָ֮ לֹ֣א יִֽחְיֶה֒ נֶ֣גֶד אַחֵ֧ינוּ הַֽכֶּר־לְךָ֛ מָ֥ה עִמָּדִ֖י וְקַֽח־לָ֑ךְ וְלֹֽא־יָדַ֣ע יַעֲקֹ֔ב כִּ֥י רָחֵ֖ל גְּנָבָֽתַם׃",
+          "targum": "עִם (נ\"א אֲתַר) דִּי תַשְׁכַּח יָת דַּחַלְתָּךְ לָא יִתְקַיַּם קֳדָם אֲחָנָא אִשְׁתְּמוֹדַע לָךְ מָה דְעִמִּי וְסַב לָךְ וְלָא יְדַע יַעֲקֹב אֲרֵי רָחֵל נְסִיבָתְהוֹן:",
+          "english": "Anyone with whom thou findest thy gods, let him not live: before our brethren discern thou what is thine with me, and take it to thee. For Ya῾aqov knew not that Raĥel had stolen them."
+        },
+        {
+          "verseNum": 33,
+          "hebrew": "וַיָּבֹ֨א לָבָ֜ן בְּאֹ֥הֶל יַעֲקֹ֣ב&thinsp;<b>׀</b> וּבְאֹ֣הֶל לֵאָ֗ה וּבְאֹ֛הֶל שְׁתֵּ֥י הָאֲמָהֹ֖ת וְלֹ֣א מָצָ֑א וַיֵּצֵא֙ מֵאֹ֣הֶל לֵאָ֔ה וַיָּבֹ֖א בְּאֹ֥הֶל רָחֵֽל׃",
+          "targum": "וְעַל לָבָן בְּמַשְׁכְּנָא דְיַעֲקֹב וּבְמַשְׁכְּנָא דְלֵאָה וּבְמַשְׁכְּנָא דְּתַרְתֵּין לְחֵינָתָא וְלָא אַשְׁכַּח וּנְפַק מִמַּשְׁכְּנָא דְלֵאָה וְעַל בְּמַשְׁכְּנָא דְרָחֵל:",
+          "english": "And Lavan went into Ya῾aqov’s tent, and into Le᾽a’s tent, and into the two maidservants’ tents; but he found them not. Then he went out of Le᾽a’s tent, and entered into Raĥel’s tent."
+        },
+        {
+          "verseNum": 34,
+          "hebrew": "וְרָחֵ֞ל לָקְחָ֣ה אֶת־הַתְּרָפִ֗ים וַתְּשִׂמֵ֛ם בְּכַ֥ר הַגָּמָ֖ל וַתֵּ֣שֶׁב עֲלֵיהֶ֑ם וַיְמַשֵּׁ֥שׁ לָבָ֛ן אֶת־כׇּל־הָאֹ֖הֶל וְלֹ֥א מָצָֽא׃",
+          "targum": "וְרָחֵל נְסִיבַת יָת צַלְמָנַיָּא וְשַׁוִּתִּנּוּן בַּעֲבִיטָא דְגַמְלָא וִיתִיבַת עֲלֵיהוֹן וּמַשִּׁישׁ לָבָן יָת כָּל מַשְׁכְּנָא וְלָא אַשְׁכָּח:",
+          "english": "Now Raĥel had taken the images, and put them in the camel’s saddle, and sat upon them. And Lavan searched all the tent, but found them not."
+        },
+        {
+          "verseNum": 35,
+          "hebrew": "וַתֹּ֣אמֶר אֶל־אָבִ֗יהָ אַל־יִ֙חַר֙ בְּעֵינֵ֣י אֲדֹנִ֔י כִּ֣י ל֤וֹא אוּכַל֙ לָק֣וּם מִפָּנֶ֔יךָ כִּי־דֶ֥רֶךְ נָשִׁ֖ים לִ֑י וַיְחַפֵּ֕שׂ וְלֹ֥א מָצָ֖א אֶת־הַתְּרָפִֽים׃",
+          "targum": "וַאֲמֶרֶת לַאֲבוּהָא לָא יִתְקֵף בְּעֵינֵי רִבּוֹנִי אֲרֵי לָא אִכּוּל לְמֵיקַם מִן קֳדָמָךְ אֲרֵי אֹרַח נְשִׁין לִי וּבְלַשׁ וְלָא אַשְׁכַּח יָת צַלְמָנַיָּא:",
+          "english": "And she said to her father, Let it not displease my lord that I cannot rise up before thee; for the way of women is upon me. And he searched, but found not the images."
+        },
+        {
+          "verseNum": 36,
+          "hebrew": "וַיִּ֥חַר לְיַעֲקֹ֖ב וַיָּ֣רֶב בְּלָבָ֑ן וַיַּ֤עַן יַעֲקֹב֙ וַיֹּ֣אמֶר לְלָבָ֔ן מַה־פִּשְׁעִי֙ מַ֣ה חַטָּאתִ֔י כִּ֥י דָלַ֖קְתָּ אַחֲרָֽי׃",
+          "targum": "וּתְקֵיף לְיַעֲקֹב וּנְצָא עִם לָבָן וַאֲתֵיב יַעֲקֹב וַאֲמַר לְלָבָן מַה חוֹבִי מַה סוּרְחָנִי אֲרֵי רְדַפְתָּא בַּתְרָי:",
+          "english": "And Ya῾aqov was angry and strove with Lavan: and Ya῾aqov answered and said to Lavan, What is my trespass? what is my sin, that thou hast so hotly pursued after me?"
+        },
+        {
+          "verseNum": 37,
+          "hebrew": "כִּֽי־מִשַּׁ֣שְׁתָּ אֶת־כׇּל־כֵּלַ֗י מַה־מָּצָ֙אתָ֙ מִכֹּ֣ל כְּלֵי־בֵיתֶ֔ךָ שִׂ֣ים כֹּ֔ה נֶ֥גֶד אַחַ֖י וְאַחֶ֑יךָ וְיוֹכִ֖יחוּ בֵּ֥ין שְׁנֵֽינוּ׃",
+          "targum": "אֲרֵי מַשִּׁשְׁתָּא יָת כָּל מָנַי מָה אַשְׁכַּחְתָּא מִכֹּל מָנֵי בֵיתָךְ שַׁוִּי הָכָא קֳדָם אַחַי וְאַחָיךְ וְיוֹכִיחוּן בֵּין תַּרְוָנָא:",
+          "english": "Although thou hast searched all my stuff what hast thou found of all thy household goods? set it here before my brethren and thy brethren, that they may judge between us both."
+        },
+        {
+          "verseNum": 38,
+          "hebrew": "זֶה֩ עֶשְׂרִ֨ים שָׁנָ֤ה אָנֹכִי֙ עִמָּ֔ךְ רְחֵלֶ֥יךָ וְעִזֶּ֖יךָ לֹ֣א שִׁכֵּ֑לוּ וְאֵילֵ֥י צֹאנְךָ֖ לֹ֥א אָכָֽלְתִּי׃",
+          "targum": "דְּנַן עֶסְרִין שְׁנִין אֲנָא עִמָּךְ רְחֵלָךְ וְעִזָּךְ לָא אַתְכִּילוּ וְדִכְרֵי עָנָךְ לָא אֲכָלִית:",
+          "english": "This twenty years have I been with thee; thy ewes and thy she goats have not cast their young, and the rams of thy flock have I not eaten."
+        },
+        {
+          "verseNum": 39,
+          "hebrew": "טְרֵפָה֙ לֹא־הֵבֵ֣אתִי אֵלֶ֔יךָ אָנֹכִ֣י אֲחַטֶּ֔נָּה מִיָּדִ֖י תְּבַקְשֶׁ֑נָּה גְּנֻֽבְתִ֣י י֔וֹם וּגְנֻֽבְתִ֖י לָֽיְלָה׃",
+          "targum": "דִּתְבִירָא לָא אַיְתֵיתִי לְוָתָךְ דַּהֲוָה שָׁגְיָא מִמִּנְיָנָא מִנִּי אַתְּ בָּעֵי לַהּ נְטָרִית בִּימָמָא וּנְטָרִית בְּלֵילְיָא:",
+          "english": "That which was torn of beasts I brought not to thee; I bore the loss of it; of my hand didst thou require it, whether stolen by day, or stolen by night."
+        },
+        {
+          "verseNum": 40,
+          "hebrew": "הָיִ֧יתִי בַיּ֛וֹם אֲכָלַ֥נִי חֹ֖רֶב וְקֶ֣רַח בַּלָּ֑יְלָה וַתִּדַּ֥ד שְׁנָתִ֖י מֵֽעֵינָֽי׃",
+          "targum": "הֲוֵיתִי בִימָמָא אֲכַלְנִי שַׁרְבָא וּגְלִידָא (הֲוָה) נָחֵית עֲלַי בְּלֵילְיָא וּנְדַד שִׁנְתִּי מֵעֵינָי:",
+          "english": "Thus I was; in the day the drought consumed me, and the frost by night; and my sleep departed from my eyes."
+        },
+        {
+          "verseNum": 41,
+          "hebrew": "זֶה־לִּ֞י עֶשְׂרִ֣ים שָׁנָה֮ בְּבֵיתֶ֒ךָ֒ עֲבַדְתִּ֜יךָ אַרְבַּֽע־עֶשְׂרֵ֤ה שָׁנָה֙ בִּשְׁתֵּ֣י בְנֹתֶ֔יךָ וְשֵׁ֥שׁ שָׁנִ֖ים בְּצֹאנֶ֑ךָ וַתַּחֲלֵ֥ף אֶת־מַשְׂכֻּרְתִּ֖י עֲשֶׂ֥רֶת מֹנִֽים׃",
+          "targum": "דְּנַן לִי עֶסְרִין שְׁנִין בְּבֵיתָךְ פְּלָחִתָּךְ אַרְבַּע עֶסְרֵי שְׁנִין בְּתַרְתֵּין בְּנָתָיךְ וְשִׁתְּ שְׁנִין בְּעָנָךְ וְאַשְׁנֵיתָא יָת אַגְרִי עֲשַׂר זִמְנִין:",
+          "english": "Thus have I been twenty years in thy house; I served thee fourteen years for thy two daughters, and six years for thy cattle: and thou hast changed my wages ten times."
+        },
+        {
+          "verseNum": 42,
+          "hebrew": "לוּלֵ֡י אֱלֹהֵ֣י אָבִי֩ אֱלֹהֵ֨י אַבְרָהָ֜ם וּפַ֤חַד יִצְחָק֙ הָ֣יָה לִ֔י כִּ֥י עַתָּ֖ה רֵיקָ֣ם שִׁלַּחְתָּ֑נִי אֶת־עׇנְיִ֞י וְאֶת־יְגִ֧יעַ כַּפַּ֛י רָאָ֥ה אֱלֹהִ֖ים וַיּ֥וֹכַח אָֽמֶשׁ׃",
+          "targum": "אִילוּלָא פוֹן אֱלָהֵהּ דְּאַבָּא אֱלָהֵהּ דְּאַבְרָהָם וּדְדָחִיל לֵיהּ יִצְחָק הֲוָה בְּסַעְדִּי אֲרֵי כְעַן רֵיקָן שִׁלַּחְתָּנִי יָת עַמְלִי וְיָת לֵיאוּת יְדַי גְּלֵי קֳדָם יְיָ וְאוֹכַח בְּרַמְשָׁא:",
+          "english": "Were it not that the God of my father, the God of Avraham, and the Fear of Yiżĥaq, had been with me, surely thou hadst sent me away now empty. God has seen my affliction and the labour of my hands, and He rebuked thee last night."
+        },
+        {
+          "verseNum": 43,
+          "hebrew": "וַיַּ֨עַן לָבָ֜ן וַיֹּ֣אמֶר אֶֽל־יַעֲקֹ֗ב הַבָּנ֨וֹת בְּנֹתַ֜י וְהַבָּנִ֤ים בָּנַי֙ וְהַצֹּ֣אן צֹאנִ֔י וְכֹ֛ל אֲשֶׁר־אַתָּ֥ה רֹאֶ֖ה לִי־ה֑וּא וְלִבְנֹתַ֞י מָֽה־אֶעֱשֶׂ֤ה לָאֵ֙לֶּה֙ הַיּ֔וֹם א֥וֹ לִבְנֵיהֶ֖ן אֲשֶׁ֥ר יָלָֽדוּ׃",
+          "targum": "וַאֲתֵיב לָבָן וַאֲמַר לְיַעֲקֹב בְּנָתָא בְּנָתַי וּבְנַיָּא בְנַי וְעָנָא עָנִי וְכֹל דִּי אַתְּ חָזֵי דִּילִי הוּא וְלִבְנָתַי מָה אֶעְבֵּיד לְאִלֵּין יוֹמָא דֵין אוֹ לִבְנֵיהֶן דִּילִידָן:",
+          "english": "And Lavan answered and said to Ya῾aqov, These daughters are my daughters, and these children are my children, and these cattle are my cattle, and all that thou seest is mine: and what can I do this day for these my daughters, or for their children whom they have born?"
+        },
+        {
+          "verseNum": 44,
+          "hebrew": "וְעַתָּ֗ה לְכָ֛ה נִכְרְתָ֥ה בְרִ֖ית אֲנִ֣י וָאָ֑תָּה וְהָיָ֥ה לְעֵ֖ד בֵּינִ֥י וּבֵינֶֽךָ׃",
+          "targum": "וּכְעַן אֱתָא נִגְזַר קְיָם אֲנָא וְאָתְּ וִיהֵי לְסָהִיד בֵּינִי וּבֵינָךְ:",
+          "english": "Now therefore come thou, let us make a covenant, I and thou; and let it be for a witness between me and thee."
+        },
+        {
+          "verseNum": 45,
+          "hebrew": "וַיִּקַּ֥ח יַעֲקֹ֖ב אָ֑בֶן וַיְרִימֶ֖הָ מַצֵּבָֽה׃",
+          "targum": "וּנְסִיב יַעֲקֹב אַבְנָא וּזְקָפַהּ קָמָא:",
+          "english": "And Ya῾aqov took a stone, and set it up for a pillar."
+        },
+        {
+          "verseNum": 46,
+          "hebrew": "וַיֹּ֨אמֶר יַעֲקֹ֤ב לְאֶחָיו֙ לִקְט֣וּ אֲבָנִ֔ים וַיִּקְח֥וּ אֲבָנִ֖ים וַיַּֽעֲשׂוּ־גָ֑ל וַיֹּ֥אכְלוּ שָׁ֖ם עַל־הַגָּֽל׃",
+          "targum": "וַאֲמַר יַעֲקֹב לַאֲחוֹהִי לְקוּטוּ אַבְנִין וּנְסִיבוּ אַבְנִין וַעֲבָדוּ דְגוֹרָא וַאֲכָלוּ תַמָּן עַל דְּגוֹרָא:",
+          "english": "And Ya῾aqov said to his brethren, Gather stones; and they took stones, and made a heap: and they did eat there upon the heap."
+        },
+        {
+          "verseNum": 47,
+          "hebrew": "וַיִּקְרָא־ל֣וֹ לָבָ֔ן יְגַ֖ר שָׂהֲדוּתָ֑א וְיַֽעֲקֹ֔ב קָ֥רָא ל֖וֹ גַּלְעֵֽד׃",
+          "targum": "וּקְרָא לֵיהּ לָבָן יְגַר שַׂהֲדוּתָא וְיַעֲקֹב קְרָא לֵיהּ גַּלְעֵד:",
+          "english": "And Lavan called it Yegar-sahaduta: but Ya῾aqov called it Gal῾ed."
+        },
+        {
+          "verseNum": 48,
+          "hebrew": "וַיֹּ֣אמֶר לָבָ֔ן הַגַּ֨ל הַזֶּ֥ה עֵ֛ד בֵּינִ֥י וּבֵינְךָ֖ הַיּ֑וֹם עַל־כֵּ֥ן קָרָֽא־שְׁמ֖וֹ גַּלְעֵֽד׃",
+          "targum": "וַאֲמַר לָבָן דְּגוֹרָא הָדֵין סָהִיד בֵּינִי וּבֵינָךְ יוֹמָא דֵין עַל כֵּן קְרָא שְׁמֵיהּ גַּלְעֵד:",
+          "english": "And Lavan said, This heap is a witness between me and thee this day."
+        },
+        {
+          "verseNum": 49,
+          "hebrew": "וְהַמִּצְפָּה֙ אֲשֶׁ֣ר אָמַ֔ר יִ֥צֶף יְהֹוָ֖ה בֵּינִ֣י וּבֵינֶ֑ךָ כִּ֥י נִסָּתֵ֖ר אִ֥ישׁ מֵרֵעֵֽהוּ׃",
+          "targum": "וְסָכוּתָא דִּי אֲמַר יִסֶךְ מֵימְרָא דַיְיָ בֵּינִי וּבֵינָךְ אֲרֵי נִתְכַּסִּי גְּבַר מֵחַבְרֵיהּ:",
+          "english": "Therefore was the name of it called Gal῾ed; and also Miżpa; for he said, The Lord watch between me and thee, when we are absent one from another."
+        },
+        {
+          "verseNum": 50,
+          "hebrew": "אִם־תְּעַנֶּ֣ה אֶת־בְּנֹתַ֗י וְאִם־תִּקַּ֤ח נָשִׁים֙ עַל־בְּנֹתַ֔י אֵ֥ין אִ֖ישׁ עִמָּ֑נוּ רְאֵ֕ה אֱלֹהִ֥ים עֵ֖ד בֵּינִ֥י וּבֵינֶֽךָ׃",
+          "targum": "אִם תְּעַנֵּי יָת בְּנָתַי וְאִם תִּסַּב נְשִׁין עַל בְּנָתַי לֵית אֱנַשׁ עִמָּנָא חָזֵי מֵימְרָא דַיְיָ סָהִיד בֵּינִי וּבֵינָךְ:",
+          "english": "If thou shalt afflict my daughters, or if thou shalt take other wives beside my daughters, no man is with us; see, God is witness between me and thee."
+        },
+        {
+          "verseNum": 51,
+          "hebrew": "וַיֹּ֥אמֶר לָבָ֖ן לְיַעֲקֹ֑ב הִנֵּ֣ה&thinsp;<b>׀</b> הַגַּ֣ל הַזֶּ֗ה וְהִנֵּה֙ הַמַּצֵּבָ֔ה אֲשֶׁ֥ר יָרִ֖יתִי בֵּינִ֥י וּבֵינֶֽךָ׃",
+          "targum": "וַאֲמַר לָבָן לְיַעֲקֹב הָא דְגוֹרָא הָדֵין וְהָא קַמְתָא דִי אֲקֵימִית בֵּינִי וּבֵינָךְ:",
+          "english": "And Lavan said to Ya῾aqov, Behold this heap, and behold this pillar, which I have set between me and thee;"
+        },
+        {
+          "verseNum": 52,
+          "hebrew": "עֵ֚ד הַגַּ֣ל הַזֶּ֔ה וְעֵדָ֖ה הַמַּצֵּבָ֑ה אִם־אָ֗נִי לֹֽא־אֶעֱבֹ֤ר אֵלֶ֙יךָ֙ אֶת־הַגַּ֣ל הַזֶּ֔ה וְאִם־אַ֠תָּ֠ה לֹא־תַעֲבֹ֨ר אֵלַ֜י אֶת־הַגַּ֥ל הַזֶּ֛ה וְאֶת־הַמַּצֵּבָ֥ה הַזֹּ֖את לְרָעָֽה׃",
+          "targum": "סָהִיד דְּגוֹרָא הָדֵין וְסָהֲדָא קָמָא אִם אֲנָא לָא אֶעְבַּר לְוָתָךְ יָת דְּגוֹרָא הָדֵין וְאִם אַתְּ לָא תֵעִבַּר לְוָתִי יָת דְּגוֹרָא הָדֵין וְיָת קַמְתָא הָדָא לְבִישׁוּ:",
+          "english": "this heap be witness, and this pillar be witness, that I will not pass over this heap to thee, and that thou shalt not pass over this heap and this pillar to me, for harm."
+        },
+        {
+          "verseNum": 53,
+          "hebrew": "אֱלֹהֵ֨י אַבְרָהָ֜ם וֵֽאלֹהֵ֤י נָחוֹר֙ יִשְׁפְּט֣וּ בֵינֵ֔ינוּ אֱלֹהֵ֖י אֲבִיהֶ֑ם וַיִּשָּׁבַ֣ע יַעֲקֹ֔ב בְּפַ֖חַד אָבִ֥יו יִצְחָֽק׃",
+          "targum": "אֱלָהֵהּ דְּאַבְרָהָם וֵאֱלָהֵהּ דְּנָחוֹר יְדוּנוּן בֵּינָנָא אֱלָהֵהּ דַאֲבוּהוֹן וְקַיֵּים יַעֲקֹב בִּדְדָחִיל לֵיהּ אֲבוּהִי יִצְחָק:",
+          "english": "The God of Avraham, and the god of Naĥor, the god of their father, judge between us. And Ya῾aqov swore by the Fear of his father Yiżĥaq."
+        },
+        {
+          "verseNum": 54,
+          "hebrew": "וַיִּזְבַּ֨ח יַעֲקֹ֥ב זֶ֙בַח֙ בָּהָ֔ר וַיִּקְרָ֥א לְאֶחָ֖יו לֶאֱכׇל־לָ֑חֶם וַיֹּ֣אכְלוּ לֶ֔חֶם וַיָּלִ֖ינוּ בָּהָֽר׃",
+          "targum": "וּנְכֵס יַעֲקֹב נִכְסָתָא בְּטוּרָא וּקְרָא לַאֲחוֹהִי לְמֵיכַל לַחֲמָא וַאֲכָלוּ לַחֲמָא וּבִיתוּ בְּטוּרָא:",
+          "english": "Then Ya῾aqov offered sacrifice upon the mount, and called his brethren to eat bread: and they did eat bread, and tarried all night on the mountain."
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיַּשְׁכֵּ֨ם לָבָ֜ן בַּבֹּ֗קֶר וַיְנַשֵּׁ֧ק לְבָנָ֛יו וְלִבְנוֹתָ֖יו וַיְבָ֣רֶךְ אֶתְהֶ֑ם וַיֵּ֛לֶךְ וַיָּ֥שׇׁב לָבָ֖ן לִמְקֹמֽוֹ׃",
+          "targum": "וְאַקְדֵם לָבָן בְּצַפְרָא וּנְשַׁק לִבְנוֹהִי וְלִבְנָתֵיהּ וּבָרִיךְ יָתְהֵן וַאֲזַל וְתַב לָבָן לְאַתְרֵיהּ:",
+          "english": "And early in the morning Lavan rose up, and kissed his sons and his daughters, and blessed them: and Lavan departed, and returned to his place."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וְיַעֲקֹ֖ב הָלַ֣ךְ לְדַרְכּ֑וֹ וַיִּפְגְּעוּ־ב֖וֹ מַלְאֲכֵ֥י אֱלֹהִֽים׃",
+          "targum": "וְיַעֲקֹב אָזַל לְאָרְחֵיהּ וַעֲרָעוּ בֵיהּ מַלְאָכַיָּא דַיְיָ:",
+          "english": "And Ya῾aqov went on his way, and angels of God met him."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיֹּ֤אמֶר יַעֲקֹב֙ כַּאֲשֶׁ֣ר רָאָ֔ם מַחֲנֵ֥ה אֱלֹהִ֖ים זֶ֑ה וַיִּקְרָ֛א שֵֽׁם־הַמָּק֥וֹם הַה֖וּא מַֽחֲנָֽיִם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וַאֲמַר יַעֲקֹב כַּד חֲזָנוּן מַשְׁרִיתָא מִן קֳדָם יְיָ דֵּין וּקְרָא שְׁמָא דְאַתְרָא הַהוּא מַחֲנָיִם:",
+          "english": "And when Ya῾aqov saw them, he said, This is God’s camp: and he called the name of that place Maĥanayim."
+        }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,7 @@ import { Colors, spacing } from "@/constants/theme";
 // Group chapters by section
 function groupChaptersBySection(chapters: Chapter[]) {
   const sections: Record<string, { title: string; chapters: Chapter[] }> = {
+    kitzur_orach_chaim: { title: 'קיצור שולחן ערוך - אורח חיים', chapters: [] },
     orach_chaim: { title: 'אורח חיים', chapters: [] },
     yoreh_deah: { title: 'יורה דעה', chapters: [] },
     even_haezer: { title: 'אבן העזר', chapters: [] },
@@ -20,7 +21,9 @@ function groupChaptersBySection(chapters: Chapter[]) {
   };
 
   chapters.forEach(ch => {
-    if (ch.id.startsWith('orach_chaim')) {
+    if (ch.id.startsWith('kitzur_orach_chaim')) {
+      sections.kitzur_orach_chaim.chapters.push(ch);
+    } else if (ch.id.startsWith('orach_chaim')) {
       sections.orach_chaim.chapters.push(ch);
     } else if (ch.id.startsWith('yoreh_deah')) {
       sections.yoreh_deah.chapters.push(ch);

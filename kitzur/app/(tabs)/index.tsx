@@ -13,7 +13,7 @@ import { ProgressRing } from '@/components/ProgressRing';
 import { QuickActionsGrid } from '@/components/QuickActionsGrid';
 import { StreakCounter } from '@/components/StreakCounter';
 import { DailyQuoteCard } from '@/components/DailyQuoteCard';
-import { listChapters, type Chapter } from '@/utils/contentLoader';
+import { listChapters, getChapterCount, type Chapter } from '@/utils/contentLoader';
 import { 
   getLastRead, 
   getCompletedCount, 
@@ -51,9 +51,9 @@ export default function HomeScreen() {
   async function loadDashboardData() {
     setLoading(true);
     try {
-      // Load chapters to get total count
-      const chapters = await listChapters();
-      setTotalCount(chapters.length);
+      // Get total chapter count without loading all content
+      const count = getChapterCount();
+      setTotalCount(count);
 
       // Load progress data
       const lastReadData = await getLastRead();
@@ -87,11 +87,19 @@ export default function HomeScreen() {
   };
 
   const handleRandom = async () => {
-    const chapters = await listChapters();
-    if (chapters.length > 0) {
-      const randomId = getRandomHalachaId(chapters.length);
+    const count = getChapterCount();
+    if (count > 0) {
+      const randomId = getRandomHalachaId(count);
       router.push(`/chapter/${randomId}`);
     }
+  };
+
+  const handleShnayimMikra = () => {
+    router.push('/shnayim-mikra');
+  };
+
+  const handleParshatHaMann = () => {
+    router.push('/parshat-hamann');
   };
 
   if (loading) {
@@ -156,6 +164,8 @@ export default function HomeScreen() {
             onSearch={handleSearch}
             onBookmarks={handleBookmarks}
             onRandom={handleRandom}
+            onShnayimMikra={handleShnayimMikra}
+            onParshatHaMann={handleParshatHaMann}
           />
         </View>
 

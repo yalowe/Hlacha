@@ -1,4 +1,4 @@
-import chapterRegistry, { chapterIds } from '../content/chapters-index';
+import { chapterIds } from '../content/chapter-ids-only';
 
 export type Section = { id: string; section: number; text: string };
 export type Chapter = {
@@ -9,20 +9,44 @@ export type Chapter = {
   version: number;
 };
 
-// Use statically imported chapter IDs
+// Use statically imported chapter IDs (lightweight - just the IDs, no content)
 const CHAPTER_IDS = chapterIds;
+
+// Lazy-load the chapter registry only when needed
+let chapterRegistry: Record<string, any> | null = null;
+async function getChapterRegistry() {
+  if (!chapterRegistry) {
+    // Dynamically import the registry only when first accessed
+    // This prevents bundling all chapters upfront
+    const module = await import('../content/chapters-index');
+    chapterRegistry = module.default;
+  }
+  return chapterRegistry;
+}
+
+/**
+ * Get the total count of chapters without loading all content
+ * This is much faster than listChapters() for just getting the count
+ */
+export function getChapterCount(): number {
+  return CHAPTER_IDS.length;
+}
 
 /**
  * Load all chapters from JSON files
+ * WARNING: This loads ALL chapter data and can be slow on mobile
+ * Use getChapterCount() if you only need the count
  */
 export async function listChapters(): Promise<Chapter[]> {
-  const chapters = await Promise.all(
-    CHAPTER_IDS.map(async id => {
-      const chapter = await getChapter(id);
-      return chapter;
-    })
-  );
-  return chapters.filter(Boolean) as Chapter[];
+  const registry = await getChapterRegistry();
+  const chapters: Chapter[] = [];
+  for (const id of CHAPTER_IDS) {
+    const chapter = registry[id];
+    if (chapter) {
+      chapters.push(chapter as Chapter);
+    }
+  }
+  return chapters;
 }
 
 /**
@@ -30,8 +54,8 @@ export async function listChapters(): Promise<Chapter[]> {
  */
 export async function getChapter(chapterId: string): Promise<Chapter | null> {
   try {
-    // Use static chapter registry
-    const chapter = chapterRegistry[chapterId];
+    const registry = await getChapterRegistry();
+    const chapter = registry[chapterId];
     return chapter ? (chapter as Chapter) : null;
   } catch (error) {
     console.error(`Failed to load chapter: ${chapterId}`, error);

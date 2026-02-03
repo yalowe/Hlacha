@@ -1,0 +1,726 @@
+{
+  "name": "Shoftim",
+  "book": "Deuteronomy",
+  "chapters": [
+    {
+      "chapter": 16,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "שָׁמוֹר֙ אֶת־חֹ֣דֶשׁ הָאָבִ֔יב וְעָשִׂ֣יתָ פֶּ֔סַח לַיהֹוָ֖ה אֱלֹהֶ֑יךָ כִּ֞י בְּחֹ֣דֶשׁ הָֽאָבִ֗יב הוֹצִ֨יאֲךָ֜ יְהֹוָ֧ה אֱלֹהֶ֛יךָ מִמִּצְרַ֖יִם לָֽיְלָה׃",
+          "targum": "טַר יָת יַרְחָא דַאֲבִיבָא וְתַעְבֵּד פִּסְחָא קֳדָם יְיָ אֱלָהָךְ אֲרֵי בְּיַרְחָא דַאֲבִיבָא אַפְּקָךְ יְיָ אֱלָהָךְ מִמִּצְרַיִם וַעֲבַד לָךְ נִסִּין בְּלֵילְיָא:",
+          "english": "Observe the month of Aviv, and keep the passover to the Lord thy God: for in the month of Aviv the Lord thy God brought thee forth out of Miżrayim by night."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וְזָבַ֥חְתָּ פֶּ֛סַח לַיהֹוָ֥ה אֱלֹהֶ֖יךָ צֹ֣אן וּבָקָ֑ר בַּמָּקוֹם֙ אֲשֶׁר־יִבְחַ֣ר יְהֹוָ֔ה לְשַׁכֵּ֥ן שְׁמ֖וֹ שָֽׁם׃",
+          "targum": "וְתִכּוֹס פִּסְחָא קֳדָם יְיָ אֱלָהָךְ מִן בְּנֵי עָנָא וְנִכְסַת קוּדְשַׁיָּא מִן תּוֹרֵי בְּאַתְרָא דִּי יִתִּרְעֵי יְיָ לְאַשְׁרָאָה שְׁכִנְתֵּיהּ תַּמָּן:",
+          "english": "Thou shalt therefore sacrifice the passover to the Lord thy God, of the flock and the herd, in the place which\n\t\t\t\tthe Lord shall choose to place his name there."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "לֹא־תֹאכַ֤ל עָלָיו֙ חָמֵ֔ץ שִׁבְעַ֥ת יָמִ֛ים תֹּֽאכַל־עָלָ֥יו מַצּ֖וֹת לֶ֣חֶם עֹ֑נִי כִּ֣י בְחִפָּז֗וֹן יָצָ֙אתָ֙ מֵאֶ֣רֶץ מִצְרַ֔יִם לְמַ֣עַן תִּזְכֹּ֗ר אֶת־י֤וֹם צֵֽאתְךָ֙ מֵאֶ֣רֶץ מִצְרַ֔יִם כֹּ֖ל יְמֵ֥י חַיֶּֽיךָ׃",
+          "targum": "לָא תֵיכוּל עֲלוֹהִי חֲמִיעַ שִׁבְעָא יוֹמִין תֵּיכוּל עֲלוֹהִי פַטִּיר לְחֵם עֹנִי אֲרֵי בִּבְהִילוּ נְפַקְתָּא מֵאַרְעָא דְמִצְרַיִם בְּדִיל דְּתִדְכַּר יָת יוֹמָא מִפְּקָךְ מֵאַרְעָא דְמִצְרַיִם כָּל יוֹמֵי חַיָּיךְ:",
+          "english": "Thou shalt eat no leavened bread with it; seven days shalt thou eat unleavened bread with it, the bread of affliction; for thou camest forth out of the land of Miżrayim in haste: that thou mayst remember the day when thou camest out of the land of Miżrayim all the days of thy life."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וְלֹֽא־יֵרָאֶ֨ה לְךָ֥ שְׂאֹ֛ר בְּכׇל־גְּבֻלְךָ֖ שִׁבְעַ֣ת יָמִ֑ים וְלֹא־יָלִ֣ין מִן־הַבָּשָׂ֗ר אֲשֶׁ֨ר תִּזְבַּ֥ח בָּעֶ֛רֶב בַּיּ֥וֹם הָרִאשׁ֖וֹן לַבֹּֽקֶר׃",
+          "targum": "וְלָא יִתְחֲזֵי לָךְ חֲמִיר בְּכָל תְּחוּמָךְ שִׁבְעָא יוֹמִין וְלָא יְבִית מִן בִּסְרָא דִּי תִכּוֹס בְּרַמְשָׁא בְּיוֹמָא קַדְמָאָה לְצַפְרָא:",
+          "english": "And there shall be no leaven seen with thee in all thy border for seven days; nor shall any thing of the meat, which thou dost sacrifice on the first day at evening, remain all night until the morning."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "לֹ֥א תוּכַ֖ל לִזְבֹּ֣חַ אֶת־הַפָּ֑סַח בְּאַחַ֣ד שְׁעָרֶ֔יךָ אֲשֶׁר־יְהֹוָ֥ה אֱלֹהֶ֖יךָ נֹתֵ֥ן לָֽךְ׃",
+          "targum": "לֵית לָךְ רְשׁוּ לְמִכֹּס יָת פִּסְחָא בַּחֲדָא מִקִּרְוָיךְ דַּיְיָ אֱלָהָךְ יָהֵב לָךְ:",
+          "english": "Thou mayst not sacrifice the passover within any of thy gates, which the Lord thy God gives thee:"
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "כִּ֠י אִֽם־אֶל־הַמָּק֞וֹם אֲשֶׁר־יִבְחַ֨ר יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ לְשַׁכֵּ֣ן שְׁמ֔וֹ שָׁ֛ם תִּזְבַּ֥ח אֶת־הַפֶּ֖סַח בָּעָ֑רֶב כְּב֣וֹא הַשֶּׁ֔מֶשׁ מוֹעֵ֖ד צֵֽאתְךָ֥ מִמִּצְרָֽיִם׃",
+          "targum": "אֶלָּהֵן לְאַתְרָא דִּי יִתִּרְעֵי יְיָ אֱלָהָךְ לְאַשְׁרָאָה שְׁכִנְתֵּיהּ תַּמָּן תִּכּוֹס יָת פִּסְחָא בְּרַמְשָׁא כְּמֵעַל שִׁמְשָׁא זְמַן מִפְּקָךְ מִמִּצְרָיִם:",
+          "english": "but only at the place which the Lord thy God shall choose to place his name in, there thou shalt sacrifice the passover at evening, at the going down of the sun, at the season when thou camest out of Miżrayim."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וּבִשַּׁלְתָּ֙ וְאָ֣כַלְתָּ֔ בַּמָּק֕וֹם אֲשֶׁ֥ר יִבְחַ֛ר יְהֹוָ֥ה אֱלֹהֶ֖יךָ בּ֑וֹ וּפָנִ֣יתָ בַבֹּ֔קֶר וְהָלַכְתָּ֖ לְאֹהָלֶֽיךָ׃",
+          "targum": "וּתְבַשַּׁל וְתֵיכוּל בְּאַתְרָא דִּי יִתִּרְעֵי יְיָ אֱלָהָךְ בֵּיהּ וְתִתְפְּנֵי בְצַפְרָא וּתְהַךְ לְקִרְוָךְ:",
+          "english": "And thou shalt roast and eat it in the place which the Lord thy God shall choose: and thou shalt turn in the morning, and go to thy tents."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "שֵׁ֥שֶׁת יָמִ֖ים תֹּאכַ֣ל מַצּ֑וֹת וּבַיּ֣וֹם הַשְּׁבִיעִ֗י עֲצֶ֙רֶת֙ לַיהֹוָ֣ה אֱלֹהֶ֔יךָ לֹ֥א תַעֲשֶׂ֖ה מְלָאכָֽה׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "שִׁתָּא יוֹמִין תֵּיכוּל פַּטִּירָא וּבְיוֹמָא שְׁבִיעָאָה כְּנֵשׁ קֳדָם יְיָ אֱלָהָךְ לָא תַעְבֵּד עִבִידָא:",
+          "english": "Six days thou shalt eat unleavened bread, and on the seventh day shall be a solemn assembly to the Lord thy God: thou shalt do no work."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "שִׁבְעָ֥ה שָׁבֻעֹ֖ת תִּסְפׇּר־לָ֑ךְ מֵהָחֵ֤ל חֶרְמֵשׁ֙ בַּקָּמָ֔ה תָּחֵ֣ל לִסְפֹּ֔ר שִׁבְעָ֖ה שָׁבֻעֽוֹת׃",
+          "targum": "שִׁבְעָא שָׁבוּעִין תִּמְנֵי לָךְ מִדְּשַׁרְיוּת מַגְּלָא בַּחֲצַד עוּמְרָא דַאֲרָמוּתָא תִּשְׁרֵי לְמִמְנֵי שִׁבְעָא שָׁבוּעִין:",
+          "english": "Seven weeks shalt thou number to thee: from such time as thou beginnest to put the sickle to the corn shalt thou commence to number seven weeks."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וְעָשִׂ֜יתָ חַ֤ג שָׁבֻעוֹת֙ לַיהֹוָ֣ה אֱלֹהֶ֔יךָ מִסַּ֛ת נִדְבַ֥ת יָדְךָ֖ אֲשֶׁ֣ר תִּתֵּ֑ן כַּאֲשֶׁ֥ר יְבָרֶכְךָ֖ יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+          "targum": "וְתַעְבֵּד חַגָּא דְשָׁבוּעַיָּא קֳדָם יְיָ אֱלָהָךְ מִסַּת נִדְבַת יְדָךְ דִּי תִתֵּן כְּמָא דִי יְבָרֵכִנָּךְ יְיָ אֱלָהָךְ:",
+          "english": "And thou shalt keep the feast of weeks to the Lord thy God with a tribute of a freewill offering of thy hand, which thou shalt give, according as the Lord thy God has blessed thee:"
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וְשָׂמַחְתָּ֞ לִפְנֵ֣י&thinsp;<b>׀</b> יְהֹוָ֣ה אֱלֹהֶ֗יךָ אַתָּ֨ה וּבִנְךָ֣ וּבִתֶּ֘ךָ֮ וְעַבְדְּךָ֣ וַאֲמָתֶ֒ךָ֒ וְהַלֵּוִי֙ אֲשֶׁ֣ר בִּשְׁעָרֶ֔יךָ וְהַגֵּ֛ר וְהַיָּת֥וֹם וְהָאַלְמָנָ֖ה אֲשֶׁ֣ר בְּקִרְבֶּ֑ךָ בַּמָּק֗וֹם אֲשֶׁ֤ר יִבְחַר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ לְשַׁכֵּ֥ן שְׁמ֖וֹ שָֽׁם׃",
+          "targum": "וְתֶחֱדֵי קֳדָם יְיָ אֱלָהָךְ אַתְּ וּבְרָךְ וּבְרַתָּךְ וְעַבְדָּךְ וְאַמְתָךְ וְלֵוָאָה דִּי בְקִרְוָיךְ וְגִיּוֹרָא וְיִתַּמָּא וְאַרְמְלָא דִּי בֵינָךְ בְּאַתְרָא דִּי יִתִּרְעֵי יְיָ אֱלָהָךְ לְאַשְׁרָאָה שְׁכִנְתֵּיהּ תַּמָּן:",
+          "english": "and thou shalt rejoice before the Lord thy God, thou, and thy son, and thy daughter, and thy manservant, and thy maidservant, and the Levite who is within thy gates, and the stranger, and the fatherless, and the widow, that are among you, in the place which the Lord thy God has chosen as the residence of his name."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וְזָ֣כַרְתָּ֔ כִּי־עֶ֥בֶד הָיִ֖יתָ בְּמִצְרָ֑יִם וְשָׁמַרְתָּ֣ וְעָשִׂ֔יתָ אֶת־הַֽחֻקִּ֖ים הָאֵֽלֶּה׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וְתִדְכַּר אֲרֵי עַבְדָּא הֲוֵיתָא בְּמִצְרָיִם וְתִטַּר וְתַעְבֵּד יָת קְיָמַיָּא הָאִלֵּין:",
+          "english": "And thou shalt remember that thou wast a bondman in Miżrayim: therefore thou shalt observe and do these statutes."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "חַ֧ג הַסֻּכֹּ֛ת תַּעֲשֶׂ֥ה לְךָ֖ שִׁבְעַ֣ת יָמִ֑ים בְּאׇ֨סְפְּךָ֔ מִֽגׇּרְנְךָ֖ וּמִיִּקְבֶֽךָ׃",
+          "targum": "חַגָּא דִמְטַלַּיָּא תַּעְבֵּד לָךְ שִׁבְעָא יוֹמִין בְּמִכְנְשָׁךְ מֵאִדְּרָךְ וּמִמַּעֲצַרְתָּךְ:",
+          "english": "Thou shalt observe the feast of booths seven days, after thou hast gathered in thy corn and thy wine:"
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וְשָׂמַחְתָּ֖ בְּחַגֶּ֑ךָ אַתָּ֨ה וּבִנְךָ֤ וּבִתֶּ֙ךָ֙ וְעַבְדְּךָ֣ וַאֲמָתֶ֔ךָ וְהַלֵּוִ֗י וְהַגֵּ֛ר וְהַיָּת֥וֹם וְהָאַלְמָנָ֖ה אֲשֶׁ֥ר בִּשְׁעָרֶֽיךָ׃",
+          "targum": "וְתֶחֱדֵי בְּחַגָּךְ אַתְּ וּבְרָךְ וּבְרַתָּךְ וְעַבְדָּךְ וְאַמְתָךְ וְלֵוָאָה וְגִיּוֹרָא וְיִתַּמָּא וְאַרְמְלָא דִּי בְקִרְוָיךְ:",
+          "english": "and thou shalt rejoice in thy feast, thou, and thy son, and thy daughter, and thy manservant, and thy maidservant, and the Levite, the stranger, and the fatherless, and the widow, that are within thy gates."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "שִׁבְעַ֣ת יָמִ֗ים תָּחֹג֙ לַיהֹוָ֣ה אֱלֹהֶ֔יךָ בַּמָּק֖וֹם אֲשֶׁר־יִבְחַ֣ר יְהֹוָ֑ה כִּ֣י יְבָרֶכְךָ֞ יְהֹוָ֣ה אֱלֹהֶ֗יךָ בְּכֹ֤ל תְּבוּאָֽתְךָ֙ וּבְכֹל֙ מַעֲשֵׂ֣ה יָדֶ֔יךָ וְהָיִ֖יתָ אַ֥ךְ שָׂמֵֽחַ׃",
+          "targum": "שִׁבְעָא יוֹמִין תֵּחוֹג קֳדָם יְיָ אֱלָהָךְ בְּאַתְרָא דִּי יִתִּרְעֵי יְיָ אֲרֵי יְבָרֵכִנָּךְ יְיָ אֱלָהָךְ בְּכָל עֲלַלְתָּךְ וּבְכָל עוֹבָדֵי יְדָיךְ וּתְהֵי בְּרַם חָדֵי:",
+          "english": "Seven days shalt thou keep a solemn feast to the Lord thy God in the place which the Lord shall choose: because the Lord thy God shall bless thee in all thy produce, and in all the work of thy hands, therefore thou shalt surely rejoice."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "שָׁל֣וֹשׁ פְּעָמִ֣ים&thinsp;<small>׀</small>&thinsp;בַּשָּׁנָ֡ה יֵרָאֶ֨ה כׇל־זְכוּרְךָ֜ אֶת־פְּנֵ֣י&thinsp;<b>׀</b> יְהֹוָ֣ה אֱלֹהֶ֗יךָ בַּמָּקוֹם֙ אֲשֶׁ֣ר יִבְחָ֔ר בְּחַ֧ג הַמַּצּ֛וֹת וּבְחַ֥ג הַשָּׁבֻע֖וֹת וּבְחַ֣ג הַסֻּכּ֑וֹת וְלֹ֧א יֵרָאֶ֛ה אֶת־פְּנֵ֥י יְהֹוָ֖ה רֵיקָֽם׃",
+          "targum": "תְּלַת זִמְנִין בְּשַׁתָּא יִתְחֲזֵי כָל דְּכוּרָךְ קֳדָם יְיָ אֱלָהָךְ בְּאַתְרָא דִּי יִתִּרְעֵי בְּחַגָּא דְפַטִּירַיָּא וּבְחַגָּא דְשָׁבוּעַיָּא וּבְחַגָּא דִמְטַלַּיָּא וְלָא יִתְחֲזֵי קֳדָם יְיָ רֵיקָנוּן:",
+          "english": "Three times a year shall all thy males appear before the Lord thy God in the place which he shall choose; in the feast of unleavened bread, and in the feast of weeks, and in the feast of booths: and they shall not appear before the Lord empty:"
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "אִ֖ישׁ כְּמַתְּנַ֣ת יָד֑וֹ כְּבִרְכַּ֛ת יְהֹוָ֥ה אֱלֹהֶ֖יךָ אֲשֶׁ֥ר נָֽתַן־לָֽךְ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "גְּבַר כְּמַתְּנַת יְדֵיהּ כְּבִרְכְּתָא דַּיְיָ אֱלָהָךְ דִּי יְהַב לָךְ:",
+          "english": "every man shall give as he is able, according to the blessing of\n\t\t\t\tthe Lord thy God which he has given thee."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "שֹׁפְטִ֣ים וְשֹֽׁטְרִ֗ים תִּֽתֶּן־לְךָ֙ בְּכׇל־שְׁעָרֶ֔יךָ אֲשֶׁ֨ר יְהֹוָ֧ה אֱלֹהֶ֛יךָ נֹתֵ֥ן לְךָ֖ לִשְׁבָטֶ֑יךָ וְשָׁפְט֥וּ אֶת־הָעָ֖ם מִשְׁפַּט־צֶֽדֶק׃",
+          "targum": "דַּיָּנִין וּפֻרְעָנִין תְּמַנֵּי לָךְ בְּכָל קִרְוָיךְ דִּי יְיָ אֱלָהָךְ יָהֵב לָךְ לְשִׁבְטָיךְ וִידוּנוּן יָת עַמָּא דִּין דִּקְשׁוֹט:",
+          "english": "Judges and officers shalt thou make thee in all thy gates, which the Lord thy God gives thee, throughout thy tribes: and they shall judge the people with righteous judgment."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "לֹא־תַטֶּ֣ה מִשְׁפָּ֔ט לֹ֥א תַכִּ֖יר פָּנִ֑ים וְלֹא־תִקַּ֣ח שֹׁ֔חַד כִּ֣י הַשֹּׁ֗חַד יְעַוֵּר֙ עֵינֵ֣י חֲכָמִ֔ים וִֽיסַלֵּ֖ף דִּבְרֵ֥י צַדִּיקִֽם׃",
+          "targum": "לָא תַצְלֵי דִין לָא תִשְׁתְּמוֹדַע אַפִּין וְלָא תְקַבֵּל שֹׁחֲדָא אֲרֵי שֹׁחֲדָא מְעַוֵּר עֵינֵי חַכִּימִין וּמְקַלְקֵל פִּתְגָּמִין תְּרִיצִין:",
+          "english": "Thou shalt not wrest judgment; thou shalt not respect persons, neither take a bribe: for a bribe blinds the eyes of the wise, and perverts the words of the righteous."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "צֶ֥דֶק צֶ֖דֶק תִּרְדֹּ֑ף לְמַ֤עַן תִּֽחְיֶה֙ וְיָרַשְׁתָּ֣ אֶת־הָאָ֔רֶץ אֲשֶׁר־יְהֹוָ֥ה אֱלֹהֶ֖יךָ נֹתֵ֥ן לָֽךְ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "קֻשְׁטָא קֻשְׁטָא תְּהֵי רָדִיף בְּדִיל דְּתֵיחֵי וְתֵירַת יָת אַרְעָא דַּיְיָ אֱלָהָךְ יָהֵב לָךְ:",
+          "english": "Justice, only justice shalt thou pursue, that thou mayst live, and inherit the land which the Lord thy God gives thee."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "לֹֽא־תִטַּ֥ע לְךָ֛ אֲשֵׁרָ֖ה כׇּל־עֵ֑ץ אֵ֗צֶל מִזְבַּ֛ח יְהֹוָ֥ה אֱלֹהֶ֖יךָ אֲשֶׁ֥ר תַּעֲשֶׂה־לָּֽךְ׃",
+          "targum": "לָא תִצּוֹב לָךְ אֲשֵׁרַת כָּל אִילָן בִּסְטַר מַדְבְּחָא דַּיְיָ אֱלָהָךְ דִּי תַעְבֶּד לָךְ:",
+          "english": "Thou shalt not plant thee an ashera of any tree near the altar of the Lord thy God, which thou shalt make thee."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וְלֹֽא־תָקִ֥ים לְךָ֖ מַצֵּבָ֑ה אֲשֶׁ֥ר שָׂנֵ֖א יְהֹוָ֥ה אֱלֹהֶֽיךָ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וְלָא תְקִים לָךְ קָמָא דִּי סָנֵי יְיָ אֱלָהָךְ:",
+          "english": "Neither shalt thou set thee up any pillar; which the Lord thy God hates."
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "לֹא־תִזְבַּח֩ לַיהֹוָ֨ה אֱלֹהֶ֜יךָ שׁ֣וֹר וָשֶׂ֗ה אֲשֶׁ֨ר יִהְיֶ֥ה בוֹ֙ מ֔וּם כֹּ֖ל דָּבָ֣ר רָ֑ע כִּ֧י תוֹעֲבַ֛ת יְהֹוָ֥ה אֱלֹהֶ֖יךָ הֽוּא׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "לָא תִכּוֹס קֳדָם יְיָ אֱלָהָךְ תּוֹר וְאִמָּר דִּי יְהֵי בֵיהּ מוּמָא כֹּל מִדַּעַם בִּישׁ אֲרֵי מְרָחָק קֳדָם יְיָ אֱלָהָךְ הוּא:",
+          "english": "Thou shalt not sacrifice to the Lord thy God any bullock, or sheep, in which is a blemish, or anything evil: for that is an abomination to the Lord thy God."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "כִּֽי־יִמָּצֵ֤א בְקִרְבְּךָ֙ בְּאַחַ֣ד שְׁעָרֶ֔יךָ אֲשֶׁר־יְהֹוָ֥ה אֱלֹהֶ֖יךָ נֹתֵ֣ן לָ֑ךְ אִ֣ישׁ אוֹ־אִשָּׁ֗ה אֲשֶׁ֨ר יַעֲשֶׂ֧ה אֶת־הָרַ֛ע בְּעֵינֵ֥י יְהֹוָה־אֱלֹהֶ֖יךָ לַעֲבֹ֥ר בְּרִיתֽוֹ׃",
+          "targum": "אֲרֵי יִשְׁתְּכַח בֵּינָךְ בַּחֲדָא מִקִּרְוָיךְ דַּיְיָ אֱלָהָךְ יָהֵב לָךְ גְּבַר אוֹ אִתְּתָא דִּי יַעְבֵּד יָת דְּבִישׁ קֳדָם יְיָ אֱלָהָךְ לְמֶעְבַּר עַל קְיָמֵיהּ:",
+          "english": "If there be found among you, within any of thy gates which the Lord thy God gives thee, a man or woman, who has perpetrated wickedness in the sight of the Lord thy God, in transgressing his covenant,"
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וַיֵּ֗לֶךְ וַֽיַּעֲבֹד֙ אֱלֹהִ֣ים אֲחֵרִ֔ים וַיִּשְׁתַּ֖חוּ לָהֶ֑ם וְלַשֶּׁ֣מֶשׁ&thinsp;<b>׀</b> א֣וֹ לַיָּרֵ֗חַ א֛וֹ לְכׇל־צְבָ֥א הַשָּׁמַ֖יִם אֲשֶׁ֥ר לֹא־צִוִּֽיתִי׃",
+          "targum": "וַאֲזַל וּפְלַח לְטַעֲוַת עַמְמַיָּא וּסְגִיד לְהוֹן וּלְשִׁמְשָׁא אוֹ לְסִיהֲרָא אוֹ לְכָל חֵילֵי שְׁמַיָּא דִּי לָא פַקֵּדִית:",
+          "english": "and has gone and served other gods, and worshipped them, either the sun, or moon, or any of the host of heaven, which I have not commanded;"
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וְהֻֽגַּד־לְךָ֖ וְשָׁמָ֑עְתָּ וְדָרַשְׁתָּ֣ הֵיטֵ֔ב וְהִנֵּ֤ה אֱמֶת֙ נָכ֣וֹן הַדָּבָ֔ר נֶעֶשְׂתָ֛ה הַתּוֹעֵבָ֥ה הַזֹּ֖את בְּיִשְׂרָאֵֽל׃",
+          "targum": "וִיחַוּוּן לָךְ וְתִשְׁמָע וְתִתְבַּע יָאוּת וְהָא קֻשְׁטָא כֵּוַן פִּתְגָּמָא אִתְעֲבִידַת תּוֹעֶבְתָּא הָדָא בְּיִשְׂרָאֵל:",
+          "english": "and it be told thee, and thou hast heard of it, and inquired diligently, and, behold, it be true, and the thing certain, that such abomination has been perpetrated in Yisra᾽el:"
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וְהֽוֹצֵאתָ֣ אֶת־הָאִ֣ישׁ הַה֡וּא אוֹ֩ אֶת־הָאִשָּׁ֨ה הַהִ֜וא אֲשֶׁ֣ר עָ֠שׂ֠וּ אֶת־הַדָּבָ֨ר הָרָ֤ע הַזֶּה֙ אֶל־שְׁעָרֶ֔יךָ אֶת־הָאִ֕ישׁ א֖וֹ אֶת־הָאִשָּׁ֑ה וּסְקַלְתָּ֥ם בָּאֲבָנִ֖ים וָמֵֽתוּ׃",
+          "targum": "וְתַפֵּק יָת גַּבְרָא הַהוּא אוֹ יָת אִתְּתָא הַהִיא דִּי עֲבָדוּ יָת פִּתְגָּמָא בִישָׁא הָדֵין לִתְרַע בֵּית דִּינָךְ יָת גַּבְרָא אוֹ יָת אִתְּתָא וְתִרְגְּמִנּוּן בְּאַבְנַיָּא וִימוּתוּן:",
+          "english": "then shalt thou bring forth that man or that woman, who has committed that wicked thing, unto thy gates, and shalt stone that man or that woman with stones till they die."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "עַל־פִּ֣י&thinsp;<b>׀</b> שְׁנַ֣יִם עֵדִ֗ים א֛וֹ שְׁלֹשָׁ֥ה עֵדִ֖ים יוּמַ֣ת הַמֵּ֑ת לֹ֣א יוּמַ֔ת עַל־פִּ֖י עֵ֥ד אֶחָֽד׃",
+          "targum": "עַל מֵימַר תְּרֵין סַהֲדִין אוֹ תְּלָתָא סַהֲדִין יִתְקְטֵל דְּחַיַּב קְטוֹל לָא יִתְקְטֵל עַל מֵימַר סָהִיד חָד:",
+          "english": "At the mouth of two witnesses, or three witnesses, shall he that is worthy of death be put to death; but at the mouth of one witness he shall not be put to death."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "יַ֣ד הָעֵדִ֞ים תִּֽהְיֶה־בּ֤וֹ בָרִאשֹׁנָה֙ לַהֲמִית֔וֹ וְיַ֥ד כׇּל־הָעָ֖ם בָּאַחֲרֹנָ֑ה וּבִֽעַרְתָּ֥ הָרָ֖ע מִקִּרְבֶּֽךָ׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "יְדָא דְסַהֲדַיָּא תְּהֵי בֵיהּ בְּקַדְמֵיתָא לְמִקְטְלֵיהּ וִידָא דְכָל עַמָּא בְּבַתְרֵיתָא וּתְפַלֵּי עָבֵד דְּבִישׁ מִבֵּינָךְ:",
+          "english": "The hands of the witnesses shall be first upon him to put him to death, and afterwards the hands of all the people. So thou shalt put the evil away from among you."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "כִּ֣י יִפָּלֵא֩ מִמְּךָ֨ דָבָ֜ר לַמִּשְׁפָּ֗ט בֵּֽין־דָּ֨ם&thinsp;<small>׀</small>&thinsp;לְדָ֜ם בֵּֽין־דִּ֣ין לְדִ֗ין וּבֵ֥ין נֶ֙גַע֙ לָנֶ֔גַע דִּבְרֵ֥י רִיבֹ֖ת בִּשְׁעָרֶ֑יךָ וְקַמְתָּ֣ וְעָלִ֔יתָ אֶ֨ל־הַמָּק֔וֹם אֲשֶׁ֥ר יִבְחַ֛ר יְהֹוָ֥ה אֱלֹהֶ֖יךָ בּֽוֹ׃",
+          "targum": "אֲרֵי יִתִּכְסֵי מִנָּךְ פִּתְגָּמָא לְדִינָא בֵּין דְּמָא לִדְמָא בֵּין דִּינָא לְדִינָא וּבֵין מַכְתַּשׁ סְגִירוּ לְמַכְתַּשׁ סְגִירוּ פִּתְגָּמֵי פְלֻגְתָּא דִינָא בְּקִרְוָיךְ וּתְקוּם וְתִסַּק לְאַתְרָא דִּי יִתִּרְעֵי יְיָ אֱלָהָךְ בֵּיהּ:",
+          "english": "If there arise a matter too hard for thee in judgment, between blood and blood, between plea and plea, and between plague and plague, matters of controversy within thy gates: then shalt thou arise, and go up to the place which the Lord thy God shall choose;"
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וּבָאתָ֗ אֶל־הַכֹּהֲנִים֙ הַלְוִיִּ֔ם וְאֶ֨ל־הַשֹּׁפֵ֔ט אֲשֶׁ֥ר יִהְיֶ֖ה בַּיָּמִ֣ים הָהֵ֑ם וְדָרַשְׁתָּ֙ וְהִגִּ֣ידוּ לְךָ֔ אֵ֖ת דְּבַ֥ר הַמִּשְׁפָּֽט׃",
+          "targum": "וְתֵיתֵי לְוָת כָּהֲנַיָא לֵוָאֵי וּלְוָת דַּיָּנָא דִּי יְהֵי בְּיוֹמַיָּא הָאִנּוּן וְתִתְבַּע וִיחַוּוּן לָךְ יָת פִּתְגָּמָא דְדִינָא:",
+          "english": "and thou shalt come to the priests the Levites, and to the judge that shall be in those days, and inquire; and they shall tell thee the sentence of judgment:"
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וְעָשִׂ֗יתָ עַל־פִּ֤י הַדָּבָר֙ אֲשֶׁ֣ר יַגִּ֣ידֽוּ לְךָ֔ מִן־הַמָּק֣וֹם הַה֔וּא אֲשֶׁ֖ר יִבְחַ֣ר יְהֹוָ֑ה וְשָׁמַרְתָּ֣ לַעֲשׂ֔וֹת כְּכֹ֖ל אֲשֶׁ֥ר יוֹרֽוּךָ׃",
+          "targum": "וְתַעְבֵּד עַל מֵימַר פִּתְגָּמָא דִּי יְחַוּוּן לָךְ מִן אַתְרָא הַהוּא דִּי יִתִּרְעֵי יְיָ וְתִטַּר לְמֶעְבַּד כְּכֹל דִּי יַלְּפֻנָּךְ:",
+          "english": "and thou shalt do according to the sentence, which they of that place which the Lord shall choose shall tell thee; and thou shalt observe to do according to all that they inform thee:"
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "עַל־פִּ֨י הַתּוֹרָ֜ה אֲשֶׁ֣ר יוֹר֗וּךָ וְעַל־הַמִּשְׁפָּ֛ט אֲשֶׁר־יֹאמְר֥וּ לְךָ֖ תַּעֲשֶׂ֑ה לֹ֣א תָס֗וּר מִן־הַדָּבָ֛ר אֲשֶׁר־יַגִּ֥ידֽוּ לְךָ֖ יָמִ֥ין וּשְׂמֹֽאל׃",
+          "targum": "עַל מֵימַר אוֹרַיְתָא דִּי יַלְּפֻנָּךְ וְעַל דִּינָא דִּי יֵימְרוּן לָךְ תַּעְבֵּד לָא תִסְטֵי מִן פִּתְגָּמָא דִּי יְחַוּוּן לָךְ יַמִּינָא וּשְׂמָאלָא:",
+          "english": "according to the sentence of the Tora which they shall teach thee, and according to the judgment which they shall tell thee, thou shalt do: thou shalt not deviate from the sentence which they shall tell thee, to the right hand, or to the left."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וְהָאִ֞ישׁ אֲשֶׁר־יַעֲשֶׂ֣ה בְזָד֗וֹן לְבִלְתִּ֨י שְׁמֹ֤עַ אֶל־הַכֹּהֵן֙ הָעֹמֵ֞ד לְשָׁ֤רֶת שָׁם֙ אֶת־יְהֹוָ֣ה אֱלֹהֶ֔יךָ א֖וֹ אֶל־הַשֹּׁפֵ֑ט וּמֵת֙ הָאִ֣ישׁ הַה֔וּא וּבִֽעַרְתָּ֥ הָרָ֖ע מִיִּשְׂרָאֵֽל׃",
+          "targum": "וּגְבַר דִּי יַעְבֵּד בִּרְשַׁע בְּדִיל דְּלָא לְקַבָּלָא מִן כַּהֲנָא דְּקָאֵם לְשַׁמָּשָׁא תַמָּן קֳדָם יְיָ אֱלָהָךְ אוֹ מִן דַּיָּנָא וְיִתְקְטֵל גַּבְרָא הַהוּא וּתְפַלֵּי עָבֵד דְּבִישׁ מִיִּשְׂרָאֵל:",
+          "english": "And the man that will act presumptuously, and will not hearken to the priest that stands to minister there before the Lord thy God, or to the judge, that man shall die: and thou shalt put away the evil from Yisra᾽el."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וְכׇל־הָעָ֖ם יִשְׁמְע֣וּ וְיִרָ֑אוּ וְלֹ֥א יְזִיד֖וּן עֽוֹד׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וְכָל עַמָּא יִשְׁמְעוּן וְיִדְחֲלוּן וְלָא יַרְשִׁיעוּן עוֹד:",
+          "english": "And all the people shall hear, and fear, and do no more presumptuously."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "כִּֽי־תָבֹ֣א אֶל־הָאָ֗רֶץ אֲשֶׁ֨ר יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ נֹתֵ֣ן לָ֔ךְ וִֽירִשְׁתָּ֖הּ וְיָשַׁ֣בְתָּה בָּ֑הּ וְאָמַרְתָּ֗ אָשִׂ֤ימָה עָלַי֙ מֶ֔לֶךְ כְּכׇל־הַגּוֹיִ֖ם אֲשֶׁ֥ר סְבִיבֹתָֽי׃",
+          "targum": "אֲרֵי תֵעוֹל לְאַרְעָא דַּיְיָ אֱלָהָךְ יָהֵב לָךְ וְתֵירְתַהּ וְתֵיתֵב בַּהּ וְתֵימַר אֱמַנִּי עֲלַי מַלְכָּא כְּכָל עַמְמַיָּא דִי בְסַחֲרָנָי:",
+          "english": "When thou art come to the land which the Lord thy God gives thee, and shalt possess it, and shalt dwell in it, and shalt say, I will set a king over me, like all the nations that are about me;"
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "שׂ֣וֹם תָּשִׂ֤ים עָלֶ֙יךָ֙ מֶ֔לֶךְ אֲשֶׁ֥ר יִבְחַ֛ר יְהֹוָ֥ה אֱלֹהֶ֖יךָ בּ֑וֹ מִקֶּ֣רֶב אַחֶ֗יךָ תָּשִׂ֤ים עָלֶ֙יךָ֙ מֶ֔לֶךְ לֹ֣א תוּכַ֗ל לָתֵ֤ת עָלֶ֙יךָ֙ אִ֣ישׁ נׇכְרִ֔י אֲשֶׁ֥ר לֹֽא־אָחִ֖יךָ הֽוּא׃",
+          "targum": "מַנָּאָה תְמַנֵּי עֲלָךְ מַלְכָּא דִּי יִתִּרְעֵי יְיָ אֱלָהָךְ בֵּיהּ מִגּוֹ אַחָיךְ תְּמַנֵּי עֲלָךְ מַלְכָּא לֵית לָךְ רְשׁוּ לְמַנָּאָה עֲלָךְ גְּבַר נוּכְרַי דִּי לָא אֲחוּךְ הוּא:",
+          "english": "then thou mayst appoint a king over thee, whom the Lord thy God shall choose: one from among thy brethren shalt thou set as king over thee: thou mayst not set a stranger over thee, who is not thy brother."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "רַק֮ לֹא־יַרְבֶּה־לּ֣וֹ סוּסִים֒ וְלֹֽא־יָשִׁ֤יב אֶת־הָעָם֙ מִצְרַ֔יְמָה לְמַ֖עַן הַרְבּ֣וֹת ס֑וּס וַֽיהֹוָה֙ אָמַ֣ר לָכֶ֔ם לֹ֣א תֹסִפ֗וּן לָשׁ֛וּב בַּדֶּ֥רֶךְ הַזֶּ֖ה עֽוֹד׃",
+          "targum": "לְחוֹד לָא יַסְגֵּי לֵיהּ סוּסָוָן וְלָא יָתֵב יָת עַמָּא לְמִצְרַיִם בְּדִיל לְאַסְגָּאָה לֵיהּ סוּסָוָן וַיְיָ אֲמַר לְכוֹן לָא תוֹסְפוּן לְמִתּוּב בְּאֹרַח הָדָא עוֹד:",
+          "english": "But he shall not multiply horses to himself, nor cause the people to return to Miżrayim, to the end that he should multiply horses: since the Lord has said to you, You shall henceforth return no more that way."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וְלֹ֤א יַרְבֶּה־לּוֹ֙ נָשִׁ֔ים וְלֹ֥א יָס֖וּר לְבָב֑וֹ וְכֶ֣סֶף וְזָהָ֔ב לֹ֥א יַרְבֶּה־לּ֖וֹ מְאֹֽד׃",
+          "targum": "וְלָא יַסְגֵּי לֵיהּ נְשִׁין וְלָא יִטְעֵי לִבֵּיהּ וְכַסְפָּא וְדַהֲבָא לָא יַסְגֵּי לֵיהּ לַחֲדָא:",
+          "english": "Neither shall he multiply wives to himself, that his heart turn not away: neither shall he greatly multiply to himself silver and gold."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וְהָיָ֣ה כְשִׁבְתּ֔וֹ עַ֖ל כִּסֵּ֣א מַמְלַכְתּ֑וֹ וְכָ֨תַב ל֜וֹ אֶת־מִשְׁנֵ֨ה הַתּוֹרָ֤ה הַזֹּאת֙ עַל־סֵ֔פֶר מִלִּפְנֵ֖י הַכֹּהֲנִ֥ים הַלְוִיִּֽם׃",
+          "targum": "וִיהֵי כְמִתְּבֵיהּ עַל כָּרְסָא מַלְכוּתֵיהּ וְיִכְתּוֹב לֵיהּ יָת פַּתְשֶׁגֶן אוֹרַיְתָא הָדָא עַל סִפְרָא מִן קֳדָם כָּהֲנַיָּא לֵוָאֵי:",
+          "english": "And it shall be, when he sits upon the throne of his kingdom, that he shall write for himself a copy of this Tora in a book out of that which is before the priests the Levites:"
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וְהָיְתָ֣ה עִמּ֔וֹ וְקָ֥רָא ב֖וֹ כׇּל־יְמֵ֣י חַיָּ֑יו לְמַ֣עַן יִלְמַ֗ד לְיִרְאָה֙ אֶת־יְהֹוָ֣ה אֱלֹהָ֔יו לִ֠שְׁמֹ֠ר אֶֽת־כׇּל־דִּבְרֵ֞י הַתּוֹרָ֥ה הַזֹּ֛את וְאֶת־הַחֻקִּ֥ים הָאֵ֖לֶּה לַעֲשֹׂתָֽם׃",
+          "targum": "וּתְהֵי עִמֵּיהּ וִיהֵי קָרֵי בֵיהּ כָּל יוֹמֵי חַיּוֹהִי בְּדִיל דְּיֵלַף לְמִדְחַל קֳדָם יְיָ אֶלָהֵיהּ לְמִטַּר יָת כָּל פִּתְגָּמֵי אוֹרַיְתָא הָדָא וְיָת קְיָמַיָּא הָאִלֵּין לְמֶעְבָּדְהוֹן:",
+          "english": "and it shall be with him, and he shall read therein all the days of his life: that he may learn to fear the Lord his God, to keep all the words of this Tora and these statutes, to do them:"
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "לְבִלְתִּ֤י רוּם־לְבָבוֹ֙ מֵֽאֶחָ֔יו וּלְבִלְתִּ֛י ס֥וּר מִן־הַמִּצְוָ֖ה יָמִ֣ין וּשְׂמֹ֑אול לְמַ֩עַן֩ יַאֲרִ֨יךְ יָמִ֧ים עַל־מַמְלַכְתּ֛וֹ ה֥וּא וּבָנָ֖יו בְּקֶ֥רֶב יִשְׂרָאֵֽל׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "בְּדִיל דְּלָא יְרִים לִבֵּיהּ מֵאֲחוֹהִי וּבְדִיל דְּלָא יִסְטֵי מִן תַּפְקֶדְתָּא יַמִּינָא וּשְׂמָאלָא בְּדִיל דְּיוֹרֵךְ יוֹמִין עַל מַלְכוּתֵיהּ הוּא וּבְנוֹהִי בְּגוֹ יִשְׂרָאֵל:",
+          "english": "that his heart be not lifted up above his brethren, and that he turn not aside from the commandment, to the right hand, or to the left: to the end that he may prolong his days in his kingdom, he, and his children, in the midst of Yisra᾽el."
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "לֹֽא־יִ֠הְיֶ֠ה לַכֹּהֲנִ֨ים הַלְוִיִּ֜ם כׇּל־שֵׁ֧בֶט לֵוִ֛י חֵ֥לֶק וְנַחֲלָ֖ה עִם־יִשְׂרָאֵ֑ל אִשֵּׁ֧י יְהֹוָ֛ה וְנַחֲלָת֖וֹ יֹאכֵלֽוּן׃",
+          "targum": "לָא יְהֵי לְכָהֲנַיָּא לֵוָאֵי כָּל שִׁבְטָא דְלֵוִי חֳלָק וְאַחֲסָנָא עִם יִשְׂרָאֵל קֻרְבָּנַיָּא דַיְיָ וְאַחֲסַנְתֵּיהּ יֵיכְלוּן:",
+          "english": "The priests the Levites, all the tribe of Levi, shall have no part or inheritance with Yisra᾽el: the offerings of the Lord made by fire, and his dues shall they eat."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וְנַחֲלָ֥ה לֹא־יִֽהְיֶה־לּ֖וֹ בְּקֶ֣רֶב אֶחָ֑יו יְהֹוָה֙ ה֣וּא נַחֲלָת֔וֹ כַּאֲשֶׁ֖ר דִּבֶּר־לֽוֹ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וְאַחֲסָנָא לָא יְהֵי לֵיהּ בְּגוֹ אֲחוֹהִי מַתְּנָן דִּיהַב לֵיהּ יְיָ אִנּוּן אַחֲסַנְתֵּיהּ כְּמָא דִי מַלִּיל לֵיהּ:",
+          "english": "Therefore shall they have no inheritance among their brethren: the Lord is their inheritance, as he has said to them."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וְזֶ֡ה יִהְיֶה֩ מִשְׁפַּ֨ט הַכֹּהֲנִ֜ים מֵאֵ֣ת הָעָ֗ם מֵאֵ֛ת זֹבְחֵ֥י הַזֶּ֖בַח אִם־שׁ֣וֹר אִם־שֶׂ֑ה וְנָתַן֙ לַכֹּהֵ֔ן הַזְּרֹ֥עַ וְהַלְּחָיַ֖יִם וְהַקֵּבָֽה׃",
+          "targum": "וְדֵין יְהֵי דְחָזֵי לְכָהֲנַיָּא מִן עַמָּא מִן נָכְסֵי נִכְסָתָא אִם תּוֹר אִם אִמָּר וְיִתֵּן לְכַהֲנָא דְּרוֹעָא וְלוֹעָא וְקֻבְתָא:",
+          "english": "And this shall be the priest’s allotment from the people, from those who offer a sacrifice, whether it be ox or sheep; they shall give to the priest the shoulder, and the two cheeks, and the maw."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "רֵאשִׁ֨ית דְּגָֽנְךָ֜ תִּירֹשְׁךָ֣ וְיִצְהָרֶ֗ךָ וְרֵאשִׁ֛ית גֵּ֥ז צֹאנְךָ֖ תִּתֶּן־לֽוֹ׃",
+          "targum": "רֵישׁ עִבוּרָךְ חַמְרָךְ וּמִשְׁחָךְ וְרֵישׁ גִּזָּא דְעָנָךְ תִּתֶּן לֵיהּ:",
+          "english": "The firstfruit also of thy corn, of thy wine, and of thy oil, and the first of the fleece of thy sheep, shalt thou give him."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "כִּ֣י ב֗וֹ בָּחַ֛ר יְהֹוָ֥ה אֱלֹהֶ֖יךָ מִכׇּל־שְׁבָטֶ֑יךָ לַעֲמֹ֨ד לְשָׁרֵ֧ת בְּשֵׁם־יְהֹוָ֛ה ה֥וּא וּבָנָ֖יו כׇּל־הַיָּמִֽים׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "אֲרֵי בֵיהּ יִתִּרְעֵי יְיָ אֱלָהָךְ מִכָּל שִׁבְטָיךְ לְמֵקַם לְשַׁמָּשָׁא בִשְׁמָא דַיְיָ הוּא וּבְנוֹהִי כָּל יוֹמַיָּא:",
+          "english": "For the Lord thy God has chosen him out of all thy tribes, to stand to minister in the name of the Lord, him and his sons for ever."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וְכִֽי־יָבֹ֨א הַלֵּוִ֜י מֵאַחַ֤ד שְׁעָרֶ֙יךָ֙ מִכׇּל־יִשְׂרָאֵ֔ל אֲשֶׁר־ה֖וּא גָּ֣ר שָׁ֑ם וּבָא֙ בְּכׇל־אַוַּ֣ת נַפְשׁ֔וֹ אֶל־הַמָּק֖וֹם אֲשֶׁר־יִבְחַ֥ר יְהֹוָֽה׃",
+          "targum": "וַאֲרֵי יֵיתֵי לֵוָאָה מֵחֲדָא מִקִּרְוָיךְ מִכָּל יִשְׂרָאֵל דִּי הוּא דָּר תַּמָּן וְיֵיתֵי בְּכָל רְעוּת נַפְשֵׁיהּ לְאַתְרָא דִּי יִתִּרְעֵי יְיָ:",
+          "english": "And if a Levite come from any of thy gates out of all Yisra᾽el, where he sojourned, and come in all eagerness to the place which the Lord shall choose;"
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וְשֵׁרֵ֕ת בְּשֵׁ֖ם יְהֹוָ֣ה אֱלֹהָ֑יו כְּכׇל־אֶחָיו֙ הַלְוִיִּ֔ם הָעֹמְדִ֥ים שָׁ֖ם לִפְנֵ֥י יְהֹוָֽה׃",
+          "targum": "וִישַׁמַּשׁ בִּשְׁמָא דַּיְיָ אֱלָהֵיהּ כְּכָל אֲחוֹהִי לֵוָאֵי דִּמְשַׁמְּשִׁין תַּמָּן (בִּצְלוֹ) קֳדָם יְיָ:",
+          "english": "then he shall minister in the name of the Lord his God, as all his brethren the Levites do, who stand there before the Lord."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "חֵ֥לֶק כְּחֵ֖לֶק יֹאכֵ֑לוּ לְבַ֥ד מִמְכָּרָ֖יו עַל־הָאָבֽוֹת׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "חֳלָק כָּחֳלָק יֵיכְלוּן בַּר מִמַּטַּרְתָּא דְּיֵיתֵי בְשַׁבַּתָּא דְּכֵן אַתְקִינוּ אֲבָהָתָא:",
+          "english": "They shall have like portions to eat, besides that which comes of the sale of his patrimony."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "כִּ֤י אַתָּה֙ בָּ֣א אֶל־הָאָ֔רֶץ אֲשֶׁר־יְהֹוָ֥ה אֱלֹהֶ֖יךָ נֹתֵ֣ן לָ֑ךְ לֹֽא־תִלְמַ֣ד לַעֲשׂ֔וֹת כְּתוֹעֲבֹ֖ת הַגּוֹיִ֥ם הָהֵֽם׃",
+          "targum": "אֲרֵי אַתְּ עָלֵל לְאַרְעָא דַּיְיָ אֱלָהָךְ יָהֵב לָךְ לָא תֵילַף לְמֶעְבַּד כְּטַעֲוַת עַמְמַיָּא הָאִנּוּן:",
+          "english": "When thou art come to the land which the Lord thy God gives thee, thou shalt not learn to do after the abominations of those nations."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "לֹֽא־יִמָּצֵ֣א בְךָ֔ מַעֲבִ֥יר בְּנֽוֹ־וּבִתּ֖וֹ בָּאֵ֑שׁ קֹסֵ֣ם קְסָמִ֔ים מְעוֹנֵ֥ן וּמְנַחֵ֖שׁ וּמְכַשֵּֽׁף׃",
+          "targum": "לָא יִשְׁתְּכַח בָּךְ מַעֲבַר בְּרֵיהּ וּבְרַתֵּיהּ בְּנוּרָא קָסֵם קֻסְמִין מְעָנֵן וּמְנַחֵשׁ וְחָרָשׁ:",
+          "english": "There must not be found among you anyone that makes his son or his daughter to pass through the fire, or that uses divination, a soothsayer, or an enchanter, or a witch,"
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וְחֹבֵ֖ר חָ֑בֶר וְשֹׁאֵ֥ל אוֹב֙ וְיִדְּעֹנִ֔י וְדֹרֵ֖שׁ אֶל־הַמֵּתִֽים׃",
+          "targum": "וְרָטִין רְטָן וְשָׁאֵל בִּדִּין וּזְכוּרוּ וְתָבַע מִן מֵתַיָּא:",
+          "english": "or a charmer, or a medium, or a wizard, or a necromancer."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "כִּֽי־תוֹעֲבַ֥ת יְהֹוָ֖ה כׇּל־עֹ֣שֵׂה אֵ֑לֶּה וּבִגְלַל֙ הַתּוֹעֵבֹ֣ת הָאֵ֔לֶּה יְהֹוָ֣ה אֱלֹהֶ֔יךָ מוֹרִ֥ישׁ אוֹתָ֖ם מִפָּנֶֽיךָ׃",
+          "targum": "אֲרֵי מְרָחָק יְיָ כָּל דְּיַעְבֵּד אִלֵּין וּבְדִיל תּוֹעֲבָתָא הָאִלֵּין יְיָ אֱלָהָךְ מְתָרַךְ יָתְהוֹן מִקֳּדָמָךְ:",
+          "english": "For all that do these things are an abomination to the Lord: and because of these abominations the Lord thy God drives them out from before thee."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "תָּמִ֣ים תִּֽהְיֶ֔ה עִ֖ם יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+          "targum": "שְׁלִים תְּהֵי בְּדַחַלְתָּא דַּיְיָ אֱלָהָךְ:",
+          "english": "Thou shalt be perfect with the Lord thy God."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "כִּ֣י&thinsp;<b>׀</b> הַגּוֹיִ֣ם הָאֵ֗לֶּה אֲשֶׁ֤ר אַתָּה֙ יוֹרֵ֣שׁ אוֹתָ֔ם אֶל־מְעֹנְנִ֥ים וְאֶל־קֹסְמִ֖ים יִשְׁמָ֑עוּ וְאַתָּ֕ה לֹ֣א כֵ֔ן נָ֥תַן לְךָ֖ יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+          "targum": "אֲרֵי עַמְמַיָּא הָאִלֵּין דִּי אַתְּ יָרֵת יָתְהוֹן מִן מְעָנְנַיָּא וּמִן קַסָּמַיָּא שָׁמְעִין וְאַתְּ לָא כֵן יְהַב לָךְ יְיָ אֱלָהָךְ:",
+          "english": "For these nations, which thou shalt dispossess, hearken to soothsayers, and to diviners: but as for thee, the Lord thy God has not permitted thee so to do."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "נָבִ֨יא מִקִּרְבְּךָ֤ מֵאַחֶ֙יךָ֙ כָּמֹ֔נִי יָקִ֥ים לְךָ֖ יְהֹוָ֣ה אֱלֹהֶ֑יךָ אֵלָ֖יו תִּשְׁמָעֽוּן׃",
+          "targum": "נְבִיָּא מִבֵּינָךְ מֵאַחָיךְ כְּוָתִי יְקִים לָךְ יְיָ אֱלָהָךְ מִנֵּיהּ תְּקַבְּלוּן:",
+          "english": "The Lord thy God will raise up to thee a prophet from the midst of thee, of thy brethren, like me; to him you shall hearken;"
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "כְּכֹ֨ל אֲשֶׁר־שָׁאַ֜לְתָּ מֵעִ֨ם יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ בְּחֹרֵ֔ב בְּי֥וֹם הַקָּהָ֖ל לֵאמֹ֑ר לֹ֣א אֹסֵ֗ף לִשְׁמֹ֙עַ֙ אֶת־קוֹל֙ יְהֹוָ֣ה אֱלֹהָ֔י וְאֶת־הָאֵ֨שׁ הַגְּדֹלָ֥ה הַזֹּ֛את לֹֽא־אֶרְאֶ֥ה ע֖וֹד וְלֹ֥א אָמֽוּת׃",
+          "targum": "כְּכֹל דִּי שְׁאֶלְתָּא מִקֳּדָם יְיָ אֱלָהָךְ בְּחֹרֵב בְּיוֹמָא דִקְהָלָא לְמֵימָר לָא אוֹסֵף לְמִשְׁמַע יָת קָל מֵימְרָא דַיְיָ אֱלָהַי וְיָת אֶשָּׁתָא רַבְּתָא הָדָא לָא אֶחֱזֵי עוֹד וְלָא אֵמוּת:",
+          "english": "according to all that thou didst desire of the Lord thy God in Ḥorev in the day of the assembly, saying, Let me not hear again the voice of the Lord my God, neither let me see this great fire any more, that I die not."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיֹּ֥אמֶר יְהֹוָ֖ה אֵלָ֑י הֵיטִ֖יבוּ אֲשֶׁ֥ר דִּבֵּֽרוּ׃",
+          "targum": "וַאֲמַר יְיָ לִי אוֹטִיבוּ דִּי מַלִּילוּ:",
+          "english": "And the Lord said to me, They have well spoken that which they have spoken."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "נָבִ֨יא אָקִ֥ים לָהֶ֛ם מִקֶּ֥רֶב אֲחֵיהֶ֖ם כָּמ֑וֹךָ וְנָתַתִּ֤י דְבָרַי֙ בְּפִ֔יו וְדִבֶּ֣ר אֲלֵיהֶ֔ם אֵ֖ת כׇּל־אֲשֶׁ֥ר אֲצַוֶּֽנּוּ׃",
+          "targum": "נְבִיָּא אֲקִים לְהוֹן מִגּוֹ אֲחֵיהוֹן כְּוָתָךְ וְאֶתֵּן פִּתְגָּמֵי נְבוּאָתִי בְּפוּמֵיהּ וִימַלֵּל עִמְּהוֹן יָת כָּל דִּי אֲפַקְּדִנֵּיהּ:",
+          "english": "I will raise them up a prophet from among their brethren, like thee, and will put my words in his mouth; and he shall speak to them all that I shall command him."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וְהָיָ֗ה הָאִישׁ֙ אֲשֶׁ֤ר לֹֽא־יִשְׁמַע֙ אֶל־דְּבָרַ֔י אֲשֶׁ֥ר יְדַבֵּ֖ר בִּשְׁמִ֑י אָנֹכִ֖י אֶדְרֹ֥שׁ מֵעִמּֽוֹ׃",
+          "targum": "וִיהֵי גַּבְרָא דִּי לָא יְקַבֵּל לְפִתְגָּמַי דִּי יְמַלֵּל בִּשְׁמִי מֵימְרִי יִתְבַּע מִנֵּיהּ:",
+          "english": "And it shall come to pass, that whoever will not hearken to my words which he shall speak in my name, I will require it of him."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "אַ֣ךְ הַנָּבִ֡יא אֲשֶׁ֣ר יָזִיד֩ לְדַבֵּ֨ר דָּבָ֜ר בִּשְׁמִ֗י אֵ֣ת אֲשֶׁ֤ר לֹֽא־צִוִּיתִיו֙ לְדַבֵּ֔ר וַאֲשֶׁ֣ר יְדַבֵּ֔ר בְּשֵׁ֖ם אֱלֹהִ֣ים אֲחֵרִ֑ים וּמֵ֖ת הַנָּבִ֥יא הַהֽוּא׃",
+          "targum": "בְּרַם נְבִיָּא דִּי יַרְשַׁע לְמַלָּלָא פִתְגָּמָא בִּשְׁמִי יָת דִּי לָא פַקֵּדִתֵּיהּ לְמַלָּלָא וְדִי יְמַלֵּל בְּשׁוּם טַעֲוַת עַמְמַיָּא וְיִתְקְטֵל נְבִיָּא הַהוּא:",
+          "english": "But the prophet, who shall presume to speak a word in my name, which I have not commanded him to speak, or that shall speak in the name of other gods, that prophet shall die."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וְכִ֥י תֹאמַ֖ר בִּלְבָבֶ֑ךָ אֵיכָה֙ נֵדַ֣ע אֶת־הַדָּבָ֔ר אֲשֶׁ֥ר לֹא־דִבְּר֖וֹ יְהֹוָֽה׃",
+          "targum": "וַאֲרֵי תֵימַר בְּלִבָּךְ אֶכְדֵּין נִדַּע יָת פִּתְגָּמָא דִּי לָא מַלְּלֵיהּ יְיָ:",
+          "english": "And if thou say in thy heart, How shall we know the word which the Lord has not spoken?"
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "אֲשֶׁר֩ יְדַבֵּ֨ר הַנָּבִ֜יא בְּשֵׁ֣ם יְהֹוָ֗ה וְלֹֽא־יִהְיֶ֤ה הַדָּבָר֙ וְלֹ֣א יָבֹ֔א ה֣וּא הַדָּבָ֔ר אֲשֶׁ֥ר לֹא־דִבְּר֖וֹ יְהֹוָ֑ה בְּזָדוֹן֙ דִּבְּר֣וֹ הַנָּבִ֔יא לֹ֥א תָג֖וּר מִמֶּֽנּוּ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "דִּי יְמַלֵּל נְבִיָּא בִּשְׁמָא דַיְיָ וְלָא יְהֵי פִתְגָּמָא וְלָא יִתְקַיַּם הוּא פִתְגָּמָא דִּי לָא מַלְּלֵיהּ יְיָ בִּרְשַׁע מַלְּלֵיהּ נְבִיָּא לָא תִדְחַל מִנֵּיהּ:",
+          "english": "Know that when a prophet speaks in the name of the Lord, if the thing follow not, nor come to pass, that is the thing which the Lord has not spoken, but the prophet has spoken it out of presumption; thou shalt not be afraid of him."
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "כִּֽי־יַכְרִ֞ית יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ אֶת־הַגּוֹיִ֔ם אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ אֶת־אַרְצָ֑ם וִֽירִשְׁתָּ֕ם וְיָשַׁבְתָּ֥ בְעָרֵיהֶ֖ם וּבְבָתֵּיהֶֽם׃",
+          "targum": "אֲרֵי יְשֵׁצֵי יְיָ אֱלָהָךְ יָת עַמְמַיָּא דִּי יְיָ אֱלָהָךְ יָהֵב לָךְ יָת אַרְעֲהוֹן וְתֵירְתִנּוּן וְתֵיתֵב בְּקִרְוֵיהוֹן וּבְבָתֵּיהוֹן:",
+          "english": "When the Lord thy God has cut off the nations, whose land the Lord thy God gives thee, and thou hast driven them out, and dost dwell in their cities, and in their houses;"
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "שָׁל֥וֹשׁ עָרִ֖ים תַּבְדִּ֣יל לָ֑ךְ בְּת֣וֹךְ אַרְצְךָ֔ אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ לְרִשְׁתָּֽהּ׃",
+          "targum": "תְּלַת קִרְוִין תַּפְרַשׁ לָךְ בְּגוֹ אַרְעָךְ דִּי יְיָ אֱלָהָךְ יָהֵב לָךְ לְמֵירְתַהּ:",
+          "english": "thou shalt separate three cities for thee in the midst of thy land, which the Lord thy God gives thee to possess it."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "תָּכִ֣ין לְךָ֮ הַדֶּ֒רֶךְ֒ וְשִׁלַּשְׁתָּ֙ אֶת־גְּב֣וּל אַרְצְךָ֔ אֲשֶׁ֥ר יַנְחִֽילְךָ֖ יְהֹוָ֣ה אֱלֹהֶ֑יךָ וְהָיָ֕ה לָנ֥וּס שָׁ֖מָּה כׇּל־רֹצֵֽחַ׃",
+          "targum": "תְּתַקֵּן לָךְ אָרְחָא וּתְתַלַּת יָת תְּחוּם אַרְעָךְ דִּי יַחְסְנִנָּךְ יְיָ אֱלָהָךְ וִיהֵי לְמֵעִירוֹק תַּמָּן כָּל קָטוֹלָא:",
+          "english": "Thou shalt prepare the way, and divide the border of thy land, which\n\t\t\t\tthe Lord thy God gives thee to inherit, into three parts, that every slayer may flee thither."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וְזֶה֙ דְּבַ֣ר הָרֹצֵ֔חַ אֲשֶׁר־יָנ֥וּס שָׁ֖מָּה וָחָ֑י אֲשֶׁ֨ר יַכֶּ֤ה אֶת־רֵעֵ֙הוּ֙ בִּבְלִי־דַ֔עַת וְה֛וּא לֹא־שֹׂנֵ֥א ל֖וֹ מִתְּמֹ֥ל שִׁלְשֹֽׁם׃",
+          "targum": "וְדֵין פִּתְגַּם קָטוֹלָא דְּיֵעִרוֹק תַּמָּן וְיִתְקַיַּם דִּי יִקְטוֹל יָת חַבְרֵיהּ בְּלָא מַנְדְּעֵיהּ וְהוּא לָא סָנֵי לֵיהּ מֵאִתְמַלֵּי וּמִדְּקָמוֹהִי:",
+          "english": "And this is the case of the slayer, who shall flee there, that he may live: whoever unwittingly kills his neighbour, whom he hated not in time past;"
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַאֲשֶׁר֩ יָבֹ֨א אֶת־רֵעֵ֥הוּ בַיַּ֘עַר֮ לַחְטֹ֣ב עֵצִים֒ וְנִדְּחָ֨ה יָד֤וֹ בַגַּרְזֶן֙ לִכְרֹ֣ת הָעֵ֔ץ וְנָשַׁ֤ל הַבַּרְזֶל֙ מִן־הָעֵ֔ץ וּמָצָ֥א אֶת־רֵעֵ֖הוּ וָמֵ֑ת ה֗וּא יָנ֛וּס אֶל־אַחַ֥ת הֶעָרִים־הָאֵ֖לֶּה וָחָֽי׃",
+          "targum": "וְדִי יֵעוּל עִם חַבְרֵיהּ בְּחֻרְשָׁא לְמִקַּץ אָעִין וְתִתְמְרֵג יְדֵיהּ בְּפַרְזְלָא לְמִקַּץ אָעִין וְיִשְׁתְּלֵף פַּרְזְלָא מִן אָעָא וְיַשְׁכַּח יָת חַבְרֵיהּ וִימוּת הוּא יֵעִרוֹק לַחֲדָא מִן קִרְוַיָּא הָאִלֵּין וְיִתְקַיַּם:",
+          "english": "as when a man goes into the forest with his neighbour to hew wood, and his hand fetches a stroke with the axe to cut down the tree, and the head slips from the handle, and strikes his neighbour, that he die; he shall flee to one of those cities, and live:"
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "פֶּן־יִרְדֹּף֩ גֹּאֵ֨ל הַדָּ֜ם אַחֲרֵ֣י הָרֹצֵ֗חַ כִּי־יֵחַם֮ לְבָבוֹ֒ וְהִשִּׂיג֛וֹ כִּֽי־יִרְבֶּ֥ה הַדֶּ֖רֶךְ וְהִכָּ֣הוּ נָ֑פֶשׁ וְלוֹ֙ אֵ֣ין מִשְׁפַּט־מָ֔וֶת כִּ֠י לֹ֣א שֹׂנֵ֥א ה֛וּא ל֖וֹ מִתְּמ֥וֹל שִׁלְשֽׁוֹם׃",
+          "targum": "דִּילְמָא יִרְדּוֹף גָּאֵל דְּמָא בָּתַר קָטוֹלָא אֲרֵי יֵחַם לִבֵּיהּ וְיַדְבְּקִנֵּיהּ אֲרֵי תִסְגֵּי אָרְחָא וְיִקְטְלִנֵּיהּ נְפַשׁ וְלֵיהּ לֵית חוֹבַת דִּין דִּקְטוֹל אֲרֵי לָא סָנֵי הוּא לֵיהּ מִתְּמַלִּי וּמִדְּקָמוֹהִי:",
+          "english": "lest the avenger of blood pursue the slayer, while his heart is hot, and overtake him, because the way is long, and slay him; though he was not worthy of death, since he hated him not in time past."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "עַל־כֵּ֛ן אָנֹכִ֥י מְצַוְּךָ֖ לֵאמֹ֑ר שָׁלֹ֥שׁ עָרִ֖ים תַּבְדִּ֥יל לָֽךְ׃",
+          "targum": "עַל כֵּן אֲנָא מְפַקְּדָךְ לְמֵימָר תְּלַת קִרְוִין תַּפְרֵשׁ לָךְ:",
+          "english": "Therefore I command thee, saying, Thou shalt separate three cities for thee."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וְאִם־יַרְחִ֞יב יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ אֶת־גְּבֻ֣לְךָ֔ כַּאֲשֶׁ֥ר נִשְׁבַּ֖ע לַאֲבֹתֶ֑יךָ וְנָ֤תַן לְךָ֙ אֶת־כׇּל־הָאָ֔רֶץ אֲשֶׁ֥ר דִּבֶּ֖ר לָתֵ֥ת לַאֲבֹתֶֽיךָ׃",
+          "targum": "וְאִם יַפְתֵּי יְיָ אֱלָהָךְ יָת תְּחוּמָךְ כְּמָא דִי קַיִּים לַאֲבָהָתָךְ וְיִתֶּן לָךְ יָת כָּל אַרְעָא דִּי מַלִּיל לְמִתַּן לַאֲבָהָתָךְ:",
+          "english": "And if the Lord thy God enlarge thy border, as he has sworn to thy fathers, and give thee all the land which he promised to give to thy fathers;"
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "כִּֽי־תִשְׁמֹר֩ אֶת־כׇּל־הַמִּצְוָ֨ה הַזֹּ֜את לַעֲשֹׂתָ֗הּ אֲשֶׁ֨ר אָנֹכִ֣י מְצַוְּךָ֮ הַיּוֹם֒ לְאַהֲבָ֞ה אֶת־יְהֹוָ֧ה אֱלֹהֶ֛יךָ וְלָלֶ֥כֶת בִּדְרָכָ֖יו כׇּל־הַיָּמִ֑ים וְיָסַפְתָּ֨ לְךָ֥ עוֹד֙ שָׁלֹ֣שׁ עָרִ֔ים עַ֖ל הַשָּׁלֹ֥שׁ הָאֵֽלֶּה׃",
+          "targum": "אֲרֵי תִטַּר יָת כָּל תַּפְקֶדְתָּא הָדָא לְמֶעְבְּדַהּ דִּי אֲנָא מְפַקְּדָךְ יוֹמָא דֵין לְמִרְחַם יָת יְיָ אֱלָהָךְ וְלִמְהַךְ בְּאָרְחָן דְּתַקְּנָן קֳדָמוֹהִי כָּל יוֹמַיָּא וְתוֹסֵף לָךְ עוֹד תְּלַת קִרְוִין עַל תְּלַת אִלֵּין:",
+          "english": "if thou shalt keep all these commandments to do them, which I command thee this day, to love the Lord thy God, and to walk ever in his ways: then shalt thou add three cities more for thee, beside these three:"
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וְלֹ֤א יִשָּׁפֵךְ֙ דָּ֣ם נָקִ֔י בְּקֶ֣רֶב אַרְצְךָ֔ אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ נַחֲלָ֑ה וְהָיָ֥ה עָלֶ֖יךָ דָּמִֽים׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וְלָא יִשְׁתְּפֵךְ דָּם זַכַּי בְּגוֹ אַרְעָךְ דִּי יְיָ אֱלָהָךְ יָהֵב לָךְ אַחֲסָנָא וִיהֵי עֲלָךְ חוֹבַת דִּין דִּקְטוֹל:",
+          "english": "that innocent blood be not shed in thy land, which the Lord thy God gives thee for an inheritance, and so blood be upon thee."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וְכִֽי־יִהְיֶ֥ה אִישׁ֙ שֹׂנֵ֣א לְרֵעֵ֔הוּ וְאָ֤רַב לוֹ֙ וְקָ֣ם עָלָ֔יו וְהִכָּ֥הוּ נֶ֖פֶשׁ וָמֵ֑ת וְנָ֕ס אֶל־אַחַ֖ת הֶעָרִ֥ים הָאֵֽל׃",
+          "targum": "וַאֲרֵי יְהֵי גְבַר סָנֵי לְחַבְרֵיהּ וְיִכְמַן לֵיהּ וִיקוּם עֲלוֹהִי וְיִמְחִנֵּיהּ נְפַשׁ וִימוּת וְיֵעִרוֹק לַחֲדָא מִן קִרְוַיָּא הָאִלֵּין:",
+          "english": "But if any man hate his neighbour, and lie in wait for him, and rise up against him, and smite him mortally that he die, and then flees into one of these cities:"
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וְשָֽׁלְחוּ֙ זִקְנֵ֣י עִיר֔וֹ וְלָקְח֥וּ אֹת֖וֹ מִשָּׁ֑ם וְנָתְנ֣וּ אֹת֗וֹ בְּיַ֛ד גֹּאֵ֥ל הַדָּ֖ם וָמֵֽת׃",
+          "targum": "וִישַׁלְּחוּן סָבֵי קַרְתֵּיהּ וְיִדְבְּרוּן יָתֵיהּ מִתַּמָּן וְיִתְּנוּן יָתֵיהּ בְּיַד גָּאֵל דְּמָא וִימוּת:",
+          "english": "then the elders of his city shall send and fetch him from there, and deliver him into the hand of the avenger of blood, that he may die."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "לֹא־תָח֥וֹס עֵֽינְךָ֖ עָלָ֑יו וּבִֽעַרְתָּ֧ דַֽם־הַנָּקִ֛י מִיִּשְׂרָאֵ֖ל וְט֥וֹב לָֽךְ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "לָא תְחוּס עֵינָךְ עֲלוֹהִי וּתְפַלֵּי אַשְׁדִּי דָם זַכַּי מִיִּשְׂרָאֵל וְיֵיטַב לָךְ:",
+          "english": "Thy eye shall not pity him, but thou shalt put away the guilt of innocent blood from Yisra᾽el, that it may go well with thee."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "לֹ֤א תַסִּיג֙ גְּב֣וּל רֵֽעֲךָ֔ אֲשֶׁ֥ר גָּבְל֖וּ רִאשֹׁנִ֑ים בְּנַחֲלָֽתְךָ֙ אֲשֶׁ֣ר תִּנְחַ֔ל בָּאָ֕רֶץ אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ לְרִשְׁתָּֽהּ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "לָא תַשְׁנֵי תְּחוּמָא דְחַבְרָךְ דִּי תְחִימוּ קַדְמָאֵי בְּאַחֲסַנְתָּךְ דִּי תַחְסֵן בְּאַרְעָא דִּי יְיָ אֱלָהָךְ יָהֵב לָךְ לְמֵירְתַהּ:",
+          "english": "Thou shalt not remove thy neighbour’s landmark, which they of old time have set in thy inheritance, which thou shalt inherit in the land that the Lord thy God gives thee to possess it."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "לֹֽא־יָקוּם֩ עֵ֨ד אֶחָ֜ד בְּאִ֗ישׁ לְכׇל־עָוֺן֙ וּלְכׇל־חַטָּ֔את בְּכׇל־חֵ֖טְא אֲשֶׁ֣ר יֶֽחֱטָ֑א עַל־פִּ֣י&thinsp;<b>׀</b> שְׁנֵ֣י עֵדִ֗ים א֛וֹ עַל־פִּ֥י שְׁלֹשָֽׁה־עֵדִ֖ים יָק֥וּם דָּבָֽר׃",
+          "targum": "לָא יְקוּם סָהִיד חַד בִּגְבַר לְכָל עַוָּיָן וּלְכָל חוֹבִין בְּכָל חֵט דִּי יֶחְטָא עַל מֵימַר תְּרֵין סָהֲדִין אוֹ עַל מֵימַר תְּלָתָא סָהֲדִין יִתְקַיַּם פִּתְגָּמָא:",
+          "english": "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he may commit: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "כִּֽי־יָק֥וּם עֵד־חָמָ֖ס בְּאִ֑ישׁ לַעֲנ֥וֹת בּ֖וֹ סָרָֽה׃",
+          "targum": "אֲרֵי יְקוּם סָהִיד שְׁקַר בִּגְבָר לְאַסְהָדָא בֵיהּ סַטְיָא:",
+          "english": "If a false witness rise up against any man to testify against him that which is wrong;"
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וְעָמְד֧וּ שְׁנֵֽי־הָאֲנָשִׁ֛ים אֲשֶׁר־לָהֶ֥ם הָרִ֖יב לִפְנֵ֣י יְהֹוָ֑ה לִפְנֵ֤י הַכֹּֽהֲנִים֙ וְהַשֹּׁ֣פְטִ֔ים אֲשֶׁ֥ר יִהְי֖וּ בַּיָּמִ֥ים הָהֵֽם׃",
+          "targum": "וִיקוּמוּן תְּרֵין גֻּבְרִין דִּי לְהוֹן דִּינָא קֳדָם יְיָ קֳדָם כָּהֲנַיָּא וְדַיָּנַיָּא דִּי יְהוֹן בְּיוֹמַיָּא הָאִנּוּן:",
+          "english": "then both the men, between whom is the controversy, shall stand before the Lord, before the priests and the judges, who shall be in those days;"
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וְדָרְשׁ֥וּ הַשֹּׁפְטִ֖ים הֵיטֵ֑ב וְהִנֵּ֤ה עֵֽד־שֶׁ֙קֶר֙ הָעֵ֔ד שֶׁ֖קֶר עָנָ֥ה בְאָחִֽיו׃",
+          "targum": "וְיִתְבְּעוּן דַּיָּנַיָּא יָאוּת וְהָא סָהִיד שְׁקַר סָהֲדָא שִׁקְרָא אַסְהַד בַּאֲחוֹהִי:",
+          "english": "and the judges shall make diligent inquiry: and, behold, if the witness is a false witness, and has testified falsely against his brother;"
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וַעֲשִׂ֣יתֶם ל֔וֹ כַּאֲשֶׁ֥ר זָמַ֖ם לַעֲשׂ֣וֹת לְאָחִ֑יו וּבִֽעַרְתָּ֥ הָרָ֖ע מִקִּרְבֶּֽךָ׃",
+          "targum": "וְתַעְבְּדוּן לֵיהּ כְּמָא דִי חַשִּׁיב לְמֶעְבַּד לַאֲחוֹהִי וּתְפַלֵּי עָבֵד דְּבִישׁ מִבֵּינָךְ:",
+          "english": "then shall you do to him, as he had thought to have done to his brother: so shalt thou put the evil away from among you."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וְהַנִּשְׁאָרִ֖ים יִשְׁמְע֣וּ וְיִרָ֑אוּ וְלֹֽא־יֹסִ֨פוּ לַעֲשׂ֜וֹת ע֗וֹד כַּדָּבָ֥ר הָרָ֛ע הַזֶּ֖ה בְּקִרְבֶּֽךָ׃",
+          "targum": "וּדְיִשְׁתָּאֲרוּן יִשְׁמְעוּן וְיִדְחֲלוּן וְלָא יוֹסְפוּן לְמֶעְבַּד עוֹד כְּפִתְגָּמָא בִישָׁא הָדֵין בֵּינָךְ:",
+          "english": "And those who remain shall hear, and fear, and shall henceforth commit no more any such evil among you."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וְלֹ֥א תָח֖וֹס עֵינֶ֑ךָ נֶ֣פֶשׁ בְּנֶ֗פֶשׁ עַ֤יִן בְּעַ֙יִן֙ שֵׁ֣ן בְּשֵׁ֔ן יָ֥ד בְּיָ֖ד רֶ֥גֶל בְּרָֽגֶל׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וְלָא תְחוּס עֵינָךְ נַפְשָׁא חֳלַף נַפְשָׁא עֵינָא חֳלַף עֵינָא שִׁנָּא חֳלַף שִׁנָּא יְדָא חֳלַף יְדָא רַגְלָא חֳלַף רַגְלָא:",
+          "english": "And thy eye shall not pity; but life for life, eye for eye, tooth for tooth, hand for hand, foot for foot."
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "כִּֽי־תֵצֵ֨א לַמִּלְחָמָ֜ה עַל־אֹיְבֶ֗ךָ וְֽרָאִ֜יתָ ס֤וּס וָרֶ֙כֶב֙ עַ֚ם רַ֣ב מִמְּךָ֔ לֹ֥א תִירָ֖א מֵהֶ֑ם כִּֽי־יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ עִמָּ֔ךְ הַמַּֽעַלְךָ֖ מֵאֶ֥רֶץ מִצְרָֽיִם׃",
+          "targum": "אֲרֵי תִפּוֹק לַאֲגָחָא קְרָבָא עַל בַּעֲלֵי דְבָבָךְ וְתֶחֱזֵי סוּסָוָן וּרְתִכִּין עַם סַגִּי מִנָּךְ לָא תִדְחַל מִנְּהוֹן אֲרֵי יְיָ אֱלָהָךְ מֵימְרֵיהּ בְּסַעְדָּךְ דְּאַסְּקָךְ מֵאַרְעָא דְמִצְרָיִם:",
+          "english": "When thou goest out to battle against thy enemies, and seest horses, and chariots, and a people more numerous than thou, be not afraid of them: for the Lord thy God is with thee, who brought thee up out of the land of Miżrayim."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וְהָיָ֕ה כְּקָֽרׇבְכֶ֖ם אֶל־הַמִּלְחָמָ֑ה וְנִגַּ֥שׁ הַכֹּהֵ֖ן וְדִבֶּ֥ר אֶל־הָעָֽם׃",
+          "targum": "וִיהֵי כְּמִקְרָבְכוֹן לַאֲגָחָא קְרָבָא וְיִתְקְרִיב כַּהֲנָא וִימַלֵּל עִם עַמָּא:",
+          "english": "And it shall be, when you are come near to the battle, that the priest shall approach and speak to the people, and shall say to them,"
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וְאָמַ֤ר אֲלֵהֶם֙ שְׁמַ֣ע יִשְׂרָאֵ֔ל אַתֶּ֨ם קְרֵבִ֥ים הַיּ֛וֹם לַמִּלְחָמָ֖ה עַל־אֹיְבֵיכֶ֑ם אַל־יֵרַ֣ךְ לְבַבְכֶ֗ם אַל־תִּֽירְא֧וּ וְאַֽל־תַּחְפְּז֛וּ וְאַל־תַּֽעַרְצ֖וּ מִפְּנֵיהֶֽם׃",
+          "targum": "וְיֵימַר לְהוֹן שְׁמַע יִשְׂרָאֵל אַתּוּן קְרִיבִין יוֹמָא דֵין לַאֲגָחָא קְרָבָא עַל בַּעֲלֵי דְבָבֵיכוֹן לָא יְזוּעַ לִבְּכוֹן לָא תִדְחֲלוּן וְלָא תְתְבַּהֲתוּן וְלָא תִתָּבְרוּן מִקֳּדָמֵיהוֹן:",
+          "english": "Hear, O Yisra᾽el, you draw near today to do battle against your enemies: let not your hearts faint, fear not, and do not tremble, nor be terrified because of them;"
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "כִּ֚י יְהֹוָ֣ה אֱלֹֽהֵיכֶ֔ם הַהֹלֵ֖ךְ עִמָּכֶ֑ם לְהִלָּחֵ֥ם לָכֶ֛ם עִם־אֹיְבֵיכֶ֖ם לְהוֹשִׁ֥יעַ אֶתְכֶֽם׃",
+          "targum": "אֲרֵי יְיָ אֱלָהֲכוֹן דִּמְדַבַּר קֳדָמֵיכוֹן לַאֲגָחָא לְכוֹן קְרָב עִם בַּעֲלֵי דְבָבֵיכוֹן לְמִפְרַק יָתְכוֹן:",
+          "english": "for the Lord your God is he that goes with you, to fight for you against your enemies, to save you."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וְדִבְּר֣וּ הַשֹּֽׁטְרִים֮ אֶל־הָעָ֣ם לֵאמֹר֒ מִֽי־הָאִ֞ישׁ אֲשֶׁ֨ר בָּנָ֤ה בַֽיִת־חָדָשׁ֙ וְלֹ֣א חֲנָכ֔וֹ יֵלֵ֖ךְ וְיָשֹׁ֣ב לְבֵית֑וֹ פֶּן־יָמוּת֙ בַּמִּלְחָמָ֔ה וְאִ֥ישׁ אַחֵ֖ר יַחְנְכֶֽנּוּ׃",
+          "targum": "וִימַלְּלוּן סָרְכַיָּא קֳדָם עַמָּא לְמֵימַר מָן גַּבְרָא דִּי בְנָא בֵיתָא חַדְתָּא וְלָא חָנְכֵיהּ יְהַךְ וִיתוּב לְבֵיתֵיהּ דִּילְמָא יְמוּת בַּאֲגָחָא קְרָבָא וּגְבַר אָחֳרָן יַחְנְכִנֵּיהּ:",
+          "english": "And the officers shall speak to the people, saying, What man is there that has built a new house, and has not dedicated it? let him go and return to his house, lest he die in the battle, and another man dedicate it."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וּמִֽי־הָאִ֞ישׁ אֲשֶׁר־נָטַ֥ע כֶּ֙רֶם֙ וְלֹ֣א חִלְּל֔וֹ יֵלֵ֖ךְ וְיָשֹׁ֣ב לְבֵית֑וֹ פֶּן־יָמוּת֙ בַּמִּלְחָמָ֔ה וְאִ֥ישׁ אַחֵ֖ר יְחַלְּלֶֽנּוּ׃",
+          "targum": "וּמָן גַּבְרָא דִּי נְצִיב כַּרְמָא וְלָא אַחֲלֵיהּ יְהַךְ וִיתוּב לְבֵיתֵיהּ דִּילְמָא יְמוּת בַּאֲגָחָא קְרָבָא וּגְבַר אָחֳרָן יְחַלִּנֵּיהּ:",
+          "english": "And what man is he that has planted a vineyard, and has not yet eaten of it? let him also go and return to his house, lest he die in the battle, and another man eat of it."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וּמִֽי־הָאִ֞ישׁ אֲשֶׁר־אֵרַ֤שׂ אִשָּׁה֙ וְלֹ֣א לְקָחָ֔הּ יֵלֵ֖ךְ וְיָשֹׁ֣ב לְבֵית֑וֹ פֶּן־יָמוּת֙ בַּמִּלְחָמָ֔ה וְאִ֥ישׁ אַחֵ֖ר יִקָּחֶֽנָּה׃",
+          "targum": "וּמָן גַּבְרָא דִּי אֵרַס אִתְּתָא וְלָא נָסְבַהּ יְהַךְ וִיתוּב לְבֵיתֵיהּ דִּילְמָא יְמוּת בַּאֲגָחָא קְרָבָא וּגְבַר אָחֳרָן יִסְּבִנַּהּ:",
+          "english": "And what man is there that has betrothed a wife, and has not taken her? let him go and return to his house, lest he die in the battle, and another man take her."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וְיָסְפ֣וּ הַשֹּׁטְרִים֮ לְדַבֵּ֣ר אֶל־הָעָם֒ וְאָמְר֗וּ מִי־הָאִ֤ישׁ הַיָּרֵא֙ וְרַ֣ךְ הַלֵּבָ֔ב יֵלֵ֖ךְ וְיָשֹׁ֣ב לְבֵית֑וֹ וְלֹ֥א יִמַּ֛ס אֶת־לְבַ֥ב אֶחָ֖יו כִּלְבָבֽוֹ׃",
+          "targum": "וְיוֹסְפוּן סָרְכַיָּא לְמַלָּלָא עִם עַמָּא וְיֵימְרוּן מָן גַּבְרָא דְדָחֵל וּתְבִיר לִבָּא יְהַךְ וִיתוּב לְבֵיתֵיהּ וְלָא יִתְּבַר יָת לִבָּא דַאֲחוֹהִי כְּלִבֵּיהּ:",
+          "english": "And the officers shall speak further to the people, and they shall say, What man is there that is fearful and fainthearted? let him go and return to his house, lest his brethren’s heart melt like his heart."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וְהָיָ֛ה כְּכַלֹּ֥ת הַשֹּׁטְרִ֖ים לְדַבֵּ֣ר אֶל־הָעָ֑ם וּפָ֥קְד֛וּ שָׂרֵ֥י צְבָא֖וֹת בְּרֹ֥אשׁ הָעָֽם׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וִיהֵי כַּד יְשֵׁצוּן סָרְכַיָּא לְמַלָּלָא עִם עַמָּא וִימַנּוּן רַבָּנֵי חֵילָא בְּרֵישׁ עַמָּא:",
+          "english": "And it shall be, when the officers have made an end of speaking to the people, that they shall make captains of the armies to lead the people."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "כִּֽי־תִקְרַ֣ב אֶל־עִ֔יר לְהִלָּחֵ֖ם עָלֶ֑יהָ וְקָרָ֥אתָ אֵלֶ֖יהָ לְשָׁלֽוֹם׃",
+          "targum": "אֲרֵי תִקְרַב לְקַרְתָּא לַאֲגָחָא (קְרָבָא) עֲלַהּ וְתִקְרֵי לַהּ מִלִּין דִּשְׁלָם:",
+          "english": "When thou comest near to a city to fight against it, then proclaim peace to it."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וְהָיָה֙ אִם־שָׁל֣וֹם תַּֽעַנְךָ֔ וּפָתְחָ֖ה לָ֑ךְ וְהָיָ֞ה כׇּל־הָעָ֣ם הַנִּמְצָא־בָ֗הּ יִהְי֥וּ לְךָ֛ לָמַ֖ס וַעֲבָדֽוּךָ׃",
+          "targum": "וִיהֵי אִם שְׁלַם תַּעֲנִנָּךְ וְתִפְתַּח לָךְ וִיהֵי כָּל עַמָּא דְיִשְׁתְּכַח בַּהּ יְהוֹן לָךְ מַסְּקֵי מִסִּין וְיִפְלְחֻנָּךְ:",
+          "english": "And it shall be, if it make thee answer of peace, and open to thee, then it shall be, that all the people to be found in it shall be tributaries to thee, and they shall serve thee."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וְאִם־לֹ֤א תַשְׁלִים֙ עִמָּ֔ךְ וְעָשְׂתָ֥ה עִמְּךָ֖ מִלְחָמָ֑ה וְצַרְתָּ֖ עָלֶֽיהָ׃",
+          "targum": "וְאִם לָא תַשְׁלֵם עִמָּךְ וְתַעְבֵּד עִמָּךְ קְרָב וּתְצוּר עֲלַהּ:",
+          "english": "And if it will make no peace with thee, but will make war against thee, then thou shalt besiege it:"
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וּנְתָנָ֛הּ יְהֹוָ֥ה אֱלֹהֶ֖יךָ בְּיָדֶ֑ךָ וְהִכִּיתָ֥ אֶת־כׇּל־זְכוּרָ֖הּ לְפִי־חָֽרֶב׃",
+          "targum": "וְיִמְסְרִנַּהּ יְיָ אֱלָהָךְ בִּידָךְ וְתִמְחֵי יָת כָּל דְּכוּרַהּ לְפִתְגַּם דְּחָרֶב:",
+          "english": "and when the Lord thy God has delivered it into thy hands, thou shalt smite every male of it with the edge of the sword:"
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "רַ֣ק הַ֠נָּשִׁ֠ים וְהַטַּ֨ף וְהַבְּהֵמָ֜ה וְכֹל֩ אֲשֶׁ֨ר יִהְיֶ֥ה בָעִ֛יר כׇּל־שְׁלָלָ֖הּ תָּבֹ֣ז לָ֑ךְ וְאָֽכַלְתָּ֙ אֶת־שְׁלַ֣ל אֹיְבֶ֔יךָ אֲשֶׁ֥ר נָתַ֛ן יְהֹוָ֥ה אֱלֹהֶ֖יךָ לָֽךְ׃",
+          "targum": "לְחוֹד נְשַׁיָּא וְטַפְלָא וּבְעִירָא וְכֹל דִּי יְהֵי בְקַרְתָּא כָּל עֲדָאַהּ תֵּבוֹז לָךְ וְתֵיכוּל יָת עֲדָאָה דְסָנְאָךְ דִּי יְהַב יְיָ אֱלָהָךְ לָךְ:",
+          "english": "but the women, and the little ones, and the cattle, and all that is in the city, all the spoil of it, shalt thou take to thyself; and thou shalt eat the spoil of thy enemies, which the Lord thy God has given thee."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "כֵּ֤ן תַּעֲשֶׂה֙ לְכׇל־הֶ֣עָרִ֔ים הָרְחֹקֹ֥ת מִמְּךָ֖ מְאֹ֑ד אֲשֶׁ֛ר לֹא־מֵעָרֵ֥י הַגּֽוֹיִם־הָאֵ֖לֶּה הֵֽנָּה׃",
+          "targum": "כֵּן תַּעְבֵּד לְכָל קִרְוַיָּא דִּי רְחִיקִין מִנָּךְ לַחֲדָא דִּי לָא מִקִּרְוֵי עַמְמַיָּא הָאִלֵּין אִנּוּן:",
+          "english": "Thus shalt thou do to all the cities which are very far off from thee, which are not of the cities of these nations."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "רַ֗ק מֵעָרֵ֤י הָֽעַמִּים֙ הָאֵ֔לֶּה אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ נַחֲלָ֑ה לֹ֥א תְחַיֶּ֖ה כׇּל־נְשָׁמָֽה׃",
+          "targum": "לְחוֹד מִקִּרְוֵי עַמְמַיָּא הָאִלֵּין דִּי יְיָ אֱלָהָךְ יָהֵב לָךְ אַחֲסָנָא לָא תְקַיַּם כָּל נִשְׁמָתָא:",
+          "english": "But of the cities of these peoples, which the Lord thy God gives thee for an inheritance, thou shalt save alive nothing that breathes:"
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "כִּֽי־הַחֲרֵ֣ם תַּחֲרִימֵ֗ם הַחִתִּ֤י וְהָאֱמֹרִי֙ הַכְּנַעֲנִ֣י וְהַפְּרִזִּ֔י הַחִוִּ֖י וְהַיְבוּסִ֑י כַּאֲשֶׁ֥ר צִוְּךָ֖ יְהֹוָ֥ה אֱלֹהֶֽיךָ׃",
+          "targum": "אֲרֵי גַמָּרָא תְגַמְּרִנּוּן חִתָּאֵי וֶאֱמֹרָאֵי כְּנַעֲנָאֵי וּפְרִזָּאֵי חִוָּאֵי וִיבוּסָאֵי כְּמָא דִי פַקְּדָךְ יְיָ אֱלָהָךְ:",
+          "english": "but thou\n\t\t\t\tshalt utterly destroy them; the Ḥitti, and the Emori, the Kena῾ani, and the Perizzi, the Ḥivvi, and the Yevusi; as the Lord thy God has commanded thee:"
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "לְמַ֗עַן אֲשֶׁ֨ר לֹֽא־יְלַמְּד֤וּ אֶתְכֶם֙ לַעֲשׂ֔וֹת כְּכֹל֙ תּֽוֹעֲבֹתָ֔ם אֲשֶׁ֥ר עָשׂ֖וּ לֵאלֹֽהֵיהֶ֑ם וַחֲטָאתֶ֖ם לַיהֹוָ֥ה אֱלֹהֵיכֶֽם׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "בְּדִיל דִּי לָא יַלְּפוּן יָתְכוֹן לְמֶעְבַּד כְּכָל תּוֹעֲבָתְהוֹן דִּי עֲבָדוּ לְטַעֲוָתְהוֹן וּתְחוֹבוּן קֳדָם יְיָ אֱלָהֲכוֹן:",
+          "english": "that they teach you not to do after all their abominations, which they have done to their gods; so should you sin against the Lord your God."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "כִּֽי־תָצ֣וּר אֶל־עִיר֩ יָמִ֨ים רַבִּ֜ים לְֽהִלָּחֵ֧ם עָלֶ֣יהָ לְתׇפְשָׂ֗הּ לֹֽא־תַשְׁחִ֤ית אֶת־עֵצָהּ֙ לִנְדֹּ֤חַ עָלָיו֙ גַּרְזֶ֔ן כִּ֚י מִמֶּ֣נּוּ תֹאכֵ֔ל וְאֹת֖וֹ לֹ֣א תִכְרֹ֑ת כִּ֤י הָֽאָדָם֙ עֵ֣ץ הַשָּׂדֶ֔ה לָבֹ֥א מִפָּנֶ֖יךָ בַּמָּצֽוֹר׃",
+          "targum": "אֲרֵי תְצוּר לְקַרְתָּא יוֹמִין סַגִּיאִין לַאֲגָחָא עֲלַהּ לְמִכְבְּשַׁהּ לָא תְחַבַּל יָת אִילָנַהּ לַאֲרָמָא עֲלוֹהִי גַּרְזְנָא אֲרֵי מִנֵּיהּ תֵּיכוּל וְיָתֵיהּ לָא תְקוּץ אֲרֵי לָא כַאֲנָשָׁא אִילַן חַקְלָא לְמֵיעַל מִקֳּדָמָךְ בִּצְיָרָא:",
+          "english": "When thou shalt besiege a city a long time, in making war against it to take it, thou shalt not destroy its trees by forcing an axe against them: for thou mayst eat of them, and thou shalt not cut them down; for is the tree of the field a man, that it should be besieged by thee?"
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "רַ֞ק עֵ֣ץ אֲשֶׁר־תֵּדַ֗ע כִּֽי־לֹא־עֵ֤ץ מַאֲכָל֙ ה֔וּא אֹת֥וֹ תַשְׁחִ֖ית וְכָרָ֑תָּ וּבָנִ֣יתָ מָצ֗וֹר עַל־הָעִיר֙ אֲשֶׁר־הִ֨וא עֹשָׂ֧ה עִמְּךָ֛ מִלְחָמָ֖ה עַ֥ד רִדְתָּֽהּ׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "לְחוֹד אִילָן דְּתִדַּע אֲרֵי לָא אִילַן דְּמַאֲכָל הוּא יָתֵיהּ תְּחַבַּל וּתְקוּץ וְתִבְנֵי כַרְקוֹמִין עַל קַרְתָּא דִּי הִיא עָבְדָא עִמָּךְ קְרָבָא עַד דְּתִכְבְּשַׁהּ:",
+          "english": "Only the trees which thou knowst that they be not trees for food, thou shalt destroy and cut them down; and thou shalt build bulwarks against the city that makes war with thee, until it be subdued."
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "כִּי־יִמָּצֵ֣א חָלָ֗ל בָּאֲדָמָה֙ אֲשֶׁר֩ יְהֹוָ֨ה אֱלֹהֶ֜יךָ נֹתֵ֤ן לְךָ֙ לְרִשְׁתָּ֔הּ נֹפֵ֖ל בַּשָּׂדֶ֑ה לֹ֥א נוֹדַ֖ע מִ֥י הִכָּֽהוּ׃",
+          "targum": "אֲרֵי יִשְׁתְּכַח קְטִילָא בְּאַרְעָא דִּי יְיָ אֱלָהָךְ יָהֵב לָךְ לְמֵירְתַהּ רָמֵי בְּחַקְלָא לָא אִתְיְדַע מַן קָטְלֵיהּ:",
+          "english": "If one be found slain in the land which the Lord thy God gives thee to possess it, lying in the field, and it be not known who has slain him:"
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וְיָצְא֥וּ זְקֵנֶ֖יךָ וְשֹׁפְטֶ֑יךָ וּמָדְדוּ֙ אֶל־הֶ֣עָרִ֔ים אֲשֶׁ֖ר סְבִיבֹ֥ת הֶחָלָֽל׃",
+          "targum": "וְיִפְּקוּן סָבָיךְ וְדַיָּנָיךְ וְיִמְשְׁחוּן לְקִרְוַיָּא דִּי סַחֲרָנוּת קְטִילָא:",
+          "english": "then thy elders and thy judges shall come out, and they shall measure to the cities which are round about him that is slain:"
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וְהָיָ֣ה הָעִ֔יר הַקְּרֹבָ֖ה אֶל־הֶחָלָ֑ל וְלָֽקְח֡וּ זִקְנֵי֩ הָעִ֨יר הַהִ֜וא עֶגְלַ֣ת בָּקָ֗ר אֲשֶׁ֤ר לֹֽא־עֻבַּד֙ בָּ֔הּ אֲשֶׁ֥ר לֹא־מָשְׁכָ֖ה בְּעֹֽל׃",
+          "targum": "וּתְהֵי קַרְתָּא דִּקָרִיבָא לִקְטִילָא וְיִדְבְּרוּן סָבֵי קַרְתָּא הַהִיא עֶגְלַת תּוֹרֵי דִּי לָא אִתְפְּלַח בַּהּ דִּי לָא נְגִידַת בְּנִיר:",
+          "english": "and it shall be, that as for the city which is nearest to the slain man, the elders of that city shall take a heifer, which has not been put to work, and which has not drawn in the yoke;"
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וְהוֹרִ֡דוּ זִקְנֵי֩ הָעִ֨יר הַהִ֤וא אֶת־הָֽעֶגְלָה֙ אֶל־נַ֣חַל אֵיתָ֔ן אֲשֶׁ֛ר לֹא־יֵעָבֵ֥ד בּ֖וֹ וְלֹ֣א יִזָּרֵ֑עַ וְעָֽרְפוּ־שָׁ֥ם אֶת־הָעֶגְלָ֖ה בַּנָּֽחַל׃",
+          "targum": "וְיֶחֱתוּן סָבֵי קַרְתָּא הַהִיא יָת עֲגַלְתָּא לְנַחֲלָא בַיָּר דִּי לָא אִתְפְּלַח בֵּיהּ וְלָא יִזְדְּרַע וְיִנְקְפוּן תַּמָּן יָת עֲגַלְתָּא בְּנַחֲלָא:",
+          "english": "and the elders of that city shall bring down the heifer to a rough ravine, which is neither ploughed nor sown, and shall break the heifer’s neck there in the ravine:"
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וְנִגְּשׁ֣וּ הַכֹּהֲנִים֮ בְּנֵ֣י לֵוִי֒ כִּ֣י בָ֗ם בָּחַ֞ר יְהֹוָ֤ה אֱלֹהֶ֙יךָ֙ לְשָׁ֣רְת֔וֹ וּלְבָרֵ֖ךְ בְּשֵׁ֣ם יְהֹוָ֑ה וְעַל־פִּיהֶ֥ם יִהְיֶ֖ה כׇּל־רִ֥יב וְכׇל־נָֽגַע׃",
+          "targum": "וְיִתְקָרְבוּן כָּהֲנַיָּא בְּנֵי לֵוִי אֲרֵי בְהוֹן יִתִּרְעֵי יְיָ אֱלָהָךְ לְשַׁמָּשׁוּתֵיהּ וּלְבָרָכָא בִּשְׁמָא דַיְיָ וְעַל מֵימְרֵהוֹן יְהֵי כָּל דִּין וְכָל מַכְתַּשׁ סְגִירוּ:",
+          "english": "and the priests the sons of Levi shall come near; for them the Lord thy God has chosen to minister to him, and to bless in the name of the Lord; and by their word shall every controversy and every stroke be tried:"
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וְכֹ֗ל זִקְנֵי֙ הָעִ֣יר הַהִ֔וא הַקְּרֹבִ֖ים אֶל־הֶחָלָ֑ל יִרְחֲצוּ֙ אֶת־יְדֵיהֶ֔ם עַל־הָעֶגְלָ֖ה הָעֲרוּפָ֥ה בַנָּֽחַל׃",
+          "targum": "וְכֹל סָבֵי קַרְתָּא הַהִיא דִּקְרִיבִין לִקְטִילָא יַסְחוּן יָת יְדֵיהוֹן עַל עֲגַלְתָּא דִּנְקֶפְתָּא בְנַחֲלָא:",
+          "english": "and all the elders of that city, that are nearest to the slain man, shall wash their hands over the heifer whose neck was broken in the ravine:"
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וְעָנ֖וּ וְאָמְר֑וּ יָדֵ֗ינוּ לֹ֤א <span class=\"mam-kq\"><span class=\"mam-kq-k\">(שפכה)</span> <span class=\"mam-kq-q\">[שָֽׁפְכוּ֙]</span></span> אֶת־הַדָּ֣ם הַזֶּ֔ה וְעֵינֵ֖ינוּ לֹ֥א רָאֽוּ׃",
+          "targum": "וִיתִיבוּן וְיֵימְרוּן יְדָנָא לָא אַשְׁדּוֹ יָת דְּמָא הָדֵין וְעֵינָנָא לָא חֲזָאָה:",
+          "english": "and they shall answer and say, Our hands have not shed this blood, nor have our eyes seen it."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "כַּפֵּר֩ לְעַמְּךָ֨ יִשְׂרָאֵ֤ל אֲשֶׁר־פָּדִ֙יתָ֙ יְהֹוָ֔ה וְאַל־תִּתֵּן֙ דָּ֣ם נָקִ֔י בְּקֶ֖רֶב עַמְּךָ֣ יִשְׂרָאֵ֑ל וְנִכַּפֵּ֥ר לָהֶ֖ם הַדָּֽם׃",
+          "targum": "כָּהֲנַיָּא יֵימְרוּן כַּפַּר לְעַמָּךְ יִשְׂרָאֵל דִּי פְרַקְתָּא יְיָ וְלָא תִתֵּן חוֹבַת דַּם זַכַּי בְּגוֹ עַמָּךְ יִשְׂרָאֵל וְיִתְכַּפַּר לְהוֹן עַל דְּמָא:",
+          "english": "Be merciful, O Lord, to thy people Yisra᾽el, whom thou hast redeemed, and lay not innocent blood to the charge of thy people Yisra᾽el. And the blood shall be forgiven them."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וְאַתָּ֗ה תְּבַעֵ֛ר הַדָּ֥ם הַנָּקִ֖י מִקִּרְבֶּ֑ךָ כִּֽי־תַעֲשֶׂ֥ה הַיָּשָׁ֖ר בְּעֵינֵ֥י יְהֹוָֽה׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וְאַתְּ תְּפַלֵּי אַשְׁדִּי דַם זַכַּי מִבֵּינָךְ אֲרֵי תַעְבֵּד דְּכָשָׁר קֳדָם יְיָ:",
+          "english": "So shalt thou put away the innocent blood from among you, when thou shalt do that which is right in the sight of the Lord."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "כִּֽי־תֵצֵ֥א לַמִּלְחָמָ֖ה עַל־אֹיְבֶ֑יךָ וּנְתָנ֞וֹ יְהֹוָ֧ה אֱלֹהֶ֛יךָ בְּיָדֶ֖ךָ וְשָׁבִ֥יתָ שִׁבְיֽוֹ׃",
+          "targum": "אֲרֵי תִפּוֹק לַאֲגָחָא קְרָבָא עַל בַּעֲלֵי דְבָבָךְ וְיִמְסְרִנּוּן יְיָ אֱלָהָךְ בִּידָךְ וְתִשְׁבֵּי שִׁבְיְהוֹן:",
+          "english": "When thou goest forth to war against thy enemies, and the Lord thy God has delivered them into thy hands, and thou hast taken them captive,"
+        }
+      ]
+    }
+  ]
+}

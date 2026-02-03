@@ -11,6 +11,10 @@
     "lint": "expo lint",
     "fetch:sa": "node tools/fetch-shulchan-aruch.mjs",
     "fetch:shulchan-aruch": "node ./scripts/fetch_shulchan_aruch.js",
+    "fetch:shnayim-mikra": "node ./scripts/fetch_shnayim_mikra.js",
+    "fetch:parshat-hamann": "node ./scripts/fetch_parshat_hamann.js",
+    "fix:parshiot": "node ./scripts/fix_parshiot.js",
+    "clean:parshiot": "node ./scripts/clean_parshiot.js",
     "test:sefaria": "node ./scripts/test_sefaria_api.js",
     "convert:shulchan-aruch": "node ./scripts/convert_to_app_format.js"
   },

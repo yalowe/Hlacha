@@ -1,0 +1,986 @@
+{
+  "name": "Bamidbar",
+  "book": "Numbers",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיְדַבֵּ֨ר יְהֹוָ֧ה אֶל־מֹשֶׁ֛ה בְּמִדְבַּ֥ר סִינַ֖י בְּאֹ֣הֶל מוֹעֵ֑ד בְּאֶחָד֩ לַחֹ֨דֶשׁ הַשֵּׁנִ֜י בַּשָּׁנָ֣ה הַשֵּׁנִ֗ית לְצֵאתָ֛ם מֵאֶ֥רֶץ מִצְרַ֖יִם לֵאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה בְּמַדְבְּרָא דְסִינַי בְּמַשְׁכַּן זִמְנָא בְּחַד לְיַרְחָא תִנְיָנָא בְּשַׁתָּא תִנְיֵתָא לְמִפַּקְהוֹן מֵאַרְעָא דְמִצְרַיִם לְמֵימָר:",
+          "english": "AND the Lord spoke to Moshe in the wilderness of Sinay, in the Tent of Meeting, on the first day of the second month, in the second year after they were come out of the land of Miżrayim, saying,"
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "שְׂא֗וּ אֶת־רֹאשׁ֙ כׇּל־עֲדַ֣ת בְּנֵֽי־יִשְׂרָאֵ֔ל לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמ֔וֹת כׇּל־זָכָ֖ר לְגֻלְגְּלֹתָֽם׃",
+          "targum": "קַבִּילוּ יָת חֻשְׁבַּן כָּל כְּנִשְׁתָּא דִבְנֵי יִשְׂרָאֵל לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן כָּל דְּכוּרָא לְגֻלְגְּלַתְהוֹן:",
+          "english": "Take the sum of all the congregation of the children of Yisra᾽el, after their families, by the houses of their fathers, by the number of names, every male by their polls;"
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כׇּל־יֹצֵ֥א צָבָ֖א בְּיִשְׂרָאֵ֑ל תִּפְקְד֥וּ אֹתָ֛ם לְצִבְאֹתָ֖ם אַתָּ֥ה וְאַהֲרֹֽן׃",
+          "targum": "מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כָּל נָפֵק חֵילָא בְּיִשְׂרָאֵל תִּמְנוּן יָתְהוֹן לְחֵילֵיהוֹן אַתְּ וְאַהֲרֹן:",
+          "english": "from twenty years old and upward, all that are able to go forth to war in Yisra᾽el: thou and Aharon shall number them by their hosts."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וְאִתְּכֶ֣ם יִהְי֔וּ אִ֥ישׁ אִ֖ישׁ לַמַּטֶּ֑ה אִ֛ישׁ רֹ֥אשׁ לְבֵית־אֲבֹתָ֖יו הֽוּא׃",
+          "targum": "וְעִמְּכוֹן יְהוֹן גַּבְרָא גַבְרָא לְשִׁבְטָא גְּבַר רֵישׁ לְבֵית אֲבָהָתוֹהִי הוּא:",
+          "english": "And with you there shall be a man of every tribe; every one head of the house of his fathers."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וְאֵ֙לֶּה֙ שְׁמ֣וֹת הָֽאֲנָשִׁ֔ים אֲשֶׁ֥ר יַֽעַמְד֖וּ אִתְּכֶ֑ם לִרְאוּבֵ֕ן אֱלִיצ֖וּר בֶּן־שְׁדֵיאֽוּר׃",
+          "targum": "וְאִלֵּין שְׁמָהַת גֻּבְרַיָּא דִּי יְקוּמוּן עִמְּכוֹן לִרְאוּבֵן אֱלִיצוּר בַּר שְׁדֵיאוּר:",
+          "english": "And these are the names of the men that shall stand with you: of the tribe of Re᾽uven; Eliżur the son of Shede᾽ur."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "לְשִׁמְע֕וֹן שְׁלֻמִיאֵ֖ל בֶּן־צוּרִֽישַׁדָּֽי׃",
+          "targum": "לְשִׁמְעוֹן שְׁלֻמִיאֵל בַּר צוּרִישַׁדָּי:",
+          "english": "Of Shim῾on; Shelumi᾽el the son of Żurishadday."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "לִֽיהוּדָ֕ה נַחְשׁ֖וֹן בֶּן־עַמִּינָדָֽב׃",
+          "targum": "לִיהוּדָה נַחְשׁוֹן בַּר עַמִּינָדָב:",
+          "english": "Of Yehuda; Naĥshon the son of ῾Amminadav."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "לְיִ֨שָּׂשכָ֔ר נְתַנְאֵ֖ל בֶּן־צוּעָֽר׃",
+          "targum": "לְיִשָּׂשכָר נְתַנְאֵל בַּר צוּעָר:",
+          "english": "Of Yissakhar; Netan᾽el the son of Żu῾ar."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "לִזְבוּלֻ֕ן אֱלִיאָ֖ב בֶּן־חֵלֹֽן׃",
+          "targum": "לִזְבוּלֻן אֱלִיאָב בַּר חֵלֹּן:",
+          "english": "Of Zevulun; Eli᾽av the son of Ḥelon."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "לִבְנֵ֣י יוֹסֵ֔ף לְאֶפְרַ֕יִם אֱלִישָׁמָ֖ע בֶּן־עַמִּיה֑וּד לִמְנַשֶּׁ֕ה גַּמְלִיאֵ֖ל בֶּן־פְּדָהצֽוּר׃",
+          "targum": "לִבְנֵי יוֹסֵף לְאֶפְרַיִם אֱלִישָׁמָע בַּר עַמִּיהוּד לִמְנַשֶּׁה גַּמְלִיאֵל בַּר פְּדָהצוּר:",
+          "english": "Of the children of Yosef: of Efrayim; Elishama the son of ῾Ammihud: of Menashshe, Gamli᾽el the son of Pedażur."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "לְבִ֨נְיָמִ֔ן אֲבִידָ֖ן בֶּן־גִּדְעֹנִֽי׃",
+          "targum": "לְבִנְיָמִן אֲבִידָן בַּר גִּדְעֹנִי:",
+          "english": "Of Binyamin; Avidan the son of Gid῾oni."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "לְדָ֕ן אֲחִיעֶ֖זֶר בֶּן־עַמִּֽישַׁדָּֽי׃",
+          "targum": "לְדָן אֲחִיעֶזֶר בַּר עַמִּישַׁדָּי:",
+          "english": "Of Dan; Aĥi῾ezer the son of ῾Ammishadday."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "לְאָשֵׁ֕ר פַּגְעִיאֵ֖ל בֶּן־עׇכְרָֽן׃",
+          "targum": "לְאָשֵׁר פַּגְעִיאֵל בַּר עָכְרָן:",
+          "english": "Of Asher; Pag῾i᾽el the son of ῾Okhran."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "לְגָ֕ד אֶלְיָסָ֖ף בֶּן־דְּעוּאֵֽל׃",
+          "targum": "לְגָד אֶלְיָסָף בַּר דְּעוּאֵל:",
+          "english": "Of Gad; Elyasaf the son of De῾u᾽el,"
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "לְנַ֨פְתָּלִ֔י אֲחִירַ֖ע בֶּן־עֵינָֽן׃",
+          "targum": "לְנַפְתָּלִי אֲחִירַע בַּר עֵינָן:",
+          "english": "Of Naftali, Aĥira the son of ῾Enan."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "אֵ֚לֶּה <span class=\"mam-kq\"><span class=\"mam-kq-k\">(קריאי)</span> <span class=\"mam-kq-q\">[קְרוּאֵ֣י]</span></span> הָעֵדָ֔ה נְשִׂיאֵ֖י מַטּ֣וֹת אֲבוֹתָ֑ם רָאשֵׁ֛י אַלְפֵ֥י יִשְׂרָאֵ֖ל הֵֽם׃",
+          "targum": "אִלֵּין מְעַרְעֵי כְנִשְׁתָּא רַבְרְבֵי שִׁבְטֵי אֲבָהַתְהוֹן רֵישֵׁי אַלְפַיָּא דְיִשְׂרָאֵל אִנּוּן:",
+          "english": "These were the men of mark in the congregation, princes of the tribes of their fathers, heads of thousands in Yisra᾽el."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיִּקַּ֥ח מֹשֶׁ֖ה וְאַהֲרֹ֑ן אֵ֚ת הָאֲנָשִׁ֣ים הָאֵ֔לֶּה אֲשֶׁ֥ר נִקְּב֖וּ בְּשֵׁמֹֽת<sup class=\"footnote-marker\">*</sup><i class=\"footnote\">(בספרי ספרד ואשכנז בְּשֵׁמֽוֹת)</i>׃",
+          "targum": "וּנְסֵב משֶׁה וְאַהֲרֹן יָת גֻּבְרַיָּא הָאִלֵּין דִּי אִתְפָּרָשׁוּ בִּשְׁמָהָן:",
+          "english": "And Moshe and Aharon took these men who were pointed out by their names:"
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וְאֵ֨ת כׇּל־הָעֵדָ֜ה הִקְהִ֗ילוּ בְּאֶחָד֙ לַחֹ֣דֶשׁ הַשֵּׁנִ֔י וַיִּתְיַֽלְד֥וּ עַל־מִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמ֗וֹת מִבֶּ֨ן עֶשְׂרִ֥ים שָׁנָ֛ה וָמַ֖עְלָה לְגֻלְגְּלֹתָֽם׃",
+          "targum": "וְיָת כָּל כְּנִשְׁתָּא אַכְנָשׁוּ בְּחַד לְיַרְחָא תִנְיָנָא וְאִתְיַחֲסוּ עַל זַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא לְגֻלְגְּלַתְהוֹן:",
+          "english": "and they assembled all the congregation together on the first day of the second month, and they declared their pedigrees after their families, by the houses of their fathers, according to the number of names, from twenty years old and upward, by their polls."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "כַּאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֶת־מֹשֶׁ֑ה וַֽיִּפְקְדֵ֖ם בְּמִדְבַּ֥ר סִינָֽי׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "כְּמָא דִי פַקֵּיד יְיָ יָת משֶׁה וּמְנִנּוּן בְּמַדְבְּרָא דְסִינָי:",
+          "english": "As the Lord commanded Moshe, so he numbered them in the wilderness of Sinay."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וַיִּהְי֤וּ בְנֵֽי־רְאוּבֵן֙ בְּכֹ֣ר יִשְׂרָאֵ֔ל תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֤ר שֵׁמוֹת֙ לְגֻלְגְּלֹתָ֔ם כׇּל־זָכָ֗ר מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "וַהֲווֹ בְנֵי רְאוּבֵן בּוּכְרָא דְיִשְׂרָאֵל תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן לְגֻלְגְּלַתְהוֹן כָּל דְּכוּרָא מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "And the children of Re᾽uven, Yisra᾽el’s oldest son, their generations, after their families, by the house of their fathers, according to the number of names, by their polls, every male from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה רְאוּבֵ֑ן שִׁשָּׁ֧ה וְאַרְבָּעִ֛ים אֶ֖לֶף וַחֲמֵ֥שׁ מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דִרְאוּבֵן אַרְבְּעִין וְשִׁתָּא אַלְפִין וַחֲמֵשׁ מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Re᾽uven, were forty six thousand, five hundred."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "לִבְנֵ֣י שִׁמְע֔וֹן תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם פְּקֻדָ֗יו בְּמִסְפַּ֤ר שֵׁמוֹת֙ לְגֻלְגְּלֹתָ֔ם כׇּל־זָכָ֗ר מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי שִׁמְעוֹן תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן מִנְיָנוֹהִי בְּמִנְיַן שְׁמָהָן לְגֻלְגְּלַתְהוֹן כָּל דְּכוּרָא מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Shim῾on, their generations, after their families, by the house of their fathers, those that were numbered of them, according to the number of names, by their polls, every male from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה שִׁמְע֑וֹן תִּשְׁעָ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וּשְׁלֹ֥שׁ מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דְשִׁמְעוֹן חַמְשִׁין וְתִשְׁעָה אַלְפִין וּתְלַת מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Shim῾on, were fifty nine thousand, three hundred."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "לִבְנֵ֣י גָ֔ד תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמ֗וֹת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי גָד תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Gad, their generations, after their families, by the house of their fathers, according to the number of names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה גָ֑ד חֲמִשָּׁ֤ה וְאַרְבָּעִים֙ אֶ֔לֶף וְשֵׁ֥שׁ מֵא֖וֹת וַחֲמִשִּֽׁים׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דְגָד אַרְבְּעִין וְחַמְשָׁא אַלְפִין וְשִׁית מְאָה וְחַמְשִׁין",
+          "english": "those that were numbered of them, of the tribe of Gad, were forty five thousand, six hundred and fifty."
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "לִבְנֵ֣י יְהוּדָ֔ה תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי יְהוּדָה תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Yehuda, their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה יְהוּדָ֑ה אַרְבָּעָ֧ה וְשִׁבְעִ֛ים אֶ֖לֶף וְשֵׁ֥שׁ מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דִיהוּדָה שַׁבְעִין וְאַרְבְּעָא אַלְפִין וְשִׁית מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Yehuda, were seventy four thousand, six hundred."
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "לִבְנֵ֣י יִשָּׂשכָ֔ר תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי יִשָּׂשכָר תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Yissakhar, their generations, after their families, by the house of their fathers, according to the number of names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה יִשָּׂשכָ֑ר אַרְבָּעָ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וְאַרְבַּ֥ע מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דְיִשָּׂשכָר חַמְשִׁין וְאַרְבְּעָא אַלְפִין וְאַרְבַּע מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Yissakhar, were fifty four thousand, four hundred."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "לִבְנֵ֣י זְבוּלֻ֔ן תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי זְבוּלֻן תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Zevulun, their generations, after their families, by the house of their fathers, according to the number of names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה זְבוּלֻ֑ן שִׁבְעָ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וְאַרְבַּ֥ע מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דִזְבוּלֻן חַמְשִׁין וּשְׁבַע אַלְפִין וְאַרְבַּע מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Zevulun, were fifty seven thousand, four hundred."
+        },
+        {
+          "verseNum": 32,
+          "hebrew": "לִבְנֵ֤י יוֹסֵף֙ לִבְנֵ֣י אֶפְרַ֔יִם תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי יוֹסֵף לִבְנֵי אֶפְרַיִם תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Yosef, of the children of Efrayim, their generations, after their families, by the house of their fathers, according to the number of names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 33,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה אֶפְרָ֑יִם אַרְבָּעִ֥ים אֶ֖לֶף וַחֲמֵ֥שׁ מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דְאֶפְרָיִם אַרְבְּעִין אַלְפִין וַחֲמֵשׁ מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Efrayim, were forty thousand, five hundred."
+        },
+        {
+          "verseNum": 34,
+          "hebrew": "לִבְנֵ֣י מְנַשֶּׁ֔ה תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמ֗וֹת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי מְנַשֶּׁה תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Menashshe, their generations, after their families, by the house of their fathers, according to the number of names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 35,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה מְנַשֶּׁ֑ה שְׁנַ֧יִם וּשְׁלֹשִׁ֛ים אֶ֖לֶף וּמָאתָֽיִם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דִמְנַשֶּׁה תְּלָתִין וּתְרֵין אַלְפִין וּמָאתָן:",
+          "english": "those that were numbered of them, of the tribe of Menashshe, were thirty two thousand, two hundred."
+        },
+        {
+          "verseNum": 36,
+          "hebrew": "לִבְנֵ֣י בִנְיָמִ֔ן תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי בִנְיָמִן תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Binyamin, their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 37,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה בִנְיָמִ֑ן חֲמִשָּׁ֧ה וּשְׁלֹשִׁ֛ים אֶ֖לֶף וְאַרְבַּ֥ע מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דְבִנְיָמִן תְּלָתִין וְחַמְשָׁא אַלְפִין וְאַרְבַּע מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Binyamin, were thirty five thousand, four hundred."
+        },
+        {
+          "verseNum": 38,
+          "hebrew": "לִבְנֵ֣י דָ֔ן תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי דָן תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Dan, their generations, after their families, by the house of their fathers, according to the number of names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 39,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה דָ֑ן שְׁנַ֧יִם וְשִׁשִּׁ֛ים אֶ֖לֶף וּשְׁבַ֥ע מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דְדָן שִׁתִּין וּתְרֵין אַלְפִין וּשְׁבַע מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Dan, were sixty two thousand, seven hundred."
+        },
+        {
+          "verseNum": 40,
+          "hebrew": "לִבְנֵ֣י אָשֵׁ֔ר תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "לִבְנֵי אָשֵׁר תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהֲתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Asher, their generations, after their families, by the house of their fathers, according to the number of names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 41,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה אָשֵׁ֑ר אֶחָ֧ד וְאַרְבָּעִ֛ים אֶ֖לֶף וַחֲמֵ֥שׁ מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דְאָשֵׁר אַרְבְּעִין וְחַד אַלְפִין וַחֲמֵשׁ מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Asher, were forty one thousand, five hundred."
+        },
+        {
+          "verseNum": 42,
+          "hebrew": "בְּנֵ֣י נַפְתָּלִ֔י תּוֹלְדֹתָ֥ם לְמִשְׁפְּחֹתָ֖ם לְבֵ֣ית אֲבֹתָ֑ם בְּמִסְפַּ֣ר שֵׁמֹ֗ת מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כֹּ֖ל יֹצֵ֥א צָבָֽא׃",
+          "targum": "בְּנֵי נַפְתָּלִי תּוּלְדַתְהוֹן לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן בְּמִנְיַן שְׁמָהָן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כֹּל נָפֵק חֵילָא:",
+          "english": "Of the children of Naftali, their generations, after their families, by the house of their fathers, according to the number of names, from twenty years old and upward, all that were able to go forth to war;"
+        },
+        {
+          "verseNum": 43,
+          "hebrew": "פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה נַפְתָּלִ֑י שְׁלֹשָׁ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וְאַרְבַּ֥ע מֵאֽוֹת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "מִנְיָנֵיהוֹן לְשִׁבְטָא דְנַפְתָּלִי חַמְשִׁין וּתְלַת אַלְפִין וְאַרְבַּע מְאָה:",
+          "english": "those that were numbered of them, of the tribe of Naftali, were fifty three thousand, four hundred."
+        },
+        {
+          "verseNum": 44,
+          "hebrew": "אֵ֣לֶּה הַפְּקֻדִ֡ים אֲשֶׁר֩ פָּקַ֨ד מֹשֶׁ֤ה וְאַהֲרֹן֙ וּנְשִׂיאֵ֣י יִשְׂרָאֵ֔ל שְׁנֵ֥ים עָשָׂ֖ר אִ֑ישׁ אִישׁ־אֶחָ֥ד לְבֵית־אֲבֹתָ֖יו הָיֽוּ׃",
+          "targum": "אִלֵּין מִנְיָנַיָּא דִּי מְנָא משֶׁה וְאַהֲרֹן וְרַבְרְבֵי יִשְׂרָאֵל תְּרֵין עֲשַׂר גֻּבְרִין גַּבְרָא חַד לְבֵית אֲבָהָתוֹהִי הֲווֹ:",
+          "english": "These are those that were numbered, whom Moshe and Aharon numbered, and the princes of Yisra᾽el, being twelve men: each one represented the house of his fathers."
+        },
+        {
+          "verseNum": 45,
+          "hebrew": "וַיִּֽהְי֛וּ כׇּל־פְּקוּדֵ֥י בְנֵֽי־יִשְׂרָאֵ֖ל לְבֵ֣ית אֲבֹתָ֑ם מִבֶּ֨ן עֶשְׂרִ֤ים שָׁנָה֙ וָמַ֔עְלָה כׇּל־יֹצֵ֥א צָבָ֖א בְּיִשְׂרָאֵֽל׃",
+          "targum": "וַהֲווֹ כָּל מִנְיָנֵי בְנֵי יִשְׂרָאֵל לְבֵית אֲבָהַתְהוֹן מִבַּר עַשְׂרִין שְׁנִין וּלְעֵלָּא כָּל נָפֵק חֵילָא בְּיִשְׂרָאֵל:",
+          "english": "So were all those that were numbered of the children of Yisra᾽el, by the house of their fathers, from twenty years old and upward, all that were able to go forth to war in Yisra᾽el;"
+        },
+        {
+          "verseNum": 46,
+          "hebrew": "וַיִּֽהְיוּ֙ כׇּל־הַפְּקֻדִ֔ים שֵׁשׁ־מֵא֥וֹת אֶ֖לֶף וּשְׁלֹ֣שֶׁת אֲלָפִ֑ים וַחֲמֵ֥שׁ מֵא֖וֹת וַחֲמִשִּֽׁים׃",
+          "targum": "וַהֲווֹ כָּל מִנְיָנַיָּא שִׁית מְאָה וּתְלָתָא אַלְפִין וַחֲמֵשׁ מְאָה וְחַמְשִׁין:",
+          "english": "all they that were numbered were six hundred and three thousand, five hundred and fifty."
+        },
+        {
+          "verseNum": 47,
+          "hebrew": "וְהַלְוִיִּ֖ם לְמַטֵּ֣ה אֲבֹתָ֑ם לֹ֥א הׇתְפָּקְד֖וּ בְּתוֹכָֽם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וְלֵוָאֵי לְשִׁבְטָא דַאֲבָהַתְהוֹן לָא אִתְמְנִיאוּ בֵּינֵיהוֹן:",
+          "english": "But the Levites after the tribe of their fathers were not numbered among them."
+        },
+        {
+          "verseNum": 48,
+          "hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה לְמֵימָר:",
+          "english": "For the Lord had spoken to Moshe, saying,"
+        },
+        {
+          "verseNum": 49,
+          "hebrew": "אַ֣ךְ אֶת־מַטֵּ֤ה לֵוִי֙ לֹ֣א תִפְקֹ֔ד וְאֶת־רֹאשָׁ֖ם לֹ֣א תִשָּׂ֑א בְּת֖וֹךְ בְּנֵ֥י יִשְׂרָאֵֽל׃",
+          "targum": "בְּרַם יָת שִׁבְטָא דְלֵוִי לָא תִמְנֵי וְיָת חֻשְׁבַּנְהוֹן לָא תְקַבֵּל בְּגוֹ בְּנֵי יִשְׂראֵל:",
+          "english": "Only thou shalt not number the tribe of Levi, nor take the sum of them among the children of Yisra᾽el:"
+        },
+        {
+          "verseNum": 50,
+          "hebrew": "וְאַתָּ֡ה הַפְקֵ֣ד אֶת־הַלְוִיִּם֩ עַל־מִשְׁכַּ֨ן הָעֵדֻ֜ת וְעַ֣ל כׇּל־כֵּלָיו֮ וְעַ֣ל כׇּל־אֲשֶׁר־לוֹ֒ הֵ֜מָּה יִשְׂא֤וּ אֶת־הַמִּשְׁכָּן֙ וְאֶת־כׇּל־כֵּלָ֔יו וְהֵ֖ם יְשָׁרְתֻ֑הוּ וְסָבִ֥יב לַמִּשְׁכָּ֖ן יַחֲנֽוּ׃",
+          "targum": "וְאַתְּ מַנִּי יָת לֵוָאֵי עַל מַשְׁכְּנָא דְסַהֲדוּתָא וְעַל כָּל מָנוֹהִי וְעַל כָּל דִּי לֵיהּ אִנּוּן יִטְּלוּן יָת מַשְׁכְּנָא וְיָת כָּל מָנוֹהִי וְאִנּוּן יְשַׁמְּשֻׁנֵּיהּ וּסְחוֹר סְחוֹר לְמַשְׁכְּנָא יִשְׁרוּן:",
+          "english": "but thou shalt appoint the Levites over the tabernacle of testimony, and over all its vessels, and over all things that belong to it: they shall bear the tabernacle, and all its vessels; and they shall minister to it, and shall encamp round about the tabernacle."
+        },
+        {
+          "verseNum": 51,
+          "hebrew": "וּבִנְסֹ֣עַ הַמִּשְׁכָּ֗ן יוֹרִ֤ידוּ אֹתוֹ֙ הַלְוִיִּ֔ם וּבַחֲנֹת֙ הַמִּשְׁכָּ֔ן יָקִ֥ימוּ אֹת֖וֹ הַלְוִיִּ֑ם וְהַזָּ֥ר הַקָּרֵ֖ב יוּמָֽת׃",
+          "targum": "וּבְמִטַּל מַשְׁכְּנָא יְפָרְקוּן יָתֵיהּ לֵוָאֵי וּבְמִשְׁרֵי מַשְׁכְּנָא יְקִימוּן יָתֵיהּ לֵוָאֵי וְחִלּוֹנַי דְּיִקְרַב יִתְקְטָל:",
+          "english": "And when the tabernacle sets forward, the Levites shall take it down: and when the tabernacle is to be pitched, the Levites shall set it up: and the stranger that comes near shall be put to death."
+        },
+        {
+          "verseNum": 52,
+          "hebrew": "וְחָנ֖וּ בְּנֵ֣י יִשְׂרָאֵ֑ל אִ֧ישׁ עַֽל־מַחֲנֵ֛הוּ וְאִ֥ישׁ עַל־דִּגְל֖וֹ לְצִבְאֹתָֽם׃",
+          "targum": "וְיִשְׁרוּן בְּנֵי יִשְׂרָאֵל גְּבַר עַל מַשְׁרוֹהִי וּגְבַר עַל טִקְסֵיהּ לְחֵילֵיהוֹן:",
+          "english": "And the children of Yisra᾽el shall pitch their tents, every man by his own camp, and every man by his own standard, throughout their hosts."
+        },
+        {
+          "verseNum": 53,
+          "hebrew": "וְהַלְוִיִּ֞ם יַחֲנ֤וּ סָבִיב֙ לְמִשְׁכַּ֣ן הָעֵדֻ֔ת וְלֹֽא־יִהְיֶ֣ה קֶ֔צֶף עַל־עֲדַ֖ת בְּנֵ֣י יִשְׂרָאֵ֑ל וְשָׁמְרוּ֙ הַלְוִיִּ֔ם אֶת־מִשְׁמֶ֖רֶת מִשְׁכַּ֥ן הָעֵדֽוּת׃",
+          "targum": "וְלֵוָאֵי יִשְׁרוּן סְחוֹר סְחוֹר לְמַשְׁכְּנָא דְסַהֲדוּתָא וְלָא יְהֵי רוּגְזָא עַל כְּנִשְׁתָּא דִבְנֵי יִשְׂרָאֵל וְיִטְּרוּן לֵוָאֵי יָת מַטְּרַת מַשְׁכְּנָא דְסַהֲדוּתָא:",
+          "english": "But the Levites shall pitch round about the tabernacle of testimony, that there be no wrath upon the congregation of the children of Yisra᾽el: and the Levites shall keep the charge of the tabernacle of testimony."
+        },
+        {
+          "verseNum": 54,
+          "hebrew": "וַֽיַּעֲשׂ֖וּ בְּנֵ֣י יִשְׂרָאֵ֑ל כְּ֠כֹ֠ל אֲשֶׁ֨ר צִוָּ֧ה יְהֹוָ֛ה אֶת־מֹשֶׁ֖ה כֵּ֥ן עָשֽׂוּ׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וַעֲבָדוּ בְּנֵי יִשְׂרָאֵל כְּכֹל דִּי פַקִּיד יְיָ יָת משֶׁה כֵּן עֲבָדוּ:",
+          "english": "And the children of Yisra᾽el did according to all that the Lord commanded Moshe, so they did."
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיְדַבֵּ֣ר יְהֹוָ֔ה אֶל־מֹשֶׁ֥ה וְאֶֽל־אַהֲרֹ֖ן לֵאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה וְעִם אַהֲרֹן לְמֵימָר:",
+          "english": "And the Lord spoke to Moshe and to Aharon, saying,"
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "אִ֣ישׁ עַל־דִּגְל֤וֹ בְאֹתֹת֙ לְבֵ֣ית אֲבֹתָ֔ם יַחֲנ֖וּ בְּנֵ֣י יִשְׂרָאֵ֑ל מִנֶּ֕גֶד סָבִ֥יב לְאֹֽהֶל־מוֹעֵ֖ד יַחֲנֽוּ׃",
+          "targum": "גְּבַר עַל טִקְסֵיהּ בְּאַתְוָן לְבֵית אֲבָהַתְהוֹן יִשְׁרוּן בְּנֵי יִשְׂרָאֵל מִלָּקֳבֵל סְחוֹר סְחוֹר לְמַשְׁכַּן זִמְנָא יִשְׁרוּן:",
+          "english": "Every man of the children of Yisra᾽el shall pitch by his own standard, with the ensigns of their father’s house: far off about the Tent of Meeting shall they pitch."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "וְהַחֹנִים֙ קֵ֣דְמָה מִזְרָ֔חָה דֶּ֛גֶל מַחֲנֵ֥ה יְהוּדָ֖ה לְצִבְאֹתָ֑ם וְנָשִׂיא֙ לִבְנֵ֣י יְהוּדָ֔ה נַחְשׁ֖וֹן בֶּן־עַמִּינָדָֽב׃",
+          "targum": "וְדִי שְׁרַן קִדּוּמָא מַדִּינְחָא טֵקַס מַשְׁרִית יְהוּדָה לְחֵילֵיהוֹן וְרַבָּא לִבְנֵי יְהוּדָה נַחְשׁוֹן בַּר עַמִּינָדָב:",
+          "english": "And on the east side toward the rising of the sun shall they of the standard of the camp of Yehuda pitch by their hosts: and Naĥshon the son of ῾Amminadav shall be captain of the children of Yehuda."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדֵיהֶ֑ם אַרְבָּעָ֧ה וְשִׁבְעִ֛ים אֶ֖לֶף וְשֵׁ֥שׁ מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנֵיהוֹן שַׁבְעִין וְאַרְבְּעָא אַלְפִין וְשִׁית מְאָה:",
+          "english": "And his host, and those that were numbered of them, were seventy four thousand, six hundred."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וְהַחֹנִ֥ים עָלָ֖יו מַטֵּ֣ה יִשָּׂשכָ֑ר וְנָשִׂיא֙ לִבְנֵ֣י יִשָּׂשכָ֔ר נְתַנְאֵ֖ל בֶּן־צוּעָֽר׃",
+          "targum": "וְדִי שְׁרַן סְמִיכִין עֲלוֹהִי שִׁבְטָא דְיִשָּׂשכָר וְרַבָּא לִבְנֵי יִשָּׂשכָר נְתַנְאֵל בַּר צוּעָר:",
+          "english": "And those that pitch next to him shall be the tribe of Yissakhar: and Netan᾽el the son of Żu῾ar shall be captain of the children of Yissakhar."
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדָ֑יו אַרְבָּעָ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וְאַרְבַּ֥ע מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנוֹהִי חַמְשִׁין וְאַרְבְּעָא אַלְפִין וְאַרְבַּע מְאָה:",
+          "english": "And his host, and those that were numbered thereof, were fifty four thousand, four hundred."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "מַטֵּ֖ה זְבוּלֻ֑ן וְנָשִׂיא֙ לִבְנֵ֣י זְבוּלֻ֔ן אֱלִיאָ֖ב בֶּן־חֵלֹֽן׃",
+          "targum": "שִׁבְטָא דִּזְבוּלֻן וְרַבָּא לִבְנֵי זְבוּלֻן אֱלִיאָב בַּר חֵלוֹן:",
+          "english": "Then the tribe of Zevulun: and Eli᾽av the son of Ḥelon shall be captain of the children of Zevulun."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדָ֑יו שִׁבְעָ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וְאַרְבַּ֥ע מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנוֹהִי חַמְשִׁין וְשִׁבְעָא אַלְפִין וְאַרְבַּע מְאָה:",
+          "english": "And his host, and those that were numbered of it, were fifty seven thousand, four hundred."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "כׇּֽל־הַפְּקֻדִ֞ים לְמַחֲנֵ֣ה יְהוּדָ֗ה מְאַ֨ת אֶ֜לֶף וּשְׁמֹנִ֥ים אֶ֛לֶף וְשֵֽׁשֶׁת־אֲלָפִ֥ים וְאַרְבַּע־מֵא֖וֹת לְצִבְאֹתָ֑ם רִאשֹׁנָ֖ה יִסָּֽעוּ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "כָּל מִנְיָנַיָּא לְמַשְׁרִית יְהוּדָה מְאָה וּתְמָנָן וְשִׁתָּא אַלְפִין וְאַרְבַּע מְאָה לְחֵילֵיהוֹן בְּקַדְמֵיתָא נָטְלִין:",
+          "english": "All that were numbered in the camp of Yehuda were a hundred and eighty six thousand, four hundred, by their hosts. These shall first set forth."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "דֶּ֣גֶל מַחֲנֵ֧ה רְאוּבֵ֛ן תֵּימָ֖נָה לְצִבְאֹתָ֑ם וְנָשִׂיא֙ לִבְנֵ֣י רְאוּבֵ֔ן אֱלִיצ֖וּר בֶּן־שְׁדֵיאֽוּר׃",
+          "targum": "טֵקַס מַשְׁרִית רְאוּבֵן דָּרוֹמָא לְחֵילֵיהוֹן וְרַבָּא לִבְנֵי רְאוּבֵן אֱלִיצוּר בַּר שְׁדֵיאוּר:",
+          "english": "On the south side shall be the standard of the camp of Re᾽uven by their hosts: and the captain of the children of Re᾽uven shall be Eliżur the son of Shede᾽ur."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדָ֑יו שִׁשָּׁ֧ה וְאַרְבָּעִ֛ים אֶ֖לֶף וַחֲמֵ֥שׁ מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנוֹהִי אַרְבְּעִין וְשִׁתָּא אַלְפִין וַחֲמֵשׁ מְאָה:",
+          "english": "And his host, and those that were numbered of it, were forty six thousand, five hundred."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וְהַחוֹנִ֥ם עָלָ֖יו מַטֵּ֣ה שִׁמְע֑וֹן וְנָשִׂיא֙ לִבְנֵ֣י שִׁמְע֔וֹן שְׁלֻמִיאֵ֖ל בֶּן־צוּרִֽישַׁדָּֽי׃",
+          "targum": "וְדִי שְׁרַן סְמִיכִין עֲלוֹהִי שִׁבְטָא דְשִׁמְעוֹן וְרַבָּא לִבְנֵי שִׁמְעוֹן שְׁלֻמִיאֵל בַּר צוּרִישַׁדָּי:",
+          "english": "And those who pitch by him shall be the tribe of Shim῾on: and the captain of the children of Shim῾on shall be Shelumi᾽el the son of Żurishadday."
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדֵיהֶ֑ם תִּשְׁעָ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וּשְׁלֹ֥שׁ מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנֵיהוֹן חַמְשִׁין וּתְשַׁע אַלְפִין וּתְלַת מְאָה:",
+          "english": "And his host, and those that were numbered of them, were fifty nine thousand, three hundred."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וּמַטֵּ֖ה גָּ֑ד וְנָשִׂיא֙ לִבְנֵ֣י גָ֔ד אֶלְיָסָ֖ף בֶּן־רְעוּאֵֽל׃",
+          "targum": "וְשִׁבְטָא דְּגָד וְרַבָּא לִבְנֵי גָד אֶלְיָסָף בַּר רְעוּאֵל:",
+          "english": "Then the tribe of Gad: and the captain of the sons of Gad shall be Elyasaf the son of Re῾u᾽el."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדֵיהֶ֑ם חֲמִשָּׁ֤ה וְאַרְבָּעִים֙ אֶ֔לֶף וְשֵׁ֥שׁ מֵא֖וֹת וַחֲמִשִּֽׁים׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנֵיהוֹן אַרְבְּעִין וְחַמְשָׁא אַלְפִין וְשִׁית מְאָה וְחַמְשִׁין:",
+          "english": "And his host, and those that were numbered of them, were forty five thousand, six hundred and fifty."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "כׇּֽל־הַפְּקֻדִ֞ים לְמַחֲנֵ֣ה רְאוּבֵ֗ן מְאַ֨ת אֶ֜לֶף וְאֶחָ֨ד וַחֲמִשִּׁ֥ים אֶ֛לֶף וְאַרְבַּע־מֵא֥וֹת וַחֲמִשִּׁ֖ים לְצִבְאֹתָ֑ם וּשְׁנִיִּ֖ם יִסָּֽעוּ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "כָּל מִנְיָנַיָּא לְמַשְׁרִית רְאוּבֵן מְאָה וְחַמְשִׁין וְחַד אַלְפִין וְאַרְבַּע מְאָה וְחַמְשִׁין לְחֵילֵיהוֹן בְּתִנְיֵתָא נָטְלִין:",
+          "english": "All that were numbered in the camp of Re᾽uven were a hundred and fifty one thousand, four hundred and fifty, by their hosts. And they shall set forth in the second rank."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וְנָסַ֧ע אֹֽהֶל־מוֹעֵ֛ד מַחֲנֵ֥ה הַלְוִיִּ֖ם בְּת֣וֹךְ הַֽמַּחֲנֹ֑ת כַּאֲשֶׁ֤ר יַחֲנוּ֙ כֵּ֣ן יִסָּ֔עוּ אִ֥ישׁ עַל־יָד֖וֹ לְדִגְלֵיהֶֽם׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וְנָטֵל מַשְׁכַּן זִמְנָא מַשְׁרִית לֵוָאֵי בְּגוֹ מַשְׁרִיתָא כְּמָא דְשָׁרַן כֵּן נָטְלִין גְּבַר עַל אַתְרֵיהּ לְטִקְסֵיהוֹן:",
+          "english": "Then the Tent of Meeting shall set forward with the camp of the Levites in the midst of the camps: as they encamp, so shall they set forward, every man in his place by their standards."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "דֶּ֣גֶל מַחֲנֵ֥ה אֶפְרַ֛יִם לְצִבְאֹתָ֖ם יָ֑מָּה וְנָשִׂיא֙ לִבְנֵ֣י אֶפְרַ֔יִם אֱלִישָׁמָ֖ע בֶּן־עַמִּיהֽוּד׃",
+          "targum": "טֵקַס מַשְׁרִית אֶפְרַיִם לְחֵילֵיהוֹן מַעַרְבָא וְרַבָּא לִבְנֵי אֶפְרַיִם אֱלִישָׁמָע בַּר עַמִּיהוּד:",
+          "english": "On the west side shall be the standard of the camp of Efrayim by their hosts: and the captain of the sons of Efrayim shall be Elishama the son of ῾Ammihud."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדֵיהֶ֑ם אַרְבָּעִ֥ים אֶ֖לֶף וַחֲמֵ֥שׁ מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנֵיהוֹן אַרְבְּעִין אַלְפִין וַחֲמֵשׁ מְאָה:",
+          "english": "And his host, and those that were numbered of them, were forty thousand, five hundred."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וְעָלָ֖יו מַטֵּ֣ה מְנַשֶּׁ֑ה וְנָשִׂיא֙ לִבְנֵ֣י מְנַשֶּׁ֔ה גַּמְלִיאֵ֖ל בֶּן־פְּדָהצֽוּר׃",
+          "targum": "וְדִסְמִיכִין עֲלוֹהִי שִׁבְטָא דִמְנַשֶּׁה וְרַבָּא לִבְנֵי מְנַשֶּׁה גַּמְלִיאֵל בַּר פְּדָהצוּר:",
+          "english": "And by him shall be the tribe of Menashshe: and the captain of the children of Menashshe shall be Gamli᾽el the son of Pedażur."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדֵיהֶ֑ם שְׁנַ֧יִם וּשְׁלֹשִׁ֛ים אֶ֖לֶף וּמָאתָֽיִם׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנֵיהוֹן תְּלָתִין וּתְרֵין אַלְפִין וּמָאתָן:",
+          "english": "And his host, and those that were numbered of them, were thirty two thousand, two hundred."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "וּמַטֵּ֖ה בִּנְיָמִ֑ן וְנָשִׂיא֙ לִבְנֵ֣י בִנְיָמִ֔ן אֲבִידָ֖ן בֶּן־גִּדְעֹנִֽי׃",
+          "targum": "וְשִׁבְטָא דְּבִנְיָמִן וְרַבָּא לִבְנֵי בִנְיָמִן אֲבִידָן בַּר גִּדְעוֹנִי:",
+          "english": "Then the tribe of Binyamin: and the captain of the sons of Binyamin shall be Avidan the son of Gid῾oni."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדֵיהֶ֑ם חֲמִשָּׁ֧ה וּשְׁלֹשִׁ֛ים אֶ֖לֶף וְאַרְבַּ֥ע מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנֵיהוֹן תְּלָתִין וְחַמְשָׁא אַלְפִין וְאַרְבַּע מְאָה:",
+          "english": "And his host, and those that were numbered of them, were thirty five thousand, four hundred."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "כׇּֽל־הַפְּקֻדִ֞ים לְמַחֲנֵ֣ה אֶפְרַ֗יִם מְאַ֥ת אֶ֛לֶף וּשְׁמֹֽנַת־אֲלָפִ֥ים וּמֵאָ֖ה לְצִבְאֹתָ֑ם וּשְׁלִשִׁ֖ים יִסָּֽעוּ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "כָּל מִנְיָנַיָּא לְמַשְׁרִית אֶפְרַיִם מְאָה וְתַמְנֵי אַלְפִין וּמְאָה לְחֵילֵיהוֹן בִּתְלִיתֵתָא נָטְלִין:",
+          "english": "All that were numbered of the camp of Efrayim were a hundred and eight thousand and one hundred, by their hosts. And they shall go forward in the third rank."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "דֶּ֣גֶל מַחֲנֵ֥ה דָ֛ן צָפֹ֖נָה לְצִבְאֹתָ֑ם וְנָשִׂיא֙ לִבְנֵ֣י דָ֔ן אֲחִיעֶ֖זֶר בֶּן־עַמִּֽישַׁדָּֽי׃",
+          "targum": "טֵקַס מַשְׁרִית דָּן צִפּוּנָא לְחֵילֵיהוֹן וְרַבָּא לִבְנֵי דָן אֲחִיעֶזֶר בַּר עַמִּישַׁדָּי:",
+          "english": "The standard of the camp of Dan shall be on the north side by their hosts: and the captain of the children of Dan shall be Aĥi῾ezer the son of ῾Ammishadday."
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדֵיהֶ֑ם שְׁנַ֧יִם וְשִׁשִּׁ֛ים אֶ֖לֶף וּשְׁבַ֥ע מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנֵיהוֹן שִׁתִּין וּתְרֵין אַלְפִין וּשְׁבַע מְאָה:",
+          "english": "And his host, and those that were numbered of them, were sixty two thousand, seven hundred."
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "וְהַחֹנִ֥ים עָלָ֖יו מַטֵּ֣ה אָשֵׁ֑ר וְנָשִׂיא֙ לִבְנֵ֣י אָשֵׁ֔ר פַּגְעִיאֵ֖ל בֶּן־עׇכְרָֽן׃",
+          "targum": "וְדִי שְׁרַן סְמִיכִין עֲלוֹהִי שִׁבְטָא דְאָשֵׁר וְרַבָּא לִבְנֵי אָשֵׁר פַּגְעִיאֵל בַּר עָכְרָן:",
+          "english": "And those that encamp by him shall be the tribe of Asher: and the captain of the children of Asher shall be Pag῾i᾽el the son of ῾Okhran."
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדֵיהֶ֑ם אֶחָ֧ד וְאַרְבָּעִ֛ים אֶ֖לֶף וַחֲמֵ֥שׁ מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנֵיהוֹן אַרְבְּעִין וְחַד אַלְפִין וַחֲמֵשׁ מְאָה:",
+          "english": "And his host, and those that were numbered of them, were forty one thousand, five hundred."
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "וּמַטֵּ֖ה נַפְתָּלִ֑י וְנָשִׂיא֙ לִבְנֵ֣י נַפְתָּלִ֔י אֲחִירַ֖ע בֶּן־עֵינָֽן׃",
+          "targum": "וְשִׁבְטָא דְּנַפְתָּלִי וְרַבָּא לִבְנֵי נַפְתָּלִי אֲחִירַע בַּר עֵינָן:",
+          "english": "Then the tribe of Naftali: and the captain of the children of Naftali shall be Aĥira the son of ῾Enan."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "וּצְבָא֖וֹ וּפְקֻדֵיהֶ֑ם שְׁלֹשָׁ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וְאַרְבַּ֥ע מֵאֽוֹת׃",
+          "targum": "וְחֵילֵיהּ וּמִנְיָנֵיהוֹן חַמְשִׁין וּתְלָתָא אַלְפִין וְאַרְבַּע מְאָה:",
+          "english": "And his host, and those that were numbered of them, were fifty three thousand, four hundred."
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "כׇּל־הַפְּקֻדִים֙ לְמַ֣חֲנֵה דָ֔ן מְאַ֣ת אֶ֗לֶף וְשִׁבְעָ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וְשֵׁ֣שׁ מֵא֑וֹת לָאַחֲרֹנָ֥ה יִסְע֖וּ לְדִגְלֵיהֶֽם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "כָּל מִנְיָנַיָּא לְמַשְׁרִית דָּן מְאָה וְחַמְשִׁין וְשִׁבְעָא אַלְפִין וְשִׁית מְאָה בְּבַתְרֵתָא נָטְלִין לְטִקְסֵיהוֹן:",
+          "english": "All they that were numbered in the camp of Dan were a hundred and fifty seven thousand, six hundred. They shall go hindmost with their standards."
+        },
+        {
+          "verseNum": 32,
+          "hebrew": "אֵ֛לֶּה פְּקוּדֵ֥י בְנֵֽי־יִשְׂרָאֵ֖ל לְבֵ֣ית אֲבֹתָ֑ם כׇּל־פְּקוּדֵ֤י הַֽמַּחֲנֹת֙ לְצִבְאֹתָ֔ם שֵׁשׁ־מֵא֥וֹת אֶ֙לֶף֙ וּשְׁלֹ֣שֶׁת אֲלָפִ֔ים וַחֲמֵ֥שׁ מֵא֖וֹת וַחֲמִשִּֽׁים׃",
+          "targum": "אִלֵּין מִנְיָנֵי בְנֵי יִשְׂרָאֵל לְבֵית אֲבָהַתְהוֹן כָּל מִנְיָנֵי מַשְׁרִיתָא לְחֵילֵיהוֹן שִׁית מְאָה וּתְלָתָא אַלְפִין וַחֲמֵשׁ מְאָה וְחַמְשִׁין:",
+          "english": "These are those who were numbered of the children of Yisra᾽el by the houses of their fathers: all those that were numbered of the camps by their hosts were six hundred and three thousand, five hundred and fifty."
+        },
+        {
+          "verseNum": 33,
+          "hebrew": "וְהַ֨לְוִיִּ֔ם לֹ֣א הׇתְפָּקְד֔וּ בְּת֖וֹךְ בְּנֵ֣י יִשְׂרָאֵ֑ל כַּאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֶת־מֹשֶֽׁה׃",
+          "targum": "וְלֵוָאֵי לָא אִתְמְנִיאוּ בְּגוֹ בְּנֵי יִשְׂרָאֵל כְּמָא דִי פַקִּיד יְיָ יָת משֶׁה:",
+          "english": "But the Levites were not numbered among the children of Yisra᾽el; as the Lord commanded Moshe."
+        },
+        {
+          "verseNum": 34,
+          "hebrew": "וַֽיַּעֲשׂ֖וּ בְּנֵ֣י יִשְׂרָאֵ֑ל כְּ֠כֹ֠ל אֲשֶׁר־צִוָּ֨ה יְהֹוָ֜ה אֶת־מֹשֶׁ֗ה כֵּֽן־חָנ֤וּ לְדִגְלֵיהֶם֙ וְכֵ֣ן נָסָ֔עוּ אִ֥ישׁ לְמִשְׁפְּחֹתָ֖יו עַל־בֵּ֥ית אֲבֹתָֽיו׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וַעֲבָדוּ בְּנֵי יִשְׂרָאֵל כְּכֹל דִּי פַקִּיד יְיָ יָת משֶׁה כֵּן שָׁרַן לְטִקְסֵיהוֹן וְכֵן נָטְלִין גְּבַר לְזַרְעֲיַתְהוֹן עַל בֵּית אֲבָהָתוֹהִי:",
+          "english": "And the children of Yisra᾽el did according to all that the Lord commanded Moshe: so they pitched by their standards, and so they set forward, everyone after their families, according to the houses of their fathers."
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וְאֵ֛לֶּה תּוֹלְדֹ֥ת אַהֲרֹ֖ן וּמֹשֶׁ֑ה בְּי֗וֹם דִּבֶּ֧ר יְהֹוָ֛ה אֶת־מֹשֶׁ֖ה בְּהַ֥ר סִינָֽי׃",
+          "targum": "וְאִלֵּין תּוּלְדַת אַהֲרֹן וּמשֶׁה בְּיוֹמָא דְּמַלִּיל יְיָ עִם משֶׁה בְּטוּרָא דְסִינָי:",
+          "english": "These also are the generations of Aharon and Moshe in the day that the Lord spoke with Moshe in mount Sinay."
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "וְאֵ֛לֶּה שְׁמ֥וֹת בְּֽנֵי־אַהֲרֹ֖ן הַבְּכֹ֣ר&thinsp;<small>׀</small>&thinsp;נָדָ֑ב וַאֲבִיה֕וּא אֶלְעָזָ֖ר וְאִיתָמָֽר׃",
+          "targum": "וְאִלֵּין שְׁמָהַת בְּנֵי אַהֲרֹן בּוּכְרָא נָדָב וַאֲבִיהוּא אֶלְעָזָר וְאִיתָמָר:",
+          "english": "And these are the names of the sons of Aharon; Nadav the firstborn, and Avihu, El῾azar and Itamar."
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "אֵ֗לֶּה שְׁמוֹת֙ בְּנֵ֣י אַהֲרֹ֔ן הַכֹּהֲנִ֖ים הַמְּשֻׁחִ֑ים אֲשֶׁר־מִלֵּ֥א יָדָ֖ם לְכַהֵֽן׃",
+          "targum": "אִלֵּין שְׁמָהַת בְּנֵי אַהֲרֹן כָּהֲנַיָּא דְּאִתְרַבִּיאוּ דִּי אִתְקָרַב קֻרְבַּנְהוֹן לְשַׁמָּשָׁא:",
+          "english": "These are the names of the sons of Aharon, the priests who were anointed, whom he consecrated to minister in the priest’s office."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "וַיָּ֣מׇת נָדָ֣ב וַאֲבִיה֣וּא לִפְנֵ֣י יְהֹוָ֡ה בְּֽהַקְרִבָם֩ אֵ֨שׁ זָרָ֜ה לִפְנֵ֤י יְהֹוָה֙ בְּמִדְבַּ֣ר סִינַ֔י וּבָנִ֖ים לֹא־הָי֣וּ לָהֶ֑ם וַיְכַהֵ֤ן אֶלְעָזָר֙ וְאִ֣יתָמָ֔ר עַל־פְּנֵ֖י אַהֲרֹ֥ן אֲבִיהֶֽם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וּמִית נָדָב וַאֲבִיהוּא קֳדָם יְיָ בְּקָרוֹבֵיהוֹן אֶשָּׁתָא נוּכְרֵיתָא קֳדָם יְיָ בְּמַדְבְּרָא דְסִינַי וּבְנִין לָא הֲווֹ לְהוֹן וְשַׁמֵּשׁ אֶלְעָזָר וְאִיתָמָר עַל אַפֵּי אַהֲרֹן אֲבוּהוֹן:",
+          "english": "And Nadav and Avihu died before the Lord, when they offered strange fire before the Lord, in the wilderness of Sinay, and they had no children: and El῾azar and Itamar ministered in the priest’s office in the sight of Aharon their father."
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה לְמֵימָר:",
+          "english": "And the Lord spoke to Moshe saying,"
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "הַקְרֵב֙ אֶת־מַטֵּ֣ה לֵוִ֔י וְהַעֲמַדְתָּ֣ אֹת֔וֹ לִפְנֵ֖י אַהֲרֹ֣ן הַכֹּהֵ֑ן וְשֵׁרְת֖וּ אֹתֽוֹ׃",
+          "targum": "קָרֵב יָת שִׁבְטָא דְלֵוִי וּתְקֵים יָתֵיהּ קֳדָם אַהֲרֹן כַּהֲנָא וִישַׁמְּשׁוּן יָתֵיהּ:",
+          "english": "Bring the tribe of Levi near, and present them before Aharon the priest, that they may minister to him."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וְשָׁמְר֣וּ אֶת־מִשְׁמַרְתּ֗וֹ וְאֶת־מִשְׁמֶ֙רֶת֙ כׇּל־הָ֣עֵדָ֔ה לִפְנֵ֖י אֹ֣הֶל מוֹעֵ֑ד לַעֲבֹ֖ד אֶת־עֲבֹדַ֥ת הַמִּשְׁכָּֽן׃",
+          "targum": "וְיִטְּרוּן יָת מַטַּרְתֵּיהּ וְיָת מַטְּרַת כָּל כְּנִשְׁתָּא קֳדָם מַשְׁכַּן זִמְנָא לְמִפְלַח יָת פָּלְחַן מַשְׁכְּנָא:",
+          "english": "And they shall keep his charge, and the charge of the whole congregation before the Tent of Meeting, to do the service of the tabernacle."
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וְשָׁמְר֗וּ אֶֽת־כׇּל־כְּלֵי֙ אֹ֣הֶל מוֹעֵ֔ד וְאֶת־מִשְׁמֶ֖רֶת בְּנֵ֣י יִשְׂרָאֵ֑ל לַעֲבֹ֖ד אֶת־עֲבֹדַ֥ת הַמִּשְׁכָּֽן׃",
+          "targum": "וְיִטְּרוּן יָת כָּל מָאנֵי מַשְׁכַּן זִמְנָא וְיָת מַטְּרַת בְּנֵי יִשְׂרָאֵל לְמִפְלַח יָת פָּלְחַן מַשְׁכְּנָא:",
+          "english": "And they shall keep all the instruments of the Tent of Meeting, and the charge of the children of Yisra᾽el, to do the service of the tabernacle."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וְנָתַתָּה֙ אֶת־הַלְוִיִּ֔ם לְאַהֲרֹ֖ן וּלְבָנָ֑יו נְתוּנִ֨ם נְתוּנִ֥ם הֵ֙מָּה֙ ל֔וֹ מֵאֵ֖ת בְּנֵ֥י יִשְׂרָאֵֽל׃",
+          "targum": "וְתִתֵּן יָת לֵוָאֵי לְאַהֲרֹן וְלִבְנוֹהִי מְסִירִין יְהִיבִין אִנּוּן לֵיהּ מִן בְּנֵי יִשְׂרָאֵל:",
+          "english": "And thou shalt give the Levites to Aharon and to his sons: they are wholly given to him out of the children of Yisra᾽el."
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וְאֶת־אַהֲרֹ֤ן וְאֶת־בָּנָיו֙ תִּפְקֹ֔ד וְשָׁמְר֖וּ אֶת־כְּהֻנָּתָ֑ם וְהַזָּ֥ר הַקָּרֵ֖ב יוּמָֽת׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וְיָת אַהֲרֹן וְיָת בְּנוֹהִי תְּמַנֵּי וְיִטְּרוּן יָת כְּהֻנַּתְהוֹן וְחִלּוֹנַי דְּיִקְרַב יִתְקְטָל:",
+          "english": "And thou shalt appoint Aharon and his sons, and they shall keep their priest’s office: and the stranger that comes near shall be put to death."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה לְמֵימָר:",
+          "english": "And the Lord spoke to Moshe, saying,"
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וַאֲנִ֞י הִנֵּ֧ה לָקַ֣חְתִּי אֶת־הַלְוִיִּ֗ם מִתּוֹךְ֙ בְּנֵ֣י יִשְׂרָאֵ֔ל תַּ֧חַת כׇּל־בְּכ֛וֹר פֶּ֥טֶר רֶ֖חֶם מִבְּנֵ֣י יִשְׂרָאֵ֑ל וְהָ֥יוּ לִ֖י הַלְוִיִּֽם׃",
+          "targum": "וַאֲנָא הָא קָרֵבִית יָת לֵוָאֵי מִגּוֹ בְּנֵי יִשְׂרָאֵל חֲלַף כָּל בּוּכְרָא פָּתַח וַלְדָּא מִבְּנֵי יִשְׂרָאֵל וִיהוֹן מְשַׁמְּשִׁין קֳדָמַי לֵוָאֵי:",
+          "english": "And I, behold, I have taken the Levites from among the children of Yisra᾽el instead of all the firstborn that opens the womb among the children of Yisra᾽el: therefore the Levites shall be mine;"
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "כִּ֣י לִי֮ כׇּל־בְּכוֹר֒ בְּיוֹם֩ הַכֹּתִ֨י כׇל־בְּכ֜וֹר בְּאֶ֣רֶץ מִצְרַ֗יִם הִקְדַּ֨שְׁתִּי לִ֤י כׇל־בְּכוֹר֙ בְּיִשְׂרָאֵ֔ל מֵאָדָ֖ם עַד־בְּהֵמָ֑ה לִ֥י יִהְי֖וּ אֲנִ֥י יְהֹוָֽה׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "אֲרֵי דִילִי כָּל בּוּכְרָא בְּיוֹמָא דִקְטָלִית כָּל בּוּכְרָא בְּאַרְעָא דְמִצְרַיִם אַקְדֵּשִׁית קֳדָמַי כָּל בּוּכְרָא בְּיִשְׂרָאֵל מֵאֱנָשָׁא עַד בְּעִירָא דִּילִי יְהוֹן אֲנָא יְיָ:",
+          "english": "because all the firstborn are mine; for on the day that I smote all the firstborn in the land of Miżrayim I hallowed to me all the firstborn in Yisra᾽el, both man and beast: mine shall they be: I am the Lord."
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וַיְדַבֵּ֤ר יְהֹוָה֙ אֶל־מֹשֶׁ֔ה בְּמִדְבַּ֥ר סִינַ֖י לֵאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה בְּמַדְבְּרָא דְסִינַי לְמֵימָר:",
+          "english": "And the Lord spoke to Moshe in the wilderness of Sinay, saying,"
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "פְּקֹד֙ אֶת־בְּנֵ֣י לֵוִ֔י לְבֵ֥ית אֲבֹתָ֖ם לְמִשְׁפְּחֹתָ֑ם כׇּל־זָכָ֛ר מִבֶּן־חֹ֥דֶשׁ וָמַ֖עְלָה תִּפְקְדֵֽם׃",
+          "targum": "מְנֵי יָת בְּנֵי לֵוִי לְבֵית אֲבָהַתְהוֹן לְזַרְעֲיַתְהוֹן כָּל דְּכוּרָא מִבַּר יַרְחָא וּלְעֵלָּא תִּמְנִנּוּן:",
+          "english": "Number the children of Levi after the house of their fathers, by their families: every male from a month old and upward shalt thou number them."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וַיִּפְקֹ֥ד אֹתָ֛ם מֹשֶׁ֖ה עַל־פִּ֣י יְהֹוָ֑ה כַּאֲשֶׁ֖ר צֻוָּֽה׃",
+          "targum": "וּמְנָא יָתְהוֹן משֶׁה עַל מֵימְרָא דַיְיָ כְּמָא דְּאִתְפַּקָּד:",
+          "english": "And Moshe numbered them according to the word of the Lord, as he was commanded."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיִּֽהְיוּ־אֵ֥לֶּה בְנֵֽי־לֵוִ֖י בִּשְׁמֹתָ֑ם גֵּרְשׁ֕וֹן וּקְהָ֖ת וּמְרָרִֽי׃",
+          "targum": "וַהֲווֹ אִלֵּין בְּנֵי לֵוִי בִּשְׁמָהַתְהוֹן גֵּרְשׁוֹן וּקְהָת וּמְרָרִי:",
+          "english": "And these were the sons of Levi by their names; Gershon, and Qehat, and Merari."
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "וְאֵ֛לֶּה שְׁמ֥וֹת בְּֽנֵי־גֵרְשׁ֖וֹן לְמִשְׁפְּחֹתָ֑ם לִבְנִ֖י וְשִׁמְעִֽי׃",
+          "targum": "וְאִלֵּין שְׁמָהַת בְּנֵי גֵרְשׁוֹן לְזַרְעֲיַתְהוֹן לִבְנִי וְשִׁמְעִי:",
+          "english": "And these are the names of the sons of Gershon by their families; Livni, and Shim῾i."
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וּבְנֵ֥י קְהָ֖ת לְמִשְׁפְּחֹתָ֑ם עַמְרָ֣ם וְיִצְהָ֔ר חֶבְר֖וֹן וְעֻזִּיאֵֽל׃",
+          "targum": "וּבְנֵי קְהָת לְזַרְעֲיַתְהוֹן עַמְרָם וְיִצְהָר חֶבְרוֹן וְעֻזִּיאֵל:",
+          "english": "And the sons of Qehat by their families; ῾Amram, and Yiżhar, Ḥevron, and ῾Uzzi᾽el."
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וּבְנֵ֧י מְרָרִ֛י לְמִשְׁפְּחֹתָ֖ם מַחְלִ֣י וּמוּשִׁ֑י אֵ֥לֶּה הֵ֛ם מִשְׁפְּחֹ֥ת הַלֵּוִ֖י לְבֵ֥ית אֲבֹתָֽם׃",
+          "targum": "וּבְנֵי מְרָרִי לְזַרְעֲיַתְהוֹן מַחְלִי וּמוּשִׁי אִלֵּין אִנּוּן זַרְעֲיַת לֵוָאֵי לְבֵית אֲבָהַתְהוֹן:",
+          "english": "And the sons of Merari by their families; Maĥli, and Mushi. These are the families of the Levites according to the house of their fathers."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "לְגֵ֣רְשׁ֔וֹן מִשְׁפַּ֙חַת֙ הַלִּבְנִ֔י וּמִשְׁפַּ֖חַת הַשִּׁמְעִ֑י אֵ֣לֶּה הֵ֔ם מִשְׁפְּחֹ֖ת הַגֵּרְשֻׁנִּֽי׃",
+          "targum": "לְגֵרְשׁוֹן זַרְעִית לִבְנִי וְזַרְעִית שִׁמְעִי אִלֵּין אִנּוּן זַרְעֲיַת גֵּרְשׁוֹן:",
+          "english": "Of Gershon was the family of the Livni, and the family of the Shim῾i: these are the families of the Gershoni."
+        },
+        {
+          "verseNum": 22,
+          "hebrew": "פְּקֻדֵיהֶם֙ בְּמִסְפַּ֣ר כׇּל־זָכָ֔ר מִבֶּן־חֹ֖דֶשׁ וָמָ֑עְלָה פְּקֻ֣דֵיהֶ֔ם שִׁבְעַ֥ת אֲלָפִ֖ים וַחֲמֵ֥שׁ מֵאֽוֹת׃",
+          "targum": "מִנְיָנֵיהוֹן בְּמִנְיַן כָּל דְּכוּרָא מִבַּר יַרְחָא וּלְעֵלָּא מִנְיָנֵיהוֹן שַׁבְעָא אַלְפִין וַחֲמֵשׁ מְאָה:",
+          "english": "Those that were numbered of them, according to the number of all the males, from a month old and upward, even those that were numbered of them were seven thousand five hundred."
+        },
+        {
+          "verseNum": 23,
+          "hebrew": "מִשְׁפְּחֹ֖ת הַגֵּרְשֻׁנִּ֑י אַחֲרֵ֧י הַמִּשְׁכָּ֛ן יַחֲנ֖וּ יָֽמָּה׃",
+          "targum": "זַרְעֲיַת גֵּרְשׁוֹן אֲחוֹרֵי מַשְׁכְּנָא יִשְׁרוּן מַעַרְבָא:",
+          "english": "The families of the Gershoni shall pitch behind the tabernacle westward."
+        },
+        {
+          "verseNum": 24,
+          "hebrew": "וּנְשִׂ֥יא בֵֽית־אָ֖ב לַגֵּרְשֻׁנִּ֑י אֶלְיָסָ֖ף בֶּן־לָאֵֽל׃",
+          "targum": "וְרַב בֵּית אַבָּא לְבֵית גֵּרְשׁוֹן אֶלְיָסָף בַּר לָאֵל:",
+          "english": "And the chief of the house of the father of the Gershoni shall be Elyasaf the son of La᾽el."
+        },
+        {
+          "verseNum": 25,
+          "hebrew": "וּמִשְׁמֶ֤רֶת בְּנֵֽי־גֵרְשׁוֹן֙ בְּאֹ֣הֶל מוֹעֵ֔ד הַמִּשְׁכָּ֖ן וְהָאֹ֑הֶל מִכְסֵ֕הוּ וּמָסַ֕ךְ פֶּ֖תַח אֹ֥הֶל מוֹעֵֽד׃",
+          "targum": "וּמַטְּרַת בְּנֵי גֵרְשׁוֹן בְּמַשְׁכַּן זִמְנָא מַשְׁכְּנָא וּפְרָסָא חוֹפָאֵיהּ וּפְרָסָא דִּתְרַע מַשְׁכַּן זִמְנָא:",
+          "english": "And the charge of the sons of Gershon in the Tent of Meeting shall be the tabernacle, and the tent, its covering, and the screen for the door of the Tent of Meeting,"
+        },
+        {
+          "verseNum": 26,
+          "hebrew": "וְקַלְעֵ֣י הֶֽחָצֵ֗ר וְאֶת־מָסַךְ֙ פֶּ֣תַח הֶֽחָצֵ֔ר אֲשֶׁ֧ר עַל־הַמִּשְׁכָּ֛ן וְעַל־הַמִּזְבֵּ֖חַ סָבִ֑יב וְאֵת֙ מֵֽיתָרָ֔יו לְכֹ֖ל עֲבֹדָתֽוֹ׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "וּסְרָדֵי דְדַרְתָּא וְיָת פְּרָסָא דִּתְרַע דַּרְתָּא דִּי עַל מַשְׁכְּנָא וְעַל מַדְבְּחָא סְחוֹר סְחוֹר וְיָת אַטּוּנוֹהִי לְכֹל פּוּלְחָנֵיהּ:",
+          "english": "and the hangings of the court, and the screen for the door of the court, which is by the tabernacle, and by the altar round about, and the cords of it for all its service."
+        },
+        {
+          "verseNum": 27,
+          "hebrew": "וְלִקְהָ֗ת מִשְׁפַּ֤חַת הַֽעַמְרָמִי֙ וּמִשְׁפַּ֣חַת הַיִּצְהָרִ֔י וּמִשְׁפַּ֙חַת֙ הַֽחֶבְרֹנִ֔י וּמִשְׁפַּ֖חַת הָעׇזִּֽיאֵלִ֑י אֵ֥לֶּה הֵ֖ם מִשְׁפְּחֹ֥ת הַקְּהָתִֽי׃",
+          "targum": "וְלִקְהָת זַרְעִית עַמְרָם וְזַרְעִית יִצְהָר וְזַרְעִית חֶבְרוֹן וְזַרְעִית עֻזִּיאֵל אִלֵּין אִנּוּן זַרְעֲיַת קְהָת:",
+          "english": "And of Qehat was the family of the ῾Amrami, and the family of the Yiżhari, and the family of the Ḥevroni, and the family of the ῾Uzzi’eli: these are the families of the Qehati."
+        },
+        {
+          "verseNum": 28,
+          "hebrew": "בְּמִסְפַּר֙ כׇּל־זָכָ֔ר מִבֶּן־חֹ֖דֶשׁ וָמָ֑עְלָה שְׁמֹנַ֤ת אֲלָפִים֙ וְשֵׁ֣שׁ מֵא֔וֹת שֹׁמְרֵ֖י מִשְׁמֶ֥רֶת הַקֹּֽדֶשׁ׃",
+          "targum": "בְּמִנְיַן כָּל דְּכוּרָא מִבַּר יַרְחָא וּלְעֵלָּא תְּמַנְיָא אַלְפִין וְשִׁית מְאָה נָטְרֵי מַטַּרְתָּא דְקוּדְשָׁא:",
+          "english": "In the number of all the males, from a month old and upward, were eight thousand, six hundred, keeping the charge of the sanctuary."
+        },
+        {
+          "verseNum": 29,
+          "hebrew": "מִשְׁפְּחֹ֥ת בְּנֵי־קְהָ֖ת יַחֲנ֑וּ עַ֛ל יֶ֥רֶךְ הַמִּשְׁכָּ֖ן תֵּימָֽנָה׃",
+          "targum": "זַרְעֲיַת בְּנֵי קְהָת יִשְׁרוּן עַל צִדָּא דְמַשְׁכְּנָא דָּרוֹמָא:",
+          "english": "The families of the sons of Qehat shall pitch on the side of the tabernacle southward."
+        },
+        {
+          "verseNum": 30,
+          "hebrew": "וּנְשִׂ֥יא בֵֽית־אָ֖ב לְמִשְׁפְּחֹ֣ת הַקְּהָתִ֑י אֱלִיצָפָ֖ן בֶּן־עֻזִּיאֵֽל׃",
+          "targum": "וְרַב בֵּית אַבָּא לְזַרְעֲיַת קְהָת אֱלִיצָפָן בַּר עֻזִּיאֵל:",
+          "english": "And the chief of the house of the father of the families of the Qehati shall be Eliżafan, the son of ῾Uzzi᾽el."
+        },
+        {
+          "verseNum": 31,
+          "hebrew": "וּמִשְׁמַרְתָּ֗ם הָאָרֹ֤ן וְהַשֻּׁלְחָן֙ וְהַמְּנֹרָ֣ה וְהַֽמִּזְבְּחֹ֔ת וּכְלֵ֣י הַקֹּ֔דֶשׁ אֲשֶׁ֥ר יְשָׁרְת֖וּ בָּהֶ֑ם וְהַ֨מָּסָ֔ךְ וְכֹ֖ל עֲבֹדָתֽוֹ׃",
+          "targum": "וּמַטַּרְתְּהוֹן אֲרוֹנָא וּפָתוֹרָא וּמְנַרְתָּא וּמַדְבְּחָא וּמָנֵי קוּדְשָׁא דִּי יְשַׁמְּשׁוּן בְּהוֹן וּפְרָסָא וְכֹל פָּלְחָנֵיהּ:",
+          "english": "And their charge shall be the ark, and the table, and the candlestick, and the altars, and the vessels of the sanctuary with which they minister, and the screen, and all its service."
+        },
+        {
+          "verseNum": 32,
+          "hebrew": "וּנְשִׂיא֙ נְשִׂיאֵ֣י הַלֵּוִ֔י אֶלְעָזָ֖ר בֶּן־אַהֲרֹ֣ן הַכֹּהֵ֑ן פְּקֻדַּ֕ת שֹׁמְרֵ֖י מִשְׁמֶ֥רֶת הַקֹּֽדֶשׁ׃",
+          "targum": "וַאֲמַרְכְּלָא דִּמְמַנָּא עַל רַבְרְבֵי לֵוָאֵי אֶלְעָזָר בַּר אַהֲרֹן כַּהֲנָא דְּמִתְּחוֹת יְדוֹהִי מְמַנָּן נָטְרֵי מַטְּרַת קוּדְשָׁא:",
+          "english": "And El῾azar the son of Aharon the priest shall be chief over the chiefs of the Levites, and have the oversight of them that keep the charge of the sanctuary."
+        },
+        {
+          "verseNum": 33,
+          "hebrew": "לִמְרָרִ֕י מִשְׁפַּ֙חַת֙ הַמַּחְלִ֔י וּמִשְׁפַּ֖חַת הַמּוּשִׁ֑י אֵ֥לֶּה הֵ֖ם מִשְׁפְּחֹ֥ת מְרָרִֽי׃",
+          "targum": "לִמְרָרִי זַרְעִית מַחְלִי וְזַרְעִית מוּשִׁי אִלֵּין אִנּוּן זַרְעֲיַת מְרָרִי:",
+          "english": "Of Merari was the family of the Maĥli, and the family of the Mushi: these are the families of Merari."
+        },
+        {
+          "verseNum": 34,
+          "hebrew": "וּפְקֻדֵיהֶם֙ בְּמִסְפַּ֣ר כׇּל־זָכָ֔ר מִבֶּן־חֹ֖דֶשׁ וָמָ֑עְלָה שֵׁ֥שֶׁת אֲלָפִ֖ים וּמָאתָֽיִם׃",
+          "targum": "וּמִנְיָנֵיהוֹן בְּמִנְיַן כָּל דְּכוּרָא מִבַּר יַרְחָא וּלְעֵלָּא שִׁתָּא אַלְפִין וּמָאתָן:",
+          "english": "And those that were numbered of them, according to the number of all the males, from a month old and upward, were six thousand two hundred."
+        },
+        {
+          "verseNum": 35,
+          "hebrew": "וּנְשִׂ֤יא בֵֽית־אָב֙ לְמִשְׁפְּחֹ֣ת מְרָרִ֔י צוּרִיאֵ֖ל בֶּן־אֲבִיחָ֑יִל עַ֣ל יֶ֧רֶךְ הַמִּשְׁכָּ֛ן יַחֲנ֖וּ צָפֹֽנָה׃",
+          "targum": "וְרַב בֵּית אַבָּא לְזַרְעֲיַת מְרָרִי צוּרִיאֵל בַּר אֲבִיחָיִל עַל צִדָּא דְמַשְׁכְּנָא יִשְׁרוּן צִפּוּנָא:",
+          "english": "And the chief of the house of the father of the families of Merari was Żuri᾽el the son of Aviĥayil: these shall pitch on the side of the tabernacle northward."
+        },
+        {
+          "verseNum": 36,
+          "hebrew": "וּפְקֻדַּ֣ת מִשְׁמֶ֘רֶת֮ בְּנֵ֣י מְרָרִי֒ קַרְשֵׁי֙ הַמִּשְׁכָּ֔ן וּבְרִיחָ֖יו וְעַמֻּדָ֣יו וַאֲדָנָ֑יו וְכׇ֨ל־כֵּלָ֔יו וְכֹ֖ל עֲבֹדָתֽוֹ׃",
+          "targum": "וְדִי מְסִיר לְמַטְּרַת בְּנֵי מְרָרִי דַּפֵּי מַשְׁכְּנָא וְעַבְרוֹהִי וְעַמּוּדוֹהִי וְסַמְכוֹהִי וְכָל מָנוֹהִי וְכֹל פּוּלְחָנֵיהּ:",
+          "english": "And under the custody and charge of the sons of Merari shall be the boards of the tabernacle, and its bars, and its pillars, and its sockets, and all its vessels, and all that belongs to it."
+        },
+        {
+          "verseNum": 37,
+          "hebrew": "וְעַמֻּדֵ֧י הֶחָצֵ֛ר סָבִ֖יב וְאַדְנֵיהֶ֑ם וִיתֵדֹתָ֖ם וּמֵֽיתְרֵיהֶֽם׃",
+          "targum": "וְעַמּוּדֵי דְדַרְתָּא סְחוֹר סְחוֹר וְסַמְכֵיהוֹן וְסִכֵּיהוֹן וְאַטּוּנֵיהוֹן:",
+          "english": "And the pillars of the court round about, and their sockets, and their pegs, and their cords."
+        },
+        {
+          "verseNum": 38,
+          "hebrew": "וְהַחֹנִ֣ים לִפְנֵ֣י הַמִּשְׁכָּ֡ן קֵ֣דְמָה לִפְנֵי֩ אֹֽהֶל־מוֹעֵ֨ד&thinsp;<small>׀</small>&thinsp;מִזְרָ֜חָה מֹשֶׁ֣ה&thinsp;<b>׀</b> וְאַהֲרֹ֣ן וּבָנָ֗יו שֹֽׁמְרִים֙ מִשְׁמֶ֣רֶת הַמִּקְדָּ֔שׁ לְמִשְׁמֶ֖רֶת בְּנֵ֣י יִשְׂרָאֵ֑ל וְהַזָּ֥ר הַקָּרֵ֖ב יוּמָֽת׃",
+          "targum": "וְדִי שְׁרַן קֳדָם מַשְׁכְּנָא קִדּוּמָא קֳדָם מַשְׁכַּן זִמְנָא מַדִּינְחָא משֶׁה וְאַהֲרֹן וּבְנוֹהִי נָטְרִין מַטְּרַת מַקְדְּשָׁא לְמַטְּרַת בְּנֵי יִשְׂרָאֵל וְחִלּוֹנַי דְּיִקְרַב יִתְקְטָל:",
+          "english": "But those that encamp before the tabernacle toward the east, before the Tent of Meeting eastward, shall be Moshe and Aharon and his sons, keeping the charge of the sanctuary for the charge of the children of Yisra᾽el; and the stranger that comes near shall be put to death."
+        },
+        {
+          "verseNum": 39,
+          "hebrew": "כׇּל־פְּקוּדֵ֨י הַלְוִיִּ֜ם אֲשֶׁר֩ פָּקַ֨ד מֹשֶׁ֧ה וְׄאַׄהֲׄרֹ֛ׄןׄ עַל־פִּ֥י יְהֹוָ֖ה לְמִשְׁפְּחֹתָ֑ם כׇּל־זָכָר֙ מִבֶּן־חֹ֣דֶשׁ וָמַ֔עְלָה שְׁנַ֥יִם וְעֶשְׂרִ֖ים אָֽלֶף׃&nbsp;<span class=\"mam-spi-samekh\">{ס}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "targum": "כָּל מִנְיָנֵי לֵוָאֵי דִּי מְנָא משֶׁה וְאַהֲרֹן עַל מֵימְרָא דַיְיָ לְזַרְעֲיַתְהוֹן כָּל דְּכוּרָא מִבַּר יַרְחָא וּלְעֵלָּא עַשְׂרִין וּתְרֵין אַלְפִין:",
+          "english": "All that were numbered of the Levites, whom Moshe and Aharon numbered at the commandment of the Lord, by their families, all the males from a month old and upward, were twenty two thousand."
+        },
+        {
+          "verseNum": 40,
+          "hebrew": "וַיֹּ֨אמֶר יְהֹוָ֜ה אֶל־מֹשֶׁ֗ה פְּקֹ֨ד כׇּל־בְּכֹ֤ר זָכָר֙ לִבְנֵ֣י יִשְׂרָאֵ֔ל מִבֶּן־חֹ֖דֶשׁ וָמָ֑עְלָה וְשָׂ֕א אֵ֖ת מִסְפַּ֥ר שְׁמֹתָֽם׃",
+          "targum": "וַאֲמַר יְיָ לְמשֶׁה מְנֵי כָּל בּוּכְרַיָּא דִכְרַיָּא לִבְנֵי יִשְׂרָאֵל מִבַּר יַרְחָא וּלְעֵלָּא וְקַבֵּל יָת מִנְיַן שְׁמָהַתְהוֹן:",
+          "english": "And the Lord said to Moshe, Number all the firstborn of the males of the children of Yisra᾽el from a month old and upward, and take the number of their names."
+        },
+        {
+          "verseNum": 41,
+          "hebrew": "וְלָקַחְתָּ֨ אֶת־הַלְוִיִּ֥ם לִי֙ אֲנִ֣י יְהֹוָ֔ה תַּ֥חַת כׇּל־בְּכֹ֖ר בִּבְנֵ֣י יִשְׂרָאֵ֑ל וְאֵת֙ בֶּהֱמַ֣ת הַלְוִיִּ֔ם תַּ֣חַת כׇּל־בְּכ֔וֹר בְּבֶהֱמַ֖ת בְּנֵ֥י יִשְׂרָאֵֽל׃",
+          "targum": "וּתְקָרֵב יָת לֵוָאֵי קֳדָמַי אֲנָא יְיָ חֲלַף כָּל בּוּכְרָא בִּבְנֵי יִשְׂרָאֵל וְיָת בְּעִירָא דְלֵוָאֵי חֲלַף כָּל בּוּכְרָא בִּבְעִירָא דִּבְנֵי יִשְׂרָאֵל:",
+          "english": "And thou shalt take the Levites for me (I am the Lord) instead of all the firstborn among the children of Yisra᾽el; and the cattle of the Levites instead of all the firstlings among the cattle of the children of Yisra᾽el."
+        },
+        {
+          "verseNum": 42,
+          "hebrew": "וַיִּפְקֹ֣ד מֹשֶׁ֔ה כַּאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֹת֑וֹ אֶֽת־כׇּל־בְּכ֖וֹר בִּבְנֵ֥י יִשְׂרָאֵֽל׃",
+          "targum": "וּמְנָא משֶׁה כְּמָא דִי פַּקִיד יְיָ יָתֵיהּ יָת כָּל בּוּכְרָא בִּבְנֵי יִשְׂרָאֵל:",
+          "english": "And Moshe numbered, as the Lord commanded him, all the firstborn among the children of Yisra᾽el."
+        },
+        {
+          "verseNum": 43,
+          "hebrew": "וַיְהִי֩ כׇל־בְּכ֨וֹר זָכָ֜ר בְּמִסְפַּ֥ר שֵׁמֹ֛ת מִבֶּן־חֹ֥דֶשׁ וָמַ֖עְלָה לִפְקֻדֵיהֶ֑ם שְׁנַ֤יִם וְעֶשְׂרִים֙ אֶ֔לֶף שְׁלֹשָׁ֥ה וְשִׁבְעִ֖ים וּמָאתָֽיִם׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וַהֲווֹ כָל בּוּכְרַיָּא דִכְרַיָּא בְּמִנְיַן שְׁמָהָן מִבַּר יַרְחָא וּלְעֵלָּא לְמִנְיָנֵיהוֹן עַשְׂרִין וּתְרֵין אַלְפִין מָאתָן וְשַׁבְעִין וּתְלָתָא:",
+          "english": "And all the firstborn males by the number of names, from a month old and upward, of those that were numbered of them, were twenty two thousand, two hundred and seventy three."
+        },
+        {
+          "verseNum": 44,
+          "hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה לְמֵימָר:",
+          "english": "And the Lord spoke to Moshe, saying,"
+        },
+        {
+          "verseNum": 45,
+          "hebrew": "קַ֣ח אֶת־הַלְוִיִּ֗ם תַּ֤חַת כׇּל־בְּכוֹר֙ בִּבְנֵ֣י יִשְׂרָאֵ֔ל וְאֶת־בֶּהֱמַ֥ת הַלְוִיִּ֖ם תַּ֣חַת בְּהֶמְתָּ֑ם וְהָיוּ־לִ֥י הַלְוִיִּ֖ם אֲנִ֥י יְהֹוָֽה׃",
+          "targum": "קָרֵב יָת לֵוָאֵי חֲלַף כָּל בּוּכְרָא בִּבְנֵי יִשְׂרָאֵל וְיָת בְּעִירָא דְלֵוָאֵי חֲלַף בְּעִירְהוֹן וִיהוֹן מְשַׁמְּשִׁין קֳדָמַי לֵוָאֵי אֲנָא יְיָ:",
+          "english": "Take the Levites instead of all the firstborn among the children of Yisra᾽el, and the cattle of the Levites instead of their cattle; and the Levites shall be mine: I am the Lord."
+        },
+        {
+          "verseNum": 46,
+          "hebrew": "וְאֵת֙ פְּדוּיֵ֣י הַשְּׁלֹשָׁ֔ה וְהַשִּׁבְעִ֖ים וְהַמָּאתָ֑יִם הָעֹֽדְפִים֙ עַל־הַלְוִיִּ֔ם מִבְּכ֖וֹר בְּנֵ֥י יִשְׂרָאֵֽל׃",
+          "targum": "וְיָת פֻּרְקַן מָאתָן וְשַׁבְעִין וּתְלָתָא דְּיַתִּירִין עַל לֵוָאֵי מִבּוּכְרַיָּא דִּבְנֵי יִשְׂרָאֵל:",
+          "english": "And for those that are to be redeemed of the two hundred and seventy three of the firstborn of the children of Yisra᾽el who are more than the Levites:"
+        },
+        {
+          "verseNum": 47,
+          "hebrew": "וְלָקַחְתָּ֗ חֲמֵ֧שֶׁת חֲמֵ֛שֶׁת שְׁקָלִ֖ים לַגֻּלְגֹּ֑לֶת בְּשֶׁ֤קֶל הַקֹּ֙דֶשׁ֙ תִּקָּ֔ח עֶשְׂרִ֥ים גֵּרָ֖ה הַשָּֽׁקֶל׃",
+          "targum": "וְתִסַּב חָמֵשׁ חָמֵשׁ סִלְעִין לְגֻלְגַּלְתָּא בְּסִלְעֵי קוּדְשָׁא תִּסַּב עַשְׂרִין מָעִין סִלְעָא:",
+          "english": "thou shalt take five shekels for every man, after the shekel of the sanctuary shalt thou take them: (the shekel is twenty gera:)"
+        },
+        {
+          "verseNum": 48,
+          "hebrew": "וְנָתַתָּ֣ה הַכֶּ֔סֶף לְאַהֲרֹ֖ן וּלְבָנָ֑יו פְּדוּיֵ֕י הָעֹדְפִ֖ים בָּהֶֽם׃",
+          "targum": "וְתִתֵּן כַּסְפָּא לְאַהֲרֹן וְלִבְנוֹהִי פֻּרְקַן דְּיַתִּירִין בְּהוֹן:",
+          "english": "and thou shalt give the money, with which the surplus of them is to be redeemed, to Aharon and to his sons."
+        },
+        {
+          "verseNum": 49,
+          "hebrew": "וַיִּקַּ֣ח מֹשֶׁ֔ה אֵ֖ת כֶּ֣סֶף הַפִּדְי֑וֹם מֵאֵת֙ הָעֹ֣דְפִ֔ים עַ֖ל פְּדוּיֵ֥י הַלְוִיִּֽם׃",
+          "targum": "וּנְסֵיב משֶׁה יָת כְּסַף פֻּרְקַנְהוֹן מִן דְּיַתִּירִין עַל פְּרִיקֵי לֵוָאֵי:",
+          "english": "And Moshe took the redemption money of those who were over and above those who were redeemed by the Levites:"
+        },
+        {
+          "verseNum": 50,
+          "hebrew": "מֵאֵ֗ת בְּכ֛וֹר בְּנֵ֥י יִשְׂרָאֵ֖ל לָקַ֣ח אֶת־הַכָּ֑סֶף חֲמִשָּׁ֨ה וְשִׁשִּׁ֜ים וּשְׁלֹ֥שׁ מֵא֛וֹת וָאֶ֖לֶף בְּשֶׁ֥קֶל הַקֹּֽדֶשׁ׃",
+          "targum": "מִן בּוּכְרַיָּא דִּבְנֵי יִשְׂרָאֵל נְסִיב יָת כַּסְפָּא אֲלַף וּתְלַת מְאָה וְשִׁתִּין וְחָמֵשׁ סִלְעִין בְּסִלְעֵי קוּדְשָׁא:",
+          "english": "of the firstborn of the children of Yisra᾽el he took the money; a thousand three hundred and sixty five shekels, after the shekel of the sanctuary:"
+        },
+        {
+          "verseNum": 51,
+          "hebrew": "וַיִּתֵּ֨ן מֹשֶׁ֜ה אֶת־כֶּ֧סֶף הַפְּדֻיִ֛ם לְאַהֲרֹ֥ן וּלְבָנָ֖יו עַל־פִּ֣י יְהֹוָ֑ה כַּאֲשֶׁ֛ר צִוָּ֥ה יְהֹוָ֖ה אֶת־מֹשֶֽׁה׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וִיהַב משֶׁה יָת כְּסַף פְּרִיקַיָּא לְאַהֲרֹן וְלִבְנוֹהִי עַל מֵימְרָא דַיְיָ כְּמָא דִי פַקִּיד יְיָ יָת משֶׁה:",
+          "english": "and Moshe gave the money of those who were redeemed to Aharon and to his sons, according to the word of the Lord, as the Lord had commanded Moshe."
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "verses": [
+        {
+          "verseNum": 1,
+          "hebrew": "וַיְדַבֵּ֣ר יְהֹוָ֔ה אֶל־מֹשֶׁ֥ה וְאֶֽל־אַהֲרֹ֖ן לֵאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה וְעִם אַהֲרֹן לְמֵימָר:",
+          "english": "And the Lord spoke to Moshe and to Aharon, saying,"
+        },
+        {
+          "verseNum": 2,
+          "hebrew": "נָשֹׂ֗א אֶת־רֹאשׁ֙ בְּנֵ֣י קְהָ֔ת מִתּ֖וֹךְ בְּנֵ֣י לֵוִ֑י לְמִשְׁפְּחֹתָ֖ם לְבֵ֥ית אֲבֹתָֽם׃",
+          "targum": "קַבִּילוּ יָת חֻשְׁבַּן בְּנֵי קְהָת מִגּוֹ בְּנֵי לֵוִי לְזַרְעֲיַתְהוֹן לְבֵית אֲבָהַתְהוֹן:",
+          "english": "Take the sum of the sons of Qehat from among the sons of Levi, after their families, by the house of their fathers,"
+        },
+        {
+          "verseNum": 3,
+          "hebrew": "מִבֶּ֨ן שְׁלֹשִׁ֤ים שָׁנָה֙ וָמַ֔עְלָה וְעַ֖ד בֶּן־חֲמִשִּׁ֣ים שָׁנָ֑ה כׇּל־בָּא֙ לַצָּבָ֔א לַעֲשׂ֥וֹת מְלָאכָ֖ה בְּאֹ֥הֶל מוֹעֵֽד׃",
+          "targum": "מִבַּר תְּלָתִין שְׁנִין וּלְעֵלָּא וְעַד בַּר חַמְשִׁין שְׁנִין כָּל דְּאָתֵי לְחֵילָא לְמֶעְבַּד עִבִדְתָּא בְּמַשְׁכַּן זִמְנָא:",
+          "english": "from thirty years old and upward until fifty years old, all that enter into the host, to do the work in the Tent of Meeting."
+        },
+        {
+          "verseNum": 4,
+          "hebrew": "זֹ֛את עֲבֹדַ֥ת בְּנֵי־קְהָ֖ת בְּאֹ֣הֶל מוֹעֵ֑ד קֹ֖דֶשׁ הַקֳּדָשִֽׁים׃",
+          "targum": "דֵּין פּוּלְחַן בְּנֵי קְהָת בְּמַשְׁכַּן זִמְנָא קֹדֶשׁ קוּדְשַׁיָּא:",
+          "english": "This shall be the service of the sons of Qehat in the Tent of Meeting, namely, the most holy things:"
+        },
+        {
+          "verseNum": 5,
+          "hebrew": "וּבָ֨א אַהֲרֹ֤ן וּבָנָיו֙ בִּנְסֹ֣עַ הַֽמַּחֲנֶ֔ה וְהוֹרִ֕דוּ אֵ֖ת פָּרֹ֣כֶת הַמָּסָ֑ךְ וְכִ֨סּוּ־בָ֔הּ אֵ֖ת אֲרֹ֥ן הָעֵדֻֽת׃",
+          "targum": "וְיֵעוֹל אַהֲרֹן וּבְנוֹהִי בְּמִטַּל מַשְׁרִיתָא וִיפָרְקוּן יָת פָּרֻכְתָּא דִפְרָסָא וִיכַסּוּן בַּהּ יָת אֲרוֹנָא דְסַהֲדוּתָא:",
+          "english": "and when the camp sets forward, Aharon shall come, and his sons, and they shall take down the veil of the screen, and cover the ark of testimony with it:"
+        },
+        {
+          "verseNum": 6,
+          "hebrew": "וְנָתְנ֣וּ עָלָ֗יו כְּסוּי֙ ע֣וֹר תַּ֔חַשׁ וּפָרְשׂ֧וּ בֶֽגֶד־כְּלִ֛יל תְּכֵ֖לֶת מִלְמָ֑עְלָה וְשָׂמ֖וּ בַּדָּֽיו׃",
+          "targum": "וְיִתְּנוּן עֲלוֹהִי חוֹפָאָה דִּמְשַׁךְ סַסְגּוֹנָא וְיִפְרְסוּן לְבוּשׁ גְּמִיר תִּכְלָא מִלְעֵלָּא וִישַׁוּוּן אֲרִיחוֹהִי:",
+          "english": "and they shall put on it the covering of taĥash skins, and shall spread over it a cloth wholly of blue, and shall put in its poles."
+        },
+        {
+          "verseNum": 7,
+          "hebrew": "וְעַ֣ל&thinsp;<b>׀</b> שֻׁלְחַ֣ן הַפָּנִ֗ים יִפְרְשׂוּ֮ בֶּ֣גֶד תְּכֵ֒לֶת֒ וְנָתְנ֣וּ עָ֠לָ֠יו אֶת־הַקְּעָרֹ֤ת וְאֶת־הַכַּפֹּת֙ וְאֶת־הַמְּנַקִּיֹּ֔ת וְאֵ֖ת קְשׂ֣וֹת הַנָּ֑סֶךְ וְלֶ֥חֶם הַתָּמִ֖יד עָלָ֥יו יִהְיֶֽה׃",
+          "targum": "וְעַל פָּתוֹרָא דִלְחֵם אַפַּיָּא יִפְרְסוּן לְבוּשׁ תִּכְלָא וְיִתְּנוּן עֲלוֹהִי יָת מָגִיסַיָּא וְיָת בָּזִיכַיָּא וְיָת מְכִילָתָא וְיָת קַסְווֹת נִסּוּכָא וּלְחֵם תְּדִירָא עֲלוֹהִי יְהֵי:",
+          "english": "And upon the table of showbread they shall spread a cloth of blue, and put on it the dishes, and the spoons, and the bowls, and the jars for pouring out: and the continual bread shall be on it:"
+        },
+        {
+          "verseNum": 8,
+          "hebrew": "וּפָרְשׂ֣וּ עֲלֵיהֶ֗ם בֶּ֚גֶד תּוֹלַ֣עַת שָׁנִ֔י וְכִסּ֣וּ אֹת֔וֹ בְּמִכְסֵ֖ה ע֣וֹר תָּ֑חַשׁ וְשָׂמ֖וּ אֶת־בַּדָּֽיו׃",
+          "targum": "וְיִפְרְסוּן עֲלֵיהוֹן לְבוּשׁ צְבַע זְהוֹרִי וִיכַסּוּן יָתֵיהּ בְּחוֹפָאָה דִּמְשַׁךְ סַסְגּוֹנָא וִישַׁוּוּן יָת אֲרִיחוֹהִי:",
+          "english": "and they shall spread upon them a cloth of scarlet, and cover the same with a covering of taĥash skins, and shall put in its poles."
+        },
+        {
+          "verseNum": 9,
+          "hebrew": "וְלָקְח֣וּ&thinsp;<b>׀</b> בֶּ֣גֶד תְּכֵ֗לֶת וְכִסּ֞וּ אֶת־מְנֹרַ֤ת הַמָּאוֹר֙ וְאֶת־נֵ֣רֹתֶ֔יהָ וְאֶת־מַלְקָחֶ֖יהָ וְאֶת־מַחְתֹּתֶ֑יהָ וְאֵת֙ כׇּל־כְּלֵ֣י שַׁמְנָ֔הּ אֲשֶׁ֥ר יְשָׁרְתוּ־לָ֖הּ בָּהֶֽם׃",
+          "targum": "וְיִסְּבוּן לְבוּשׁ תִּכְלָא וִיכַסּוּן יָת מְנַרְתָּא דְאַנְהוֹרֵי וְיָת בּוֹצִינָהָא וְיָת צִבְתָהָא וְיָת מַחְתְּיתָהָא וְיָת כָּל מָנֵי מִשְׁחָא דִּי יְשַׁמְּשׁוּן לֵיהּ בְּהוֹן:",
+          "english": "And they shall take a cloth of blue, and cover the candlestick of the light, and its lamps, and its tongs, and its pans, and all its oil vessels, with which they minister to it:"
+        },
+        {
+          "verseNum": 10,
+          "hebrew": "וְנָתְנ֤וּ אֹתָהּ֙ וְאֶת־כׇּל־כֵּלֶ֔יהָ אֶל־מִכְסֵ֖ה ע֣וֹר תָּ֑חַשׁ וְנָתְנ֖וּ עַל־הַמּֽוֹט׃",
+          "targum": "וְיִתְּנוּן יָתַהּ וְיָת כָּל מָנָהָא לְחוֹפָאָה דִּמְשַׁךְ סַסְגּוֹנָא וְיִתְּנוּן עַל אֲרִיחָא:",
+          "english": "and they shall put it and all its vessels within a covering of taĥash skins, and shall put it upon a bar."
+        },
+        {
+          "verseNum": 11,
+          "hebrew": "וְעַ֣ל&thinsp;<b>׀</b> מִזְבַּ֣ח הַזָּהָ֗ב יִפְרְשׂוּ֙ בֶּ֣גֶד תְּכֵ֔לֶת וְכִסּ֣וּ אֹת֔וֹ בְּמִכְסֵ֖ה ע֣וֹר תָּ֑חַשׁ וְשָׂמ֖וּ אֶת־בַּדָּֽיו׃",
+          "targum": "וְעַל מַדְבְּחָא דְדַהֲבָא יִפְרְסוּן לְבוּשׁ תִּכְלָא וִיכַסּוּן יָתֵיהּ בְּחוֹפָאָה דִּמְשַׁךְ סַסְגּוֹנָא וִישַׁוּוּן יָת אֲרִיחוֹהִי:",
+          "english": "And upon the golden altar they shall spread a cloth of blue, and cover it with a covering of taĥash skins, and shall put in its poles."
+        },
+        {
+          "verseNum": 12,
+          "hebrew": "וְלָקְחוּ֩ אֶת־כׇּל־כְּלֵ֨י הַשָּׁרֵ֜ת אֲשֶׁ֧ר יְשָֽׁרְתוּ־בָ֣ם בַּקֹּ֗דֶשׁ וְנָֽתְנוּ֙ אֶל־בֶּ֣גֶד תְּכֵ֔לֶת וְכִסּ֣וּ אוֹתָ֔ם בְּמִכְסֵ֖ה ע֣וֹר תָּ֑חַשׁ וְנָתְנ֖וּ עַל־הַמּֽוֹט׃",
+          "targum": "וְיִסְּבוּן יָת כָּל מָנֵי שִׁמּוּשָׁא דִּי יְשַׁמְּשׁוּן בְּהוֹן בְּקוּדְשָׁא וְיִתְּנוּן לִלְבוּשׁ תִּכְלָא וִיכַסּוּן יָתְהוֹן בְּחוֹפָאָה דִּמְשַׁךְ סַסְגּוֹנָא וְיִתְּנוּן עַל אֲרִיחָא:",
+          "english": "And they shall take all the instruments of ministry, with which they minister in the sanctuary, and put them in a cloth of blue, and cover them with a covering of taĥash skins, and shall put them on a bar:"
+        },
+        {
+          "verseNum": 13,
+          "hebrew": "וְדִשְּׁנ֖וּ אֶת־הַמִּזְבֵּ֑חַ וּפָרְשׂ֣וּ עָלָ֔יו בֶּ֖גֶד אַרְגָּמָֽן׃",
+          "targum": "וְיִסְּפוּן יָת קִטְמָא דְמַדְבְּחָא וְיִפְרְסוּן עֲלוֹהִי לְבוּשׁ אַרְגְּוָן:",
+          "english": "and they shall take away the ashes from the altar, and spread a purple cloth on it:"
+        },
+        {
+          "verseNum": 14,
+          "hebrew": "וְנָתְנ֣וּ עָ֠לָ֠יו אֶֽת־כׇּל־כֵּלָ֞יו אֲשֶׁ֣ר יְֽשָׁרְת֧וּ עָלָ֣יו בָּהֶ֗ם אֶת־הַמַּחְתֹּ֤ת אֶת־הַמִּזְלָגֹת֙ וְאֶת־הַיָּעִ֣ים וְאֶת־הַמִּזְרָקֹ֔ת כֹּ֖ל כְּלֵ֣י הַמִּזְבֵּ֑חַ וּפָרְשׂ֣וּ עָלָ֗יו כְּס֛וּי ע֥וֹר תַּ֖חַשׁ וְשָׂמ֥וּ בַדָּֽיו׃",
+          "targum": "וְיִתְּנוּן עֲלוֹהִי יָת כָּל מָנוֹהִי דִּי יְשַׁמְּשׁוּן עֲלוֹהִי בְהוֹן יָת מַחְתְּיָתָא וְיָת צִנּוֹרְיָתָא וְיָת מַגְרוֹפְיָתָא וְיָת מִזְרְקַיָּא כֹּל מָנֵי מַדְבְּחָא וְיִפְרְסוּן עֲלוֹהִי חוֹפָאָה דִּמְשַׁךְ סַסְגּוֹנָא וִישַׁווּן אֲרִיחוֹהִי:",
+          "english": "and they shall put upon it all its vessels with which they minister about it, the pans, the forks, and the shovels, and the basins, all the vessels of the altar; and they shall spread upon it a covering of taĥash skins, and put in its poles."
+        },
+        {
+          "verseNum": 15,
+          "hebrew": "וְכִלָּ֣ה אַֽהֲרֹן־וּ֠בָנָ֠יו לְכַסֹּ֨ת אֶת־הַקֹּ֜דֶשׁ וְאֶת־כׇּל־כְּלֵ֣י הַקֹּ֘דֶשׁ֮ בִּנְסֹ֣עַ הַֽמַּחֲנֶה֒ וְאַחֲרֵי־כֵ֗ן יָבֹ֤אוּ בְנֵי־קְהָת֙ לָשֵׂ֔את וְלֹֽא־יִגְּע֥וּ אֶל־הַקֹּ֖דֶשׁ וָמֵ֑תוּ אֵ֛לֶּה מַשָּׂ֥א בְנֵֽי־קְהָ֖ת בְּאֹ֥הֶל מוֹעֵֽד׃",
+          "targum": "וִישֵׁיצֵי אַהֲרֹן וּבְנוֹהִי לְכַסָּאָה יָת קוּדְשָׁא וְיָת כָּל מָנֵי קוּדְשָׁא בְּמִטַּל מַשְׁרִיתָא וּבָתַר כֵּן יֵעֲלוּן בְּנֵי קְהָת לְמִטַּל וְלָא יִקְרְבוּן לְקוּדְשָׁא וְלָא יְמוּתוּן אִלֵּין מַטּוּל בְּנֵי קְהָת בְּמַשְׁכַּן זִמְנָא:",
+          "english": "And when Aharon and his sons have made an end of covering the sanctuary, and all the vessels of the sanctuary, as the camp is to set forward; after that, the sons of Qehat shall come to bear it: but they shall not touch any holy thing, lest they die. These things are the burden of the sons of Qehat in the Tent of Meeting."
+        },
+        {
+          "verseNum": 16,
+          "hebrew": "וּפְקֻדַּ֞ת אֶלְעָזָ֣ר&thinsp;<b>׀</b> בֶּן־אַהֲרֹ֣ן הַכֹּהֵ֗ן שֶׁ֤מֶן הַמָּאוֹר֙ וּקְטֹ֣רֶת הַסַּמִּ֔ים וּמִנְחַ֥ת הַתָּמִ֖יד וְשֶׁ֣מֶן הַמִּשְׁחָ֑ה פְּקֻדַּ֗ת כׇּל־הַמִּשְׁכָּן֙ וְכׇל־אֲשֶׁר־בּ֔וֹ בְּקֹ֖דֶשׁ וּבְכֵלָֽיו׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וְדִי מְסִיר לְאֶלְעָזָר בַּר אַהֲרֹן כַּהֲנָא מִשְׁחָא דְאַנְהָרוּתָא וּקְטֹרֶת בּוּסְמַיָּא וּמִנְחָתָא תְדִירָא וּמִשְׁחָא דִרְבוּתָא מַטְרַת כָּל מַשְׁכְּנָא וְכָל דִּי בֵיהּ בְּקוּדְשָׁא וּבְמָנוֹהִי:",
+          "english": "And to the office of El῾azar the son of Aharon the priest pertains the oil for the light, and the sweet incense, and the daily meal offering, and the anointing oil, and the oversight of all the tabernacle, and of all that is in it, as to the sanctuary, and as to its vessels."
+        },
+        {
+          "verseNum": 17,
+          "hebrew": "וַיְדַבֵּ֣ר יְהֹוָ֔ה אֶל־מֹשֶׁ֥ה וְאֶֽל־אַהֲרֹ֖ן לֵאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה וְעִם אַהֲרֹן לְמֵימָר:",
+          "english": "And the Lord spoke to Moshe and to Aharon, saying,"
+        },
+        {
+          "verseNum": 18,
+          "hebrew": "אַל־תַּכְרִ֕יתוּ אֶת־שֵׁ֖בֶט מִשְׁפְּחֹ֣ת הַקְּהָתִ֑י מִתּ֖וֹךְ הַלְוִיִּֽם׃",
+          "targum": "לָא תְשֵׁיצוּן יָת שִׁבְטָא זַרְעֲיַת קְהָת מִגּוֹ לֵוָאֵי:",
+          "english": "Do not cut off the tribe of the families of the Qehati from among the Levites:"
+        },
+        {
+          "verseNum": 19,
+          "hebrew": "וְזֹ֣את&thinsp;<b>׀</b> עֲשׂ֣וּ לָהֶ֗ם וְחָיוּ֙ וְלֹ֣א יָמֻ֔תוּ בְּגִשְׁתָּ֖ם אֶת־קֹ֣דֶשׁ הַקֳּדָשִׁ֑ים אַהֲרֹ֤ן וּבָנָיו֙ יָבֹ֔אוּ וְשָׂמ֣וּ אוֹתָ֗ם אִ֥ישׁ אִ֛ישׁ עַל־עֲבֹדָת֖וֹ וְאֶל־מַשָּׂאֽוֹ׃",
+          "targum": "וְדָא עִבִידוּ לְהוֹן וְיֵחוּן וְלָא יְמוּתוּן בְּמִקְרַבְהוֹן לְקֹדֶשׁ קוּדְשַׁיָּא אַהֲרֹן וּבְנוֹהִי יֵעֲלוּן וִימַנּוּן יָתְהוֹן גְּבַר גְּבַר עַל פּוּלְחָנֵיהּ וּלְמַטּוּלֵיהּ:",
+          "english": "but thus do to them, that they may live, and not die, when they approach the most holy things: Aharon and his sons shall go in, and appoint them every one to his service and to his burden:"
+        },
+        {
+          "verseNum": 20,
+          "hebrew": "וְלֹא־יָבֹ֧אוּ לִרְא֛וֹת כְּבַלַּ֥ע אֶת־הַקֹּ֖דֶשׁ וָמֵֽתוּ׃&nbsp;<span class=\"mam-spi-pe\">{פ}</span><br>",
+          "targum": "וְלָא יֵעֲלוּן לְמֶחֱזֵי כַּד מְכַסָּן יָת מָנֵי קוּדְשָׁא וְלָא יְמוּתוּן:",
+          "english": "but they shall not go in to see when the holy things are covered, lest they die."
+        },
+        {
+          "verseNum": 21,
+          "hebrew": "וַיְדַבֵּ֥ר יְהֹוָ֖ה אֶל־מֹשֶׁ֥ה לֵּאמֹֽר׃",
+          "targum": "וּמַלִּיל יְיָ עִם משֶׁה לְמֵימָר:",
+          "english": "And the Lord spoke to Moshe, saying,"
+        }
+      ]
+    }
+  ]
+}
