@@ -1,75 +1,67 @@
 <svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  
   <!-- Background -->
-  <rect width="1024" height="1024" fill="url(#bg)" rx="200"/>
+  <rect width="1024" height="1024" fill="#f5f5f0"/>
   
-  <!-- Menorah - correct upward arms -->
-  <g transform="translate(512, 300)">
+  <!-- Menorah -->
+  <g transform="translate(512, 512)">
     <!-- Base -->
-    <rect x="-100" y="480" width="200" height="50" fill="#fbbf24" rx="10"/>
-    <rect x="-70" y="430" width="140" height="60" fill="#fbbf24" rx="8"/>
+    <rect x="-120" y="260" width="240" height="40" fill="#E8B84D" rx="4"/>
+    <rect x="-80" y="220" width="160" height="50" fill="#E8B84D" rx="4"/>
     
-    <!-- Central column -->
-    <rect x="-25" y="-50" width="50" height="480" fill="#fbbf24" rx="8"/>
+    <!-- Central stem -->
+    <rect x="-20" y="-220" width="40" height="440" fill="#E8B84D" rx="4"/>
     
-    <!-- Arms going DOWN then UP (like regular U shape) -->
-    <!-- Right side -->
-    <path d="M 25,0 L 25,100 Q 25,200 125,200 Q 125,200 125,100 L 125,0" 
-          stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
-    <path d="M 25,0 L 25,150 Q 25,270 185,270 Q 185,270 185,150 L 185,0" 
-          stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
-    <path d="M 25,0 L 25,200 Q 25,340 245,340 Q 245,340 245,200 L 245,0" 
-          stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
+    <!-- Arms - curved U shapes going up -->
+    <!-- Innermost pair -->
+    <path d="M -20,-220 L -20,-80 Q -20,20 -100,20 L -100,-150" 
+          stroke="#E8B84D" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 20,-220 L 20,-80 Q 20,20 100,20 L 100,-150" 
+          stroke="#E8B84D" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     
-    <!-- Left side -->
-    <path d="M -25,0 L -25,100 Q -25,200 -125,200 Q -125,200 -125,100 L -125,0" 
-          stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
-    <path d="M -25,0 L -25,150 Q -25,270 -185,270 Q -185,270 -185,150 L -185,0" 
-          stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
-    <path d="M -25,0 L -25,200 Q -25,340 -245,340 Q -245,340 -245,200 L -245,0" 
-          stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
+    <!-- Middle pair -->
+    <path d="M -20,-220 L -20,-100 Q -20,50 -170,50 L -170,-150" 
+          stroke="#E8B84D" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 20,-220 L 20,-100 Q 20,50 170,50 L 170,-150" 
+          stroke="#E8B84D" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     
-    <!-- Candles -->
-    <ellipse cx="0" cy="-60" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="125" cy="-10" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="185" cy="-10" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="245" cy="-10" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="-125" cy="-10" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="-185" cy="-10" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="-245" cy="-10" rx="30" ry="12" fill="#f59e0b"/>
+    <!-- Outermost pair -->
+    <path d="M -20,-220 L -20,-120 Q -20,80 -240,80 L -240,-150" 
+          stroke="#E8B84D" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 20,-220 L 20,-120 Q 20,80 240,80 L 240,-150" 
+          stroke="#E8B84D" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     
-    <!-- Flames -->
-    <g opacity="0.95">
-      <!-- Center -->
-      <ellipse cx="0" cy="-100" rx="22" ry="42" fill="#fef3c7"/>
-      <ellipse cx="0" cy="-105" rx="16" ry="32" fill="#fbbf24"/>
-      
-      <!-- Right -->
-      <ellipse cx="125" cy="-50" rx="20" ry="38" fill="#fef3c7"/>
-      <ellipse cx="125" cy="-55" rx="14" ry="28" fill="#fbbf24"/>
-      
-      <ellipse cx="185" cy="-50" rx="20" ry="38" fill="#fef3c7"/>
-      <ellipse cx="185" cy="-55" rx="14" ry="28" fill="#fbbf24"/>
-      
-      <ellipse cx="245" cy="-50" rx="20" ry="38" fill="#fef3c7"/>
-      <ellipse cx="245" cy="-55" rx="14" ry="28" fill="#fbbf24"/>
-      
-      <!-- Left -->
-      <ellipse cx="-125" cy="-50" rx="20" ry="38" fill="#fef3c7"/>
-      <ellipse cx="-125" cy="-55" rx="14" ry="28" fill="#fbbf24"/>
-      
-      <ellipse cx="-185" cy="-50" rx="20" ry="38" fill="#fef3c7"/>
-      <ellipse cx="-185" cy="-55" rx="14" ry="28" fill="#fbbf24"/>
-      
-      <ellipse cx="-245" cy="-50" rx="20" ry="38" fill="#fef3c7"/>
-      <ellipse cx="-245" cy="-55" rx="14" ry="28" fill="#fbbf24"/>
-    </g>
+    <!-- Candle holders (ellipse base for each candle) -->
+    <ellipse cx="0" cy="-235" rx="25" ry="8" fill="#D4A03D"/>
+    <ellipse cx="-100" cy="-165" rx="25" ry="8" fill="#D4A03D"/>
+    <ellipse cx="100" cy="-165" rx="25" ry="8" fill="#D4A03D"/>
+    <ellipse cx="-170" cy="-165" rx="25" ry="8" fill="#D4A03D"/>
+    <ellipse cx="170" cy="-165" rx="25" ry="8" fill="#D4A03D"/>
+    <ellipse cx="-240" cy="-165" rx="25" ry="8" fill="#D4A03D"/>
+    <ellipse cx="240" cy="-165" rx="25" ry="8" fill="#D4A03D"/>
+    
+    <!-- Flames (teardrop shape) -->
+    <!-- Center flame (tallest) -->
+    <ellipse cx="0" cy="-270" rx="18" ry="35" fill="#E8B84D" opacity="0.9"/>
+    <ellipse cx="0" cy="-280" rx="12" ry="20" fill="#F5D476" opacity="0.95"/>
+    
+    <!-- Other flames -->
+    <ellipse cx="-100" cy="-200" rx="16" ry="30" fill="#E8B84D" opacity="0.9"/>
+    <ellipse cx="-100" cy="-208" rx="10" ry="18" fill="#F5D476" opacity="0.95"/>
+    
+    <ellipse cx="100" cy="-200" rx="16" ry="30" fill="#E8B84D" opacity="0.9"/>
+    <ellipse cx="100" cy="-208" rx="10" ry="18" fill="#F5D476" opacity="0.95"/>
+    
+    <ellipse cx="-170" cy="-200" rx="16" ry="30" fill="#E8B84D" opacity="0.9"/>
+    <ellipse cx="-170" cy="-208" rx="10" ry="18" fill="#F5D476" opacity="0.95"/>
+    
+    <ellipse cx="170" cy="-200" rx="16" ry="30" fill="#E8B84D" opacity="0.9"/>
+    <ellipse cx="170" cy="-208" rx="10" ry="18" fill="#F5D476" opacity="0.95"/>
+    
+    <ellipse cx="-240" cy="-200" rx="16" ry="30" fill="#E8B84D" opacity="0.9"/>
+    <ellipse cx="-240" cy="-208" rx="10" ry="18" fill="#F5D476" opacity="0.95"/>
+    
+    <ellipse cx="240" cy="-200" rx="16" ry="30" fill="#E8B84D" opacity="0.9"/>
+    <ellipse cx="240" cy="-208" rx="10" ry="18" fill="#F5D476" opacity="0.95"/>
   </g>
 </svg>
 
