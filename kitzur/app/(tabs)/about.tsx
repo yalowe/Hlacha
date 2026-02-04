@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, StyleSheet, View, Linking, TouchableOpacity } from 'react-native';
+import { ScrollView, StyleSheet, View } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Colors } from '@/constants/theme';
@@ -8,10 +8,6 @@ import type { SymbolViewProps } from 'expo-symbols';
 
 export default function AboutScreen() {
   const appVersion = '1.2.0';
-  
-  const openLink = (url: string) => {
-    Linking.openURL(url);
-  };
 
   return (
     <ThemedView style={styles.container}>

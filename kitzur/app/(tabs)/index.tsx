@@ -13,7 +13,7 @@ import { ProgressRing } from '@/components/ProgressRing';
 import { QuickActionsGrid } from '@/components/QuickActionsGrid';
 import { StreakCounter } from '@/components/StreakCounter';
 import { DailyQuoteCard } from '@/components/DailyQuoteCard';
-import { listChapters, getChapterCount, type Chapter } from '@/utils/contentLoader';
+import { getChapterCount } from '@/utils/contentLoader';
 import { 
   getLastRead, 
   getCompletedCount, 
