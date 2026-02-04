@@ -141,24 +141,26 @@ export function getParshiotByBook() {
 }
 
 /**
- * Get the current week's parsha based on simple week calculation
- * This is a simplified version - cycles through the parshiot based on week number
+ * Get the current week's parsha
+ * Uses a known date as reference: Oct 26, 2024 was Parshat Bereishit
  */
 export function getCurrentParsha(): typeof PARSHIOT_LIST[0] | null {
   try {
-    // Get current week of the year
+    // Reference: Oct 26, 2024 (Simchat Torah 5785) was Parshat Bereishit (index 0)
+    const referenceDate = new Date('2024-10-26');
     const now = new Date();
-    const start = new Date(now.getFullYear(), 0, 1);
-    const diff = now.getTime() - start.getTime();
-    const oneWeek = 1000 * 60 * 60 * 24 * 7;
-    const weekNumber = Math.floor(diff / oneWeek);
     
-    // Cycle through the 54 parshiot
-    const parshaIndex = weekNumber % PARSHIOT_LIST.length;
+    // Calculate weeks since reference date
+    const diffTime = now.getTime() - referenceDate.getTime();
+    const diffWeeks = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 7));
+    
+    // Cycle through the parshiot (54 weeks in a cycle, but accounting for double parshiot)
+    // Simplified: assume ~52 week cycle
+    const parshaIndex = diffWeeks % PARSHIOT_LIST.length;
     return PARSHIOT_LIST[parshaIndex];
   } catch (error) {
     console.error('Error getting current parsha:', error);
-    // Fallback to first parsha
+    // Fallback to Bereishit
     return PARSHIOT_LIST[0];
   }
 }

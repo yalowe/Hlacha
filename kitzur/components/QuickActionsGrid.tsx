@@ -45,7 +45,7 @@ interface QuickActionsGridProps {
 export function QuickActionsGrid({ onBrowse, onSearch, onBookmarks, onDailyHalacha, onShnayimMikra, onParshatHaMann, onIggeretHaRamban, onBirkatHaMazon, onBoreiNefashot, onMeeinShalosh }: QuickActionsGridProps) {
   return (
     <View style={styles.grid}>
-      <QuickActionButton icon="📖" label="עיון" onPress={onBrowse} />
+      <QuickActionButton icon="📖" label="שולחן ערוך" onPress={onBrowse} />
       <QuickActionButton icon="🔍" label="חיפוש" onPress={onSearch} />
       <QuickActionButton icon="⭐" label="סימניות" onPress={onBookmarks} />
       <QuickActionButton icon="📅" label="הלכה יומית" onPress={onDailyHalacha} />

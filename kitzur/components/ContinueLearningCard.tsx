@@ -74,16 +74,16 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   arrow: {
-    width: 32,
-    height: 32,
-    borderRadius: 16,
+    width: 44,
+    height: 44,
+    borderRadius: 22,
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 12,
-    marginTop: -4,
+    marginTop: -12,
   },
   arrowText: {
-    fontSize: 16,
+    fontSize: 22,
     fontWeight: '700',
   },
 });
