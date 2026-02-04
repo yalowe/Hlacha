@@ -9,66 +9,66 @@
   <!-- Background -->
   <rect width="1024" height="1024" fill="url(#bg)" rx="200"/>
   
-  <!-- Menorah - simple and clear design -->
-  <g transform="translate(512, 150)">
+  <!-- Menorah - correct upward arms -->
+  <g transform="translate(512, 200)">
     <!-- Base -->
-    <rect x="-100" y="650" width="200" height="50" fill="#fbbf24" rx="10"/>
-    <rect x="-70" y="600" width="140" height="60" fill="#fbbf24" rx="8"/>
+    <rect x="-100" y="600" width="200" height="50" fill="#fbbf24" rx="10"/>
+    <rect x="-70" y="550" width="140" height="60" fill="#fbbf24" rx="8"/>
     
     <!-- Central column -->
-    <rect x="-25" y="100" width="50" height="500" fill="#fbbf24" rx="8"/>
+    <rect x="-25" y="50" width="50" height="500" fill="#fbbf24" rx="8"/>
     
-    <!-- Arms - symmetric design -->
+    <!-- Arms going UP then DOWN (like upside-down U) -->
     <!-- Right side -->
-    <path d="M 25,200 C 25,200 120,200 120,280 L 120,480" 
+    <path d="M 25,450 L 25,350 Q 25,250 125,250 Q 125,250 125,350 L 125,450" 
           stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
-    <path d="M 25,300 C 25,300 180,300 180,380 L 180,480" 
+    <path d="M 25,450 L 25,300 Q 25,180 185,180 Q 185,180 185,300 L 185,450" 
           stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
-    <path d="M 25,400 C 25,400 240,400 240,480 L 240,480" 
+    <path d="M 25,450 L 25,250 Q 25,110 245,110 Q 245,110 245,250 L 245,450" 
           stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
     
     <!-- Left side -->
-    <path d="M -25,200 C -25,200 -120,200 -120,280 L -120,480" 
+    <path d="M -25,450 L -25,350 Q -25,250 -125,250 Q -125,250 -125,350 L -125,450" 
           stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
-    <path d="M -25,300 C -25,300 -180,300 -180,380 L -180,480" 
+    <path d="M -25,450 L -25,300 Q -25,180 -185,180 Q -185,180 -185,300 L -185,450" 
           stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
-    <path d="M -25,400 C -25,400 -240,400 -240,480 L -240,480" 
+    <path d="M -25,450 L -25,250 Q -25,110 -245,110 Q -245,110 -245,250 L -245,450" 
           stroke="#fbbf24" stroke-width="40" fill="none" stroke-linecap="round"/>
     
     <!-- Candles -->
-    <ellipse cx="0" cy="90" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="120" cy="470" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="180" cy="470" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="240" cy="470" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="-120" cy="470" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="-180" cy="470" rx="30" ry="12" fill="#f59e0b"/>
-    <ellipse cx="-240" cy="470" rx="30" ry="12" fill="#f59e0b"/>
+    <ellipse cx="0" cy="40" rx="30" ry="12" fill="#f59e0b"/>
+    <ellipse cx="125" cy="440" rx="30" ry="12" fill="#f59e0b"/>
+    <ellipse cx="185" cy="440" rx="30" ry="12" fill="#f59e0b"/>
+    <ellipse cx="245" cy="440" rx="30" ry="12" fill="#f59e0b"/>
+    <ellipse cx="-125" cy="440" rx="30" ry="12" fill="#f59e0b"/>
+    <ellipse cx="-185" cy="440" rx="30" ry="12" fill="#f59e0b"/>
+    <ellipse cx="-245" cy="440" rx="30" ry="12" fill="#f59e0b"/>
     
     <!-- Flames -->
     <g opacity="0.95">
       <!-- Center -->
-      <ellipse cx="0" cy="50" rx="20" ry="40" fill="#fef3c7"/>
-      <ellipse cx="0" cy="45" rx="15" ry="30" fill="#fbbf24"/>
+      <ellipse cx="0" cy="0" rx="22" ry="42" fill="#fef3c7"/>
+      <ellipse cx="0" cy="-5" rx="16" ry="32" fill="#fbbf24"/>
       
       <!-- Right -->
-      <ellipse cx="120" cy="430" rx="18" ry="35" fill="#fef3c7"/>
-      <ellipse cx="120" cy="425" rx="13" ry="25" fill="#fbbf24"/>
+      <ellipse cx="125" cy="400" rx="20" ry="38" fill="#fef3c7"/>
+      <ellipse cx="125" cy="395" rx="14" ry="28" fill="#fbbf24"/>
       
-      <ellipse cx="180" cy="430" rx="18" ry="35" fill="#fef3c7"/>
-      <ellipse cx="180" cy="425" rx="13" ry="25" fill="#fbbf24"/>
+      <ellipse cx="185" cy="400" rx="20" ry="38" fill="#fef3c7"/>
+      <ellipse cx="185" cy="395" rx="14" ry="28" fill="#fbbf24"/>
       
-      <ellipse cx="240" cy="430" rx="18" ry="35" fill="#fef3c7"/>
-      <ellipse cx="240" cy="425" rx="13" ry="25" fill="#fbbf24"/>
+      <ellipse cx="245" cy="400" rx="20" ry="38" fill="#fef3c7"/>
+      <ellipse cx="245" cy="395" rx="14" ry="28" fill="#fbbf24"/>
       
       <!-- Left -->
-      <ellipse cx="-120" cy="430" rx="18" ry="35" fill="#fef3c7"/>
-      <ellipse cx="-120" cy="425" rx="13" ry="25" fill="#fbbf24"/>
+      <ellipse cx="-125" cy="400" rx="20" ry="38" fill="#fef3c7"/>
+      <ellipse cx="-125" cy="395" rx="14" ry="28" fill="#fbbf24"/>
       
-      <ellipse cx="-180" cy="430" rx="18" ry="35" fill="#fef3c7"/>
-      <ellipse cx="-180" cy="425" rx="13" ry="25" fill="#fbbf24"/>
+      <ellipse cx="-185" cy="400" rx="20" ry="38" fill="#fef3c7"/>
+      <ellipse cx="-185" cy="395" rx="14" ry="28" fill="#fbbf24"/>
       
-      <ellipse cx="-240" cy="430" rx="18" ry="35" fill="#fef3c7"/>
-      <ellipse cx="-240" cy="425" rx="13" ry="25" fill="#fbbf24"/>
+      <ellipse cx="-245" cy="400" rx="20" ry="38" fill="#fef3c7"/>
+      <ellipse cx="-245" cy="395" rx="14" ry="28" fill="#fbbf24"/>
     </g>
   </g>
 </svg>

@@ -20,7 +20,10 @@ export default function AboutScreen() {
         <View style={styles.header}>
           <IconSymbol size={80} name="book.fill" color={Colors.light.primary.main} />
           <ThemedText type="title" style={styles.appTitle}>
-            קיצור שולחן ערוך
+            למען שמו באהבה
+          </ThemedText>
+          <ThemedText style={styles.subtitle}>
+            קיצור שולחן ערוך • ברכות • פרשת השבוע
           </ThemedText>
           <ThemedText style={styles.version}>גרסה {appVersion}</ThemedText>
         </View>
@@ -31,10 +34,10 @@ export default function AboutScreen() {
             📖 אודות האפליקציה
           </ThemedText>
           <ThemedText style={styles.text}>
-            אפליקציה ללימוד קיצור שולחן ערוך עם תכונות מתקדמות: מעקב אחר התקדמות, סימניות, חיפוש מהיר, הלכה יומית מסונכרנת, ופרשת השבוע.
+            "למען שמו באהבה" - אפליקציית לימוד תורה מקיפה המשלבת את קיצור שולחן ערוך המלא, ברכות ותפילות מעוצבות, ותכונות ייחודיות ללימוד יומיומי.
           </ThemedText>
           <ThemedText style={styles.text}>
-            האפליקציה כוללת את הטקסט המלא של קיצור שולחן ערוך, ברכות ותפילות מעוצבות, שניים מקרא, פרשת המן ואיגרת הרמב"ן.
+            האפליקציה מציגה בכל יום את פרשת השבוע הנוכחית והלכה יומית מסונכרנת עם קהילת הלומדים בכל העולם, מה שמאפשר לכל אחד ללמוד את אותו סימן באותו יום.
           </ThemedText>
         </View>
 
@@ -43,15 +46,32 @@ export default function AboutScreen() {
           <ThemedText type="subtitle" style={styles.sectionTitle}>
             ✨ תכונות עיקריות
           </ThemedText>
-          <FeatureItem icon="book.fill" text="לימוד קיצור שולחן ערוך המלא" />
-          <FeatureItem icon="magnifyingglass" text="חיפוש מהיר בכל הטקסט" />
-          <FeatureItem icon="bookmark.fill" text="סימניות אישיות" />
-          <FeatureItem icon="chart.bar.fill" text="מעקב אחר התקדמות הלימוד" />
-          <FeatureItem icon="flame.fill" text="רצף ימים של לימוד" />
-          <FeatureItem icon="sparkles" text="הלכה יומית מסונכרנת עולמית" />
-          <FeatureItem icon="calendar" text="פרשת השבוע המעודכנת" />
-          <FeatureItem icon="moon.stars.fill" text="ברכות ותפילות (ברכת המזון, בורא נפשות, מעין שלוש)" />
-          <FeatureItem icon="scroll.fill" text="תוספות מיוחדות (אגרת הרמב״ן, פרשת המן, שניים מקרא)" />
+          <FeatureItem icon="book.fill" text="קיצור שולחן ערוך המלא - 221 סימנים" />
+          <FeatureItem icon="calendar" text="פרשת השבוע - מתעדכנת אוטומטית" />
+          <FeatureItem icon="sparkles" text="הלכה יומית - סינכרון עולמי יומיומי" />
+          <FeatureItem icon="magnifyingglass" text="חיפוש מתקדם בכל התוכן" />
+          <FeatureItem icon="bookmark.fill" text="סימניות אישיות ללימוד" />
+          <FeatureItem icon="chart.bar.fill" text="מעקב התקדמות - 221 סימנים" />
+          <FeatureItem icon="flame.fill" text="רצף לימוד יומי - מוטיבציה להתמדה" />
+          <FeatureItem icon="moon.stars.fill" text="ברכות מעוצבות: ברכת המזון, מעין שלוש, בורא נפשות" />
+          <FeatureItem icon="scroll.fill" text="תכנים נוספים: אגרת הרמב״ן, פרשת המן, שניים מקרא" />
+          <FeatureItem icon="arrow.uturn.forward" text="חזרה למקום הקריאה האחרון" />
+        </View>
+
+        {/* How it works */}
+        <View style={styles.section}>
+          <ThemedText type="subtitle" style={styles.sectionTitle}>
+            🎯 איך זה עובד
+          </ThemedText>
+          <ThemedText style={styles.text}>
+            <ThemedText style={styles.bold}>הלכה יומית מסונכרנת:</ThemedText> כל יום מוצגת הלכה שונה מתוך 221 הסימנים, מחושבת לפי מספר הימים מאז תחילת הלימוד העולמי. כך כל הלומדים בעולם לומדים את אותו סימן באותו יום.
+          </ThemedText>
+          <ThemedText style={styles.text}>
+            <ThemedText style={styles.bold}>פרשת השבוע:</ThemedText> מוצגת בראש המסך הראשי ומתעדכנת אוטומטית בכל שבוע.
+          </ThemedText>
+          <ThemedText style={styles.text}>
+            <ThemedText style={styles.bold}>המשך לימוד:</ThemedText> האפליקציה זוכרת את המיקום האחרון שבו קראת ומאפשרת לחזור אליו במהירות.
+          </ThemedText>
         </View>
 
         {/* Content Sources */}
@@ -196,6 +216,12 @@ const styles = StyleSheet.create({
     marginTop: 15,
     fontSize: 28,
     fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  subtitle: {
+    marginTop: 8,
+    fontSize: 16,
+    opacity: 0.7,
     textAlign: 'center',
   },
   version: {
