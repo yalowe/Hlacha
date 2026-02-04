@@ -211,7 +211,7 @@ export function getDailyHalachaId(): string {
   
   // Cycle through 221 simanim
   const simanNumber = (diffDays % 221) + 1;
-  return `siman-${String(simanNumber).padStart(3, '0')}`;
+  return `kitzur_orach_chaim-${String(simanNumber).padStart(3, '0')}`;
 }
 
 // Get random halacha (keeping for backward compatibility)
