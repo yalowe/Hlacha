@@ -6,6 +6,8 @@ import { useState, useEffect } from 'react';
 interface Paragraph {
   paragraph: number;
   text: string;
+  heading?: string;
+  instruction?: string;
 }
 
 interface BirkatHaMazon {
@@ -71,6 +73,16 @@ export default function BirkatHaMazonScreen() {
         <ThemedView style={styles.content}>
           {birkat.paragraphs.map((paragraph) => (
             <ThemedView key={paragraph.paragraph} style={styles.paragraphContainer}>
+              {paragraph.heading && (
+                <ThemedText style={styles.headingText}>
+                  {paragraph.heading}
+                </ThemedText>
+              )}
+              {paragraph.instruction && (
+                <ThemedText style={styles.instructionText}>
+                  {paragraph.instruction}
+                </ThemedText>
+              )}
               <ThemedText style={styles.paragraphText}>
                 {paragraph.text}
               </ThemedText>
@@ -131,11 +143,29 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   paragraphContainer: {
-    marginBottom: 20,
+    marginBottom: 24,
+  },
+  headingText: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 8,
+    textAlign: 'right',
+    color: '#007AFF',
+  },
+  instructionText: {
+    fontSize: 15,
+    fontWeight: '600',
+    marginBottom: 8,
+    textAlign: 'right',
+    backgroundColor: '#FFF3CD',
+    padding: 8,
+    borderRadius: 6,
+    borderLeftWidth: 4,
+    borderLeftColor: '#FFC107',
   },
   paragraphText: {
-    fontSize: 17,
-    lineHeight: 28,
+    fontSize: 18,
+    lineHeight: 30,
     textAlign: 'right',
     fontFamily: 'System',
   },

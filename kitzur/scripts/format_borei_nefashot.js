@@ -1,4 +1,7 @@
-{
+const fs = require('fs');
+const filePath = 'content/special/borei_nefashot.json';
+
+const data = {
   "name": "בורא נפשות",
   "hebrewName": "בּוֹרֵא נְפָשׁוֹת",
   "category": "ברכות",
@@ -22,4 +25,7 @@
       "text": "• אם אכלתם גם פת או מזונות - מברכים רק ברכת המזון או מעין שלוש\n• אם שתיתם גם יין - מברכים רק על הגפן\n• אם אכלתם משבעת המינים - מברכים על העץ\n• בורא נפשות היא ברכה אחרונה \"כללית\" רק למה שלא נכלל בברכות האחרות"
     }
   ]
-}
+};
+
+fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+console.log('✅ בורא נפשות מעוצבת עם הנחיות!');

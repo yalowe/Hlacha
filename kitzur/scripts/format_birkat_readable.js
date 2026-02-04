@@ -1,4 +1,7 @@
-{
+const fs = require('fs');
+const filePath = 'content/special/birkat_hamazon.json';
+
+const data = {
   "name": "בִּרְכַּת הַמָּזוֹן",
   "hebrewName": "בִּרְכַּת הַמָּזוֹן",
   "category": "ברכות",
@@ -93,4 +96,7 @@
       "text": "עוֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו הוּא בְרַחֲמָיו יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל עַמּוֹ יִשְׂרָאֵל וְאִמְרוּ אָמֵן."
     }
   ]
-}
+};
+
+fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+console.log('✅ ברכת המזון מעוצבת עם הנחיות ברורות!');
