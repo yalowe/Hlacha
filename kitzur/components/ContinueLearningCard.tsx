@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 12,
-    marginTop: -32,
+    marginTop: -36,
   },
   arrowText: {
     fontSize: 22,
