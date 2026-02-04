@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
+# למען שמו באהבה
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+אפליקציה מקיפה ללימוד הלכה יומית עם קיצור שולחן ערוך, שולחן ערוך המלא, פרשת השבוע, וברכות.
 
-## Get started
+## תכונות
 
-1. Install dependencies
+### 📚 תוכן
+- **קיצור שולחן ערוך** - 221 סימנים מלאים
+- **שולחן ערוך המלא** - ארבעת החלקים (אורח חיים, יורה דעה, אבן העזר, חושן משפט)
+- **פרשת השבוע** - שניים מקרא ואחד תרגום
+- **ברכות** - ברכת המזון, בורא נפשות, מעין שלוש
+- **מיוחדים** - פרשת המן, איגרת הרמב"ן
 
-   ```bash
-   npm install
-   ```
+### ⚡ תכונות מיוחדות
+- **הלכה יומית** - סימן יומי מסונכרן עולמית (מחזור 221 ימים)
+- **פרשת השבוע** - עדכון אוטומטי לפרשה הנוכחית
+- **מעקב התקדמות** - ספירת סימנים שהושלמו ורצף לימוד
+- **סימניות** - שמירת מקומות מועדפים
+- **חיפוש** - חיפוש מהיר בכל התוכן
+- **מצב חשוך/בהיר** - מעבר אוטומטי או ידני
 
-2. Start the app
+### 🎨 ממשק משתמש
+- תמיכה מלאה בעברית RTL
+- ניווט אינטואיטיבי בין סימנים וסעיפים
+- אייקון מנורה ייחודי
+- עיצוב נקי וקריא
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## התקנה
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## הרצה
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+אפשרויות:
+- **Expo Go** - לבדיקה מהירה (iOS/Android)
+- **iOS Simulator** - `npx expo start --ios`
+- **Android Emulator** - `npx expo start --android`
+- **Web** - `npx expo start --web`
+- **Tunnel** - `npx expo start --tunnel` (לגישה מרחוק)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## מבנה הפרויקט
 
-## Join the community
+```
+├── app/                    # מסכי האפליקציה (Expo Router)
+│   ├── (tabs)/            # ניווט תחתון
+│   ├── chapter/           # מסך סימן
+│   ├── section/           # מסך סעיף
+│   └── parsha/            # מסך פרשה
+├── components/            # קומפוננטות מוכנות
+├── content/               # תוכן ההלכה (JSON)
+│   ├── chapters/         # כל הסימנים
+│   └── parshiot/         # פרשיות השבוע
+├── utils/                 # פונקציות עזר
+│   ├── contentLoader.ts  # טעינת תוכן
+│   ├── progress.ts       # מעקב התקדמות
+│   └── parshaLoader.ts   # חישוב פרשה
+└── scripts/               # סקריפטים לפיתוח
+```
 
-Join our community of developers creating universal apps.
+## פיתוח
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### הוספת תוכן חדש
+1. הוסף קובץ JSON ל-`content/chapters/`
+2. עדכן את `content/chapters-index.ts`
+3. הרץ `npm run generate-index` (אם קיים)
+
+### בדיקות
+```bash
+npm test
+```
+
+### Build
+```bash
+npm run build
+```
+
+## טכנולוגיות
+
+- **React Native** - פלטפורמה חוצת פלטפורמות
+- **Expo** - כלי פיתוח ופריסה
+- **TypeScript** - בטיחות טיפוסים
+- **Expo Router** - ניווט מבוסס קבצים
+- **AsyncStorage** - אחסון מקומי
+
+## רישיון
+
+פרויקט זה נוצר למטרות חינוכיות ללימוד הלכה.
+
+## תמיכה
+
+לשאלות ובעיות, פתח Issue ב-GitHub.
