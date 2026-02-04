@@ -95,6 +95,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 8,
+    marginTop: -10,
   },
   icon: {
     fontSize: 24,
