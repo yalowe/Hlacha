@@ -1,6 +1,16 @@
 // Setup file for Jest tests
 // import '@testing-library/react-native/extend-expect';
 
+// Disable Expo's winter import meta registry during tests
+global.__ExpoImportMetaRegistry = undefined;
+global.structuredClone = (val) => JSON.parse(JSON.stringify(val));
+
+// Mock Platform
+jest.mock('react-native/Libraries/Utilities/Platform', () => ({
+  OS: 'ios',
+  select: (obj) => obj.ios || obj.default,
+}));
+
 // Mock AsyncStorage
 jest.mock('@react-native-async-storage/async-storage', () =>
   require('@react-native-async-storage/async-storage/jest/async-storage-mock')

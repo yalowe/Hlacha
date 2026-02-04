@@ -19,6 +19,15 @@ module.exports = {
   ],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
+    '^expo$': '<rootDir>/node_modules/expo',
+    '^expo-router$': '<rootDir>/node_modules/expo-router',
   },
   testEnvironment: 'node',
+  globals: {
+    'ts-jest': {
+      tsconfig: {
+        jsx: 'react',
+      },
+    },
+  },
 };
