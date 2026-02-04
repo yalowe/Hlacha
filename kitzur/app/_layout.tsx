@@ -63,6 +63,55 @@ export default function RootLayout() {
             }} 
           />
           <Stack.Screen 
+            name="parsha/[id]" 
+            options={{ 
+              title: 'פרשת השבוע',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="shnayim-mikra" 
+            options={{ 
+              title: 'שניים מקרא ואחד תרגום',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="parshat-hamann" 
+            options={{ 
+              title: 'פרשת המן',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="iggeret-haramban" 
+            options={{ 
+              title: 'אגרת הרמב״ן',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="birkat-hamazon" 
+            options={{ 
+              title: 'ברכת המזון',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="meein-shalosh" 
+            options={{ 
+              title: 'מעין שלוש',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="borei-nefashot" 
+            options={{ 
+              title: 'בורא נפשות',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
             name="modal" 
             options={{ 
               presentation: 'modal', 

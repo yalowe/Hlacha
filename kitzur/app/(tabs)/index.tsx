@@ -124,9 +124,12 @@ export default function HomeScreen() {
         <View style={styles.loadingIconContainer}>
           <Text style={styles.loadingIcon}>📖</Text>
         </View>
-        <Text style={styles.appNameLoading}>למען שמו באהבה</Text>
-        <ActivityIndicator size="large" color={colors.primary.main} />
-        <ThemedText style={[styles.loadingText, { color: '#666666' }]}>טוען את קיצור שולחן ערוך...</ThemedText>
+        <View style={styles.appNameContainer}>
+          <Text style={styles.appNameLoadingMain}>למען שמו</Text>
+          <Text style={styles.appNameLoadingSub}>באהבה</Text>
+        </View>
+        <ActivityIndicator size="large" color="#007AFF" style={styles.spinner} />
+        <ThemedText style={[styles.loadingText, { color: '#666666' }]}>טוען...</ThemedText>
       </ThemedView>
     );
   }
@@ -219,34 +222,51 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   loadingIconContainer: {
-    width: 120,
-    height: 120,
-    borderRadius: 60,
+    width: 140,
+    height: 140,
+    borderRadius: 70,
     backgroundColor: '#007AFF',
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 10,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
-    elevation: 8,
+    marginBottom: 20,
+    shadowColor: '#007AFF',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.4,
+    shadowRadius: 16,
+    elevation: 12,
   },
   loadingIcon: {
-    fontSize: 60,
+    fontSize: 70,
   },
-  appNameLoading: {
-    fontSize: 28,
-    fontWeight: '700',
-    color: '#007AFF',
-    marginTop: 20,
-    marginBottom: 30,
+  appNameContainer: {
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  appNameLoadingMain: {
+    fontSize: 48,
+    fontWeight: '900',
+    color: '#000000',
     textAlign: 'center',
     fontFamily: 'System',
+    letterSpacing: 3,
+  },
+  appNameLoadingSub: {
+    fontSize: 44,
+    fontWeight: '900',
+    color: '#007AFF',
+    textAlign: 'center',
+    fontFamily: 'System',
+    letterSpacing: 4,
+    marginTop: -8,
+  },
+  spinner: {
+    marginTop: 20,
+    marginBottom: 10,
   },
   loadingText: {
     fontSize: 16,
     marginTop: 8,
+    fontWeight: '500',
   },
   header: {
     paddingTop: 60,
