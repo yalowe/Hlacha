@@ -3,11 +3,20 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useState, useEffect } from 'react';
 
+interface Part {
+  instruction?: string;
+  text?: string;
+  optional?: boolean;
+  condition?: string;
+  parts?: Part[];
+}
+
 interface Paragraph {
   paragraph: number;
-  text: string;
+  text?: string;
   heading?: string;
   instruction?: string;
+  parts?: Part[];
 }
 
 interface BirkatHaMazon {
@@ -83,9 +92,43 @@ export default function BirkatHaMazonScreen() {
                   {paragraph.instruction}
                 </ThemedText>
               )}
-              <ThemedText style={styles.paragraphText}>
-                {paragraph.text}
-              </ThemedText>
+              
+              {paragraph.parts ? (
+                // אם יש parts, מציגים כל part בנפרד
+                paragraph.parts.map((part, index) => (
+                  <ThemedView key={index} style={styles.partContainer}>
+                    {part.instruction && (
+                      <ThemedText style={styles.partInstructionText}>
+                        {part.instruction}
+                      </ThemedText>
+                    )}
+                    {part.parts ? (
+                      // אם יש parts בתוך part (הערות אופציונליות)
+                      part.parts.map((subPart, subIndex) => (
+                        <ThemedText key={subIndex} style={subPart.optional ? styles.optionalText : styles.paragraphText}>
+                          {subPart.optional && subPart.condition && `${subPart.condition}: `}
+                          {subPart.text}
+                        </ThemedText>
+                      ))
+                    ) : part.optional ? (
+                      <ThemedText style={styles.optionalText}>
+                        {part.condition}: {part.text}
+                      </ThemedText>
+                    ) : part.text ? (
+                      <ThemedText style={styles.paragraphText}>
+                        {part.text}
+                      </ThemedText>
+                    ) : null}
+                  </ThemedView>
+                ))
+              ) : (
+                // אם אין parts, מציגים טקסט רגיל
+                paragraph.text && (
+                  <ThemedText style={styles.paragraphText}>
+                    {paragraph.text}
+                  </ThemedText>
+                )
+              )}
             </ThemedView>
           ))}
         </ThemedView>
@@ -168,5 +211,23 @@ const styles = StyleSheet.create({
     lineHeight: 30,
     textAlign: 'right',
     fontFamily: 'System',
+  },
+  partContainer: {
+    marginBottom: 16,
+  },
+  partInstructionText: {
+    fontSize: 14,
+    fontWeight: '700',
+    marginBottom: 6,
+    textAlign: 'right',
+    color: '#007AFF',
+    fontStyle: 'italic',
+  },
+  optionalText: {
+    fontSize: 16,
+    lineHeight: 28,
+    textAlign: 'right',
+    color: '#007AFF',
+    fontStyle: 'italic',
   },
 });

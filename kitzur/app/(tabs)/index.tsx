@@ -121,8 +121,11 @@ export default function HomeScreen() {
   if (loading) {
     return (
       <ThemedView style={[styles.loadingContainer, { backgroundColor: colors.background.base }]}>
+        <View style={styles.loadingIconContainer}>
+          <Text style={styles.loadingIcon}>📖</Text>
+        </View>
         <ActivityIndicator size="large" color={colors.primary.main} />
-        <ThemedText style={[styles.loadingText, { color: colors.text.primary }]}>טוען...</ThemedText>
+        <ThemedText style={[styles.loadingText, { color: colors.text.primary }]}>טוען את קיצור שולחן ערוך...</ThemedText>
       </ThemedView>
     );
   }
@@ -212,10 +215,28 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    gap: 12,
+    gap: 16,
+  },
+  loadingIconContainer: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    backgroundColor: '#007AFF',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 8,
+  },
+  loadingIcon: {
+    fontSize: 60,
   },
   loadingText: {
     fontSize: 16,
+    marginTop: 8,
   },
   header: {
     paddingTop: 60,
