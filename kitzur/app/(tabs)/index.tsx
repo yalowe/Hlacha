@@ -120,12 +120,13 @@ export default function HomeScreen() {
 
   if (loading) {
     return (
-      <ThemedView style={[styles.loadingContainer, { backgroundColor: colors.background.base }]}>
+      <ThemedView style={[styles.loadingContainer, { backgroundColor: '#FFFFFF' }]}>
         <View style={styles.loadingIconContainer}>
           <Text style={styles.loadingIcon}>📖</Text>
         </View>
+        <Text style={styles.appNameLoading}>למען שמו באהבה</Text>
         <ActivityIndicator size="large" color={colors.primary.main} />
-        <ThemedText style={[styles.loadingText, { color: colors.text.primary }]}>טוען את קיצור שולחן ערוך...</ThemedText>
+        <ThemedText style={[styles.loadingText, { color: '#666666' }]}>טוען את קיצור שולחן ערוך...</ThemedText>
       </ThemedView>
     );
   }
@@ -233,6 +234,15 @@ const styles = StyleSheet.create({
   },
   loadingIcon: {
     fontSize: 60,
+  },
+  appNameLoading: {
+    fontSize: 28,
+    fontWeight: '700',
+    color: '#007AFF',
+    marginTop: 20,
+    marginBottom: 30,
+    textAlign: 'center',
+    fontFamily: 'System',
   },
   loadingText: {
     fontSize: 16,
