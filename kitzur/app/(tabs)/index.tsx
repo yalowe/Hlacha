@@ -2,7 +2,7 @@
  * Home Screen - Dashboard with progress tracking and quick actions
  */
 import { useState, useEffect } from 'react';
-import { StyleSheet, ActivityIndicator, ScrollView, View, Text } from 'react-native';
+import { StyleSheet, ActivityIndicator, ScrollView, View, Text, Pressable } from 'react-native';
 import { useRouter, useFocusEffect } from 'expo-router';
 import { useCallback } from 'react';
 import { useColorScheme } from '@/hooks/use-color-scheme';
@@ -13,7 +13,8 @@ import { ProgressRing } from '@/components/ProgressRing';
 import { QuickActionsGrid } from '@/components/QuickActionsGrid';
 import { StreakCounter } from '@/components/StreakCounter';
 import { DailyQuoteCard } from '@/components/DailyQuoteCard';
-import { getChapterCount } from '@/utils/contentLoader';
+import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import { 
   getLastRead, 
   getCompletedCount, 
@@ -23,7 +24,12 @@ import {
   type LastRead,
   type Streak,
 } from '@/utils/progress';
+import { getUnansweredQuestions } from '@/utils/questionsManager';
+import type { Question } from '@/types/questions';
 import { Colors, spacing } from '@/constants/theme';
+
+// Hardcoded count to avoid loading entire chapters-index on startup
+const TOTAL_CHAPTER_COUNT = 2008;
 
 export default function HomeScreen() {
   const colorScheme = useColorScheme();
@@ -33,9 +39,10 @@ export default function HomeScreen() {
   const [loading, setLoading] = useState(true);
   const [lastRead, setLastRead] = useState<LastRead | null>(null);
   const [completedCount, setCompletedCount] = useState(0);
-  const [totalCount, setTotalCount] = useState(0);
+  const [totalCount, setTotalCount] = useState(TOTAL_CHAPTER_COUNT);
   const [streak, setStreak] = useState<Streak>({ count: 0, lastDate: '' });
   const [quote] = useState(getDailyQuote());
+  const [unansweredQuestions, setUnansweredQuestions] = useState<Question[]>([]);
 
   useEffect(() => {
     loadDashboardData();
@@ -51,22 +58,21 @@ export default function HomeScreen() {
   async function loadDashboardData() {
     setLoading(true);
     try {
-      // Get total chapter count without loading all content
-      const count = getChapterCount();
-      setTotalCount(count);
-
+      // Total count is hardcoded - no need to load chapters-index
+      
       // Load progress data
       const lastReadData = await getLastRead();
-      console.log('📖 Last Read Data:', lastReadData);
       setLastRead(lastReadData);
 
       const completed = await getCompletedCount();
-      console.log('✅ Completed Count:', completed);
       setCompletedCount(completed);
 
       const streakData = await getStreak();
-      console.log('🔥 Streak Data:', streakData);
       setStreak(streakData);
+
+      // Load unanswered questions
+      const unanswered = await getUnansweredQuestions();
+      setUnansweredQuestions(unanswered.slice(0, 3)); // Show max 3 questions
     } catch (error) {
       console.error('Failed to load dashboard data:', error);
     } finally {
@@ -132,6 +138,14 @@ export default function HomeScreen() {
     router.push('/meein-shalosh');
   };
 
+  const handleQuestions = () => {
+    router.push('/questions');
+  };
+
+  const handleAddSection = () => {
+    router.push('/add-section');
+  };
+
   if (loading) {
     return (
       <ThemedView style={[styles.loadingContainer, { backgroundColor: '#FFFFFF' }]}>
@@ -182,8 +196,13 @@ export default function HomeScreen() {
               <ProgressRing completed={completedCount} total={totalCount} size={100} />
             </View>
             <Text style={[styles.statDetail, { color: colors.text.secondary }]}>
-              {completedCount} מתוך {totalCount} סימנים
+              מתוך {totalCount.toLocaleString('he-IL')} סימנים
             </Text>
+            {completedCount > 0 && (
+              <Text style={[styles.statPercentage, { color: colors.primary.main }]}>
+                {Math.round((completedCount / totalCount) * 100)}% הושלם
+              </Text>
+            )}
           </View>
           
           <View style={styles.streakContainer}>
@@ -201,6 +220,8 @@ export default function HomeScreen() {
             onSearch={handleSearch}
             onBookmarks={handleBookmarks}
             onDailyHalacha={handleDailyHalacha}
+            onQuestions={handleQuestions}
+            onAddSection={handleAddSection}
             onShnayimMikra={handleShnayimMikra}
             onParshatHaMann={handleParshatHaMann}
             onIggeretHaRamban={handleIggeretHaRamban}
@@ -209,6 +230,72 @@ export default function HomeScreen() {
             onMeeinShalosh={handleMeeinShalosh}
           />
         </View>
+
+        {/* Unanswered Questions */}
+        {unansweredQuestions.length > 0 && (
+          <View style={styles.section}>
+            <View style={styles.sectionHeader}>
+              <Text style={[styles.sectionTitle, { color: colors.text.primary }]}>
+                💬 שאלות שממתינות לתשובה
+              </Text>
+              <Pressable 
+                onPress={() => {
+                  Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  router.push('/questions');
+                }}
+                style={styles.viewAllButton}
+              >
+                <ThemedText style={[styles.viewAllText, { color: colors.primary.main }]}>
+                  צפה בכל →
+                </ThemedText>
+              </Pressable>
+            </View>
+            {unansweredQuestions.map((question) => (
+              <Pressable
+                key={question.id}
+                style={[styles.questionCard, { backgroundColor: colors.surface.card }]}
+                onPress={() => {
+                  Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                  router.push(`/question/${question.id}`);
+                }}
+              >
+                <View style={styles.questionHeader}>
+                  <View style={[styles.newBadge, { backgroundColor: colors.accent.bronze }]}>
+                    <ThemedText style={styles.newBadgeText}>חדש</ThemedText>
+                  </View>
+                  <View style={styles.questionStats}>
+                    <Ionicons name="eye-outline" size={14} color={colors.text.secondary} />
+                    <ThemedText style={[styles.viewCount, { color: colors.text.secondary }]}>
+                      {question.stats.views}
+                    </ThemedText>
+                  </View>
+                </View>
+                <ThemedText 
+                  style={[styles.questionText, { color: colors.text.primary }]}
+                  numberOfLines={2}
+                >
+                  {question.question}
+                </ThemedText>
+                <View style={styles.questionFooter}>
+                  <ThemedText style={[styles.questionTime, { color: colors.text.secondary }]}>
+                    {new Date(question.timestamp).toLocaleDateString('he-IL', { month: 'short', day: 'numeric' })}
+                  </ThemedText>
+                  <Pressable
+                    style={[styles.answerNowButton, { backgroundColor: colors.primary.main }]}
+                    onPress={(e) => {
+                      e.stopPropagation();
+                      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+                      router.push(`/answer-question?id=${question.id}`);
+                    }}
+                  >
+                    <Ionicons name="create" size={16} color="#FFFFFF" />
+                    <ThemedText style={styles.answerNowText}>ענה עכשיו</ThemedText>
+                  </Pressable>
+                </View>
+              </Pressable>
+            ))}
+          </View>
+        )}
 
         {/* Daily Quote */}
         <View style={styles.section}>
@@ -336,7 +423,87 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 8,
   },
+  statPercentage: {
+    fontSize: 13,
+    fontWeight: '600',
+    marginTop: 4,
+    textAlign: 'center',
+  },
   streakContainer: {
     flex: 1,
+  },
+  sectionHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  viewAllButton: {
+    padding: 4,
+  },
+  viewAllText: {
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  questionCard: {
+    padding: spacing.md,
+    borderRadius: 12,
+    marginBottom: spacing.sm,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.08,
+    shadowRadius: 2,
+  },
+  questionHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: spacing.xs,
+  },
+  newBadge: {
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 10,
+  },
+  newBadgeText: {
+    color: '#FFFFFF',
+    fontSize: 10,
+    fontWeight: '700',
+  },
+  questionStats: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+  },
+  viewCount: {
+    fontSize: 12,
+  },
+  questionText: {
+    fontSize: 15,
+    lineHeight: 22,
+    textAlign: 'right',
+    marginBottom: spacing.sm,
+  },
+  questionFooter: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  questionTime: {
+    fontSize: 11,
+  },
+  answerNowButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 8,
+  },
+  answerNowText: {
+    color: '#FFFFFF',
+    fontSize: 12,
+    fontWeight: '600',
   },
 });

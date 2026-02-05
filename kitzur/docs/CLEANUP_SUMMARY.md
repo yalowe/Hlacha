@@ -104,3 +104,46 @@
 3. ✅ לשמור על מסמכים ב-`docs/` בלבד
 4. ✅ לא להוסיף scripts חד-פעמיים ל-`package.json`
 5. ✅ לעדכן `app.json` version לפני כל release
+
+## Additional Cleanup - February 4, 2026
+
+### Removed Unused Images (8 files, ~2MB):
+- ❌ `assets/images/react-logo.png` - Example React logo
+- ❌ `assets/images/react-logo@2x.png` - Example React logo @2x
+- ❌ `assets/images/react-logo@3x.png` - Example React logo @3x
+- ❌ `assets/images/partial-react-logo.png` - Example partial logo
+- ❌ `assets/images/adaptive-icon.png` - Unused adaptive icon
+- ❌ `assets/images/android-icon-background.png` - Unused Android background
+- ❌ `assets/images/android-icon-monochrome.png` - Unused Android monochrome
+- ❌ `assets/images/icon.svg` - Unused SVG version
+
+### Kept Images (4 files):
+- ✅ `assets/images/icon.png` - Main app icon (used in app.json)
+- ✅ `assets/images/favicon.png` - Web favicon (used in app.json)
+- ✅ `assets/images/splash-icon.png` - Splash screen (used in app.json)
+- ✅ `assets/images/android-icon-foreground.png` - Android adaptive icon (used in app.json)
+
+### Removed Unused Scripts (7 files, ~100KB):
+- ❌ `scripts/check_missing_parshiot.js` - One-time data validation
+- ❌ `scripts/fetch_blessings.js` - One-time data fetcher
+- ❌ `scripts/fetch_iggeret_haramban.js` - One-time data fetcher
+- ❌ `scripts/fetch_missing_parshiot.js` - One-time data fetcher
+- ❌ `scripts/fetch_parshat_hamann.js` - One-time data fetcher
+- ❌ `scripts/fetch_shnayim_mikra.js` - One-time data fetcher
+- ❌ `scripts/fetch_shulchan_aruch.js` - One-time data fetcher
+
+### Kept Scripts (1 file):
+- ✅ `scripts/generate-chapter-index.js` - Still useful for rebuilding chapter index
+
+### Removed Empty Directories:
+- ❌ `data/` - Empty folder with no purpose
+
+### Total Cleanup Summary (All Sessions):
+- **Previous cleanup:** 34 files removed (288KB from chunks + other files)
+- **This cleanup:** 16 items removed (15 files + 1 directory, ~2.1MB)
+- **Total items removed:** 50+ files and directories
+- **Total space saved:** ~2.4MB
+- **Remaining images:** 4 (all actively used)
+- **Remaining scripts:** 1 (still useful)
+
+The project is now clean and contains only actively used files! 🎉

@@ -2,14 +2,14 @@
   "expo": {
     "name": "למען שמו באהבה",
     "slug": "kitzur-shulchan-aruch",
-    "version": "1.2.0",
-    "description": "אפליקציה ללימוד הלכה יומית - קיצור שולחן ערוך, שולחן ערוך, פרשת השבוע וברכות",
+    "version": "1.4.0",
+    "description": "קיצור שולחן ערוך עם שאלות ותשובות, הלכה יומית, ומעקב התקדמות. אפליקציה מושלמת ללימוד הלכה יומי.",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "kitzur",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "primaryColor": "#1e40af",
+    "primaryColor": "#007AFF",
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -18,20 +18,23 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.yalkutyosef.kitzur",
-      "buildNumber": "2",
+      "buildNumber": "4",
       "infoPlist": {
-        "CFBundleLocalizations": ["he", "en"]
+        "CFBundleLocalizations": ["he", "en"],
+        "NSPhotoLibraryUsageDescription": "This app does not access your photos.",
+        "NSCameraUsageDescription": "This app does not use the camera."
       }
     },
     "android": {
       "package": "com.yalkutyosef.kitzur",
+      "versionCode": 4,
       "adaptiveIcon": {
-        "backgroundColor": "#1e3a8a",
+        "backgroundColor": "#007AFF",
         "foregroundImage": "./assets/images/android-icon-foreground.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "permissions": []
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
     },
     "web": {
       "output": "static",

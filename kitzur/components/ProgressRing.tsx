@@ -14,11 +14,15 @@ export function ProgressRing({ completed, total, size = 120 }: ProgressRingProps
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'];
   
-  const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;
-  const strokeWidth = 8;
+  const percentage = total > 0 ? (completed / total) * 100 : 0;
+  const displayPercentage = Math.round(percentage);
+  // Make small progress visible: minimum 2% arc for any completed items
+  const visualPercentage = completed > 0 ? Math.max(percentage, 2) : 0;
+  
+  const strokeWidth = 10;
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;
-  const progress = circumference - (percentage / 100) * circumference;
+  const progress = (1 - visualPercentage / 100) * circumference;
 
   return (
     <View style={[styles.container, { width: size, height: size }]}>
@@ -49,10 +53,10 @@ export function ProgressRing({ completed, total, size = 120 }: ProgressRingProps
       </Svg>
       <View style={styles.textContainer}>
         <Text style={[styles.percentage, { color: colors.text.primary }]}>
-          {percentage}%
+          {completed}
         </Text>
         <Text style={[styles.label, { color: colors.text.secondary }]}>
-          Complete
+          הושלמו
         </Text>
       </View>
     </View>

@@ -10,6 +10,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { Colors, spacing } from '@/constants/theme';
+import { toHebrewNumeral } from '@/utils/hebrewNumbers';
 
 export default function BookmarksScreen() {
   const colorScheme = useColorScheme();
@@ -44,7 +45,7 @@ export default function BookmarksScreen() {
                     {bookmark.chapterLabel} - {bookmark.chapterTitle}
                   </ThemedText>
                   <ThemedText style={[styles.bookmarkSection, { color: colors.text.secondary }]}>
-                    סעיף {bookmark.sectionNumber}
+                    סעיף {toHebrewNumeral(bookmark.sectionNumber)}
                   </ThemedText>
                 </View>
                 <Ionicons name="bookmark" size={24} color={colors.accent.bronze} />

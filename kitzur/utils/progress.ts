@@ -65,7 +65,6 @@ export async function markSimanCompleted(simanId: string): Promise<void> {
     if (!completed.includes(simanId)) {
       completed.push(simanId);
       await AsyncStorage.setItem(STORAGE_KEYS.COMPLETED_SIMANIM, JSON.stringify(completed));
-      console.log('✅ Marked as completed:', simanId);
     }
   } catch (error) {
     console.error('Failed to mark completed:', error);
@@ -105,7 +104,6 @@ export async function resetAllProgress(): Promise<void> {
       STORAGE_KEYS.LAST_READ,
       STORAGE_KEYS.STREAK,
     ]);
-    console.log('🔄 All progress reset');
   } catch (error) {
     console.error('Failed to reset progress:', error);
   }

@@ -5,11 +5,25 @@
 global.__ExpoImportMetaRegistry = undefined;
 global.structuredClone = (val) => JSON.parse(JSON.stringify(val));
 
-// Mock Platform
-jest.mock('react-native/Libraries/Utilities/Platform', () => ({
+// Set up Platform before any modules load
+const PlatformMock = {
   OS: 'ios',
   select: (obj) => obj.ios || obj.default,
-}));
+  isPad: false,
+  isTV: false,
+  isTesting: true,
+};
+
+// Mock both possible Platform imports
+jest.mock('react-native/Libraries/Utilities/Platform', () => PlatformMock);
+jest.doMock('react-native', () => ({
+  Platform: PlatformMock,
+  StyleSheet: {
+    create: (styles) => styles,
+    flatten: (style) => style,
+  },
+  // Add other minimal React Native mocks if needed
+}), { virtual: false });
 
 // Mock chapter content for tests - must be before contentLoader import
 const mockChapterRegistry = {
@@ -45,10 +59,46 @@ jest.mock('../content/chapter-ids-only', () => ({
   chapterIds: ['kitzur_orach_chaim-001', 'kitzur_orach_chaim-002']
 }), { virtual: true });
 
-// Mock AsyncStorage
-jest.mock('@react-native-async-storage/async-storage', () =>
-  require('@react-native-async-storage/async-storage/jest/async-storage-mock')
-);
+// Mock AsyncStorage with a working implementation
+const mockAsyncStorage = (() => {
+  let store = {};
+  
+  return {
+    setItem: jest.fn(async (key, value) => {
+      store[key] = value;
+      return Promise.resolve();
+    }),
+    getItem: jest.fn(async (key) => {
+      return Promise.resolve(store[key] || null);
+    }),
+    removeItem: jest.fn(async (key) => {
+      delete store[key];
+      return Promise.resolve();
+    }),
+    multiRemove: jest.fn(async (keys) => {
+      keys.forEach(key => delete store[key]);
+      return Promise.resolve();
+    }),
+    getAllKeys: jest.fn(async () => {
+      return Promise.resolve(Object.keys(store));
+    }),
+    clear: jest.fn(async () => {
+      store = {};
+      return Promise.resolve();
+    }),
+    multiSet: jest.fn(async (keyValuePairs) => {
+      keyValuePairs.forEach(([key, value]) => {
+        store[key] = value;
+      });
+      return Promise.resolve();
+    }),
+    multiGet: jest.fn(async (keys) => {
+      return Promise.resolve(keys.map(key => [key, store[key] || null]));
+    }),
+  };
+})();
+
+jest.mock('@react-native-async-storage/async-storage', () => mockAsyncStorage);
 
 // Mock expo-router
 jest.mock('expo-router', () => ({
@@ -70,6 +120,36 @@ jest.mock('expo-router', () => ({
     back: jest.fn(),
   },
   useFocusEffect: jest.fn(),
+}));
+
+// Mock react-native-svg
+jest.mock('react-native-svg', () => {
+  const React = require('react');
+  return {
+    __esModule: true,
+    default: 'Svg',
+    Svg: 'Svg',
+    Circle: 'Circle',
+    Rect: 'Rect',
+    Path: 'Path',
+    G: 'G',
+    Text: 'Text',
+    Defs: 'Defs',
+    LinearGradient: 'LinearGradient',
+    Stop: 'Stop',
+  };
+});
+
+// Mock hooks - use @ alias
+jest.mock('@/hooks/use-color-scheme', () => ({
+  useColorScheme: jest.fn(() => 'light'),
+}));
+
+jest.mock('@/contexts/AppContext', () => ({
+  useAppContext: jest.fn(() => ({
+    fontSize: 16,
+    setFontSize: jest.fn(),
+  })),
 }));
 
 // Mock expo modules

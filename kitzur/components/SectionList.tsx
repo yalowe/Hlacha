@@ -9,6 +9,7 @@ import { ThemedView } from "./themed-view";
 import { Chapter } from "../utils/contentLoader";
 import { useApp } from "@/contexts/AppContext";
 import { Colors, spacing } from "@/constants/theme";
+import { toHebrewNumeral } from "@/utils/hebrewNumbers";
 
 export default function SectionList({ chapter }: { chapter: Chapter }) {
   const { getTextSizeMultiplier } = useApp();
@@ -29,7 +30,7 @@ export default function SectionList({ chapter }: { chapter: Chapter }) {
                 <ThemedText 
                   style={[styles.sectionNumber, { fontSize: 15 * textMultiplier }]}
                 >
-                  סעיף {sec.section}
+                  סעיף {toHebrewNumeral(sec.section)}
                 </ThemedText>
                 <ThemedText 
                   style={[styles.sectionPreview, { fontSize: 14 * textMultiplier }]} 

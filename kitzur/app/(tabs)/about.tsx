@@ -1,13 +1,16 @@
 import React from 'react';
-import { ScrollView, StyleSheet, View } from 'react-native';
+import { ScrollView, StyleSheet, View, Pressable } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Colors } from '@/constants/theme';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import type { SymbolViewProps } from 'expo-symbols';
+import { router } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 
 export default function AboutScreen() {
-  const appVersion = '1.2.0';
+  const appVersion = '1.3.0';
 
   return (
     <ThemedView style={styles.container}>
@@ -277,5 +280,26 @@ const styles = StyleSheet.create({
     opacity: 0.6,
     textAlign: 'center',
     marginBottom: 5,
+  },
+  contributeButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: Colors.light.accent.bronze,
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    marginTop: 12,
+    gap: 8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  contributeButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: '600',
   },
 });
