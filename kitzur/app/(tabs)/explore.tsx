@@ -290,9 +290,16 @@ export default function ExploreScreen() {
         <ThemedText style={styles.versionText}>
           גרסה 1.2.0
         </ThemedText>
+        <Pressable
+          style={[styles.resetButton, { marginTop: 18, backgroundColor: Colors.light.primary.main, borderColor: Colors.light.primary.main }]}
+          onPress={() => router.push('about' as typeof router.push extends (path: infer P, ...args: any[]) => any ? P : never)}
+        >
+          <Ionicons name="information-circle-outline" size={20} color={Colors.light.text.onPrimary} />
+          <ThemedText style={[styles.resetButtonText, { color: Colors.light.text.onPrimary }]}>אודות האפליקציה</ThemedText>
+        </Pressable>
       </ThemedView>
     </ScrollView>
-  );
+    );
 }
 
 const styles = StyleSheet.create({
