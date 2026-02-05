@@ -14,9 +14,9 @@ import {
   getAllQuestions,
   incrementQuestionViews,
   markAsHelpful,
+  removeRating,
   calculateTrustScore,
-  getUserRating,
-  removeUserRating
+  getUserRating
 } from '@/utils/questionsManager';
 import { getDeviceId } from '@/utils/deviceId';
 import { CATEGORY_LABELS, APPROVAL_LABELS } from '@/types/questions';
@@ -78,9 +78,8 @@ export default function QuestionDetailScreen() {
       
       // If clicking the same rating again, remove it
       if (userRating === isHelpful) {
-        // Remove the rating
-        await markAsHelpful(id, isHelpful, userId, userRating);
-        await removeUserRating(id, userId);
+        // Remove the rating completely
+        await removeRating(id, userId, userRating);
         setUserRating(null);
         
         // Reload question to get updated stats

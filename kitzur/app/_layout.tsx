@@ -4,7 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 import { I18nManager } from 'react-native';
 
-import { useColorScheme } from '@/hooks/use-color-scheme';
+// ...existing code...
 import { AppProvider } from '@/contexts/AppContext';
 import { Colors } from '@/constants/theme';
 
@@ -13,7 +13,7 @@ I18nManager.allowRTL(true);
 I18nManager.forceRTL(true);
 
 export const unstable_settings = {
-  anchor: '(tabs)',
+  anchor: 'חזרה',
 };
 
 export default function RootLayout() {
@@ -31,7 +31,7 @@ export default function RootLayout() {
             },
           }}
         >
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="חזרה" options={{ headerShown: false }} />
           <Stack.Screen 
             name="browse" 
             options={{ 
@@ -98,7 +98,7 @@ export default function RootLayout() {
           <Stack.Screen 
             name="meein-shalosh" 
             options={{ 
-              title: 'מעין שלוש',
+              title: 'מעיין שלוש',
               headerBackTitle: 'חזרה',
             }} 
           />

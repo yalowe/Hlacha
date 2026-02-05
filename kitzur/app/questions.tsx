@@ -19,7 +19,6 @@ import {
 } from '@/utils/questionsManager';
 import { CATEGORY_LABELS } from '@/types/questions';
 import type { Question, QuestionCategory } from '@/types/questions';
-import { initializeSampleData } from '@/data/sampleQuestions';
 import { normalizeHebrew } from '@/utils/hebrewNormalize';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -75,23 +74,24 @@ export default function QuestionsScreen() {
       await loadPendingAnswersCount();
       
       // Initialize sample data if no questions exist
-      if (all.length === 0) {
-        await initializeSampleData();
-        const [newAll, newPopular, newUnanswered] = await Promise.all([
-          getAllQuestions(),
-          getPopularQuestions(5),
-          getUnansweredQuestions()
-        ]);
-        setAllQuestions(newAll);
-        setDisplayedQuestions(newAll);
-        setPopularQuestions(newPopular);
-        setUnansweredCount(newUnanswered.length);
-      } else {
-        setAllQuestions(all);
-        setDisplayedQuestions(all);
-        setPopularQuestions(popular);
-        setUnansweredCount(unanswered.length);
-      }
+      // if (all.length === 0) {
+      //   await initializeSampleData();
+      //   const [newAll, newPopular, newUnanswered] = await Promise.all([
+      //     getAllQuestions(),
+      //     getPopularQuestions(5),
+      //     getUnansweredQuestions()
+      //   ]);
+      //   setAllQuestions(newAll);
+      //   setDisplayedQuestions(newAll);
+      //   setPopularQuestions(newPopular);
+      //   setUnansweredCount(newUnanswered.length);
+      // } else {
+      setAllQuestions(all);
+      setDisplayedQuestions(all);
+      setPopularQuestions(popular);
+      setUnansweredCount(unanswered.length);
+      setPendingAnswersCount(0);
+      // }
     } catch (error) {
       console.error('Failed to load questions:', error);
     } finally {

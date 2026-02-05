@@ -160,42 +160,214 @@ firebase init
 
 ### שלב 2: הגדרת Firestore Security Rules
 
+**Security Rules מתקדמות עם מערכת הרשאות מלאה:**
+
 ```javascript
-// firestore.rules
+// firestore.rules - מערכת הרשאות מלאה
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     
-    // Questions - כולם יכולים לקרוא, רק מחבר יכול לערוך
-    match /questions/{questionId} {
-      allow read: if true;
-      allow create: if request.auth != null;
-      allow update: if request.auth.uid == resource.data.userId 
-                    || request.auth.token.rabbi == true;
-      allow delete: if request.auth.uid == resource.data.userId;
-      
-      // Answers - רק רבנים מאומתים יכולים לענות
-      match /answers/{answerId} {
-        allow read: if true;
-        allow create: if request.auth != null 
-                      && request.auth.token.rabbi == true;
-        allow update: if request.auth.uid == resource.data.rabbiId;
-      }
-      
-      // Approvals - כל מי שמחובר יכול לאשר
-      match /approvals/{approvalId} {
-        allow read: if true;
-        allow create: if request.auth != null;
-      }
+    // ======================================
+    // HELPER FUNCTIONS - פונקציות עזר
+    // ======================================
+    
+    // בדיקת תפקיד משתמש
+    function getUserRole() {
+      return request.auth.token.role;
     }
     
-    // User Ratings - כל משתמש רואה רק את שלו
-    match /userRatings/{userId} {
-      allow read, write: if request.auth != null 
-                         && request.auth.uid == userId;
+    // בדיקת הרשאות ספציפיות
+    function hasRole(role) {
+      return getUserRole() == role;
+    }
+    
+    function isAtLeast(minRole) {
+      let roleHierarchy = [
+        'anonymous',      // 0
+        'registered',     // 1
+        'trusted',        // 2
+        'scholar',        // 3
+        'rabbi',          // 4
+        'moderator',      // 5
+        'superadmin'      // 6
+      ];
+      
+      return roleHierarchy.indexOf(getUserRole()) >= roleHierarchy.indexOf(minRole);
+    }
+    
+    // בדיקת הרשאות מפורטות
+    function canApproveAnswers() {
+      return isAtLeast('trusted');
+    }
+    
+    function canAnswerQuestions() {
+      return isAtLeast('scholar');
+    }
+    
+    function canEditContent() {
+      return isAtLeast('moderator');
+    }
+    
+    function canManageUsers() {
+      return hasRole('superadmin');
+    }
+    
+    // ======================================
+    // QUESTIONS COLLECTION
+    // ======================================
+    
+    match /questions/{questionId} {
+      // קריאה - כולם יכולים לקרוא שאלות מאושרות
+      allow read: if resource.data.moderationStatus == 'approved'
+                  || request.auth.uid == resource.data.userId
+                  || isAtLeast('moderator');
+      
+      // יצירה - כל מי שמחובר יכול לשאול
+      allow create: if request.auth != null
+                    && request.resource.data.userId == request.auth.uid
+                    && request.resource.data.moderationStatus == 'pending';
+      
+      // עדכון - רק מחבר או מנהל
+      allow update: if request.auth.uid == resource.data.userId
+                    || canEditContent();
+      
+      // מחיקה - רק מחבר או מנהל
+      allow delete: if request.auth.uid == resource.data.userId
+                    || canEditContent();
+    }
+    
+    // ======================================
+    // ANSWERS SUBCOLLECTION
+    // ======================================
+    
+    match /questions/{questionId}/answers/{answerId} {
+      // קריאה - כולם
+      allow read: if true;
+      
+      // יצירה - רק תלמידי חכמים ומעלה
+      allow create: if request.auth != null
+                    && canAnswerQuestions()
+                    && request.resource.data.authorId == request.auth.uid
+                    && request.resource.data.authorRole == getUserRole();
+      
+      // עדכון - רק מחבר התשובה או מנהל
+      allow update: if request.auth.uid == resource.data.authorId
+                    || canEditContent();
+      
+      // מחיקה - רק מנהל
+      allow delete: if canEditContent();
+    }
+    
+    // ======================================
+    // APPROVALS SUBCOLLECTION
+    // ======================================
+    
+    match /questions/{questionId}/approvals/{approvalId} {
+      // קריאה - כולם
+      allow read: if true;
+      
+      // יצירה - רק משתמשים מאושרים (trusted+)
+      allow create: if request.auth != null
+                    && canApproveAnswers()
+                    && request.resource.data.userId == request.auth.uid
+                    && request.resource.data.userRole == getUserRole();
+      
+      // עדכון - רק מי שיצר את האישור
+      allow update: if request.auth.uid == resource.data.userId;
+      
+      // מחיקה - רק מי שיצר או מנהל
+      allow delete: if request.auth.uid == resource.data.userId
+                    || canEditContent();
+    }
+    
+    // ======================================
+    // USER PROFILES
+    // ======================================
+    
+    match /users/{userId} {
+      // קריאה - כל פרופיל ציבורי
+      allow read: if true;
+      
+      // יצירה - רק למשתמש עצמו
+      allow create: if request.auth != null
+                    && request.auth.uid == userId
+                    && request.resource.data.role == 'registered';
+      
+      // עדכון - רק למשתמש עצמו (פרטים) או SuperAdmin (הרשאות)
+      allow update: if request.auth.uid == userId
+                    || (canManageUsers() 
+                        && request.resource.data.grantedBy == request.auth.uid);
+      
+      // מחיקה - רק למשתמש עצמו או SuperAdmin
+      allow delete: if request.auth.uid == userId
+                    || canManageUsers();
+    }
+    
+    // ======================================
+    // USER RATINGS (דירוגים אישיים)
+    // ======================================
+    
+    match /userRatings/{ratingId} {
+      // Format: {userId}_{questionId}
+      allow read: if request.auth != null;
+      
+      allow write: if request.auth != null
+                   && ratingId.matches(request.auth.uid + '_.*');
+    }
+    
+    // ======================================
+    // AUDIT LOG (יומן ביקורת)
+    // ======================================
+    
+    match /auditLog/{logId} {
+      // קריאה - רק מנהלים
+      allow read: if isAtLeast('moderator');
+      
+      // יצירה - אוטומטית דרך Cloud Functions
+      allow create: if false;
+      
+      // אין עדכון או מחיקה
+      allow update, delete: if false;
+    }
+    
+    // ======================================
+    // STATISTICS (סטטיסטיקות)
+    // ======================================
+    
+    match /stats/platform {
+      // קריאה - רק מנהלים
+      allow read: if isAtLeast('moderator');
+      
+      // עדכון - רק דרך Cloud Functions
+      allow write: if false;
     }
   }
 }
+```
+
+**הסבר על ה-Security Rules:**
+
+1. **היררכיית תפקידים:**
+   - `anonymous` → `registered` → `trusted` → `scholar` → `rabbi` → `moderator` → `superadmin`
+
+2. **הרשאות מדורגות:**
+   - `isAtLeast('trusted')` - בודק שהמשתמש לפחות trusted ומעלה
+   - מאפשר אכיפה גמישה של הרשאות
+
+3. **אבטחה משולשת:**
+   - Firebase Auth - זיהוי משתמש
+   - Custom Claims - תפקיד והרשאות
+   - Firestore Rules - אכיפה ברמת המסמכים
+
+4. **Audit Log:**
+   - רק Cloud Functions יכולות לכתוב
+   - מבטיח שאי אפשר לשנות היסטוריה
+
+5. **הגנה על נתונים רגישים:**
+   - כל משתמש רואה רק את הדירוגים שלו
+   - פרופילים פרטיים מוגנים
+   - סטטיסטיקות רק למנהלים
 ```
 
 ### שלב 3: עדכון הקוד

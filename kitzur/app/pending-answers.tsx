@@ -89,11 +89,12 @@ export default function PendingAnswersScreen() {
                 ...question,
                 answer: {
                   text: answer.text,
-                  source: 'community',
+                  source: "community",
                   answeredAt: Date.now(),
                   sources: answer.sources,
                   approvals: [],
                   isVerified: true,
+                  totalApprovalWeight: 0,
                 },
                 status: 'verified',
               };
