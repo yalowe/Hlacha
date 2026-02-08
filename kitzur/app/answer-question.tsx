@@ -158,20 +158,6 @@ export default function AnswerQuestionScreen() {
           showsVerticalScrollIndicator={false}
           keyboardShouldPersistTaps="handled"
         >
-        {/* Header */}
-        <View style={styles.header}>
-          <Pressable 
-            onPress={() => router.back()}
-            style={styles.backButton}
-          >
-            <Ionicons name="close" size={28} color={colors.text.primary} />
-          </Pressable>
-          <ThemedText style={[styles.headerTitle, { color: colors.text.primary }]}>
-            💡 ענה על השאלה
-          </ThemedText>
-          <View style={{ width: 28 }} />
-        </View>
-
         {/* Instructions */}
         <View style={[styles.infoBox, { backgroundColor: colors.primary.light }]}>
           <Ionicons name="information-circle" size={20} color={colors.primary.main} />
@@ -376,9 +362,11 @@ const styles = StyleSheet.create({
   backButton: {
     padding: 4,
   },
-  headerTitle: {
-    fontSize: 18,
-    fontWeight: '700',
+  infoText: {
+    flex: 1,
+    fontSize: 13,
+    lineHeight: 18,
+    textAlign: 'right',
   },
   infoBox: {
     marginHorizontal: spacing.lg,
@@ -387,12 +375,6 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     flexDirection: 'row',
     gap: spacing.sm,
-  },
-  infoText: {
-    flex: 1,
-    fontSize: 13,
-    lineHeight: 18,
-    textAlign: 'right',
   },
   questionBox: {
     marginHorizontal: spacing.lg,

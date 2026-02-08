@@ -188,25 +188,6 @@ export default function AddSectionScreen() {
           showsVerticalScrollIndicator={false}
           keyboardShouldPersistTaps="handled"
         >
-        {/* Header */}
-        <View style={[styles.header, { backgroundColor: colors.primary.main }]}>
-          <Pressable
-            style={styles.backButton}
-            onPress={() => {
-              Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-              router.back();
-            }}
-          >
-            <Ionicons name="chevron-back" size={24} color={colors.text.onPrimary} />
-          </Pressable>
-          <ThemedText style={[styles.headerTitle, { color: colors.text.onPrimary }]}>
-            📝 הוספת סעיף חדש
-          </ThemedText>
-          <ThemedText style={[styles.headerSubtitle, { color: colors.text.onPrimary, opacity: 0.9 }]}>
-            הוסף תוכן לשולחן ערוך
-          </ThemedText>
-        </View>
-
         <View style={styles.form}>
           {/* Book Selection */}
           <View style={styles.section}>
@@ -448,29 +429,6 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     flex: 1,
-  },
-  header: {
-    paddingTop: 60,
-    paddingBottom: 24,
-    paddingHorizontal: spacing.lg,
-    alignItems: 'center',
-    position: 'relative',
-  },
-  backButton: {
-    position: 'absolute',
-    top: 60,
-    right: spacing.lg,
-    padding: spacing.sm,
-  },
-  headerTitle: {
-    fontSize: 24,
-    fontWeight: '700',
-    textAlign: 'center',
-  },
-  headerSubtitle: {
-    fontSize: 14,
-    marginTop: 4,
-    textAlign: 'center',
   },
   form: {
     paddingHorizontal: spacing.lg,

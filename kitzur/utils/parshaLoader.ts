@@ -141,26 +141,125 @@ export function getParshiotByBook() {
 }
 
 /**
- * Get the current week's parsha
- * Uses a known date as reference: Sept 28, 2024 was Parshat Bereishit
- * (adjusted to align with actual Torah reading cycle)
+ * Get the current week's parsha using Hebcal API
+ * This ensures accurate parsha calculation based on Hebrew calendar
  */
-export function getCurrentParsha(): typeof PARSHIOT_LIST[0] | null {
+export async function getCurrentParsha(): Promise<typeof PARSHIOT_LIST[0] | null> {
   try {
-    // Reference: Sept 28, 2024 adjusted to align with Feb 4, 2026 = Yitro (index 16)
+    // Use Hebcal API for accurate parsha information
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    
+    const url = `https://www.hebcal.com/shabbat?cfg=json&geo=none&M=on&date=${year}-${month}-${day}`;
+    
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error('Failed to fetch from Hebcal');
+    }
+    
+    const data = await response.json();
+    
+    // Find the Torah reading event
+    const torahReading = data.items?.find((item: any) => 
+      item.category === 'parashat' || item.title?.includes('Parashat')
+    );
+    
+    if (torahReading) {
+      // Extract parsha name from title (e.g., "Parashat Mishpatim" -> "mishpatim")
+      const parshaName = torahReading.hebrew?.toLowerCase() || 
+                          torahReading.title?.replace(/Parashat\s+/i, '').toLowerCase();
+      
+      // Map English/Hebrew names to our parsha IDs
+      const parshaMap: Record<string, string> = {
+        'בראשית': 'bereishit', 'bereishit': 'bereishit',
+        'נח': 'noach', 'noach': 'noach',
+        'לך לך': 'lech-lecha', 'lech-lecha': 'lech-lecha',
+        'וירא': 'vayera', 'vayera': 'vayera',
+        'חיי שרה': 'chayei_sara', 'chayei sara': 'chayei_sara',
+        'תולדות': 'toldot', 'toldot': 'toldot',
+        'ויצא': 'vayetzei', 'vayetzei': 'vayetzei',
+        'וישלח': 'vayishlach', 'vayishlach': 'vayishlach',
+        'וישב': 'vayeshev', 'vayeshev': 'vayeshev',
+        'מקץ': 'miketz', 'miketz': 'miketz',
+        'ויגש': 'vayigash', 'vayigash': 'vayigash',
+        'ויחי': 'vayechi', 'vayechi': 'vayechi',
+        'שמות': 'shemot', 'shemot': 'shemot',
+        'וארא': 'vaera', 'vaera': 'vaera',
+        'בא': 'bo', 'bo': 'bo',
+        'בשלח': 'beshalach', 'beshalach': 'beshalach',
+        'יתרו': 'yitro', 'yitro': 'yitro',
+        'משפטים': 'mishpatim', 'mishpatim': 'mishpatim',
+        'תרומה': 'terumah', 'terumah': 'terumah',
+        'תצוה': 'tetzaveh', 'tetzaveh': 'tetzaveh',
+        'כי תשא': 'ki_tisa', 'ki tisa': 'ki_tisa',
+        'ויקהל': 'vayakhel', 'vayakhel': 'vayakhel',
+        'פקודי': 'pekudei', 'pekudei': 'pekudei',
+        'ויקרא': 'vayikra', 'vayikra': 'vayikra',
+        'צו': 'tzav', 'tzav': 'tzav',
+        'שמיני': 'shmini', 'shmini': 'shmini',
+        'תזריע': 'tazria', 'tazria': 'tazria',
+        'מצרע': 'metzora', 'metzora': 'metzora',
+        'אחרי מות': 'achrei_mot', 'achrei mot': 'achrei_mot',
+        'קדשים': 'kedoshim', 'kedoshim': 'kedoshim',
+        'אמר': 'emor', 'emor': 'emor',
+        'בהר': 'behar', 'behar': 'behar',
+        'בחקתי': 'bechukotai', 'bechukotai': 'bechukotai',
+        'במדבר': 'bamidbar', 'bamidbar': 'bamidbar',
+        'נשא': 'nasso', 'nasso': 'nasso',
+        'בהעלתך': 'behaalotcha', 'behaalotcha': 'behaalotcha',
+        'שלח': 'shlach', 'shlach': 'shlach',
+        'קרח': 'korach', 'korach': 'korach',
+        'חקת': 'chukat', 'chukat': 'chukat',
+        'בלק': 'balak', 'balak': 'balak',
+        'פינחס': 'pinchas', 'pinchas': 'pinchas',
+        'מטות': 'matot', 'matot': 'matot',
+        'מסעי': 'masei', 'masei': 'masei',
+        'דברים': 'devarim', 'devarim': 'devarim',
+        'ואתחנן': 'vaetchanan', 'vaetchanan': 'vaetchanan',
+        'עקב': 'eikev', 'eikev': 'eikev',
+        'ראה': 'reeh', 'reeh': 'reeh',
+        'שפטים': 'shoftim', 'shoftim': 'shoftim',
+        'כי תצא': 'ki_teitzei', 'ki teitzei': 'ki_teitzei',
+        'כי תבוא': 'ki_tavo', 'ki tavo': 'ki_tavo',
+        'נצבים': 'nitzavim', 'nitzavim': 'nitzavim',
+        'וילך': 'vayeilech', 'vayeilech': 'vayeilech',
+        'האזינו': 'haazinu', 'haazinu': 'haazinu',
+        'וזאת הברכה': 'vzot_haberachah', 'vzot haberachah': 'vzot_haberachah'
+      };
+      
+      const parshaId = parshaMap[parshaName] || parshaName.replace(/\s+/g, '_');
+      const parsha = PARSHIOT_LIST.find(p => p.id === parshaId);
+      
+      if (parsha) {
+        return parsha;
+      }
+    }
+    
+    // Fallback to calculated method if API fails
+    console.warn('Hebcal API did not return parsha, using fallback calculation');
+    return getFallbackParsha();
+    
+  } catch (error) {
+    console.error('Error fetching current parsha from Hebcal:', error);
+    return getFallbackParsha();
+  }
+}
+
+/**
+ * Fallback method for calculating parsha when API is unavailable
+ */
+function getFallbackParsha(): typeof PARSHIOT_LIST[0] | null {
+  try {
     const referenceDate = new Date('2024-09-28');
     const now = new Date();
-    
-    // Calculate weeks since reference date
     const diffTime = now.getTime() - referenceDate.getTime();
     const diffWeeks = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 7));
-    
-    // Cycle through the parshiot (54 weeks in a cycle)
     const parshaIndex = diffWeeks % PARSHIOT_LIST.length;
     return PARSHIOT_LIST[parshaIndex];
   } catch (error) {
-    console.error('Error getting current parsha:', error);
-    // Fallback to Bereishit
-    return PARSHIOT_LIST[0];
+    console.error('Error in fallback parsha calculation:', error);
+    return PARSHIOT_LIST[0]; // Return Bereishit as last resort
   }
 }

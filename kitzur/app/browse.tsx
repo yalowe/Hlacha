@@ -1,7 +1,7 @@
 /**
  * Browse Screen - Category selection and chapter list
  */
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, ActivityIndicator, ScrollView, View, Pressable } from 'react-native';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { ThemedText } from '@/components/themed-text';
@@ -83,7 +83,7 @@ export default function BrowseScreen() {
                 <ThemedText style={[styles.categoryNameEn, { color: colors.text.secondary }]}>
                   {category.nameEn}
                 </ThemedText>
-                <ThemedText style={[styles.categoryCount, { color: colors.text.tertiary }]}>
+                <ThemedText style={[styles.categoryCount, { color: colors.text.secondary }]}>
                   {category.count} סימנים
                 </ThemedText>
               </View>

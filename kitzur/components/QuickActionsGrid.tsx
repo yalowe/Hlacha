@@ -7,9 +7,10 @@ interface QuickActionButtonProps {
   icon: string;
   label: string;
   onPress: () => void;
+  badge?: number | 'new';
 }
 
-export function QuickActionButton({ icon, label, onPress }: QuickActionButtonProps) {
+export function QuickActionButton({ icon, label, onPress, badge }: QuickActionButtonProps) {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'];
 
@@ -21,6 +22,13 @@ export function QuickActionButton({ icon, label, onPress }: QuickActionButtonPro
     >
       <View style={[styles.iconContainer, { backgroundColor: colors.primary.light }]}>
         <Text style={[styles.icon, { color: colors.primary.main }]}>{icon}</Text>
+        {badge && (
+          <View style={[styles.badge, { backgroundColor: '#FF3B30' }]}>
+            <Text style={styles.badgeText}>
+              {typeof badge === 'number' ? (badge > 9 ? '9+' : badge.toString()) : '•'}
+            </Text>
+          </View>
+        )}
       </View>
       <Text style={[styles.label, { color: colors.text.primary }]} numberOfLines={1}>
         {label}
@@ -42,17 +50,42 @@ interface QuickActionsGridProps {
   onMeeinShalosh?: () => void;
   onQuestions?: () => void;
   onAddSection?: () => void;
+  questionsCount?: number;
+  pendingAnswersCount?: number;
 }
 
-export function QuickActionsGrid({ onBrowse, onSearch, onBookmarks, onDailyHalacha, onShnayimMikra, onParshatHaMann, onIggeretHaRamban, onBirkatHaMazon, onBoreiNefashot, onMeeinShalosh, onQuestions, onAddSection }: QuickActionsGridProps) {
+export function QuickActionsGrid({ 
+  onBrowse, 
+  onSearch, 
+  onBookmarks, 
+  onDailyHalacha, 
+  onShnayimMikra, 
+  onParshatHaMann, 
+  onIggeretHaRamban, 
+  onBirkatHaMazon, 
+  onBoreiNefashot, 
+  onMeeinShalosh, 
+  onQuestions, 
+  onAddSection,
+  questionsCount = 0,
+  pendingAnswersCount = 0
+}: QuickActionsGridProps) {
+  // Calculate total badge count (unanswered + pending answers)
+  const totalBadgeCount = questionsCount + pendingAnswersCount;
+  
   return (
     <View style={styles.grid}>
       <QuickActionButton icon="📖" label="שולחן ערוך" onPress={onBrowse} />
       <QuickActionButton icon="🔍" label="חיפוש" onPress={onSearch} />
-      <QuickActionButton icon="⭐" label="סימניות" onPress={onBookmarks} />
+      <QuickActionButton icon="⭐" label="סימניות שמורות" onPress={onBookmarks} />
       <QuickActionButton icon="📅" label="הלכה יומית" onPress={onDailyHalacha} />
       {onQuestions && (
-        <QuickActionButton icon="💬" label="שאלות ותשובות" onPress={onQuestions} />
+        <QuickActionButton 
+          icon="💬" 
+          label="שאלות ותשובות" 
+          onPress={onQuestions}
+          badge={totalBadgeCount > 0 ? totalBadgeCount : undefined}
+        />
       )}
       {onAddSection && (
         <QuickActionButton icon="✍️" label="הוסף הלכה" onPress={onAddSection} />
@@ -104,9 +137,28 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     marginBottom: 8,
     marginTop: -10,
+    position: 'relative',
   },
   icon: {
     fontSize: 24,
+  },
+  badge: {
+    position: 'absolute',
+    top: -4,
+    right: -4,
+    minWidth: 20,
+    height: 20,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 6,
+    borderWidth: 2,
+    borderColor: '#FFFFFF',
+  },
+  badgeText: {
+    color: '#FFFFFF',
+    fontSize: 11,
+    fontWeight: '700',
   },
   label: {
     fontSize: 14,

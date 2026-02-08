@@ -19,7 +19,7 @@ export default function AboutScreen() {
         <View style={styles.header}>
           <IconSymbol size={80} name="book.fill" color={Colors.light.primary.main} />
           <ThemedText type="title" style={styles.appTitle}>
-            קיצור שולחן ערוך
+            אודות האפליקציה
           </ThemedText>
           <ThemedText style={styles.version}>גרסה {appVersion}</ThemedText>
         </View>
@@ -30,24 +30,21 @@ export default function AboutScreen() {
             📖 אודות האפליקציה
           </ThemedText>
           <ThemedText style={styles.text}>
-            אפליקציה ללימוד קיצור שולחן ערוך עם תכונות מתקדמות למעקב אחר ההתקדמות, סימניות, וחיפוש מהיר.
+            האפליקציה נועדה להנגיש לימוד וחקר מקורות יהודיים בצורה נוחה, ידידותית ומותאמת לעברית (RTL).
           </ThemedText>
           <ThemedText style={styles.text}>
-            האפליקציה כוללת את הטקסט המלא של קיצור שולחן ערוך בנוסח ספרד, עם ניקוד מלא וחלוקה נוחה לסימנים וסעיפים.
+            היא כוללת בין היתר:
           </ThemedText>
-        </View>
-
-        {/* Features */}
-        <View style={styles.section}>
-          <ThemedText type="subtitle" style={styles.sectionTitle}>
-            ✨ תכונות עיקריות
+          <ThemedText style={styles.bulletText}>• לימוד תנ״ך ומקורות</ThemedText>
+          <ThemedText style={styles.bulletText}>• הלכות (כולל הלכה יומית - מחזור פרטי של סעיף אחד ליום)</ThemedText>
+          <ThemedText style={styles.bulletText}>• שולחן ערוך / קיצור שולחן ערוך</ThemedText>
+          <ThemedText style={styles.bulletText}>• שאילת שאלות וקבלת מענה</ThemedText>
+          <ThemedText style={styles.bulletText}>• מנגנון משוב על תשובות (אהבתי/לא אהבתי)</ThemedText>
+          <ThemedText style={styles.bulletText}>• חיפוש מתקדם בתכנים</ThemedText>
+          <ThemedText style={styles.bulletText}>• מעקב התקדמות לימודית</ThemedText>
+          <ThemedText style={styles.text}>
+            המטרה היא לאפשר לכל משתמש ללמוד, לשאול, ולהעמיק – בצורה פשוטה, מסודרת ונגישה.
           </ThemedText>
-          <FeatureItem icon="book.fill" text="לימוד קיצור שולחן ערוך המלא" />
-          <FeatureItem icon="magnifyingglass" text="חיפוש מהיר בכל הטקסט" />
-          <FeatureItem icon="bookmark.fill" text="סימניות אישיות" />
-          <FeatureItem icon="chart.bar.fill" text="מעקב אחר התקדמות הלימוד" />
-          <FeatureItem icon="flame.fill" text="רצף ימים של לימוד" />
-          <FeatureItem icon="sparkles" text="תזכורת יומית להלכה" />
         </View>
 
         {/* Sources */}
@@ -63,21 +60,6 @@ export default function AboutScreen() {
           <ThemedText style={styles.bulletText}>• תוכן נוסף מספריית ספריא ומקורות נוספים</ThemedText>
         </View>
 
-        {/* Technical Info */}
-        <View style={styles.section}>
-          <ThemedText type="subtitle" style={styles.sectionTitle}>
-            🔧 מידע טכני
-          </ThemedText>
-          <ThemedText style={styles.text}>
-            <ThemedText style={styles.bold}>פלטפורמה:</ThemedText> React Native + Expo
-          </ThemedText>
-          <ThemedText style={styles.text}>
-            <ThemedText style={styles.bold}>גרסת האפליקציה:</ThemedText> {appVersion}
-          </ThemedText>
-          <ThemedText style={styles.text}>
-            <ThemedText style={styles.bold}>עדכון אחרון:</ThemedText> פברואר 2026
-          </ThemedText>
-        </View>
 
         {/* What's New */}
         <View style={styles.section}>
@@ -89,15 +71,6 @@ export default function AboutScreen() {
           <ThemedText style={styles.bulletText}>• מעקב התקדמות ורצפים</ThemedText>
         </View>
 
-        {/* Developer Info */}
-        <View style={styles.section}>
-          <ThemedText type="subtitle" style={styles.sectionTitle}>
-            👨‍💻 פיתוח
-          </ThemedText>
-          <ThemedText style={styles.text}>
-            פותח במטרה להנגיש את לימוד ההלכה ולאפשר למידה נוחה ומעקב אחר התקדמות.
-          </ThemedText>
-        </View>
 
         {/* Disclaimer */}
         <View style={styles.section}>
@@ -133,7 +106,7 @@ export default function AboutScreen() {
           </ThemedText>
           <ThemedText style={styles.bulletText}>• שחרור ראשוני</ThemedText>
           <ThemedText style={styles.bulletText}>• קיצור שולחן ערוך המלא</ThemedText>
-          <ThemedText style={styles.bulletText}>• מערכת חיפוש וסימניות</ThemedText>
+          <ThemedText style={styles.bulletText}>• מערכת חיפוש וסימניות שמורות</ThemedText>
         </View>
 
         {/* Footer */}
@@ -147,20 +120,6 @@ export default function AboutScreen() {
         </View>
       </ScrollView>
     </ThemedView>
-  );
-}
-
-interface FeatureItemProps {
-  icon: string;
-  text: string;
-}
-
-function FeatureItem({ icon, text }: FeatureItemProps) {
-  return (
-    <View style={styles.featureItem}>
-      <IconSymbol size={22} name={icon as any} color={Colors.light.primary.main} style={styles.featureIcon} />
-      <ThemedText style={styles.featureText}>{text}</ThemedText>
-    </View>
   );
 }
 
@@ -213,18 +172,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginRight: 12,
     marginBottom: 2,
-    textAlign: 'right',
-  },
-  featureItem: {
-    flexDirection: 'row-reverse',
-    alignItems: 'center',
-    marginBottom: 6,
-  },
-  featureIcon: {
-    marginLeft: 8,
-  },
-  featureText: {
-    fontSize: 16,
     textAlign: 'right',
   },
   link: {

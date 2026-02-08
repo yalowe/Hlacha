@@ -2,7 +2,8 @@ import { DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
-import { I18nManager } from 'react-native';
+import { useEffect } from 'react';
+import { I18nManager, Platform } from 'react-native';
 
 // ...existing code...
 import { AppProvider } from '@/contexts/AppContext';
@@ -17,6 +18,12 @@ export const unstable_settings = {
 };
 
 export default function RootLayout() {
+  useEffect(() => {
+    if (Platform.OS === 'web' && typeof document !== 'undefined') {
+      document.documentElement.dir = 'rtl';
+    }
+  }, []);
+
   return (
     <AppProvider>
       <ThemeProvider value={DefaultTheme}>
@@ -29,85 +36,117 @@ export default function RootLayout() {
             headerTitleStyle: {
               fontWeight: '600',
             },
+            headerBackTitle: 'חזור',
           }}
         >
-          <Stack.Screen name="חזרה" options={{ headerShown: false }} />
+          <Stack.Screen name="(tabs)" options={{ headerShown: false, title: 'חזור' }} />
           <Stack.Screen 
             name="browse" 
             options={{ 
               title: 'כל הסימנים',
-              headerBackTitle: 'חזרה',
             }} 
           />
           <Stack.Screen 
             name="bookmarks" 
             options={{ 
-              title: 'סימניות',
-              headerBackTitle: 'חזרה',
+              title: 'סימניות שמורות',
             }} 
           />
           <Stack.Screen 
             name="chapter/[id]" 
             options={{ 
               title: 'סימן',
-              headerBackTitle: 'חזרה',
             }} 
           />
           <Stack.Screen 
             name="section/[id]" 
             options={{ 
               title: 'סעיף',
-              headerBackTitle: 'חזרה',
             }} 
           />
           <Stack.Screen 
             name="parsha/[id]" 
             options={{ 
               title: 'פרשת השבוע',
-              headerBackTitle: 'חזרה',
             }} 
           />
           <Stack.Screen 
             name="shnayim-mikra" 
             options={{ 
               title: 'שניים מקרא ואחד תרגום',
-              headerBackTitle: 'חזרה',
             }} 
           />
           <Stack.Screen 
             name="parshat-hamann" 
             options={{ 
               title: 'פרשת המן',
-              headerBackTitle: 'חזרה',
             }} 
           />
           <Stack.Screen 
             name="iggeret-haramban" 
             options={{ 
               title: 'אגרת הרמב״ן',
-              headerBackTitle: 'חזרה',
             }} 
           />
           <Stack.Screen 
             name="birkat-hamazon" 
             options={{ 
               title: 'ברכת המזון',
-              headerBackTitle: 'חזרה',
             }} 
           />
           <Stack.Screen 
             name="meein-shalosh" 
             options={{ 
               title: 'מעיין שלוש',
-              headerBackTitle: 'חזרה',
             }} 
           />
           <Stack.Screen 
             name="borei-nefashot" 
             options={{ 
               title: 'בורא נפשות',
-              headerBackTitle: 'חזרה',
             }} 
+          />
+          <Stack.Screen 
+            name="questions" 
+            options={{ 
+              title: 'שאלות ותשובות',
+            }} 
+          />
+          <Stack.Screen
+            name="question/[id]"
+            options={{
+              title: 'שאלה',
+            }}
+          />
+          <Stack.Screen
+            name="ask-question"
+            options={{
+              title: 'שאלה חדשה',
+            }}
+          />
+          <Stack.Screen
+            name="answer-question"
+            options={{
+              title: 'מענה לשאלה',
+            }}
+          />
+          <Stack.Screen
+            name="pending-answers"
+            options={{
+              title: 'תשובות ממתינות',
+            }}
+          />
+          <Stack.Screen
+            name="add-section"
+            options={{
+              title: 'הוספת סעיף',
+            }}
+          />
+          <Stack.Screen
+            name="search"
+            options={{
+              title: 'חיפוש',
+            }}
           />
           <Stack.Screen 
             name="modal" 

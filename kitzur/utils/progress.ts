@@ -199,7 +199,8 @@ export function getDailyQuote(): { text: string; source: string } {
   return DAILY_QUOTES[index];
 }
 
-// Get daily halacha (synchronized to global daily learning)
+// Get daily halacha - returns ONE section per day (not entire chapter)
+// NOTE: This is a custom learning cycle, not synchronized with any global program
 export function getDailyHalachaId(): string {
   // Calculate days since Kitzur Shulchan Aruch publication (1864)
   const startDate = new Date('1864-01-01');
@@ -207,9 +208,17 @@ export function getDailyHalachaId(): string {
   const diffTime = Math.abs(now.getTime() - startDate.getTime());
   const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
   
-  // Cycle through 221 simanim
-  const simanNumber = (diffDays % 221) + 1;
-  return `kitzur_orach_chaim-${String(simanNumber).padStart(3, '0')}`;
+  // Estimate ~10 sections per siman on average = ~2210 total sections
+  // This gives a ~6 year cycle before repeating
+  const totalEstimatedSections = 221 * 10;
+  const cycleDay = diffDays % totalEstimatedSections;
+  
+  // Calculate which siman and section
+  const simanNumber = Math.floor(cycleDay / 10) + 1;
+  const sectionNumber = (cycleDay % 10) + 1;
+  
+  // Return section ID instead of chapter ID
+  return `kitzur_orach_chaim-${String(simanNumber).padStart(3, '0')}-s${sectionNumber}`;
 }
 
 // Get random halacha (keeping for backward compatibility)
