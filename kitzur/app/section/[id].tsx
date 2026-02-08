@@ -21,11 +21,21 @@ export default function SectionDetailScreen() {
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [section, setSection] = useState<Section | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isDailyHalacha, setIsDailyHalacha] = useState(false);
   const { addBookmark, removeBookmark, isBookmarked, getTextSizeMultiplier } = useApp();
 
   useEffect(() => {
     loadSection();
+    // Check if this is today's daily halacha
+    checkIfDailyHalacha();
   }, [id]);
+
+  async function checkIfDailyHalacha() {
+    if (!id) return;
+    const { getDailyHalachaId } = await import('@/utils/progress');
+    const todaysDailyId = getDailyHalachaId();
+    setIsDailyHalacha(id === todaysDailyId);
+  }
 
   async function loadSection() {
     if (!id) return;
@@ -115,9 +125,21 @@ export default function SectionDetailScreen() {
 
   const textMultiplier = getTextSizeMultiplier();
   const bookmarked = isBookmarked(section.id);
+  
+  // Format today's date
+  const today = new Date();
+  const hebrewMonths = ['', 'ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני', 'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'];
+  const dateString = `${today.getDate()} ${hebrewMonths[today.getMonth() + 1]} ${today.getFullYear()}`;
 
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
+      {isDailyHalacha && (
+        <ThemedView style={styles.dailyBadge}>
+          <Ionicons name="calendar" size={20} color="#fff" style={styles.dailyIcon} />
+          <ThemedText style={styles.dailyText}>הלכה יומית • {dateString}</ThemedText>
+        </ThemedView>
+      )}
+      
       <ThemedView style={styles.contentHeader}>
         <ThemedText style={styles.breadcrumb}>
           {chapter.chapterLabel}
@@ -184,6 +206,30 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.light.surface.card,
     borderBottomWidth: 1,
     borderBottomColor: Colors.light.border.default,
+  },
+  dailyBadge: {
+    backgroundColor: '#4A90E2',
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    borderBottomWidth: 3,
+    borderBottomColor: '#2E5C8A',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 4,
+  },
+  dailyIcon: {
+    marginLeft: 8,
+  },
+  dailyText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '700',
+    letterSpacing: 0.5,
   },
   breadcrumb: {
     fontSize: 15,

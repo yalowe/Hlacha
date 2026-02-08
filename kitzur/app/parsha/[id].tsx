@@ -5,6 +5,8 @@ import { useLocalSearchParams, router } from 'expo-router';
 import { useState, useEffect } from 'react';
 import { loadParsha, type Parsha, PARSHIOT_LIST } from '@/utils/parshaLoader';
 import { formatHebrewChapter, toHebrewNumeral } from '@/utils/hebrewNumbers';
+import { Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
 
 export default function ParshaScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -50,18 +52,40 @@ export default function ParshaScreen() {
   return (
     <ThemedView style={styles.container}>
       <ScrollView style={styles.scrollView}>
-        <ThemedView style={styles.header}>
-          <ThemedText style={styles.parshaLabel}>פרשת</ThemedText>
-          <ThemedText style={styles.parshaName}>
-            {parshaInfo.name}
-          </ThemedText>
-          <ThemedText style={styles.subtitle}>
-            {parshaInfo.book}
-          </ThemedText>
-          <ThemedText style={styles.description}>
-            שניים מקרא ואחד תרגום
-          </ThemedText>
-        </ThemedView>
+        {/* Modern gradient header */}
+        <View style={styles.headerWrapper}>
+          <LinearGradient
+            colors={['#2E5C8A', '#4A90E2', '#6FB1FC']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={styles.gradientHeader}
+          >
+            <View style={styles.headerContent}>
+              <View style={styles.iconContainer}>
+                <Ionicons name="book" size={32} color="#fff" />
+              </View>
+              
+              <ThemedText style={styles.parshaLabel}>פרשת השבוע</ThemedText>
+              
+              {/* Main parsha name - BOLD and PROMINENT */}
+              <ThemedText style={styles.parshaName}>
+                {parshaInfo.name}
+              </ThemedText>
+              
+              {/* Subtle subtitle */}
+              <ThemedText style={styles.subtitle}>
+                {parshaInfo.book}
+              </ThemedText>
+              
+              {/* Decorative divider */}
+              <View style={styles.divider} />
+              
+              <ThemedText style={styles.description}>
+                שניים מקרא ואחד תרגום
+              </ThemedText>
+            </View>
+          </LinearGradient>
+        </View>
 
         {parsha.chapters.map((chapter) => (
           <ThemedView key={chapter.chapter} style={styles.chapterContainer}>
@@ -147,18 +171,60 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#e0e0e0',
   },
+  headerWrapper: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 8,
+  },
+  gradientHeader: {
+    paddingTop: 50,
+    paddingBottom: 30,
+    paddingHorizontal: 20,
+  },
+  headerContent: {
+    alignItems: 'center',
+  },
+  iconContainer: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 16,
+    borderWidth: 2,
+    borderColor: 'rgba(255, 255, 255, 0.3)',
+  },
   parshaLabel: {
-    fontSize: 18,
-    opacity: 0.6,
+    fontSize: 16,
+    color: '#fff',
+    opacity: 0.9,
     marginBottom: 8,
     textAlign: 'center',
+    fontWeight: '500',
+    letterSpacing: 1,
   },
   parshaName: {
-    fontSize: 32,
-    fontWeight: 'bold',
+    fontSize: 42,
+    fontWeight: '900',
+    color: '#fff',
     marginBottom: 12,
     textAlign: 'center',
     fontFamily: 'System',
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 0, height: 2 },
+    textShadowRadius: 4,
+    letterSpacing: 1.5,
+  },
+  divider: {
+    width: 80,
+    height: 3,
+    backgroundColor: '#fff',
+    opacity: 0.6,
+    marginVertical: 12,
+    borderRadius: 2,
   },
   title: {
     fontSize: 28,
@@ -167,15 +233,19 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   subtitle: {
-    fontSize: 16,
-    opacity: 0.7,
-    marginBottom: 4,
+    fontSize: 15,
+    color: '#fff',
+    opacity: 0.85,
+    marginBottom: 8,
     textAlign: 'center',
+    fontWeight: '400',
   },
   description: {
-    fontSize: 14,
-    opacity: 0.6,
+    fontSize: 13,
+    color: '#fff',
+    opacity: 0.8,
     textAlign: 'center',
+    fontWeight: '300',
   },
   chapterContainer: {
     marginTop: 24,

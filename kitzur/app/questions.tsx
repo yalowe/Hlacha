@@ -122,7 +122,7 @@ export default function QuestionsScreen() {
     const queryWords = normalizedQuery.split(/\s+/).filter(w => w.length > 1); // Ignore single chars
     
     // Minimum score threshold - only show relevant results
-    const MIN_SCORE_THRESHOLD = queryWords.length * 6; // Lower threshold to show more relevant results
+    const MIN_SCORE_THRESHOLD = queryWords.length * 3; // Lower threshold for partial word matches
     
     const results = questions
       .map(q => {
@@ -137,28 +137,34 @@ export default function QuestionsScreen() {
           // Exact word match in question (highest priority - this is what user is looking for)
           const questionWords = normalizedQuestion.split(/\s+/);
           if (questionWords.includes(word)) {
-            score += 30; // Increased for better relevance
+            score += 30; // Highest score for exact match
             exactMatches++;
+          } else if (questionWords.some(qw => qw.includes(word) || word.includes(qw))) {
+            // Partial word match (e.g., "ברכ" matches "ברכה")
+            score += 20;
           } else if (normalizedQuestion.includes(word)) {
-            // Substring match in question
-            score += 18;
+            // Substring match anywhere in question
+            score += 15;
           }
           
           // Exact match in tags (very relevant - tags describe the question)
           const exactTagMatch = normalizedTags.some(tag => tag === word || tag.split(/\s+/).includes(word));
           if (exactTagMatch) {
-            score += 25; // Increased - tags are very relevant to finding the right answer
+            score += 25; // Tags are very relevant
             exactMatches++;
-          } else if (normalizedTags.some(tag => tag.includes(word))) {
+          } else if (normalizedTags.some(tag => tag.includes(word) || word.includes(tag))) {
             // Partial tag match
-            score += 12;
+            score += 18;
           }
           
           // Match in answer (answer should address the question)
           const answerWords = normalizedAnswer.split(/\s+/);
           if (answerWords.includes(word)) {
-            score += 15; // Increased - answer relevance is important
+            score += 15; // Answer relevance
             exactMatches++;
+          } else if (answerWords.some(aw => aw.includes(word) || word.includes(aw))) {
+            // Partial word match in answer
+            score += 12;
           } else if (normalizedAnswer.includes(word)) {
             // Substring in answer
             score += 8;
@@ -319,15 +325,16 @@ export default function QuestionsScreen() {
           {pendingAnswersCount > 0 && (
             <Pressable 
               style={({pressed}) => [
-                styles.badge, 
+                styles.pendingAnswersBadge, 
                 { backgroundColor: colors.accent.teal, marginTop: spacing.md },
                 pressed && { opacity: 0.7 }
               ]}
               onPress={handleShowPendingAnswers}
               android_ripple={{ color: 'rgba(255,255,255,0.3)' }}
             >
-              <ThemedText style={styles.badgeText}>
-                ✅ {pendingAnswersCount} תשובות ממתינות לאישור - לחץ לבדיקה
+              <Ionicons name="checkmark-done-circle" size={20} color="#FFFFFF" />
+              <ThemedText style={styles.pendingAnswersBadgeText}>
+                {pendingAnswersCount} תשובות ממתינות לאישור - לחץ לבדיקה
               </ThemedText>
             </Pressable>
           )}
@@ -342,7 +349,7 @@ export default function QuestionsScreen() {
               android_ripple={{ color: 'rgba(255,255,255,0.3)' }}
             >
               <ThemedText style={styles.badgeText}>
-                🆕 {unansweredCount} שאלות חדשות ממתינות לתשובה - לחץ לצפייה
+                {unansweredCount} שאלות ממתינות לתשובה
               </ThemedText>
             </Pressable>
           )}
@@ -431,21 +438,29 @@ export default function QuestionsScreen() {
         </View>
 
         {/* Popular Questions */}
-        {!filters.searchQuery && !filters.showOnlyUnanswered && popularQuestions.length > 0 && (
-          <View style={styles.section}>
-            <ThemedText style={[styles.sectionTitle, { color: colors.text.primary }]}>
-              🔥 שאלות פופולריות
-            </ThemedText>
-            {popularQuestions.map(question => (
-              <QuestionCard
-                key={question.id}
-                question={question}
-                onPress={handleQuestionPress}
-                colors={colors}
-              />
-            ))}
-          </View>
-        )}
+        {!filters.searchQuery && !filters.showOnlyUnanswered && popularQuestions.length > 0 && (() => {
+          // Filter popular questions by selected category
+          const filteredPopular = filters.category === 'all' 
+            ? popularQuestions 
+            : popularQuestions.filter(q => q.category === filters.category);
+          
+          return filteredPopular.length > 0 ? (
+            <View style={styles.section}>
+              <ThemedText style={[styles.sectionTitle, { color: colors.text.primary }]}>
+                🔥 שאלות פופולריות
+                {filters.category !== 'all' && ` ב${CATEGORY_LABELS[filters.category]}`}
+              </ThemedText>
+              {filteredPopular.map(question => (
+                <QuestionCard
+                  key={question.id}
+                  question={question}
+                  onPress={handleQuestionPress}
+                  colors={colors}
+                />
+              ))}
+            </View>
+          ) : null;
+        })()}
 
         {/* Questions List */}
         <View style={styles.section}>
@@ -592,7 +607,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    paddingTop: 60,
+    paddingTop: 70,
     paddingBottom: 24,
     paddingHorizontal: spacing.lg,
     alignItems: 'center',
@@ -622,6 +637,27 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 12,
     fontWeight: '600',
+    textAlign: 'center',
+  },
+  pendingAnswersBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: spacing.xs,
+    marginTop: 12,
+    paddingHorizontal: spacing.md,
+    paddingVertical: spacing.sm,
+    borderRadius: 16,
+    elevation: 3,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 3,
+  },
+  pendingAnswersBadgeText: {
+    color: '#FFFFFF',
+    fontSize: 13,
+    fontWeight: '700',
     textAlign: 'center',
   },
   searchSection: {

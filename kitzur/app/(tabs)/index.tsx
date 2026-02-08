@@ -2,7 +2,7 @@
  * Home Screen - Dashboard with progress tracking and quick actions
  */
 import { useState, useEffect } from 'react';
-import { StyleSheet, ActivityIndicator, ScrollView, View, Text, Pressable } from 'react-native';
+import { StyleSheet, ActivityIndicator, ScrollView, View, Text, Pressable, Alert } from 'react-native';
 import { useRouter, useFocusEffect } from 'expo-router';
 import { useCallback } from 'react';
 import { useColorScheme } from '@/hooks/use-color-scheme';
@@ -24,9 +24,11 @@ import {
   type LastRead,
   type Streak,
 } from '@/utils/progress';
+import { getChapterIds } from '@/utils/contentLoader';
 import { getUnansweredQuestions } from '@/utils/questionsManager';
 import type { Question } from '@/types/questions';
 import { Colors, spacing } from '@/constants/theme';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Hardcoded count to avoid loading entire chapters-index on startup
 const TOTAL_CHAPTER_COUNT = 2008;
@@ -39,10 +41,11 @@ export default function HomeScreen() {
   const [loading, setLoading] = useState(true);
   const [lastRead, setLastRead] = useState<LastRead | null>(null);
   const [completedCount, setCompletedCount] = useState(0);
-  const [totalCount, setTotalCount] = useState(TOTAL_CHAPTER_COUNT);
+  const totalCount = TOTAL_CHAPTER_COUNT;
   const [streak, setStreak] = useState<Streak>({ count: 0, lastDate: '' });
   const [quote] = useState(getDailyQuote());
   const [unansweredQuestions, setUnansweredQuestions] = useState<Question[]>([]);
+  const [pendingAnswersCount, setPendingAnswersCount] = useState(0);
 
   useEffect(() => {
     loadDashboardData();
@@ -73,10 +76,28 @@ export default function HomeScreen() {
       // Load unanswered questions
       const unanswered = await getUnansweredQuestions();
       setUnansweredQuestions(unanswered.slice(0, 3)); // Show max 3 questions
+
+      // Load pending answers count
+      await loadPendingAnswersCount();
     } catch (error) {
       console.error('Failed to load dashboard data:', error);
     } finally {
       setLoading(false);
+    }
+  }
+
+  async function loadPendingAnswersCount() {
+    try {
+      const stored = await AsyncStorage.getItem('@kitzur_pending_answers');
+      if (stored) {
+        const pending = JSON.parse(stored);
+        setPendingAnswersCount(pending.length);
+      } else {
+        setPendingAnswersCount(0);
+      }
+    } catch (error) {
+      console.error('Failed to load pending answers count:', error);
+      setPendingAnswersCount(0);
     }
   }
 
@@ -85,16 +106,44 @@ export default function HomeScreen() {
   };
 
   const handleSearch = () => {
-    router.push('/explore');
+    router.push('/search');
   };
 
   const handleBookmarks = () => {
     router.push('/bookmarks');
   };
 
-  const handleDailyHalacha = () => {
-    const dailyId = getDailyHalachaId();
-    router.push(`/chapter/${dailyId}`);
+  const handleDailyHalacha = async () => {
+    try {
+      const dailySectionId = getDailyHalachaId(); // Returns section ID like "kitzur_orach_chaim-175-s9"
+      
+      // Try to find the section
+      const { findSectionById, getChapter } = await import('@/utils/contentLoader');
+      let result = await findSectionById(dailySectionId);
+      
+      if (!result) {
+        // Section not found - get the chapter and find a valid section
+        const chapterId = dailySectionId.split('-s')[0]; // Extract chapter ID
+        const requestedSectionNum = parseInt(dailySectionId.split('-s')[1]); // e.g., 9
+        
+        const chapter = await getChapter(chapterId);
+        if (chapter && chapter.sections.length > 0) {
+          // Use modulo to wrap around to valid section numbers
+          const validSectionNum = ((requestedSectionNum - 1) % chapter.sections.length) + 1;
+          const validSectionId = `${chapterId}-s${validSectionNum}`;
+          
+          router.push(`/section/${validSectionId}`);
+        } else {
+          Alert.alert('❌ שגיאה', 'לא נמצאה הלכה יומית להצגה');
+        }
+      } else {
+        // Navigate directly to the section
+        router.push(`/section/${dailySectionId}`);
+      }
+    } catch (error) {
+      console.error('Error loading daily halacha:', error);
+      Alert.alert('❌ שגיאה', 'לא נמצאה הלכה יומית להצגה');
+    }
   };
 
   const [currentParsha, setCurrentParsha] = useState<string>('פרשת השבוע');
@@ -103,7 +152,7 @@ export default function HomeScreen() {
     const loadCurrentParsha = async () => {
       try {
         const { getCurrentParsha } = await import('@/utils/parshaLoader');
-        const parsha = getCurrentParsha();
+        const parsha = await getCurrentParsha(); // Now async
         if (parsha) {
           setCurrentParsha(parsha.name);
         }
@@ -113,6 +162,7 @@ export default function HomeScreen() {
     };
     loadCurrentParsha();
   }, []);
+
 
   const handleShnayimMikra = () => {
     router.push('/shnayim-mikra');
@@ -198,11 +248,6 @@ export default function HomeScreen() {
             <Text style={[styles.statDetail, { color: colors.text.secondary }]}>
               מתוך {totalCount.toLocaleString('he-IL')} סימנים
             </Text>
-            {completedCount > 0 && (
-              <Text style={[styles.statPercentage, { color: colors.primary.main }]}>
-                {Math.round((completedCount / totalCount) * 100)}% הושלם
-              </Text>
-            )}
           </View>
           
           <View style={styles.streakContainer}>
@@ -228,6 +273,8 @@ export default function HomeScreen() {
             onBirkatHaMazon={handleBirkatHaMazon}
             onBoreiNefashot={handleBoreiNefashot}
             onMeeinShalosh={handleMeeinShalosh}
+            questionsCount={unansweredQuestions.length}
+            pendingAnswersCount={pendingAnswersCount}
           />
         </View>
 
@@ -422,12 +469,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
     textAlign: 'center',
     marginTop: 8,
-  },
-  statPercentage: {
-    fontSize: 13,
-    fontWeight: '600',
-    marginTop: 4,
-    textAlign: 'center',
   },
   streakContainer: {
     flex: 1,

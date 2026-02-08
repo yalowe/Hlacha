@@ -89,7 +89,8 @@ export async function getAllKeys(): Promise<string[]> {
     if (Platform.OS === "web" && typeof window !== "undefined") {
       return Object.keys(window.localStorage);
     } else {
-      return await AsyncStorage.getAllKeys();
+      const keys = await AsyncStorage.getAllKeys();
+      return [...keys];
     }
   } catch (error) {
     console.error('Error getting keys:', error);

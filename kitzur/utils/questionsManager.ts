@@ -185,19 +185,16 @@ export async function saveUserRating(
   userId: string,
   helpful: boolean
 ): Promise<void> {
-    // ...existing code...
   if (!userId) return;
-  
+
   try {
     const key = `@kitzur_user_ratings_${userId}`;
     const stored = await AsyncStorage.getItem(key);
-    if (!stored) return;
-    const ratings = JSON.parse(stored);
-    // No return value needed for void
-    return;
+    const ratings = stored ? JSON.parse(stored) : {};
+    ratings[questionId] = helpful;
+    await AsyncStorage.setItem(key, JSON.stringify(ratings));
   } catch (error) {
-    console.error('Failed to get user rating:', error);
-    return;
+    console.error('Failed to save user rating:', error);
   }
 }
 

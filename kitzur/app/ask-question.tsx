@@ -82,20 +82,6 @@ export default function AskQuestionScreen() {
   return (
     <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
-        {/* Header */}
-        <View style={styles.header}>
-          <Pressable 
-            onPress={() => router.back()}
-            style={styles.backButton}
-          >
-            <Ionicons name="close" size={28} color={colors.text.primary} />
-          </Pressable>
-          <ThemedText style={[styles.headerTitle, { color: colors.text.primary }]}>
-            ❓ שאל שאלה חדשה
-          </ThemedText>
-          <View style={{ width: 28 }} />
-        </View>
-
         {/* Instructions */}
         <View style={[styles.infoBox, { backgroundColor: colors.primary.light }]}>
           <Ionicons name="information-circle" size={20} color={colors.primary.main} />
@@ -276,21 +262,6 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     flex: 1,
-  },
-  header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingTop: 50,
-    paddingBottom: 16,
-    paddingHorizontal: spacing.lg,
-  },
-  backButton: {
-    padding: 4,
-  },
-  headerTitle: {
-    fontSize: 20,
-    fontWeight: '700',
   },
   infoBox: {
     flexDirection: 'row',
