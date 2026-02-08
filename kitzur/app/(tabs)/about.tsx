@@ -1,14 +1,13 @@
 import React from 'react';
-import { ScrollView, StyleSheet, View, Linking, TouchableOpacity } from 'react-native';
+import { ScrollView, StyleSheet, View, Linking } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Colors } from '@/constants/theme';
 import { IconSymbol } from '@/components/ui/icon-symbol';
-import type { SymbolViewProps } from 'expo-symbols';
 
 export default function AboutScreen() {
   const appVersion = '1.1.0';
-  
+
   const openLink = (url: string) => {
     Linking.openURL(url);
   };
@@ -49,14 +48,12 @@ export default function AboutScreen() {
           <FeatureItem icon="chart.bar.fill" text="מעקב אחר התקדמות הלימוד" />
           <FeatureItem icon="flame.fill" text="רצף ימים של לימוד" />
           <FeatureItem icon="sparkles" text="תזכורת יומית להלכה" />
-          <FeatureItem icon="moon.stars.fill" text="ברכות ותפילות (ברכת המזון, בורא נפשות, מעין שלוש)" />
-          <FeatureItem icon="scroll.fill" text="תוספות מיוחדות (אגרת הרמב״ן, פרשת המן, שניים מקרא)" />
         </View>
 
-        {/* Content Sources */}
+        {/* Sources */}
         <View style={styles.section}>
           <ThemedText type="subtitle" style={styles.sectionTitle}>
-            📚 מקורות התוכן
+            📚 מקורות
           </ThemedText>
           <ThemedText style={styles.text}>
             הטקסטים באפליקציה מבוססים על מקורות מהימנים:
@@ -89,23 +86,6 @@ export default function AboutScreen() {
           </ThemedText>
           <ThemedText style={styles.bulletText}>✅ עיצוב מחדש של ברכות ותפילות</ThemedText>
           <ThemedText style={styles.bulletText}>✅ הדגשה ברורה של ברכות וסעיפים</ThemedText>
-          <ThemedText style={styles.bulletText}>✅ הנחיות מפורטות בתחילת כל תפילה</ThemedText>
-          <ThemedText style={styles.bulletText}>✅ שיפור קריאות עם שבירת שורות אחרי נקודותיים</ThemedText>
-          <ThemedText style={styles.bulletText}>✅ ניקוי ותיקון פורמט הטקסט</ThemedText>
-          <ThemedText style={styles.bulletText}>✅ בדיקות E2E מקיפות (65 בדיקות)</ThemedText>
-        </View>
-
-        {/* Previous Updates */}
-        <View style={styles.section}>
-          <ThemedText type="subtitle" style={styles.sectionTitle}>
-            📝 עדכונים קודמים
-          </ThemedText>
-          <ThemedText style={styles.text}>
-            <ThemedText style={styles.bold}>גרסה 1.0.0:</ThemedText>
-          </ThemedText>
-          <ThemedText style={styles.bulletText}>• שחרור ראשוני</ThemedText>
-          <ThemedText style={styles.bulletText}>• קיצור שולחן ערוך המלא</ThemedText>
-          <ThemedText style={styles.bulletText}>• מערכת חיפוש וסימניות</ThemedText>
           <ThemedText style={styles.bulletText}>• מעקב התקדמות ורצפים</ThemedText>
         </View>
 
@@ -137,6 +117,23 @@ export default function AboutScreen() {
           <ThemedText style={styles.text}>
             נהנית מהאפליקציה? שתף אותה עם חברים ומשפחה!
           </ThemedText>
+          <ThemedText style={styles.text}>
+            לשאלות, הערות או תרומה: 
+            <ThemedText style={styles.link} onPress={() => openLink('mailto:support@kitzur-app.org')}>support@kitzur-app.org</ThemedText>
+          </ThemedText>
+        </View>
+
+        {/* Previous Updates */}
+        <View style={styles.section}>
+          <ThemedText type="subtitle" style={styles.sectionTitle}>
+            📝 עדכונים קודמים
+          </ThemedText>
+          <ThemedText style={styles.text}>
+            <ThemedText style={styles.bold}>גרסה 1.0.0:</ThemedText>
+          </ThemedText>
+          <ThemedText style={styles.bulletText}>• שחרור ראשוני</ThemedText>
+          <ThemedText style={styles.bulletText}>• קיצור שולחן ערוך המלא</ThemedText>
+          <ThemedText style={styles.bulletText}>• מערכת חיפוש וסימניות</ThemedText>
         </View>
 
         {/* Footer */}
@@ -154,14 +151,14 @@ export default function AboutScreen() {
 }
 
 interface FeatureItemProps {
-  icon: SymbolViewProps['name'];
+  icon: string;
   text: string;
 }
 
 function FeatureItem({ icon, text }: FeatureItemProps) {
   return (
     <View style={styles.featureItem}>
-      <IconSymbol size={20} name={icon} color={Colors.light.primary.main} />
+      <IconSymbol size={22} name={icon as any} color={Colors.light.primary.main} style={styles.featureIcon} />
       <ThemedText style={styles.featureText}>{text}</ThemedText>
     </View>
   );
@@ -190,61 +187,57 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   version: {
+    fontSize: 16,
+    color: Colors.light.primary.main,
     marginTop: 5,
-    fontSize: 14,
-    opacity: 0.6,
   },
   section: {
-    marginBottom: 25,
-    backgroundColor: Colors.light.background.surface,
-    padding: 15,
-    borderRadius: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 3,
-    elevation: 2,
+    marginBottom: 28,
   },
   sectionTitle: {
     fontSize: 20,
-    marginBottom: 12,
     fontWeight: 'bold',
+    marginBottom: 8,
+    color: Colors.light.primary.main,
+    textAlign: 'right',
   },
   text: {
     fontSize: 16,
-    lineHeight: 24,
-    marginBottom: 8,
+    marginBottom: 4,
+    textAlign: 'right',
   },
   bold: {
     fontWeight: 'bold',
   },
   bulletText: {
-    fontSize: 15,
-    lineHeight: 22,
-    marginBottom: 6,
-    marginLeft: 5,
+    fontSize: 16,
+    marginRight: 12,
+    marginBottom: 2,
+    textAlign: 'right',
   },
   featureItem: {
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
     alignItems: 'center',
-    marginBottom: 10,
-    gap: 10,
+    marginBottom: 6,
+  },
+  featureIcon: {
+    marginLeft: 8,
   },
   featureText: {
-    fontSize: 15,
-    flex: 1,
+    fontSize: 16,
+    textAlign: 'right',
+  },
+  link: {
+    color: Colors.light.primary.main,
+    textDecorationLine: 'underline',
   },
   footer: {
-    marginTop: 20,
-    paddingTop: 20,
-    borderTopWidth: 1,
-    borderTopColor: Colors.light.border.default,
+    marginTop: 30,
     alignItems: 'center',
   },
   footerText: {
-    fontSize: 13,
-    opacity: 0.6,
+    fontSize: 14,
+    color: '#888',
     textAlign: 'center',
-    marginBottom: 5,
   },
 });

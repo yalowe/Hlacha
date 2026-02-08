@@ -1,0 +1,38 @@
+# E2E Testing Dependencies for Kitzur App
+# Playwright + Pytest Framework
+
+# Core Testing Framework
+pytest==8.3.4
+pytest-playwright==0.6.2
+playwright==1.50.0
+
+# Test Reporting & Coverage
+pytest-html==4.1.1
+pytest-cov==6.0.0
+pytest-xdist==3.6.1  # Parallel execution
+allure-pytest==2.13.5  # Beautiful test reports
+
+# Test Data & Utilities
+Faker==33.2.0
+python-dotenv==1.0.1
+pyyaml==6.0.2
+
+# Performance Testing
+pytest-benchmark==5.1.0
+locust==2.33.0  # Load testing
+
+# API Testing (for backend integration)
+requests==2.32.3
+pytest-requests==0.2.0
+
+# Visual Regression Testing
+pytest-p visual==0.3.0
+pillow==11.1.0
+
+# Hebrew Text Processing
+python-bidi==0.6.1
+arabic-reshaper==3.0.0
+
+# Utilities
+colorama==0.4.6
+rich==13.9.4  # Beautiful console output

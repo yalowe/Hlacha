@@ -5,6 +5,7 @@
 import { useLocalSearchParams, router } from 'expo-router';
 import { useState, useEffect } from 'react';
 import { ScrollView, StyleSheet, ActivityIndicator, Pressable, Share, Alert, View, Text } from 'react-native';
+import * as Haptics from 'expo-haptics';
 import { ThemedView } from '@/components/themed-view';
 import { ThemedText } from '@/components/themed-text';
 import { Ionicons } from '@expo/vector-icons';
@@ -13,6 +14,7 @@ import { findSectionById, type Chapter, type Section } from '@/utils/contentLoad
 import { useApp } from '@/contexts/AppContext';
 import { saveLastRead, updateStreak } from '@/utils/progress';
 import { Colors, spacing } from '@/constants/theme';
+import { toHebrewNumeral } from '@/utils/hebrewNumbers';
 
 export default function SectionDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -42,12 +44,10 @@ export default function SectionDetailScreen() {
         sectionNumber: result.section.section,
         timestamp: Date.now(),
       };
-      console.log('💾 Saving last read:', lastReadData);
       await saveLastRead(lastReadData);
       
       // Update daily streak
       const newStreak = await updateStreak();
-      console.log('🔥 Streak updated:', newStreak);
     }
     setLoading(false);
   }
@@ -55,11 +55,12 @@ export default function SectionDetailScreen() {
   async function handleBookmark() {
     if (!section || !chapter) return;
     
+    await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     const bookmarkId = section.id;
     
     if (isBookmarked(bookmarkId)) {
       await removeBookmark(bookmarkId);
-      Alert.alert('הסרה', 'הסימניה הוסרה');
+      Alert.alert('✅ הוסר', 'הסימניה הוסרה');
     } else {
       await addBookmark({
         id: bookmarkId,
@@ -70,13 +71,13 @@ export default function SectionDetailScreen() {
         chapterTitle: chapter.title,
         timestamp: Date.now(),
       });
-      Alert.alert('נוסף', 'הסימניה נוספה בהצלחה');
+      Alert.alert('✅ נוסף', 'הסימניה נוספה בהצלחה');
     }
   }
 
   async function handleShare() {
     if (!section || !chapter) return;
-    const text = `${chapter.chapterLabel} - ${chapter.title}\nסעיף ${section.section}\n\n${section.text}`;
+    const text = `${chapter.chapterLabel} - ${chapter.title}\nסעיף ${toHebrewNumeral(section.section)}\n\n${section.text}`;
     
     try {
       await Share.share({
@@ -84,15 +85,16 @@ export default function SectionDetailScreen() {
         title: `${chapter.chapterLabel} - ${chapter.title}`,
       });
     } catch (error) {
-      console.error('Share error:', error);
+      console.error('כשל בשיתוף:', error);
     }
   }
 
   async function handleCopy() {
     if (!section || !chapter) return;
-    const text = `${chapter.chapterLabel} - ${chapter.title}\nסעיף ${section.section}\n\n${section.text}`;
+    await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    const text = `${chapter.chapterLabel} - ${chapter.title}\nסעיף ${toHebrewNumeral(section.section)}\n\n${section.text}`;
     await Clipboard.setStringAsync(text);
-    Alert.alert('הועתק', 'הטקסט הועתק ללוח');
+    Alert.alert('✅ הועתק', 'הטקסט הועתק ללוח');
   }
 
   if (loading) {
@@ -127,7 +129,7 @@ export default function SectionDetailScreen() {
           <View style={styles.divider} />
         </View>
         <ThemedText style={styles.sectionTitle}>
-          סעיף {section.section}
+          סעיף {toHebrewNumeral(section.section)}
         </ThemedText>
       </ThemedView>
 

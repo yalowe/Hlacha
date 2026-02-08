@@ -1,10 +1,10 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
+import { DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 import { I18nManager } from 'react-native';
 
-import { useColorScheme } from '@/hooks/use-color-scheme';
+// ...existing code...
 import { AppProvider } from '@/contexts/AppContext';
 import { Colors } from '@/constants/theme';
 
@@ -13,12 +13,10 @@ I18nManager.allowRTL(true);
 I18nManager.forceRTL(true);
 
 export const unstable_settings = {
-  anchor: '(tabs)',
+  anchor: 'חזרה',
 };
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-
   return (
     <AppProvider>
       <ThemeProvider value={DefaultTheme}>
@@ -33,7 +31,7 @@ export default function RootLayout() {
             },
           }}
         >
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="חזרה" options={{ headerShown: false }} />
           <Stack.Screen 
             name="browse" 
             options={{ 
@@ -59,6 +57,55 @@ export default function RootLayout() {
             name="section/[id]" 
             options={{ 
               title: 'סעיף',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="parsha/[id]" 
+            options={{ 
+              title: 'פרשת השבוע',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="shnayim-mikra" 
+            options={{ 
+              title: 'שניים מקרא ואחד תרגום',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="parshat-hamann" 
+            options={{ 
+              title: 'פרשת המן',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="iggeret-haramban" 
+            options={{ 
+              title: 'אגרת הרמב״ן',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="birkat-hamazon" 
+            options={{ 
+              title: 'ברכת המזון',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="meein-shalosh" 
+            options={{ 
+              title: 'מעיין שלוש',
+              headerBackTitle: 'חזרה',
+            }} 
+          />
+          <Stack.Screen 
+            name="borei-nefashot" 
+            options={{ 
+              title: 'בורא נפשות',
               headerBackTitle: 'חזרה',
             }} 
           />

@@ -1,47 +1,38 @@
-import { Tabs } from 'expo-router';
+import { Tabs as טאבים } from 'expo-router';
 import React from 'react';
 
-import { HapticTab } from '@/components/haptic-tab';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
+// ...existing code...
 
-export default function TabLayout() {
-  const colorScheme = useColorScheme();
+export default function פריסתטאבים() {
+  // ...existing code...
 
   return (
-    <Tabs
+    <טאבים
       screenOptions={{
         tabBarActiveTintColor: Colors.light.primary.main,
         tabBarInactiveTintColor: Colors.light.text.secondary,
         headerShown: false,
-        tabBarButton: HapticTab,
         tabBarStyle: {
           backgroundColor: Colors.light.background.surface,
           borderTopColor: Colors.light.border.default,
         },
       }}>
-      <Tabs.Screen
+      <טאבים.Screen
         name="index"
         options={{
           title: 'קיצור',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="book.fill" color={color} />,
+          tabBarIcon: ({ color }: { color: string }) => <IconSymbol size={28} name="book.fill" color={color} />,
         }}
       />
-      <Tabs.Screen
+      <טאבים.Screen
         name="explore"
         options={{
-          title: 'חיפוש',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="magnifyingglass" color={color} />,
+          title: 'הגדרות',
+          tabBarIcon: ({ color }: { color: string }) => <IconSymbol size={28} name="gearshape.fill" color={color} />,
         }}
       />
-      <Tabs.Screen
-        name="about"
-        options={{
-          title: 'אודות',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="info.circle.fill" color={color} />,
-        }}
-      />
-    </Tabs>
+    </טאבים>
   );
 }

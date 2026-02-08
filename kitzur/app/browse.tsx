@@ -39,8 +39,6 @@ export default function BrowseScreen() {
       filtered = allChapters.filter(ch => ch.id.startsWith(category + '-'));
     }
     
-    console.log(`Category: ${category}, Total chapters: ${allChapters.length}, Filtered: ${filtered.length}`);
-    
     setChapters(filtered);
     setLoading(false);
   }
@@ -62,9 +60,6 @@ export default function BrowseScreen() {
         <View style={[styles.header, { backgroundColor: colors.primary.main }]}>
           <ThemedText style={[styles.headerTitle, { color: colors.text.onPrimary }]}>
             בחר ספר
-          </ThemedText>
-          <ThemedText style={[styles.headerSubtitle, { color: colors.text.onPrimary, opacity: 0.9 }]}>
-            Select a Book
           </ThemedText>
         </View>
 

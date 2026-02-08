@@ -1,13 +1,22 @@
-import { StyleSheet, ScrollView, ActivityIndicator, View } from 'react-native';
+import { StyleSheet, ScrollView, ActivityIndicator } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useState, useEffect } from 'react';
 
+interface Part {
+  instruction?: string;
+  text?: string;
+  optional?: boolean;
+  condition?: string;
+  parts?: Part[];
+}
+
 interface Paragraph {
   paragraph: number;
-  text: string;
+  text?: string;
   heading?: string;
   instruction?: string;
+  parts?: Part[];
 }
 
 interface MeeinShalosh {
@@ -83,9 +92,40 @@ export default function MeeinShaloshScreen() {
                   {paragraph.instruction}
                 </ThemedText>
               )}
-              <ThemedText style={styles.paragraphText}>
-                {paragraph.text}
-              </ThemedText>
+              
+              {paragraph.parts ? (
+                paragraph.parts.map((part, index) => (
+                  <ThemedView key={index} style={styles.partContainer}>
+                    {part.instruction && (
+                      <ThemedText style={styles.partInstructionText}>
+                        {part.instruction}
+                      </ThemedText>
+                    )}
+                    {part.parts ? (
+                      part.parts.map((subPart, subIndex) => (
+                        <ThemedText key={subIndex} style={subPart.optional ? styles.optionalText : styles.paragraphText}>
+                          {subPart.optional && subPart.condition && `${subPart.condition}: `}
+                          {subPart.text}
+                        </ThemedText>
+                      ))
+                    ) : part.optional ? (
+                      <ThemedText style={styles.optionalText}>
+                        {part.condition}: {part.text}
+                      </ThemedText>
+                    ) : part.text ? (
+                      <ThemedText style={styles.paragraphText}>
+                        {part.text}
+                      </ThemedText>
+                    ) : null}
+                  </ThemedView>
+                ))
+              ) : (
+                paragraph.text && (
+                  <ThemedText style={styles.paragraphText}>
+                    {paragraph.text}
+                  </ThemedText>
+                )
+              )}
             </ThemedView>
           ))}
         </ThemedView>
@@ -169,5 +209,23 @@ const styles = StyleSheet.create({
     lineHeight: 30,
     textAlign: 'right',
     fontFamily: 'System',
+  },
+  partContainer: {
+    marginBottom: 16,
+  },
+  partInstructionText: {
+    fontSize: 14,
+    fontWeight: '700',
+    marginBottom: 6,
+    textAlign: 'right',
+    color: '#007AFF',
+    fontStyle: 'italic',
+  },
+  optionalText: {
+    fontSize: 16,
+    lineHeight: 28,
+    textAlign: 'right',
+    color: '#007AFF',
+    fontStyle: 'italic',
   },
 });

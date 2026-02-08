@@ -18,10 +18,10 @@ export function StreakCounter({ count }: StreakCounterProps) {
       </View>
       <View style={styles.content}>
         <Text style={[styles.count, { color: colors.text.primary }]}>
-          {count} {count === 1 ? 'Day' : 'Days'}
+          {count} {count === 1 ? 'יום' : 'ימים'}
         </Text>
         <Text style={[styles.label, { color: colors.text.secondary }]}>
-          Study Streak
+          רצף לימוד
         </Text>
       </View>
     </View>

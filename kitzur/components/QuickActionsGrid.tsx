@@ -33,22 +33,30 @@ interface QuickActionsGridProps {
   onBrowse: () => void;
   onSearch: () => void;
   onBookmarks: () => void;
-  onRandom: () => void;
+  onDailyHalacha: () => void;
   onShnayimMikra?: () => void;
   onParshatHaMann?: () => void;
   onIggeretHaRamban?: () => void;
   onBirkatHaMazon?: () => void;
   onBoreiNefashot?: () => void;
   onMeeinShalosh?: () => void;
+  onQuestions?: () => void;
+  onAddSection?: () => void;
 }
 
-export function QuickActionsGrid({ onBrowse, onSearch, onBookmarks, onRandom, onShnayimMikra, onParshatHaMann, onIggeretHaRamban, onBirkatHaMazon, onBoreiNefashot, onMeeinShalosh }: QuickActionsGridProps) {
+export function QuickActionsGrid({ onBrowse, onSearch, onBookmarks, onDailyHalacha, onShnayimMikra, onParshatHaMann, onIggeretHaRamban, onBirkatHaMazon, onBoreiNefashot, onMeeinShalosh, onQuestions, onAddSection }: QuickActionsGridProps) {
   return (
     <View style={styles.grid}>
-      <QuickActionButton icon="📖" label="Browse" onPress={onBrowse} />
-      <QuickActionButton icon="🔍" label="Search" onPress={onSearch} />
-      <QuickActionButton icon="⭐" label="Bookmarks" onPress={onBookmarks} />
-      <QuickActionButton icon="🎲" label="Random" onPress={onRandom} />
+      <QuickActionButton icon="📖" label="שולחן ערוך" onPress={onBrowse} />
+      <QuickActionButton icon="🔍" label="חיפוש" onPress={onSearch} />
+      <QuickActionButton icon="⭐" label="סימניות" onPress={onBookmarks} />
+      <QuickActionButton icon="📅" label="הלכה יומית" onPress={onDailyHalacha} />
+      {onQuestions && (
+        <QuickActionButton icon="💬" label="שאלות ותשובות" onPress={onQuestions} />
+      )}
+      {onAddSection && (
+        <QuickActionButton icon="✍️" label="הוסף הלכה" onPress={onAddSection} />
+      )}
       {onShnayimMikra && (
         <QuickActionButton icon="📜" label="שניים מקרא" onPress={onShnayimMikra} />
       )}
@@ -95,6 +103,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 8,
+    marginTop: -10,
   },
   icon: {
     fontSize: 24,

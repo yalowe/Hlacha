@@ -51,11 +51,12 @@ export default function ParshaScreen() {
     <ThemedView style={styles.container}>
       <ScrollView style={styles.scrollView}>
         <ThemedView style={styles.header}>
-          <ThemedText type="title" style={styles.title}>
-            פרשת {parshaInfo.name}
+          <ThemedText style={styles.parshaLabel}>פרשת</ThemedText>
+          <ThemedText style={styles.parshaName}>
+            {parshaInfo.name}
           </ThemedText>
           <ThemedText style={styles.subtitle}>
-            {parshaInfo.book} • {parshaInfo.nameEn}
+            {parshaInfo.book}
           </ThemedText>
           <ThemedText style={styles.description}>
             שניים מקרא ואחד תרגום
@@ -145,6 +146,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderBottomWidth: 1,
     borderBottomColor: '#e0e0e0',
+  },
+  parshaLabel: {
+    fontSize: 18,
+    opacity: 0.6,
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  parshaName: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    marginBottom: 12,
+    textAlign: 'center',
+    fontFamily: 'System',
   },
   title: {
     fontSize: 28,

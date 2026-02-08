@@ -5,6 +5,7 @@
 import { useLocalSearchParams, router } from 'expo-router';
 import { useState, useEffect } from 'react';
 import { ScrollView, StyleSheet, ActivityIndicator, View, Pressable, Alert } from 'react-native';
+import * as Haptics from 'expo-haptics';
 import { ThemedView } from '@/components/themed-view';
 import { ThemedText } from '@/components/themed-text';
 import { Ionicons } from '@expo/vector-icons';
@@ -38,6 +39,8 @@ export default function ChapterDetailScreen() {
 
   async function handleMarkComplete() {
     if (!id || !chapter) return;
+    
+    await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
     
     if (completed) {
       // Unmark as completed

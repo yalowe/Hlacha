@@ -1,47 +1,84 @@
 /**
  * Explore Screen - Search, Bookmarks, and Settings
  */
-import { useState } from 'react';
-import { StyleSheet, ScrollView, Pressable, View, TextInput, ActivityIndicator, Alert } from 'react-native';
+import { useState, useEffect } from 'react';
+import { StyleSheet, ScrollView, Pressable, View, TextInput, Alert } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
-import { searchContent } from '@/utils/contentLoader';
 import { resetAllProgress } from '@/utils/progress';
+import { getDeviceId, resetDeviceId } from '@/utils/deviceId';
+import { verifyAdminCode, isSuperAdmin } from '@/utils/adminAuth';
 import { Colors, spacing } from '@/constants/theme';
 
-type SearchResult = {
-  chapter: any;
-  section: any;
-  matchScore: number;
-};
-
 export default function ExploreScreen() {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
-  const [searching, setSearching] = useState(false);
-  const [showBookmarks, setShowBookmarks] = useState(true);
-  const { bookmarks, textSize, setTextSize, themeMode, setThemeMode, effectiveTheme } = useApp();
+  const [deviceId, setDeviceId] = useState<string>('');
+  const [adminCode, setAdminCode] = useState('');
+  const [isAdmin, setIsAdmin] = useState(false);
+  const { textSize, setTextSize, themeMode, setThemeMode } = useApp();
 
-  async function handleSearch(query: string) {
-    setSearchQuery(query);
-    if (!query.trim()) {
-      setSearchResults([]);
-      setShowBookmarks(true);
-      return;
-    }
-    
-    setSearching(true);
-    const results = await searchContent(query);
-    setSearchResults(results);
-    setSearching(false);
-    setShowBookmarks(false);
+  useEffect(() => {
+    loadDeviceId();
+    checkAdminStatus();
+  }, []);
+
+  async function loadDeviceId() {
+    const id = await getDeviceId();
+    setDeviceId(id);
   }
 
-  function navigateToSection(sectionId: string) {
-    router.push(`/section/${sectionId}`);
+  async function checkAdminStatus() {
+    const admin = await isSuperAdmin();
+    setIsAdmin(admin);
+  }
+
+  async function handleAdminCodeSubmit() {
+    if (!adminCode.trim()) {
+      Alert.alert('שגיאה', 'נא להזין קוד מנהל');
+      return;
+    }
+
+    const success = await verifyAdminCode(adminCode);
+    
+    if (success) {
+      setIsAdmin(true);
+      setAdminCode('');
+      Alert.alert(
+        '✅ הצלחה!',
+        'קיבלת הרשאות SuperAdmin!\n\nעכשיו תוכל:\n• לנהל משתמשים\n• לאשר תשובות\n• לערוך תוכן\n• לתת הרשאות לאחרים',
+        [{ text: 'מעולה!' }]
+      );
+    } else {
+      Alert.alert(
+        '❌ קוד שגוי',
+        'הקוד שהזנת אינו נכון. נסה שוב או פנה למנהל המערכת.',
+        [{ text: 'אישור' }]
+      );
+    }
+  }
+
+  async function handleResetRatings() {
+    Alert.alert(
+      'איפוס דירוגים',
+      'פעולה זו תאפס את כל הדירוגים שנתת לתשובות. תוכל לדרג מחדש את כל השאלות. האם להמשיך?',
+      [
+        {
+          text: 'ביטול',
+          style: 'cancel',
+        },
+        {
+          text: 'אפס דירוגים',
+          style: 'destructive',
+          onPress: async () => {
+            const newId = await resetDeviceId();
+            setDeviceId(newId);
+            Alert.alert('הושלם', 'הדירוגים אופסו בהצלחה. תוכל לדרג מחדש את השאלות.');
+          },
+        },
+      ]
+    );
   }
 
   async function handleResetProgress() {
@@ -80,79 +117,6 @@ export default function ExploreScreen() {
 
   return (
     <ScrollView style={styles.container}>
-      <ThemedView style={styles.section}>
-        <ThemedText type="subtitle" style={styles.sectionTitle}>
-          חיפוש
-        </ThemedText>
-        <View style={styles.searchBar}>
-          <Ionicons name="search" size={20} style={styles.searchIcon} />
-          <TextInput
-            style={styles.searchInput}
-            placeholder="חפש בטקסט..."
-            placeholderTextColor="#999999"
-            value={searchQuery}
-            onChangeText={handleSearch}
-          />
-        </View>
-
-        {searching && (
-          <View style={styles.loadingContainer}>
-            <ActivityIndicator size="small" />
-          </View>
-        )}
-
-        {searchResults.length > 0 && (
-          <View style={styles.resultsContainer}>
-            {searchResults.slice(0, 20).map((result, index) => (
-              <Pressable
-                key={index}
-                style={styles.resultItem}
-                onPress={() => navigateToSection(result.section.id)}
-              >
-                <ThemedText style={styles.resultChapter}>
-                  {result.chapter.chapterLabel} - {result.chapter.title}
-                </ThemedText>
-                <ThemedText style={styles.resultSection}>
-                  סעיף {result.section.section}
-                </ThemedText>
-                <ThemedText style={styles.resultText} numberOfLines={2}>
-                  {result.section.text}
-                </ThemedText>
-              </Pressable>
-            ))}
-          </View>
-        )}
-      </ThemedView>
-
-      {showBookmarks && (
-        <ThemedView style={styles.section}>
-          <ThemedText type="subtitle" style={styles.sectionTitle}>
-            סימניות ({bookmarks.length})
-          </ThemedText>
-          {bookmarks.length === 0 ? (
-            <ThemedText style={styles.emptyText}>אין סימניות שמורות</ThemedText>
-          ) : (
-            bookmarks.map((bookmark) => (
-              <Pressable
-                key={bookmark.id}
-                style={styles.bookmarkItem}
-                onPress={() => navigateToSection(bookmark.sectionId)}
-              >
-                <View style={styles.bookmarkContent}>
-                  <ThemedText style={styles.bookmarkChapter}>
-                    {bookmark.chapterLabel} - {bookmark.chapterTitle}
-                  </ThemedText>
-                  <ThemedText style={styles.bookmarkSection}>
-                    סעיף {bookmark.sectionNumber}
-                  </ThemedText>
-                </View>
-                <Ionicons name="bookmark" size={20} color="#FFD700" />
-              </Pressable>
-            ))
-          )}
-        </ThemedView>
-      )}
-
       <ThemedView style={styles.section}>
         <ThemedText type="subtitle" style={styles.sectionTitle}>
           גודל טקסט
@@ -207,23 +171,95 @@ export default function ExploreScreen() {
         </View>
       </ThemedView>
 
+      {/* Admin Access Section */}
       <ThemedView style={styles.section}>
         <ThemedText type="subtitle" style={styles.sectionTitle}>
-          אודות
+          🔐 גישת מנהל
         </ThemedText>
-        <ThemedText style={styles.aboutText}>
-          קיצור שולחן ערוך לפי מנהג הספרדים{'\n'}
-          מבוסס על פסקי הרב עובדיה יוסף זצ"ל{'\n'}
-          גרסה 1.0.0
-        </ThemedText>
+        
+        {isAdmin ? (
+          <View style={styles.adminStatusContainer}>
+            <View style={[styles.adminBadge, { backgroundColor: Colors.light.semantic.success + '20' }]}>
+              <Ionicons name="shield-checkmark" size={24} color={Colors.light.semantic.success} />
+              <ThemedText style={[styles.adminBadgeText, { color: Colors.light.semantic.success }]}>
+                SuperAdmin פעיל
+              </ThemedText>
+            </View>
+            <ThemedText style={styles.adminInfo}>
+              יש לך הרשאות מלאות במערכת:
+              {'\n'}• ניהול משתמשים
+              {'\n'}• אישור ועריכת תשובות
+              {'\n'}• מתן הרשאות לאחרים
+            </ThemedText>
+          </View>
+        ) : (
+          <View style={styles.adminCodeContainer}>
+            <ThemedText style={styles.adminCodeLabel}>
+              הזן קוד סודי לקבלת הרשאות מנהל:
+            </ThemedText>
+            <View style={styles.adminCodeInputRow}>
+              <TextInput
+                style={styles.adminCodeInput}
+                placeholder="הזן קוד מנהל"
+                placeholderTextColor="#999999"
+                value={adminCode}
+                onChangeText={setAdminCode}
+                secureTextEntry
+                autoCapitalize="characters"
+              />
+              <Pressable 
+                style={styles.adminCodeButton}
+                onPress={handleAdminCodeSubmit}
+              >
+                <Ionicons name="lock-open" size={20} color="white" />
+                <ThemedText style={styles.adminCodeButtonText}>
+                  אשר
+                </ThemedText>
+              </Pressable>
+            </View>
+            <ThemedText style={styles.adminCodeHint}>
+              💡 רק מנהלי המערכת מורשים לגשת למצב זה.
+              {'\n'}אם אתה מנהל, הזן את הקוד שקיבלת.
+            </ThemedText>
+          </View>
+        )}
       </ThemedView>
 
       <ThemedView style={styles.section}>
         <ThemedText type="subtitle" style={styles.sectionTitle}>
           ניהול נתונים
         </ThemedText>
+        
+        {/* Device ID Info */}
+        <View style={styles.deviceIdContainer}>
+          <ThemedText style={styles.deviceIdLabel}>
+            📱 מזהה מכשיר (למניעת דירוג כפול)
+          </ThemedText>
+          <ThemedText style={styles.deviceIdText} numberOfLines={1}>
+            {deviceId || 'טוען...'}
+          </ThemedText>
+          <ThemedText style={styles.deviceIdNote}>
+            מזהה ייחודי שנוצר אוטומטית למניעת דירוג כפול של אותה תשובה
+          </ThemedText>
+        </View>
+
+        {/* Reset Ratings Button */}
         <Pressable 
           style={styles.resetButton}
+          onPress={handleResetRatings}
+        >
+          <Ionicons name="star-outline" size={20} color={Colors.light.semantic.warning} />
+          <ThemedText style={[styles.resetButtonText, { color: Colors.light.semantic.warning }]}>
+            אפס את כל הדירוגים (שאלות ותשובות)
+          </ThemedText>
+        </Pressable>
+        <ThemedText style={styles.resetWarning}>
+          תוכל לדרג מחדש את כל השאלות אחרי האיפוס
+        </ThemedText>
+
+        {/* Reset Progress Button */}
+        <Pressable 
+          style={[styles.resetButton, { marginTop: 12 }]}
           onPress={handleResetProgress}
         >
           <Ionicons name="refresh" size={20} color={Colors.light.semantic.error} />
@@ -234,9 +270,36 @@ export default function ExploreScreen() {
         <ThemedText style={styles.resetWarning}>
           פעולה זו תמחק את כל הסימנים שסומנו כהושלמו ואת רצף הלימוד היומי
         </ThemedText>
+
+        {/* Admin Testing Button */}
+        <Pressable 
+          style={[styles.resetButton, { marginTop: 16, backgroundColor: Colors.light.primary.light }]}
+          onPress={() => router.push('/admin-testing')}
+        >
+          <Ionicons name="shield-checkmark" size={20} color={Colors.light.primary.dark} />
+          <ThemedText style={[styles.resetButtonText, { color: Colors.light.primary.dark }]}>
+            🔐 בדיקת מערכת הרשאות
+          </ThemedText>
+        </Pressable>
+        <ThemedText style={styles.resetWarning}>
+          דף בדיקה למערכת הרשאות ואישורים (פיתוח)
+        </ThemedText>
+      </ThemedView>
+
+      <ThemedView style={styles.section}>
+        <ThemedText style={styles.versionText}>
+          גרסה 1.2.0
+        </ThemedText>
+        <Pressable
+          style={[styles.resetButton, { marginTop: 18, backgroundColor: Colors.light.primary.main, borderColor: Colors.light.primary.main }]}
+          onPress={() => router.push('about' as typeof router.push extends (path: infer P, ...args: any[]) => any ? P : never)}
+        >
+          <Ionicons name="information-circle-outline" size={20} color={Colors.light.text.onPrimary} />
+          <ThemedText style={[styles.resetButtonText, { color: Colors.light.text.onPrimary }]}>אודות האפליקציה</ThemedText>
+        </Pressable>
       </ThemedView>
     </ScrollView>
-  );
+    );
 }
 
 const styles = StyleSheet.create({
@@ -255,81 +318,6 @@ const styles = StyleSheet.create({
     marginBottom: spacing.md,
     textAlign: 'right',
     color: Colors.light.text.primary,
-  },
-  searchBar: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    borderRadius: 8,
-    paddingHorizontal: 12,
-    paddingVertical: 10,
-    backgroundColor: Colors.light.background.surface,
-    borderWidth: 1,
-    borderColor: Colors.light.border.default,
-  },
-  searchIcon: {
-    marginLeft: 8,
-    color: Colors.light.text.secondary,
-  },
-  searchInput: {
-    flex: 1,
-    fontSize: 16,
-    textAlign: 'right',
-    color: Colors.light.text.primary,
-  },
-  loadingContainer: {
-    padding: spacing.lg,
-    alignItems: 'center',
-  },
-  resultsContainer: {
-    marginTop: 12,
-  },
-  resultItem: {
-    padding: spacing.md,
-    borderRadius: 12,
-    backgroundColor: Colors.light.background.surface,
-    marginBottom: 12,
-    borderWidth: 1,
-    borderColor: Colors.light.border.default,
-  },
-  resultChapter: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginBottom: 6,
-    color: Colors.light.primary.main,
-  },
-  resultSection: {
-    fontSize: 14,
-    marginBottom: 6,
-    color: Colors.light.text.secondary,
-  },
-  resultText: {
-    fontSize: 15,
-    lineHeight: 22,
-    color: Colors.light.text.primary,
-  },
-  bookmarkItem: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: spacing.md,
-    borderRadius: 12,
-    backgroundColor: Colors.light.background.surface,
-    marginBottom: 12,
-    borderWidth: 1,
-    borderColor: Colors.light.border.default,
-  },
-  bookmarkContent: {
-    flex: 1,
-  },
-  bookmarkChapter: {
-    fontSize: 16,
-    fontWeight: '600',
-    marginBottom: 6,
-    color: Colors.light.text.primary,
-  },
-  bookmarkSection: {
-    fontSize: 14,
-    color: Colors.light.text.secondary,
   },
   optionsRow: {
     flexDirection: 'row',
@@ -356,17 +344,10 @@ const styles = StyleSheet.create({
   optionTextActive: {
     color: Colors.light.text.onPrimary,
   },
-  emptyText: {
-    fontSize: 15,
+  versionText: {
+    fontSize: 14,
     textAlign: 'center',
-    padding: spacing.lg,
     color: Colors.light.text.secondary,
-  },
-  aboutText: {
-    fontSize: 15,
-    lineHeight: 24,
-    textAlign: 'center',
-    color: Colors.light.text.primary,
   },
   resetButton: {
     flexDirection: 'row',
@@ -390,5 +371,104 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 8,
     fontStyle: 'italic',
+  },
+  deviceIdContainer: {
+    padding: spacing.md,
+    borderRadius: 8,
+    backgroundColor: Colors.light.background.surface,
+    borderWidth: 1,
+    borderColor: Colors.light.border.default,
+    marginBottom: 16,
+  },
+  deviceIdLabel: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: Colors.light.text.primary,
+    marginBottom: 8,
+  },
+  deviceIdText: {
+    fontSize: 11,
+    fontFamily: 'monospace',
+    color: Colors.light.primary.main,
+    backgroundColor: Colors.light.primary.light,
+    padding: 8,
+    borderRadius: 6,
+    marginBottom: 8,
+  },
+  deviceIdNote: {
+    fontSize: 11,
+    color: Colors.light.text.secondary,
+    fontStyle: 'italic',
+    lineHeight: 16,
+  },
+  adminStatusContainer: {
+    gap: 12,
+  },
+  adminBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: spacing.md,
+    borderRadius: 12,
+    gap: 12,
+  },
+  adminBadgeText: {
+    fontSize: 17,
+    fontWeight: 'bold',
+  },
+  adminInfo: {
+    fontSize: 14,
+    color: Colors.light.text.secondary,
+    lineHeight: 22,
+    padding: spacing.md,
+    backgroundColor: Colors.light.background.surface,
+    borderRadius: 8,
+  },
+  adminCodeContainer: {
+    gap: 12,
+  },
+  adminCodeLabel: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: Colors.light.text.primary,
+  },
+  adminCodeInputRow: {
+    flexDirection: 'row',
+    gap: 8,
+  },
+  adminCodeInput: {
+    flex: 1,
+    borderWidth: 1,
+    borderColor: Colors.light.border.default,
+    borderRadius: 8,
+    padding: 12,
+    fontSize: 16,
+    backgroundColor: Colors.light.background.surface,
+    textAlign: 'center',
+    fontWeight: 'bold',
+    letterSpacing: 2,
+  },
+  adminCodeButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: Colors.light.primary.main,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    borderRadius: 8,
+    gap: 6,
+  },
+  adminCodeButtonText: {
+    color: 'white',
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  adminCodeHint: {
+    fontSize: 12,
+    color: Colors.light.text.secondary,
+    lineHeight: 18,
+    padding: 12,
+    backgroundColor: Colors.light.primary.light,
+    borderRadius: 8,
+    borderRightWidth: 3,
+    borderRightColor: Colors.light.primary.main,
   },
 });
