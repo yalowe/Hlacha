@@ -6,9 +6,12 @@
  * 1. User enters secret admin code
  * 2. If correct, their Device ID is added to SuperAdmin list
  * 3. They can now grant roles to others
+ * 
+ * Security: Admin code is stored in environment variables
  */
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import Constants from 'expo-constants';
 import { getDeviceId } from './deviceId';
 
 const STORAGE_KEYS = {
@@ -16,9 +19,19 @@ const STORAGE_KEYS = {
   ADMIN_CODE: '@kitzur_admin_secret_code'
 };
 
-// ⚠️ CHANGE THIS to your own secret code!
-// In production, this should be in environment variables
-const DEFAULT_ADMIN_CODE = 'KITZUR2026';
+// Get admin code from environment variables (secure)
+// Fallback to a default only for development/testing
+const getDefaultAdminCode = (): string => {
+  const envCode = Constants.expoConfig?.extra?.adminSecretCode || 
+                  process.env.EXPO_PUBLIC_ADMIN_SECRET_CODE;
+  
+  if (!envCode) {
+    console.warn('⚠️ Admin code not set in environment variables. Using insecure default.');
+    return 'KITZUR2026'; // Only for development
+  }
+  
+  return envCode;
+};
 
 /**
  * Verify admin code and grant SuperAdmin access
@@ -27,7 +40,7 @@ export async function verifyAdminCode(code: string): Promise<boolean> {
   try {
     // Check against stored code or default
     const storedCode = await AsyncStorage.getItem(STORAGE_KEYS.ADMIN_CODE);
-    const validCode = storedCode || DEFAULT_ADMIN_CODE;
+    const validCode = storedCode || getDefaultAdminCode();
     
     if (code !== validCode) {
       return false;
@@ -37,7 +50,6 @@ export async function verifyAdminCode(code: string): Promise<boolean> {
     const deviceId = await getDeviceId();
     await addSuperAdmin(deviceId);
     
-    console.log('✅ SuperAdmin access granted for device:', deviceId);
     return true;
   } catch (error) {
     console.error('Failed to verify admin code:', error);
@@ -102,8 +114,6 @@ export async function removeSuperAdmin(deviceId: string): Promise<void> {
     
     const filtered = list.filter(id => id !== deviceId);
     await AsyncStorage.setItem(STORAGE_KEYS.SUPERADMIN_LIST, JSON.stringify(filtered));
-    
-    console.log('✅ SuperAdmin access revoked for device:', deviceId);
   } catch (error) {
     console.error('Failed to remove SuperAdmin:', error);
     throw error;
@@ -120,7 +130,7 @@ export async function changeAdminCode(
   try {
     // Verify current code
     const storedCode = await AsyncStorage.getItem(STORAGE_KEYS.ADMIN_CODE);
-    const validCode = storedCode || DEFAULT_ADMIN_CODE;
+    const validCode = storedCode || getDefaultAdminCode();
     
     if (currentCode !== validCode) {
       return false;
@@ -134,7 +144,6 @@ export async function changeAdminCode(
     
     // Set new code
     await AsyncStorage.setItem(STORAGE_KEYS.ADMIN_CODE, newCode);
-    console.log('✅ Admin code changed successfully');
     return true;
   } catch (error) {
     console.error('Failed to change admin code:', error);

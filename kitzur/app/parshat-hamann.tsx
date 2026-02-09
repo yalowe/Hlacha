@@ -1,8 +1,8 @@
-import { StyleSheet, View, ScrollView, ActivityIndicator } from 'react-native';
+import { StyleSheet, ScrollView, ActivityIndicator } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useState, useEffect } from 'react';
-import { formatHebrewChapter, toHebrewNumeral } from '@/utils/hebrewNumbers';
+import { toHebrewNumeral } from '@/utils/hebrewNumbers';
 
 interface Verse {
   verseNum: number;
@@ -94,7 +94,7 @@ export default function ParshatHaMannScreen() {
               <ThemedView style={styles.verseContent}>
                 {/* Hebrew text - first reading */}
                 <ThemedView style={styles.textBlock}>
-                  <ThemedText style={styles.label}>עברי (א')</ThemedText>
+                  <ThemedText style={styles.label}>עברי (א&apos;)</ThemedText>
                   <ThemedText style={styles.hebrewText}>
                     {verse.hebrew}
                   </ThemedText>
@@ -102,7 +102,7 @@ export default function ParshatHaMannScreen() {
 
                 {/* Hebrew text - second reading */}
                 <ThemedView style={styles.textBlock}>
-                  <ThemedText style={styles.label}>עברי (ב')</ThemedText>
+                  <ThemedText style={styles.label}>עברי (ב&apos;)</ThemedText>
                   <ThemedText style={styles.hebrewText}>
                     {verse.hebrew}
                   </ThemedText>
@@ -122,7 +122,7 @@ export default function ParshatHaMannScreen() {
 
         <ThemedView style={styles.footer}>
           <ThemedText style={styles.footerText}>
-            רבי מנחם מנדל מריימאנוב אמר: "המשלים קריאת פרשת המן בכל יום, מובטח לו שלא יחסר לו פרנסתו"
+            רבי מנחם מנדל מריימאנוב אמר: &quot;המשלים קריאת פרשת המן בכל יום, מובטח לו שלא יחסר לו פרנסתו&quot;
           </ThemedText>
         </ThemedView>
       </ScrollView>

@@ -5,7 +5,6 @@
 import { Link } from "expo-router";
 import { View, Pressable, StyleSheet, ScrollView } from "react-native";
 import { ThemedText } from "./themed-text";
-import { ThemedView } from "./themed-view";
 import { Chapter } from "../utils/contentLoader";
 import { useApp } from "@/contexts/AppContext";
 import { Colors, spacing } from "@/constants/theme";
@@ -53,7 +52,7 @@ export default function ChapterList({ chapters }: { chapters: Chapter[] }) {
             </ThemedText>
           </View>
           <View style={styles.listContainer}>
-            {sectionData.chapters.map((ch, index) => (
+            {sectionData.chapters.map((ch) => (
               <Link key={ch.id} href={`/chapter/${ch.id}`} asChild>
                 <Pressable 
                   style={({ pressed }) => [

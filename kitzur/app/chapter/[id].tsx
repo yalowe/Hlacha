@@ -2,9 +2,9 @@
  * Chapter Detail Screen
  * Displays the list of sections within a selected chapter
  */
-import { useLocalSearchParams, router } from 'expo-router';
+import { useLocalSearchParams } from 'expo-router';
 import { useState, useEffect } from 'react';
-import { ScrollView, StyleSheet, ActivityIndicator, View, Pressable, Alert } from 'react-native';
+import { ScrollView, StyleSheet, ActivityIndicator, Pressable, Alert } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import { ThemedView } from '@/components/themed-view';
 import { ThemedText } from '@/components/themed-text';

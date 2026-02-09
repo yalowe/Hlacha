@@ -1,7 +1,7 @@
 import { StyleSheet, View, ScrollView, ActivityIndicator } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
-import { useLocalSearchParams, router } from 'expo-router';
+import { useLocalSearchParams } from 'expo-router';
 import { useState, useEffect } from 'react';
 import { loadParsha, type Parsha, PARSHIOT_LIST } from '@/utils/parshaLoader';
 import { formatHebrewChapter, toHebrewNumeral } from '@/utils/hebrewNumbers';
@@ -106,7 +106,7 @@ export default function ParshaScreen() {
                 <ThemedView style={styles.verseContent}>
                   {/* Hebrew text - first reading */}
                   <ThemedView style={styles.textBlock}>
-                    <ThemedText style={styles.label}>עברי (א')</ThemedText>
+                    <ThemedText style={styles.label}>עברי (א&apos;)</ThemedText>
                     <ThemedText style={styles.hebrewText}>
                       {verse.hebrew}
                     </ThemedText>
@@ -114,7 +114,7 @@ export default function ParshaScreen() {
 
                   {/* Hebrew text - second reading */}
                   <ThemedView style={styles.textBlock}>
-                    <ThemedText style={styles.label}>עברי (ב')</ThemedText>
+                    <ThemedText style={styles.label}>עברי (ב&apos;)</ThemedText>
                     <ThemedText style={styles.hebrewText}>
                       {verse.hebrew}
                     </ThemedText>

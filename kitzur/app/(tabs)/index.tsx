@@ -24,7 +24,6 @@ import {
   type LastRead,
   type Streak,
 } from '@/utils/progress';
-import { getChapterIds } from '@/utils/contentLoader';
 import { getUnansweredQuestions } from '@/utils/questionsManager';
 import type { Question } from '@/types/questions';
 import { Colors, spacing } from '@/constants/theme';

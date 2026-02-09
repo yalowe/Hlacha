@@ -1,5 +1,5 @@
 # 🚀 Production Deployment Guide
-## Kitzur App - Ready for Market
+## למען שמו באהבה - Torah Learning App - Ready for Market
 
 ---
 

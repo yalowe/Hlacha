@@ -1,4 +1,5 @@
-# ✅ Pre-Launch Checklist - Kitzur App v1.4.0
+# ✅ Pre-Launch Checklist - למען שמו באהבה v1.4.0
+Torah Learning & Community App
 
 ## 📋 Complete Before Publishing
 

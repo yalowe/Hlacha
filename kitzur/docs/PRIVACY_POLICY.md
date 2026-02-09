@@ -141,7 +141,8 @@
 
 ---
 
-# Privacy Policy - Kitzur Shulchan Aruch App
+# Privacy Policy - למען שמו באהבה (For God's Sake with Love)
+Torah Learning & Community App
 
 **Last Updated: February 4, 2026**
 

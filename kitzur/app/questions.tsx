@@ -189,32 +189,9 @@ export default function QuestionsScreen() {
   const applyAllFilters = useCallback(() => {
     let filtered = [...allQuestions];
     
-    console.log('🔍 ========== FILTERS DEBUG ==========');
-    console.log('Total questions:', allQuestions.length);
-    console.log('Current filters:', JSON.stringify(filters, null, 2));
-    
-    // Debug: Show all question categories
-    const categoryCounts: Record<string, number> = {};
-    allQuestions.forEach(q => {
-      categoryCounts[q.category] = (categoryCounts[q.category] || 0) + 1;
-    });
-    console.log('Questions by category:', categoryCounts);
-    
     // 1. Category filter
     if (filters.category !== 'all') {
-      const beforeCount = filtered.length;
-      filtered = filtered.filter(q => {
-        const match = q.category === filters.category;
-        if (!match) {
-          console.log(`❌ Filtered out: ${q.question.substring(0, 50)}... (category: ${q.category})`);
-        }
-        return match;
-      });
-      console.log(`📚 Category filter (${filters.category}): ${beforeCount} → ${filtered.length}`);
-      
-      if (filtered.length === 0) {
-        console.warn(`⚠️ No questions found for category: ${filters.category}`);
-      }
+      filtered = filtered.filter(q => q.category === filters.category);
     }
     
     // 2. Unanswered filter

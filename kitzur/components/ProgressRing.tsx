@@ -15,7 +15,6 @@ export function ProgressRing({ completed, total, size = 120 }: ProgressRingProps
   const colors = Colors[colorScheme ?? 'light'];
   
   const percentage = total > 0 ? (completed / total) * 100 : 0;
-  const displayPercentage = Math.round(percentage);
   // Make small progress visible: minimum 2% arc for any completed items
   const visualPercentage = completed > 0 ? Math.max(percentage, 2) : 0;
   

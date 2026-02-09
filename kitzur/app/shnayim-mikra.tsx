@@ -1,8 +1,8 @@
-import { StyleSheet, View, ScrollView, TouchableOpacity } from 'react-native';
+import { StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useState } from 'react';
-import { getAllParshiot, getParshiotByBook } from '@/utils/parshaLoader';
+import { getParshiotByBook } from '@/utils/parshaLoader';
 import { router } from 'expo-router';
 
 export default function ShnayimMikraScreen() {

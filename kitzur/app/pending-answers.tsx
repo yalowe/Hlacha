@@ -248,7 +248,7 @@ export default function PendingAnswersScreen() {
                           </ThemedText>
                           {source.quote && (
                             <ThemedText style={[styles.quoteText, { color: colors.text.secondary }]}>
-                              "{source.quote}"
+                              &quot;{source.quote}&quot;
                             </ThemedText>
                           )}
                         </View>

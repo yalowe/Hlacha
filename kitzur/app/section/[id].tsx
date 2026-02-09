@@ -2,7 +2,7 @@
  * Section Detail Screen
  * Displays the full text of a selected section with sharing and bookmark features
  */
-import { useLocalSearchParams, router } from 'expo-router';
+import { useLocalSearchParams } from 'expo-router';
 import { useState, useEffect } from 'react';
 import { ScrollView, StyleSheet, ActivityIndicator, Pressable, Share, Alert, View, Text } from 'react-native';
 import * as Haptics from 'expo-haptics';
@@ -57,7 +57,7 @@ export default function SectionDetailScreen() {
       await saveLastRead(lastReadData);
       
       // Update daily streak
-      const newStreak = await updateStreak();
+      await updateStreak();
     }
     setLoading(false);
   }

@@ -242,7 +242,7 @@ export default function AskQuestionScreen() {
             • פרט את הנסיבות והשאלה בצורה ברורה
           </ThemedText>
           <ThemedText style={[styles.tipItem, { color: colors.text.secondary }]}>
-            • ציין פרטים רלוונטיים (זמן, מקום, נוהג וכו')
+            • ציין פרטים רלוונטיים (זמן, מקום, נוהג וכו&apos;)
           </ThemedText>
           <ThemedText style={[styles.tipItem, { color: colors.text.secondary }]}>
             • בחר את הקטגוריה המתאימה ביותר

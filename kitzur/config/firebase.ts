@@ -1,33 +1,56 @@
 /**
  * Firebase Configuration
- * Setup Firestore for shared questions database
+ * Setup Firestore for collaborative Torah learning platform
+ * 
+ * Handles:
+ * - Questions & Answers database (Halacha and Torah study)
+ * - User authentication for community features
+ * - Shared learning content and progress
+ * 
+ * Configuration is loaded from environment variables for security.
+ * See .env.example for required variables.
  */
 
-// NOTE: Install firebase first: npm install firebase
-// import { initializeApp } from 'firebase/app';
-// import { getFirestore } from 'firebase/firestore';
-// import { getAuth } from 'firebase/auth';
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
+import Constants from 'expo-constants';
 
-// Firebase configuration from Firebase Console
-// TODO: Replace with your actual Firebase config
+// Get Firebase config from environment variables
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: Constants.expoConfig?.extra?.firebaseApiKey || process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: Constants.expoConfig?.extra?.firebaseAuthDomain || process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: Constants.expoConfig?.extra?.firebaseProjectId || process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: Constants.expoConfig?.extra?.firebaseStorageBucket || process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: Constants.expoConfig?.extra?.firebaseMessagingSenderId || process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: Constants.expoConfig?.extra?.firebaseAppId || process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
 };
 
-// Initialize Firebase
-// Uncomment after installing firebase package:
-// const app = initializeApp(firebaseConfig);
-// export const db = getFirestore(app);
-// export const auth = getAuth(app);
+// Check if Firebase is configured
+const isFirebaseConfigured = firebaseConfig.apiKey && 
+                             firebaseConfig.projectId && 
+                             !firebaseConfig.apiKey.includes('YOUR_');
 
-// Temporary exports (remove after Firebase setup)
-export const db = null;
-export const auth = null;
+// Initialize Firebase only if properly configured
+let app;
+let db = null;
+let auth = null;
+
+if (isFirebaseConfigured) {
+  try {
+    app = initializeApp(firebaseConfig);
+    db = getFirestore(app);
+    auth = getAuth(app);
+    console.info('✅ Firebase initialized successfully');
+  } catch (error) {
+    console.error('❌ Firebase initialization failed:', error);
+  }
+} else {
+  console.warn('⚠️ Firebase not configured. Questions & Answers feature will not work.');
+  console.warn('   Please set up Firebase environment variables in .env file.');
+}
+
+export { db, auth };
 
 /**
  * SETUP INSTRUCTIONS:
@@ -35,13 +58,13 @@ export const auth = null;
  * 1. Create Firebase Project:
  *    - Go to https://console.firebase.google.com
  *    - Click "Add project"
- *    - Name: "Kitzur App" (or your choice)
+ *    - Name: "Torah Learning App" or "למען שמו באהבה" (your choice)
  *    - Enable Google Analytics (optional)
  * 
  * 2. Add Web App:
  *    - In Project Overview, click "Web" icon (</>)
- *    - Register app name: "Kitzur Web"
- *    - Copy the config object and replace firebaseConfig above
+ *    - Register app name: "Torah Learning Web"
+ *    - Copy the config object and add to .env file
  * 
  * 3. Create Firestore Database:
  *    - In Firebase Console, go to "Firestore Database"
