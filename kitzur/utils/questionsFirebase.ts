@@ -1,58 +1,63 @@
 /**
- * Firebase Questions Manager
- * Real-time cloud database for questions & answers
+ * Firebase Questions Manager (v1)
  */
 import {
   collection,
   doc,
   addDoc,
   updateDoc,
-  getDoc,
   getDocs,
   query,
   where,
   orderBy,
   onSnapshot,
   increment,
-  serverTimestamp,
+  serverTimestamp
 } from 'firebase/firestore';
 import { db } from '@/config/firebase';
-import type { Question, Answer } from '@/types/questions';
+import type { Question, QuestionCategory, Answer, HalachicSource, QuestionCreateResult } from '@/types/questions';
 
 const COLLECTIONS = {
   QUESTIONS: 'questions',
-  ANSWERS: 'answers',
+  ANSWER_SUBMISSIONS: 'answer_submissions'
 };
 
-// Normalize question data to ensure all required fields exist
 function normalizeQuestion(data: any): Question {
+  const timestamp = data.timestamp?.toMillis ? data.timestamp.toMillis() : data.timestamp;
   return {
     ...data,
+    timestamp,
     stats: data.stats || {
       views: 0,
       helpful: 0,
       notHelpful: 0,
       shares: 0
-    }
+    },
+    tags: data.tags || [],
+    status: data.status || 'pending_review',
+    moderationStatus: data.moderationStatus || 'pending',
+    minimumApprovalsRequired: data.minimumApprovalsRequired ?? 5,
+    relatedQuestions: data.relatedQuestions || [],
+    isPrivate: data.isPrivate ?? false,
+    visibility: data.visibility || 'public'
   } as Question;
 }
 
-// Real-time listener for all questions
 export function subscribeToQuestions(
   callback: (questions: Question[]) => void,
   onError?: (error: Error) => void
 ) {
   const q = query(
     collection(db, COLLECTIONS.QUESTIONS),
-    orderBy('timestamp', 'desc')
+    orderBy('createdAt', 'desc')
   );
 
   return onSnapshot(
     q,
     (snapshot) => {
       const questions: Question[] = [];
-      snapshot.forEach((doc) => {
-        questions.push(normalizeQuestion({ id: doc.id, ...doc.data() }));
+      snapshot.forEach((docSnap) => {
+        questions.push(normalizeQuestion({ id: docSnap.id, ...docSnap.data() }));
       });
       callback(questions);
     },
@@ -63,32 +68,56 @@ export function subscribeToQuestions(
   );
 }
 
-// Ask a new question
-export async function askQuestion(question: Omit<Question, 'id'>): Promise<string> {
-  try {
-    const docRef = await addDoc(collection(db, COLLECTIONS.QUESTIONS), {
-      ...question,
-      timestamp: serverTimestamp(),
-    });
-    console.log('✅ Question asked successfully:', docRef.id);
-    return docRef.id;
-  } catch (error) {
-    console.error('❌ Error asking question:', error);
-    throw error;
-  }
+export async function askQuestion(
+  questionText: string,
+  category: QuestionCategory,
+  userId: string,
+  userName: string,
+  isPrivate: boolean,
+  anonSessionId?: string
+): Promise<QuestionCreateResult> {
+  const docRef = await addDoc(collection(db, COLLECTIONS.QUESTIONS), {
+    question: questionText,
+    category,
+    askedBy: userId,
+    askedByName: userName,
+    timestamp: serverTimestamp(),
+    createdAt: serverTimestamp(),
+    status: 'pending_review',
+    moderationStatus: 'pending',
+    minimumApprovalsRequired: 5,
+    stats: {
+      views: 0,
+      helpful: 0,
+      notHelpful: 0,
+      shares: 0
+    },
+    tags: [],
+    relatedQuestions: [],
+    isPrivate,
+    visibility: 'public',
+    anon_session_id: anonSessionId || null
+  });
+
+  return {
+    id: docRef.id,
+    slug: null,
+    status: 'pending_review',
+    moderationStatus: 'pending',
+    visibility: 'public'
+  };
 }
 
-// Get all questions
 export async function getAllQuestions(): Promise<Question[]> {
   try {
     const q = query(
       collection(db, COLLECTIONS.QUESTIONS),
-      orderBy('timestamp', 'desc')
+      orderBy('createdAt', 'desc')
     );
     const snapshot = await getDocs(q);
     const questions: Question[] = [];
-    snapshot.forEach((doc) => {
-      questions.push(normalizeQuestion({ id: doc.id, ...doc.data() }));
+    snapshot.forEach((docSnap) => {
+      questions.push(normalizeQuestion({ id: docSnap.id, ...docSnap.data() }));
     });
     return questions;
   } catch (error) {
@@ -97,127 +126,43 @@ export async function getAllQuestions(): Promise<Question[]> {
   }
 }
 
-// Get question by ID
-export async function getQuestion(questionId: string): Promise<Question | null> {
-  try {
-    const docRef = doc(db, COLLECTIONS.QUESTIONS, questionId);
-    const docSnap = await getDoc(docRef);
-    
-    if (docSnap.exists()) {
-      return normalizeQuestion({ id: docSnap.id, ...docSnap.data() });
-    }
-    return null;
-  } catch (error) {
-    console.error('❌ Error getting question:', error);
-    return null;
-  }
-}
 
-// Answer a question
-export async function answerQuestion(
+export async function submitAnswerProposal(
   questionId: string,
-  answer: Omit<Answer, 'isVerified' | 'totalApprovalWeight' | 'approvals'>
+  answerText: string,
+  sources: HalachicSource[],
+  userId: string,
+  userName: string,
+  anonSessionId?: string
 ): Promise<void> {
-  try {
-    const questionRef = doc(db, COLLECTIONS.QUESTIONS, questionId);
-    await updateDoc(questionRef, {
-      answer: {
-        ...answer,
-        answeredAt: serverTimestamp(),
-        approvals: [],
-        isVerified: false,
-        totalApprovalWeight: 0,
-      },
-      status: answer.source === 'rabbi' ? 'rabbi_answered' : 'ai_answered',
-    });
-    console.log('✅ Answer added successfully');
-  } catch (error) {
-    console.error('❌ Error answering question:', error);
-    throw error;
-  }
+  await addDoc(collection(db, COLLECTIONS.ANSWER_SUBMISSIONS), {
+    questionId,
+    text: answerText,
+    sources,
+    respondedBy: userId,
+    respondedByName: userName,
+    status: 'pending_review',
+    createdAt: serverTimestamp(),
+    anon_session_id: anonSessionId || null
+  });
 }
 
-// Increment views
+export async function getApprovedAnswer(questionId: string): Promise<Answer | null> {
+  const answersRef = collection(db, COLLECTIONS.QUESTIONS, questionId, 'answers');
+  const q = query(answersRef, where('status', '==', 'approved'), orderBy('approvedAt', 'desc'));
+  const snapshot = await getDocs(q);
+  const docSnap = snapshot.docs[0];
+  if (!docSnap) return null;
+  return docSnap.data() as Answer;
+}
+
 export async function incrementViews(questionId: string): Promise<void> {
   try {
     const questionRef = doc(db, COLLECTIONS.QUESTIONS, questionId);
     await updateDoc(questionRef, {
-      'stats.views': increment(1),
+      'stats.views': increment(1)
     });
   } catch (error) {
     console.error('❌ Error incrementing views:', error);
-  }
-}
-
-// Rate answer (helpful/not helpful)
-export async function rateAnswer(
-  questionId: string,
-  isHelpful: boolean
-): Promise<void> {
-  try {
-    const questionRef = doc(db, COLLECTIONS.QUESTIONS, questionId);
-    const field = isHelpful ? 'stats.helpful' : 'stats.notHelpful';
-    await updateDoc(questionRef, {
-      [field]: increment(1),
-    });
-    console.log(`✅ Rated as ${isHelpful ? 'helpful' : 'not helpful'}`);
-  } catch (error) {
-    console.error('❌ Error rating answer:', error);
-    throw error;
-  }
-}
-
-// Get questions by category
-export async function getQuestionsByCategory(category: string): Promise<Question[]> {
-  try {
-    const q = query(
-      collection(db, COLLECTIONS.QUESTIONS),
-      where('category', '==', category),
-      orderBy('timestamp', 'desc')
-    );
-    const snapshot = await getDocs(q);
-    const questions: Question[] = [];
-    snapshot.forEach((doc) => {
-      questions.push(normalizeQuestion({ id: doc.id, ...doc.data() }));
-    });
-    return questions;
-  } catch (error) {
-    console.error('❌ Error getting questions by category:', error);
-    return [];
-  }
-}
-
-// Search questions
-export async function searchQuestions(searchTerm: string): Promise<Question[]> {
-  try {
-    // Note: Firestore doesn't support full-text search natively
-    // This is a simple implementation - for production, consider Algolia or similar
-    const allQuestions = await getAllQuestions();
-    const lowerSearch = searchTerm.toLowerCase();
-    
-    return allQuestions.filter((q) =>
-      q.question.toLowerCase().includes(lowerSearch) ||
-      q.tags.some((tag) => tag.toLowerCase().includes(lowerSearch))
-    );
-  } catch (error) {
-    console.error('❌ Error searching questions:', error);
-    return [];
-  }
-}
-
-// Migrate local questions to Firebase
-export async function migrateLocalToFirebase(localQuestions: Question[]): Promise<void> {
-  try {
-    console.log(`🔄 Migrating ${localQuestions.length} questions to Firebase...`);
-    
-    for (const question of localQuestions) {
-      const { id, ...questionData } = question;
-      await addDoc(collection(db, COLLECTIONS.QUESTIONS), questionData);
-    }
-    
-    console.log('✅ Migration completed successfully!');
-  } catch (error) {
-    console.error('❌ Error migrating questions:', error);
-    throw error;
   }
 }

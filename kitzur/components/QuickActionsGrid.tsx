@@ -11,7 +11,7 @@ interface QuickActionButtonProps {
   badge?: number | 'new';
 }
 
-export function QuickActionButton({ icon, label, onPress, badge }: QuickActionButtonProps) {
+function QuickActionButton({ icon, label, onPress, badge }: QuickActionButtonProps) {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'];
 

@@ -18,7 +18,7 @@ export function DailyQuoteCard({ text, source }: DailyQuoteCardProps) {
         ציטוט יומי
       </Text>
       <Text style={[styles.quote, { color: colors.text.onPrimary }]}>
-        "{text}"
+        &quot;{text}&quot;
       </Text>
       <Text style={[styles.source, { color: colors.text.onPrimary, opacity: 0.8 }]}>
         — {source}

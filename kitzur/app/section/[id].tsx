@@ -2,9 +2,9 @@
  * Section Detail Screen
  * Displays the full text of a selected section with sharing and bookmark features
  */
-import { useLocalSearchParams, router } from 'expo-router';
-import { useState, useEffect } from 'react';
-import { ScrollView, StyleSheet, ActivityIndicator, Pressable, Share, Alert, View, Text } from 'react-native';
+import { useLocalSearchParams } from 'expo-router';
+import { useState, useEffect, useCallback } from 'react';
+import { ScrollView, StyleSheet, ActivityIndicator, Pressable, Share, Alert, View } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import { ThemedView } from '@/components/themed-view';
 import { ThemedText } from '@/components/themed-text';
@@ -24,20 +24,14 @@ export default function SectionDetailScreen() {
   const [isDailyHalacha, setIsDailyHalacha] = useState(false);
   const { addBookmark, removeBookmark, isBookmarked, getTextSizeMultiplier } = useApp();
 
-  useEffect(() => {
-    loadSection();
-    // Check if this is today's daily halacha
-    checkIfDailyHalacha();
-  }, [id]);
-
-  async function checkIfDailyHalacha() {
+  const checkIfDailyHalacha = useCallback(async () => {
     if (!id) return;
     const { getDailyHalachaId } = await import('@/utils/progress');
     const todaysDailyId = getDailyHalachaId();
     setIsDailyHalacha(id === todaysDailyId);
-  }
+  }, [id]);
 
-  async function loadSection() {
+  const loadSection = useCallback(async () => {
     if (!id) return;
     setLoading(true);
     const result = await findSectionById(id);
@@ -57,10 +51,16 @@ export default function SectionDetailScreen() {
       await saveLastRead(lastReadData);
       
       // Update daily streak
-      const newStreak = await updateStreak();
+      await updateStreak();
     }
     setLoading(false);
-  }
+  }, [id]);
+
+  useEffect(() => {
+    loadSection();
+    // Check if this is today's daily halacha
+    checkIfDailyHalacha();
+  }, [checkIfDailyHalacha, loadSection]);
 
   async function handleBookmark() {
     if (!section || !chapter) return;
@@ -156,11 +156,9 @@ export default function SectionDetailScreen() {
       </ThemedView>
 
       <View style={styles.contentCard}>
-        <Text 
-          style={[styles.text, { fontSize: 17 * textMultiplier }]}
-        >
+        <ThemedText style={[styles.text, { fontSize: 17 * textMultiplier }]}>
           {section.text}
-        </Text>
+        </ThemedText>
       </View>
 
       <View style={styles.actions}>
@@ -173,19 +171,19 @@ export default function SectionDetailScreen() {
             size={24} 
             color={Colors.light.primary.main} 
           />
-          <Text style={styles.actionText}>
+          <ThemedText style={styles.actionText}>
             {bookmarked ? 'שמור' : 'שמור'}
-          </Text>
+          </ThemedText>
         </Pressable>
 
         <Pressable style={styles.actionButton} onPress={handleShare}>
           <Ionicons name="share-outline" size={24} color={Colors.light.primary.main} />
-          <Text style={styles.actionText}>שתף</Text>
+          <ThemedText style={styles.actionText}>שתף</ThemedText>
         </Pressable>
 
         <Pressable style={styles.actionButton} onPress={handleCopy}>
           <Ionicons name="copy-outline" size={24} color={Colors.light.primary.main} />
-          <Text style={styles.actionText}>העתק</Text>
+          <ThemedText style={styles.actionText}>העתק</ThemedText>
         </Pressable>
       </View>
       <View style={styles.footer} />

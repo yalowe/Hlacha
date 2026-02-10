@@ -1,8 +1,8 @@
 import { StyleSheet, View, ScrollView, ActivityIndicator } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
-import { useLocalSearchParams, router } from 'expo-router';
-import { useState, useEffect } from 'react';
+import { useLocalSearchParams } from 'expo-router';
+import { useState, useEffect, useCallback } from 'react';
 import { loadParsha, type Parsha, PARSHIOT_LIST } from '@/utils/parshaLoader';
 import { formatHebrewChapter, toHebrewNumeral } from '@/utils/hebrewNumbers';
 import { Ionicons } from '@expo/vector-icons';
@@ -13,18 +13,17 @@ export default function ParshaScreen() {
   const [parsha, setParsha] = useState<Parsha | null>(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    if (id) {
-      loadParshaData();
-    }
-  }, [id]);
-
-  async function loadParshaData() {
+  const loadParshaData = useCallback(async () => {
+    if (!id) return;
     setLoading(true);
-    const data = await loadParsha(id!);
+    const data = await loadParsha(id);
     setParsha(data);
     setLoading(false);
-  }
+  }, [id]);
+
+  useEffect(() => {
+    loadParshaData();
+  }, [loadParshaData]);
 
   const parshaInfo = PARSHIOT_LIST.find(p => p.id === id);
 

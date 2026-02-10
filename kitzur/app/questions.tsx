@@ -54,6 +54,45 @@ export default function QuestionsScreen() {
   const searchTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const scrollViewRef = useRef<ScrollView>(null);
 
+  const loadPendingAnswersCount = useCallback(async () => {
+    try {
+      const stored = await AsyncStorage.getItem('@kitzur_pending_answers');
+      if (stored) {
+        const pending = JSON.parse(stored);
+        setPendingAnswersCount(pending.length);
+      } else {
+        setPendingAnswersCount(0);
+      }
+    } catch (error) {
+      console.error('Failed to load pending answers count:', error);
+      setPendingAnswersCount(0);
+    }
+  }, []);
+
+  const loadQuestions = useCallback(async () => {
+    setLoading(true);
+    try {
+      const [all, popular, unanswered] = await Promise.all([
+        getAllQuestions(),
+        getPopularQuestions(5),
+        getUnansweredQuestions()
+      ]);
+      
+      // Load pending answers count
+      await loadPendingAnswersCount();
+      
+      setAllQuestions(all);
+      setDisplayedQuestions(all);
+      setPopularQuestions(popular);
+      setUnansweredCount(unanswered.length);
+      setPendingAnswersCount(0);
+    } catch (error) {
+      console.error('Failed to load questions:', error);
+    } finally {
+      setLoading(false);
+    }
+  }, [loadPendingAnswersCount]);
+
   useEffect(() => {
     loadQuestions();
     
@@ -67,67 +106,14 @@ export default function QuestionsScreen() {
     return () => {
       if (unsubscribe) unsubscribe();
     };
-  }, []);
+  }, [loadQuestions]);
   
   // Reload pending answers count when screen regains focus
   useFocusEffect(
     React.useCallback(() => {
       loadPendingAnswersCount();
-    }, [])
+    }, [loadPendingAnswersCount])
   );
-
-  async function loadQuestions() {
-    setLoading(true);
-    try {
-      const [all, popular, unanswered] = await Promise.all([
-        getAllQuestions(),
-        getPopularQuestions(5),
-        getUnansweredQuestions()
-      ]);
-      
-      // Load pending answers count
-      await loadPendingAnswersCount();
-      
-      // Initialize sample data if no questions exist
-      // if (all.length === 0) {
-      //   await initializeSampleData();
-      //   const [newAll, newPopular, newUnanswered] = await Promise.all([
-      //     getAllQuestions(),
-      //     getPopularQuestions(5),
-      //     getUnansweredQuestions()
-      //   ]);
-      //   setAllQuestions(newAll);
-      //   setDisplayedQuestions(newAll);
-      //   setPopularQuestions(newPopular);
-      //   setUnansweredCount(newUnanswered.length);
-      // } else {
-      setAllQuestions(all);
-      setDisplayedQuestions(all);
-      setPopularQuestions(popular);
-      setUnansweredCount(unanswered.length);
-      setPendingAnswersCount(0);
-      // }
-    } catch (error) {
-      console.error('Failed to load questions:', error);
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  async function loadPendingAnswersCount() {
-    try {
-      const stored = await AsyncStorage.getItem('@kitzur_pending_answers');
-      if (stored) {
-        const pending = JSON.parse(stored);
-        setPendingAnswersCount(pending.length);
-      } else {
-        setPendingAnswersCount(0);
-      }
-    } catch (error) {
-      console.error('Failed to load pending answers count:', error);
-      setPendingAnswersCount(0);
-    }
-  }
   
   // Smart fuzzy search with Hebrew support and relevance filtering
   const fuzzySearchQuestions = useCallback((query: string, questions: Question[]): Question[] => {
@@ -580,7 +566,7 @@ function QuestionCard({
 }) {
   const trustScore = calculateTrustScore(question);
   const hasAnswer = !!question.answer;
-  const isNew = !hasAnswer && question.status === 'pending';
+  const isNew = !hasAnswer && question.status === 'pending_review';
 
   return (
     <Pressable

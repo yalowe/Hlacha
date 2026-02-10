@@ -4,6 +4,7 @@
  */
 import React, { useState } from 'react';
 import { StyleSheet, ScrollView, View, TextInput, Pressable, Alert } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Ionicons } from '@expo/vector-icons';
@@ -11,6 +12,8 @@ import { router } from 'expo-router';
 import { Colors, spacing } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { askQuestion } from '@/utils/questionsWrapper';
+import { ensureAnonymousAuth, auth } from '@/config/firebase';
+import { getDeviceId } from '@/utils/deviceId';
 import { CATEGORY_LABELS } from '@/types/questions';
 import type { QuestionCategory } from '@/types/questions';
 import * as Haptics from 'expo-haptics';
@@ -38,20 +41,25 @@ export default function AskQuestionScreen() {
     try {
       setSubmitting(true);
       await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+
+      await ensureAnonymousAuth();
+      const anonSessionId = await getDeviceId();
       
+      const userId = auth.currentUser?.uid || `anon_${Date.now()}`;
       const newQuestion = await askQuestion(
         questionText.trim(),
         selectedCategory,
-        'user_' + Date.now(), // Simple user ID for now
+        userId,
         'משתמש',
-        isPrivate
+        isPrivate,
+        anonSessionId
       );
 
       await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
       
       Alert.alert(
         '✅ השאלה נשלחה',
-        'השאלה שלך התקבלה ותענה בהקדם',
+        'השאלה נשמרה וממתינה לאישור. היא תופיע כ"ממתין לאישור".',
         [
           {
             text: 'צפה בשאלה',
@@ -68,7 +76,21 @@ export default function AskQuestionScreen() {
       );
     } catch (error) {
       console.error('Failed to submit question:', error);
-      Alert.alert('❌ שגיאה', 'לא ניתן לשלוח את השאלה כרגע');
+      const pending = {
+        id: `pending_${Date.now()}`,
+        question: questionText.trim(),
+        category: selectedCategory,
+        isPrivate,
+        createdAt: Date.now(),
+        status: 'pending_review'
+      };
+      const queueKey = '@kitzur_question_outbox';
+      const stored = await AsyncStorage.getItem(queueKey);
+      const queue = stored ? JSON.parse(stored) : [];
+      queue.push(pending);
+      await AsyncStorage.setItem(queueKey, JSON.stringify(queue));
+
+      Alert.alert('⚠️ נשמר מקומית', 'אין חיבור כרגע. השאלה נשמרה ותסונכרן אוטומטית.');
       await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
     } finally {
       setSubmitting(false);
@@ -242,7 +264,7 @@ export default function AskQuestionScreen() {
             • פרט את הנסיבות והשאלה בצורה ברורה
           </ThemedText>
           <ThemedText style={[styles.tipItem, { color: colors.text.secondary }]}>
-            • ציין פרטים רלוונטיים (זמן, מקום, נוהג וכו')
+            • ציין פרטים רלוונטיים (זמן, מקום, נוהג וכו&apos;)
           </ThemedText>
           <ThemedText style={[styles.tipItem, { color: colors.text.secondary }]}>
             • בחר את הקטגוריה המתאימה ביותר

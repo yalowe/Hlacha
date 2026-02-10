@@ -1,10 +1,9 @@
 /**
  * Home Screen - Dashboard with progress tracking and quick actions
  */
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { StyleSheet, ActivityIndicator, ScrollView, View, Text, Pressable, Alert } from 'react-native';
 import { useRouter, useFocusEffect } from 'expo-router';
-import { useCallback } from 'react';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -50,18 +49,22 @@ export default function HomeScreen() {
   const [unansweredQuestions, setUnansweredQuestions] = useState<Question[]>([]);
   const [pendingAnswersCount, setPendingAnswersCount] = useState(0);
 
-  useEffect(() => {
-    loadDashboardData();
+  const loadPendingAnswersCount = useCallback(async () => {
+    try {
+      const stored = await AsyncStorage.getItem('@kitzur_pending_answers');
+      if (stored) {
+        const pending = JSON.parse(stored);
+        setPendingAnswersCount(pending.length);
+      } else {
+        setPendingAnswersCount(0);
+      }
+    } catch (error) {
+      console.error('Failed to load pending answers count:', error);
+      setPendingAnswersCount(0);
+    }
   }, []);
 
-  // Refresh dashboard when screen comes into focus
-  useFocusEffect(
-    useCallback(() => {
-      loadDashboardData();
-    }, [])
-  );
-
-  async function loadDashboardData() {
+  const loadDashboardData = useCallback(async () => {
     setLoading(true);
     try {
       // Total count is hardcoded - no need to load chapters-index
@@ -87,22 +90,18 @@ export default function HomeScreen() {
     } finally {
       setLoading(false);
     }
-  }
+  }, [loadPendingAnswersCount]);
 
-  async function loadPendingAnswersCount() {
-    try {
-      const stored = await AsyncStorage.getItem('@kitzur_pending_answers');
-      if (stored) {
-        const pending = JSON.parse(stored);
-        setPendingAnswersCount(pending.length);
-      } else {
-        setPendingAnswersCount(0);
-      }
-    } catch (error) {
-      console.error('Failed to load pending answers count:', error);
-      setPendingAnswersCount(0);
-    }
-  }
+  useEffect(() => {
+    loadDashboardData();
+  }, [loadDashboardData]);
+
+  // Refresh dashboard when screen comes into focus
+  useFocusEffect(
+    useCallback(() => {
+      loadDashboardData();
+    }, [loadDashboardData])
+  );
 
   const handleBrowse = () => {
     router.push('/browse');

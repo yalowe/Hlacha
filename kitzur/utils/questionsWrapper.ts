@@ -1,137 +1,77 @@
 /**
- * Questions Manager Wrapper
- * Automatically uses Firebase if connected, falls back to local storage
+ * Questions Manager Wrapper (Firebase-only v1)
  */
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { db } from '@/config/firebase';
 import * as FirebaseQuestions from './questionsFirebase';
-import * as LocalQuestions from './questionsManager';
-import type { Question } from '@/types/questions';
+import type { Question, QuestionCategory, QuestionCreateResult } from '@/types/questions';
 
-// Check if Firebase is configured
-const isFirebaseConfigured = () => {
-  return db !== null && db !== undefined;
-};
-
-// Get all questions (auto-switches between Firebase and local)
 export async function getAllQuestions(): Promise<Question[]> {
-  if (isFirebaseConfigured()) {
-    try {
-      return await FirebaseQuestions.getAllQuestions();
-    } catch (error) {
-      console.warn('Firebase failed, falling back to local storage:', error);
-      return await LocalQuestions.getAllQuestions();
-    }
-  }
-  return await LocalQuestions.getAllQuestions();
+  return FirebaseQuestions.getAllQuestions();
 }
 
-// Subscribe to questions in real-time (Firebase only)
 export function subscribeToQuestions(
   callback: (questions: Question[]) => void
 ): () => void {
-  if (isFirebaseConfigured()) {
-    try {
-      return FirebaseQuestions.subscribeToQuestions(callback);
-    } catch (error) {
-      console.warn('Firebase subscription failed:', error);
-      // Fall back to polling local storage
-      const interval = setInterval(async () => {
-        const questions = await LocalQuestions.getAllQuestions();
-        callback(questions);
-      }, 3000);
-      
-      return () => clearInterval(interval);
-    }
-  }
-  
-  // Local storage polling fallback
-  const interval = setInterval(async () => {
-    const questions = await LocalQuestions.getAllQuestions();
-    callback(questions);
-  }, 3000);
-  
-  return () => clearInterval(interval);
+  return FirebaseQuestions.subscribeToQuestions(callback);
 }
 
-// Ask a question
-export async function askQuestion(question: Omit<Question, 'id'>): Promise<string> {
-  if (isFirebaseConfigured()) {
-    try {
-      return await FirebaseQuestions.askQuestion(question);
-    } catch (error) {
-      console.warn('Firebase failed, saving locally:', error);
-      // Fallback to local storage
-      const questions = await LocalQuestions.getAllQuestions();
-      const newId = `q_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-      const newQuestion: Question = { ...question, id: newId };
-      questions.push(newQuestion);
-      await AsyncStorage.setItem('@kitzur_questions', JSON.stringify(questions));
-      return newId;
-    }
-  }
-  
-  // Local storage
-  const questions = await LocalQuestions.getAllQuestions();
-  const newId = `q_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-  const newQuestion: Question = { ...question, id: newId };
-  questions.push(newQuestion);
-  await AsyncStorage.setItem('@kitzur_questions', JSON.stringify(questions));
-  return newId;
+export async function askQuestion(
+  questionText: string,
+  category: QuestionCategory,
+  userId: string,
+  userName: string,
+  isPrivate: boolean,
+  anonSessionId?: string
+): Promise<QuestionCreateResult> {
+  return FirebaseQuestions.askQuestion(
+    questionText,
+    category,
+    userId,
+    userName,
+    isPrivate,
+    anonSessionId
+  );
 }
 
-// Migrate local data to Firebase
-export async function migrateToFirebase(): Promise<{success: boolean, message: string}> {
-  if (!isFirebaseConfigured()) {
-    return { success: false, message: 'Firebase לא מוגדר' };
-  }
-  
-  try {
-    const localQuestions = await LocalQuestions.getAllQuestions();
-    
-    if (localQuestions.length === 0) {
-      return { success: true, message: 'אין שאלות מקומיות להעברה' };
-    }
-    
-    await FirebaseQuestions.migrateLocalToFirebase(localQuestions);
-    
-    return {
-      success: true,
-      message: `${localQuestions.length} שאלות הועברו בהצלחה לענן! 🎉`
-    };
-  } catch (error) {
-    console.error('Migration error:', error);
-    return {
-      success: false,
-      message: error instanceof Error ? error.message : 'שגיאה לא ידועה'
-    };
-  }
+export const getApprovedAnswer = FirebaseQuestions.getApprovedAnswer;
+export const submitAnswerProposal = FirebaseQuestions.submitAnswerProposal;
+export const incrementQuestionViews = FirebaseQuestions.incrementViews;
+
+export function calculateTrustScore(_question?: Question) {
+  return 0;
 }
 
-// Check Firebase status
-export function getFirebaseStatus(): {
-  configured: boolean;
-  message: string;
-} {
-  const configured = isFirebaseConfigured();
-  return {
-    configured,
-    message: configured 
-      ? '✅ Firebase מחובר - שאלות מסונכרנות בענן'
-      : '⚠️ Firebase לא מוגדר - שאלות נשמרות מקומית בלבד'
-  };
+export async function markAsHelpful(
+  _questionId: string,
+  _isHelpful: boolean,
+  _userId: string,
+  _previousRating: boolean | null
+) {
+  return;
 }
 
-// Re-export other functions from questionsManager (these work the same way)
-export {
-  getUnansweredQuestions,
-  getPopularQuestions,
-  calculateTrustScore,
-  incrementQuestionViews,
-  markAsHelpful,
-  removeRating,
-  getUserRating
-} from './questionsManager';
+export async function removeRating(
+  _questionId: string,
+  _userId: string,
+  _previousRating: boolean | null
+) {
+  return;
+}
 
-// Re-export answerQuestion from questionsFirebase if Firebase is configured
-export { answerQuestion } from './questionsFirebase';
+export async function getUserRating(
+  _questionId: string,
+  _userId: string
+): Promise<boolean | null> {
+  return null;
+}
+
+export async function getUnansweredQuestions(): Promise<Question[]> {
+  const all = await getAllQuestions();
+  return all.filter((q) => !q.answer);
+}
+
+export async function getPopularQuestions(limit = 5): Promise<Question[]> {
+  const all = await getAllQuestions();
+  return all
+    .sort((a, b) => (b.stats?.views || 0) - (a.stats?.views || 0))
+    .slice(0, limit);
+}

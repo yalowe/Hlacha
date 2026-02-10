@@ -3,8 +3,6 @@
  * Navy + Bronze + Teal color palette with comprehensive design tokens
  */
 
-import { Platform } from 'react-native';
-
 type ColorPalette = {
   light: {
     primary: {
@@ -176,54 +174,3 @@ export const spacing = {
   xxl: 48,
 };
 
-export const typography = {
-  fontSize: {
-    h1: 28,
-    h2: 24,
-    h3: 20,
-    h4: 18,
-    body: 17,
-    bodyLarge: 18,
-    bodySmall: 15,
-    caption: 13,
-    overline: 11,
-  },
-  lineHeight: {
-    tight: 1.2,
-    body: 1.6,
-    relaxed: 1.8,
-  },
-};
-
-export const radius = {
-  sm: 6,
-  md: 8,
-  lg: 12,
-  xl: 16,
-  full: 9999,
-};
-
-export const Fonts = Platform.select({
-  ios: {
-    /** iOS `UIFontDescriptorSystemDesignDefault` */
-    sans: 'system-ui',
-    /** iOS `UIFontDescriptorSystemDesignSerif` */
-    serif: 'ui-serif',
-    /** iOS `UIFontDescriptorSystemDesignRounded` */
-    rounded: 'ui-rounded',
-    /** iOS `UIFontDescriptorSystemDesignMonospaced` */
-    mono: 'ui-monospace',
-  },
-  default: {
-    sans: 'normal',
-    serif: 'serif',
-    rounded: 'normal',
-    mono: 'monospace',
-  },
-  web: {
-    sans: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
-    serif: "Georgia, 'Times New Roman', serif",
-    rounded: "'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif",
-    mono: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
-  },
-});

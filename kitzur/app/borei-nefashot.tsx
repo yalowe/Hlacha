@@ -159,12 +159,6 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     textAlign: 'center',
   },
-  description: {
-    fontSize: 14,
-    opacity: 0.6,
-    textAlign: 'center',
-    lineHeight: 22,
-  },
   /* Modern Header Styles */
   headerWrapper: {
     marginBottom: 0,
