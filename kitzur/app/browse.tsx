@@ -14,10 +14,10 @@ type Category = 'all' | 'kitzur' | 'orach_chaim' | 'yoreh_deah' | 'even_haezer' 
 
 const CATEGORIES = [
   { id: 'kitzur' as Category, name: 'קיצור שולחן ערוך', nameEn: 'Kitzur Shulchan Aruch', count: 303 },
-  { id: 'orach_chaim' as Category, name: 'אורח חיים', nameEn: 'Orach Chaim', count: 697 },
-  { id: 'yoreh_deah' as Category, name: 'יורה דעה', nameEn: 'Yoreh De\'ah', count: 402 },
-  { id: 'even_haezer' as Category, name: 'אבן העזר', nameEn: 'Even HaEzer', count: 178 },
-  { id: 'choshen_mishpat' as Category, name: 'חושן משפט', nameEn: 'Choshen Mishpat', count: 427 },
+  { id: 'orach_chaim' as Category, name: 'מרן - אורח חיים', nameEn: 'Maran - Orach Chaim', count: 697 },
+  { id: 'yoreh_deah' as Category, name: 'מרן - יורה דעה', nameEn: 'Maran - Yoreh De\'ah', count: 402 },
+  { id: 'even_haezer' as Category, name: 'מרן - אבן העזר', nameEn: 'Maran - Even HaEzer', count: 178 },
+  { id: 'choshen_mishpat' as Category, name: 'מרן - חושן משפט', nameEn: 'Maran - Choshen Mishpat', count: 427 },
 ];
 
 export default function BrowseScreen() {
@@ -59,7 +59,7 @@ export default function BrowseScreen() {
       <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}>
         <View style={[styles.header, { backgroundColor: colors.primary.main }]}>
           <ThemedText style={[styles.headerTitle, { color: colors.text.onPrimary }]}>
-            בחר ספר
+            עיון בספרים - לפי מרן
           </ThemedText>
         </View>
 

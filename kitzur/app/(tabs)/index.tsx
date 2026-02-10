@@ -229,6 +229,14 @@ export default function HomeScreen() {
           </Text>
         </View>
 
+        {/* Sephardic Banner */}
+        <View style={[styles.sephardicBanner, { backgroundColor: colors.secondary.main }]}>
+          <Text style={styles.bannerIcon}>🕎</Text>
+          <Text style={styles.bannerText}>
+            אפליקציה ספרדית - לפי מרן ופוסקי עדות המזרח
+          </Text>
+        </View>
+
         {/* Continue Learning */}
         {lastRead && (
           <View style={styles.section}>
@@ -539,6 +547,32 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 4,
     paddingHorizontal: 12,
+  sephardicBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    marginHorizontal: spacing.md,
+    marginTop: -8,
+    marginBottom: spacing.md,
+    borderRadius: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  bannerIcon: {
+    fontSize: 18,
+    marginLeft: 8,
+  },
+  bannerText: {
+    color: '#FFFFFF',
+    fontSize: 14,
+    fontWeight: '600',
+    textAlign: 'center',
+  },
     paddingVertical: 6,
     borderRadius: 8,
   },

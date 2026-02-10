@@ -75,7 +75,7 @@ export function QuickActionsGrid({
   
   return (
     <View style={styles.grid}>
-      <QuickActionButton icon="📖" label="שולחן ערוך" onPress={onBrowse} />
+      <QuickActionButton icon="📖" label="שולחן ערוך - מרן" onPress={onBrowse} />
       <QuickActionButton icon="🔍" label="חיפוש" onPress={onSearch} />
       <QuickActionButton icon="⭐" label="סימניות שמורות" onPress={onBookmarks} />
       <QuickActionButton icon="📅" label="הלכה יומית" onPress={onDailyHalacha} />

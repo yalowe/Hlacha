@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "למען שמו באהבה",
-    "slug": "kitzur-shulchan-aruch",
+    "name": "הלכה ספרדית - לפי מרן",
+    "slug": "halacha-sephardic",
     "version": "1.4.0",
-    "description": "קיצור שולחן ערוך עם שאלות ותשובות, הלכה יומית (מחזור פרטי), ומעקב התקדמות. אפליקציה מושלמת ללימוד הלכה יומי.",
+    "description": "אפליקציית הלכה ספרדית #1 - לפי מרן ופוסקי עדות המזרח. שולחן ערוך מלא, קיצור, שאלות ותשובות, הלכה יומית, ומעקב התקדמות. 90% קהל ספרדי!",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "kitzur",
+    "scheme": "halacha-sephardic",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "primaryColor": "#007AFF",
+    "primaryColor": "#2D5F3F",
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -29,7 +29,7 @@
       "package": "com.yalkutyosef.kitzur",
       "versionCode": 4,
       "adaptiveIcon": {
-        "backgroundColor": "#007AFF",
+        "backgroundColor": "#2D5F3F",
         "foregroundImage": "./assets/images/android-icon-foreground.png"
       },
       "edgeToEdgeEnabled": true,

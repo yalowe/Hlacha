@@ -89,22 +89,22 @@ type ColorPalette = {
 export const Colors: ColorPalette = {
   light: {
     primary: {
-      main: '#1E3A5F',
-      light: '#5A7FAF',
-      dark: '#0F1D30',
+      main: '#2D5F3F',      // ירוק זית עמוק - ספרדי/מזרחי
+      light: '#5A8A6A',      // ירוק זית בהיר
+      dark: '#1A3D28',       // ירוק זית כהה
     },
     secondary: {
-      main: '#B08968',
-      light: '#D4B89A',
+      main: '#D4AF37',       // זהב חם - מזרחי
+      light: '#E5C869',      // זהב בהיר
     },
     accent: {
-      main: '#2E7D7D',
-      light: '#6FB0B0',
-      bronze: '#B08968',
-      teal: '#2E7D7D',
+      main: '#1B4F72',       // כחול עמוק מזרחי
+      light: '#4A7BA7',      // כחול בהיר
+      bronze: '#B8860B',     // ברונזה זהובה
+      teal: '#2E7D7D',       // טורקיז (שמור)
     },
     background: {
-      base: '#FAF7F1',
+      base: '#F8F5F0',       // שמנת טבעית חמה
       surface: '#FFFFFF',
     },
     surface: {
@@ -117,34 +117,34 @@ export const Colors: ColorPalette = {
     },
     border: {
       default: '#E6E2DA',
-      focus: '#1E3A5F',
+      focus: '#2D5F3F',      // ירוק זית לפוקוס
     },
     semantic: {
-      success: '#2E7D7D',
+      success: '#2D5F3F',    // ירוק זית
       warning: '#D97706',
       error: '#DC2626',
-      info: '#1E3A5F',
+      info: '#1B4F72',       // כחול מזרחי
     },
   },
   dark: {
     primary: {
-      main: '#AFC4FF',
-      light: '#7A9FFF',
-      dark: '#5A7FAF',
+      main: '#6FAF8A',       // ירוק זית בהיר (dark mode)
+      light: '#8FC9A6',      // ירוק בהיר יותר
+      dark: '#4A8A6A',       // ירוק כהה
     },
     secondary: {
-      main: '#E0B084',
-      light: '#F5D4B5',
+      main: '#E5C869',       // זהב חם (dark mode)
+      light: '#F5D89A',      // זהב בהיר
     },
     accent: {
-      main: '#5FD2C8',
-      light: '#8FE0DA',
-      bronze: '#E0B084',
-      teal: '#5FD2C8',
+      main: '#5BA3D0',       // כחול מזרחי בהיר
+      light: '#89C2E3',      // כחול בהיר מאוד
+      bronze: '#D4AF37',     // זהב
+      teal: '#5FD2C8',       // טורקיז (שמור)
     },
     background: {
-      base: '#0E1220',
-      surface: '#171C2A',
+      base: '#0E1220',       // כהה
+      surface: '#171C2A',    // כהה בהיר
     },
     surface: {
       card: '#1F2937',
@@ -156,13 +156,13 @@ export const Colors: ColorPalette = {
     },
     border: {
       default: '#24314A',
-      focus: '#AFC4FF',
+      focus: '#6FAF8A',      // ירוק לפוקוס
     },
     semantic: {
-      success: '#5FD2C8',
+      success: '#6FAF8A',    // ירוק זית בהיר
       warning: '#F59E0B',
       error: '#EF4444',
-      info: '#AFC4FF',
+      info: '#5BA3D0',       // כחול מזרחי
     },
   },
 };
