@@ -3,31 +3,42 @@
  * Setup Firestore for shared questions database
  */
 
-// NOTE: Install firebase first: npm install firebase
-// import { initializeApp } from 'firebase/app';
-// import { getFirestore } from 'firebase/firestore';
-// import { getAuth } from 'firebase/auth';
+import { initializeApp } from 'firebase/app';
+import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
 
 // Firebase configuration from Firebase Console
-// TODO: Replace with your actual Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyARBRNZ87W29maLQE-34NmjH_fcqIxee5s",
+  authDomain: "hlacha-app.firebaseapp.com",
+  projectId: "hlacha-app",
+  storageBucket: "hlacha-app.firebasestorage.app",
+  messagingSenderId: "154296942110",
+  appId: "1:154296942110:web:5a595463ed4a89c52e380f",
+  measurementId: "G-VN7RNGGZHN"
 };
 
 // Initialize Firebase
-// Uncomment after installing firebase package:
-// const app = initializeApp(firebaseConfig);
-// export const db = getFirestore(app);
-// export const auth = getAuth(app);
+const app = initializeApp(firebaseConfig);
 
-// Temporary exports (remove after Firebase setup)
-export const db = null;
-export const auth = null;
+// Initialize Firestore with offline persistence
+export const db = getFirestore(app);
+
+// Enable offline persistence (caching)
+try {
+  enableIndexedDbPersistence(db).catch((err) => {
+    if (err.code === 'failed-precondition') {
+      console.warn('⚠️ Persistence failed: Multiple tabs open');
+    } else if (err.code === 'unimplemented') {
+      console.warn('⚠️ Persistence not available in this browser');
+    }
+  });
+} catch (error) {
+  console.error('Error enabling persistence:', error);
+}
+
+// Initialize Auth (for anonymous users)
+export const auth = getAuth(app);
 
 /**
  * SETUP INSTRUCTIONS:

@@ -21,13 +21,15 @@ export function QuickActionButton({ icon, label, onPress, badge }: QuickActionBu
       onPress={onPress}
       android_ripple={{ color: colors.primary.light }}
     >
-      <LinearGradient
-        colors={['#4A90E2', '#74B9FF']}
-        start={{ x: 0, y: 0 }}
-        end={{ x: 1, y: 1 }}
-        style={styles.iconContainer}
-      >
-        <Text style={styles.icon}>{icon}</Text>
+      <View style={styles.iconWrapper}>
+        <LinearGradient
+          colors={['#4A90E2', '#74B9FF']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.iconContainer}
+        >
+          <Text style={styles.icon}>{icon}</Text>
+        </LinearGradient>
         {badge && (
           <View style={[styles.badge, { backgroundColor: '#FF3B30' }]}>
             <Text style={styles.badgeText}>
@@ -35,7 +37,7 @@ export function QuickActionButton({ icon, label, onPress, badge }: QuickActionBu
             </Text>
           </View>
         )}
-      </LinearGradient>
+      </View>
       <Text style={[styles.label, { color: colors.text.primary }]} numberOfLines={1}>
         {label}
       </Text>
@@ -135,15 +137,17 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.12,
     shadowRadius: 6,
   },
+  iconWrapper: {
+    position: 'relative',
+    marginBottom: 10,
+    marginTop: -12,
+  },
   iconContainer: {
     width: 52,
     height: 52,
     borderRadius: 26,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 10,
-    marginTop: -12,
-    position: 'relative',
     shadowColor: '#4A90E2',
     shadowOffset: { width: 0, height: 3 },
     shadowOpacity: 0.2,
@@ -155,21 +159,27 @@ const styles = StyleSheet.create({
   },
   badge: {
     position: 'absolute',
-    top: -4,
-    right: -4,
-    minWidth: 20,
-    height: 20,
-    borderRadius: 10,
+    top: -6,
+    right: -6,
+    minWidth: 22,
+    height: 22,
+    borderRadius: 11,
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: 6,
-    borderWidth: 2,
+    borderWidth: 3,
     borderColor: '#FFFFFF',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+    elevation: 5,
   },
   badgeText: {
     color: '#FFFFFF',
-    fontSize: 11,
-    fontWeight: '700',
+    fontSize: 12,
+    fontWeight: '800',
+    textAlign: 'center',
   },
   label: {
     fontSize: 14,

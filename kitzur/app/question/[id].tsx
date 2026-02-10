@@ -16,8 +16,9 @@ import {
   markAsHelpful,
   removeRating,
   calculateTrustScore,
-  getUserRating
-} from '@/utils/questionsManager';
+  getUserRating,
+  subscribeToQuestions
+} from '@/utils/questionsWrapper';
 import { getDeviceId } from '@/utils/deviceId';
 import { CATEGORY_LABELS, APPROVAL_LABELS } from '@/types/questions';
 import type { Question, HalachicSource } from '@/types/questions';
@@ -40,6 +41,18 @@ export default function QuestionDetailScreen() {
   useEffect(() => {
     if (userId) {
       loadQuestion();
+      
+      // Subscribe to real-time updates
+      const unsubscribe = subscribeToQuestions((updatedQuestions) => {
+        const found = updatedQuestions.find(q => q.id === id);
+        if (found) {
+          setQuestion(found);
+        }
+      });
+      
+      return () => {
+        if (unsubscribe) unsubscribe();
+      };
     }
   }, [id, userId]);
 

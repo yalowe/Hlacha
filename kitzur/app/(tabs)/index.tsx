@@ -26,10 +26,11 @@ import {
   type LastRead,
   type Streak,
 } from '@/utils/progress';
-import { getUnansweredQuestions } from '@/utils/questionsManager';
+import { getUnansweredQuestions } from '@/utils/questionsWrapper';
 import type { Question } from '@/types/questions';
 import { Colors, spacing } from '@/constants/theme';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { seedQuestions } from '@/scripts/seed-questions';
 
 // Hardcoded count to avoid loading entire chapters-index on startup
 const TOTAL_CHAPTER_COUNT = 2008;
@@ -196,6 +197,23 @@ export default function HomeScreen() {
 
   const handleAddSection = () => {
     router.push('/add-section');
+  };
+
+  const handleLoadSampleQuestions = async () => {
+    try {
+      await seedQuestions();
+      Alert.alert(
+        '✅ הצלחה!',
+        'נוספו 6 שאלות לדוגמה.\n\nגש ל"שאלות ותשובות" כדי לראות.',
+        [
+          { text: 'אוקיי', style: 'cancel' },
+          { text: 'לשאלות', onPress: handleQuestions },
+        ]
+      );
+      await loadDashboardData(); // Refresh to show question count
+    } catch {
+      Alert.alert('❌ שגיאה', 'לא הצלחתי לטעון שאלות');
+    }
   };
 
   if (loading) {
@@ -371,6 +389,22 @@ export default function HomeScreen() {
           <DailyQuoteCard text={quote.text} source={quote.source} />
         </View>
       </ScrollView>
+
+      {/* Dev Tool - Load Sample Questions */}
+      <Pressable
+        style={[styles.devButton, { backgroundColor: colors.primary.main }]}
+        onPress={handleLoadSampleQuestions}
+      >
+        <Text style={styles.devButtonText}>🌱</Text>
+      </Pressable>
+
+      {/* Firebase Setup Button */}
+      <Pressable
+        style={[styles.firebaseButton, { backgroundColor: '#FF9800' }]}
+        onPress={() => router.push('/firebase-setup')}
+      >
+        <Text style={styles.devButtonText}>🔥</Text>
+      </Pressable>
     </ThemedView>
   );
 }
@@ -635,5 +669,38 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 12,
     fontWeight: '600',
+  },
+  devButton: {
+    position: 'absolute',
+    bottom: 20,
+    left: 20,
+    width: 56,
+    height: 56,
+    borderRadius: 28,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 6,
+    elevation: 8,
+  },
+  devButtonText: {
+    fontSize: 28,
+  },
+  firebaseButton: {
+    position: 'absolute',
+    bottom: 20,
+    right: 20,
+    width: 56,
+    height: 56,
+    borderRadius: 28,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 6,
+    elevation: 8,
   },
 });

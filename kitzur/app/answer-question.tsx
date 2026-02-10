@@ -11,9 +11,8 @@ import { router, useLocalSearchParams } from 'expo-router';
 import { Colors, spacing } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import * as Haptics from 'expo-haptics';
-import { getAllQuestions } from '@/utils/questionsManager';
+import { getAllQuestions, answerQuestion } from '@/utils/questionsWrapper';
 import type { Question, HalachicSource } from '@/types/questions';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function AnswerQuestionScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -86,30 +85,29 @@ export default function AnswerQuestionScreen() {
         quote: sourceDetails.trim() || undefined,
       };
 
-      // Create pending answer object
-      const pendingAnswer = {
-        questionId: id,
-        text: answerText.trim(),
-        sources: [source],
-        respondedBy: 'community_member',
-        timestamp: Date.now(),
-        status: 'pending_approval', // Will be reviewed before being published
-        approvedBy: [],
-      };
-
-      // Save to AsyncStorage for review
-      const PENDING_KEY = '@kitzur_pending_answers';
-      const existing = await AsyncStorage.getItem(PENDING_KEY);
-      const pendingAnswers = existing ? JSON.parse(existing) : [];
-      pendingAnswers.push(pendingAnswer);
-      await AsyncStorage.setItem(PENDING_KEY, JSON.stringify(pendingAnswers));
+      // Submit answer using the wrapper (will handle Firebase/AsyncStorage automatically)
+      await answerQuestion(
+        id,
+        answerText.trim(),
+        [source],
+        'user_' + Date.now(), // Simple user ID
+        'משתמש מהקהילה',
+        'community'
+      );
 
       await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
 
       Alert.alert(
         '✅ התשובה נשלחה!',
-        'תודה רבה על תרומתך! התשובה שלך תעבור בדיקה ותפורסם בהקדם האפשרי.\n\nכל תשובה נבדקת לפני פרסום כדי לוודא דיוק הלכתי.',
+        'תודה רבה על תרומתך! התשובה שלך פורסמה ומופיעה עכשיו בשאלה.',
         [
+          {
+            text: 'צפה בשאלה',
+            onPress: () => {
+              router.back();
+              setTimeout(() => router.push(`/question/${id}`), 100);
+            }
+          },
           {
             text: 'הוסף תשובה נוספת',
             onPress: () => {
@@ -162,7 +160,7 @@ export default function AnswerQuestionScreen() {
         <View style={[styles.infoBox, { backgroundColor: colors.primary.light }]}>
           <Ionicons name="information-circle" size={20} color={colors.primary.main} />
           <ThemedText style={[styles.infoText, { color: colors.text.primary }]}>
-            כל תשובה חייבת להיות מבוססת על מקורות הלכתיים. התשובה תעבור בדיקה לפני פרסום.
+            כל תשובה חייבת להיות מבוססת על מקורות הלכתיים. התשובה תפורסם מיידית.
           </ThemedText>
         </View>
 

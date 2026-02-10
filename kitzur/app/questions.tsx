@@ -5,6 +5,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { StyleSheet, ScrollView, View, Pressable, TextInput, ActivityIndicator } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Ionicons } from '@expo/vector-icons';
@@ -17,12 +18,12 @@ import {
   getAllQuestions, 
   getPopularQuestions,
   calculateTrustScore,
-  getUnansweredQuestions 
-} from '@/utils/questionsManager';
+  getUnansweredQuestions,
+  subscribeToQuestions 
+} from '@/utils/questionsWrapper';
 import { CATEGORY_LABELS } from '@/types/questions';
 import type { Question, QuestionCategory } from '@/types/questions';
 import { normalizeHebrew } from '@/utils/hebrewNormalize';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Filter state interface
 interface FilterState {
@@ -55,6 +56,17 @@ export default function QuestionsScreen() {
 
   useEffect(() => {
     loadQuestions();
+    
+    // Subscribe to real-time updates from Firebase
+    const unsubscribe = subscribeToQuestions((updatedQuestions) => {
+      console.log('📡 Real-time update:', updatedQuestions.length, 'questions');
+      setAllQuestions(updatedQuestions);
+    });
+    
+    // Cleanup subscription on unmount
+    return () => {
+      if (unsubscribe) unsubscribe();
+    };
   }, []);
   
   // Reload pending answers count when screen regains focus
@@ -605,7 +617,7 @@ function QuestionCard({
         <View style={styles.statsRow}>
           <Ionicons name="eye-outline" size={14} color={colors.text.secondary} />
           <ThemedText style={[styles.statText, { color: colors.text.secondary }]}>
-            {question.stats.views}
+            {question.stats?.views ?? 0}
           </ThemedText>
         </View>
       </View>
@@ -634,7 +646,7 @@ function QuestionCard({
           <View style={styles.helpfulBadge}>
             <Ionicons name="thumbs-up" size={12} color={colors.text.secondary} />
             <ThemedText style={[styles.helpfulText, { color: colors.text.secondary }]}>
-              {question.stats.helpful}
+              {question.stats?.helpful ?? 0}
             </ThemedText>
           </View>
         )}

@@ -10,7 +10,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { Colors, spacing } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
-import { askQuestion } from '@/utils/questionsManager';
+import { askQuestion } from '@/utils/questionsWrapper';
 import { CATEGORY_LABELS } from '@/types/questions';
 import type { QuestionCategory } from '@/types/questions';
 import * as Haptics from 'expo-haptics';
