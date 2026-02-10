@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "הלכה ספרדית - לפי מרן",
-    "slug": "halacha-sephardic",
+    "name": "בראשית",
+    "slug": "bereishit",
     "version": "1.4.0",
-    "description": "אפליקציית הלכה ספרדית #1 - לפי מרן ופוסקי עדות המזרח. שולחן ערוך מלא, קיצור, שאלות ותשובות, הלכה יומית, ומעקב התקדמות. 90% קהל ספרדי!",
+    "description": "בראשית - אפליקציית הלכה #1 לפי מרן ופוסקי עדות המזרח. שולחן ערוך מלא, קיצור, שאלות ותשובות, הלכה יומית, ומעקב התקדמות.",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "halacha-sephardic",
+    "scheme": "bereishit",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "primaryColor": "#2D5F3F",
+    "primaryColor": "#4A90E2",
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -29,7 +29,7 @@
       "package": "com.yalkutyosef.kitzur",
       "versionCode": 4,
       "adaptiveIcon": {
-        "backgroundColor": "#2D5F3F",
+        "backgroundColor": "#4A90E2",
         "foregroundImage": "./assets/images/android-icon-foreground.png"
       },
       "edgeToEdgeEnabled": true,

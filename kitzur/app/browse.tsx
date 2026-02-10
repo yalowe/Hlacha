@@ -4,6 +4,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, ActivityIndicator, ScrollView, View, Pressable } from 'react-native';
 import { useColorScheme } from '@/hooks/use-color-scheme';
+import { LinearGradient } from 'expo-linear-gradient';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import ChapterList from '@/components/ChapterList';
@@ -57,11 +58,19 @@ export default function BrowseScreen() {
   if (!selectedCategory) {
     return (
       <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}>
-        <View style={[styles.header, { backgroundColor: colors.primary.main }]}>
-          <ThemedText style={[styles.headerTitle, { color: colors.text.onPrimary }]}>
-            עיון בספרים - לפי מרן
-          </ThemedText>
-        </View>
+        {/* Modern gradient header */}
+        <LinearGradient
+          colors={['#74B9FF', '#4A90E2', '#B394E8']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={[styles.gradientHeader, { paddingTop: 60 }]}
+        >
+          <View style={styles.headerContent}>
+            <ThemedText style={styles.headerTitle}>
+              עיון בספרים - לפי מרן
+            </ThemedText>
+          </View>
+        </LinearGradient>
 
         <ScrollView style={styles.scrollView} contentContainerStyle={styles.categoriesContainer}>
           {CATEGORIES.map((category) => (

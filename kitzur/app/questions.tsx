@@ -4,9 +4,11 @@
  */
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { StyleSheet, ScrollView, View, Pressable, TextInput, ActivityIndicator } from 'react-native';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
 import { router, useFocusEffect } from 'expo-router';
 import { Colors, spacing } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
@@ -32,6 +34,7 @@ interface FilterState {
 export default function QuestionsScreen() {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'];
+  const insets = useSafeAreaInsets();
   
   const [loading, setLoading] = useState(true);
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
@@ -312,16 +315,57 @@ export default function QuestionsScreen() {
   }
 
   return (
-    <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}>
-      <ScrollView ref={scrollViewRef} style={styles.scrollView} showsVerticalScrollIndicator={false}>
-        {/* Header */}
-        <View style={[styles.header, { backgroundColor: colors.primary.main }]}>
-          <ThemedText style={[styles.headerTitle, { color: colors.text.onPrimary }]}>
-            💬 שאלות ותשובות
-          </ThemedText>
-          <ThemedText style={[styles.headerSubtitle, { color: colors.text.onPrimary, opacity: 0.9 }]}>
-            מאגר קהילתי של הלכה למעשה
-          </ThemedText>
+    <SafeAreaView
+      style={[
+        styles.container,
+        { backgroundColor: colors.background.base }
+      ]}
+      edges={['bottom']}
+    >
+      {/* Fixed Modern Gradient Header */}
+      <View style={styles.headerWrapper}>
+        <LinearGradient
+          colors={['#4A90E2', '#B394E8', '#74B9FF']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={[
+            styles.gradientHeader,
+            { paddingTop: insets.top + 20 }
+          ]}
+        >
+          <View style={styles.headerContent}>
+            <View style={styles.iconContainer}>
+              <Ionicons name="chatbubbles" size={32} color="#fff" />
+            </View>
+            
+            <ThemedText style={[styles.sectionLabel, { marginBottom: 10 }]}>
+              מאגר קהילתי
+            </ThemedText>
+            
+
+            <View style={[styles.titleSeparator , { marginTop: 0 }]} />
+            <ThemedText style={[styles.mainTitle, { marginTop: 10 }]}>
+              שאלות ותשובות
+            </ThemedText>
+            
+            <ThemedText style={styles.subtitle}>
+              הלכה למעשה לפי מרן
+            </ThemedText>
+
+            <View style={styles.divider} />
+          </View>
+        </LinearGradient>
+      </View>
+      
+      {/* Scrollable Content */}
+      <ScrollView 
+        ref={scrollViewRef} 
+        style={styles.scrollContent}
+        contentInsetAdjustmentBehavior="never"
+        showsVerticalScrollIndicator={false}
+      >
+        {/* Quick action buttons */}
+        <View style={styles.quickActionsContainer}>
           {pendingAnswersCount > 0 && (
             <Pressable 
               style={({pressed}) => [
@@ -508,7 +552,7 @@ export default function QuestionsScreen() {
           )}
         </View>
       </ScrollView>
-    </ThemedView>
+    </SafeAreaView>
   );
 }
 
@@ -603,8 +647,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  scrollView: {
+  scrollContent: {
     flex: 1,
+  },
+  quickActionsContainer: {
+    paddingHorizontal: spacing.lg,
+    paddingTop: spacing.md,
   },
   header: {
     paddingTop: 70,
@@ -837,5 +885,67 @@ const styles = StyleSheet.create({
     marginTop: spacing.sm,
     textAlign: 'center',
     paddingHorizontal: spacing.lg,
+  },
+  // Modern Header Styles
+  headerWrapper: {
+    marginBottom: 0,
+  },
+  gradientHeader: {
+    paddingHorizontal: 20,
+    paddingBottom: 30,
+    // paddingTop is set dynamically using insets.top
+  },
+  headerContent: {
+    alignItems: 'center',
+  },
+  iconContainer: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 16,
+  },
+  sectionLabel: {
+    color: '#fff',
+    fontSize: 14,
+    fontWeight: '600',
+    opacity: 0.9,
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  mainTitle: {
+    color: '#fff',
+    fontSize: 30,
+    fontWeight: '800',
+    textAlign: 'center',
+    marginBottom: 8,
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
+  },
+  subtitle: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '500',
+    textAlign: 'center',
+    opacity: 0.9,
+    marginBottom: 16,
+  },
+  divider: {
+    height: 2,
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    width: 60,
+    marginBottom: 0,
+    borderRadius: 1,
+  },
+  titleSeparator: {
+    height: 1,
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+    width: 80,
+    alignSelf: 'center',
+    marginTop: 8,
+    borderRadius: 0.5,
   },
 });

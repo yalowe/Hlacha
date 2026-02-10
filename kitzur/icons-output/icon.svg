@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with app primary color -->
+  <rect width="1024" height="1024" rx="204.8" ry="204.8" fill="#2D5F3F"/>
+  
+  <!-- Hebrew letter ב -->
+  <text x="512" y="716.8" 
+        text-anchor="middle" 
+        font-family="Arial, Hebrew, sans-serif" 
+        font-size="614.4" 
+        font-weight="300" 
+        fill="#FFFFFF">ב</text>
+</svg>

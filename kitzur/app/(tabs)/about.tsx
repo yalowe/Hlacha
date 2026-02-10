@@ -1,5 +1,6 @@
 import React from 'react';
 import { ScrollView, StyleSheet, View, Linking } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Colors } from '@/constants/theme';
@@ -16,9 +17,17 @@ export default function AboutScreen() {
       <ScrollView style={styles.scrollView} contentContainerStyle={styles.content}>
         {/* App Header */}
         <View style={styles.header}>
-          <ThemedText style={styles.hebrewIcon}>🕎</ThemedText>
+          {/* Modern Hebrew Letter Icon */}
+          <LinearGradient
+            colors={['#4A90E2', '#B394E8']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={styles.iconContainer}
+          >
+            <ThemedText style={styles.hebrewLetterIcon}>ב</ThemedText>
+          </LinearGradient>
           <ThemedText type="title" style={styles.appTitle}>
-            אפליקציית הלכה ספרדית
+            בראשית
           </ThemedText>
           <ThemedText style={styles.subtitle}>
             לפי מרן ופוסקי עדות המזרח
@@ -29,7 +38,7 @@ export default function AboutScreen() {
         {/* Sephardic Badge */}
         <View style={styles.sephardicBadge}>
           <ThemedText style={styles.badgeText}>
-            🕎 אפליקציה ספרדית #1 - 90% קהל עדות המזרח
+            אפליקציה ספרדית
           </ThemedText>
         </View>
 
@@ -135,7 +144,7 @@ export default function AboutScreen() {
             אפליקציה זו מיועדת ללימוד ועיון בלבד על פי פסיקה ספרדית. למעשה הלכה יש להתייעץ עם רב ספרדי מוסמך.
           </ThemedText>
           <ThemedText style={[styles.text, styles.highlight, { marginTop: 8 }]}>
-            🕎 כל התכנים והתשובות בנויים על פסיקת מרן ועדות המזרח
+            כל התכנים והתשובות בנויים על פסיקת מרן ועדות המזרח
           </ThemedText>
         </View>
 
@@ -169,10 +178,10 @@ export default function AboutScreen() {
         {/* Footer */}
         <View style={styles.footer}>
           <ThemedText style={styles.footerText}>
-            🕎 תורה לשמה לזכות כל עם ישראל ועדות המזרח
+            ב תורה לשמה לזכות כל עם ישראל ועדות המזרח
           </ThemedText>
           <ThemedText style={styles.footerText}>
-            © 2026 אפליקציית הלכה ספרדית
+            © 2026 בראשית
           </ThemedText>
           <ThemedText style={[styles.footerText, { marginTop: 8, fontSize: 12 }]}>
             בנוי על ידי ספרדים, לספרדים 💚
@@ -197,11 +206,34 @@ const styles = StyleSheet.create({
   header: {
     alignItems: 'center',
     marginBottom: 20,
-    marginTop: 20,
+    marginTop: 40,
+    paddingTop: 20,
+  },
+  iconContainer: {
+    width: 120,
+    height: 120,
+    borderRadius: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 12 },
+    shadowOpacity: 0.25,
+    shadowRadius: 20,
+    elevation: 12,
+  },
+  hebrewLetterIcon: {
+    fontSize: 72,
+    fontWeight: '300',
+    color: '#FFFFFF',
+    fontFamily: 'System',
+    textAlign: 'center',
+    letterSpacing: -2,
   },
   hebrewIcon: {
-    fontSize: 80,
-    marginBottom: 10,
+    fontSize: 64,
+    marginBottom: 15,
+    marginTop: 10,
   },
   appTitle: {
     marginTop: 10,

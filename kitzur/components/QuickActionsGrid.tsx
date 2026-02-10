@@ -1,18 +1,24 @@
 import React from 'react';
 import { StyleSheet, Pressable, View, Text } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Colors } from '@/constants/theme';
 
 interface QuickActionButtonProps {
-  icon: string;
+  icon: keyof typeof Ionicons.glyphMap;
   label: string;
   onPress: () => void;
   badge?: number | 'new';
+  gradientColors?: [string, string];
 }
 
-export function QuickActionButton({ icon, label, onPress, badge }: QuickActionButtonProps) {
+export function QuickActionButton({ icon, label, onPress, badge, gradientColors }: QuickActionButtonProps) {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'];
+
+  const defaultGradient: [string, string] = ['#4A90E2', '#74B9FF'];
+  const gradient = gradientColors || defaultGradient;
 
   return (
     <Pressable 
@@ -20,8 +26,13 @@ export function QuickActionButton({ icon, label, onPress, badge }: QuickActionBu
       onPress={onPress}
       android_ripple={{ color: colors.primary.light }}
     >
-      <View style={[styles.iconContainer, { backgroundColor: colors.primary.light }]}>
-        <Text style={[styles.icon, { color: colors.primary.main }]}>{icon}</Text>
+      <LinearGradient
+        colors={gradient}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.iconContainer}
+      >
+        <Ionicons name={icon} size={28} color="#fff" />
         {badge && (
           <View style={[styles.badge, { backgroundColor: '#FF3B30' }]}>
             <Text style={styles.badgeText}>
@@ -29,7 +40,7 @@ export function QuickActionButton({ icon, label, onPress, badge }: QuickActionBu
             </Text>
           </View>
         )}
-      </View>
+      </LinearGradient>
       <Text style={[styles.label, { color: colors.text.primary }]} numberOfLines={1}>
         {label}
       </Text>
@@ -75,38 +86,94 @@ export function QuickActionsGrid({
   
   return (
     <View style={styles.grid}>
-      <QuickActionButton icon="📖" label="שולחן ערוך - מרן" onPress={onBrowse} />
-      <QuickActionButton icon="🔍" label="חיפוש" onPress={onSearch} />
-      <QuickActionButton icon="⭐" label="סימניות שמורות" onPress={onBookmarks} />
-      <QuickActionButton icon="📅" label="הלכה יומית" onPress={onDailyHalacha} />
+      <QuickActionButton 
+        icon="book" 
+        label="שולחן ערוך - מרן" 
+        onPress={onBrowse}
+        gradientColors={['#4A90E2', '#74B9FF']}
+      />
+      <QuickActionButton 
+        icon="search" 
+        label="חיפוש" 
+        onPress={onSearch}
+        gradientColors={['#B394E8', '#D4A5E8']}
+      />
+      <QuickActionButton 
+        icon="star" 
+        label="סימניות שמורות" 
+        onPress={onBookmarks}
+        gradientColors={['#74B9FF', '#9DCCFF']}
+      />
+      <QuickActionButton 
+        icon="calendar" 
+        label="הלכה יומית" 
+        onPress={onDailyHalacha}
+        gradientColors={['#4A90E2', '#B394E8']}
+      />
       {onQuestions && (
         <QuickActionButton 
-          icon="💬" 
+          icon="chatbubbles" 
           label="שאלות ותשובות" 
           onPress={onQuestions}
           badge={totalBadgeCount > 0 ? totalBadgeCount : undefined}
+          gradientColors={['#74B9FF', '#4A90E2']}
         />
       )}
       {onAddSection && (
-        <QuickActionButton icon="✍️" label="הוסף הלכה" onPress={onAddSection} />
+        <QuickActionButton 
+          icon="add-circle" 
+          label="הוסף הלכה" 
+          onPress={onAddSection}
+          gradientColors={['#B394E8', '#74B9FF']}
+        />
       )}
       {onShnayimMikra && (
-        <QuickActionButton icon="📜" label="שניים מקרא" onPress={onShnayimMikra} />
+        <QuickActionButton 
+          icon="document-text" 
+          label="שניים מקרא" 
+          onPress={onShnayimMikra}
+          gradientColors={['#4A90E2', '#74B9FF']}
+        />
       )}
       {onParshatHaMann && (
-        <QuickActionButton icon="🍞" label="פרשת המן" onPress={onParshatHaMann} />
+        <QuickActionButton 
+          icon="nutrition" 
+          label="פרשת המן" 
+          onPress={onParshatHaMann}
+          gradientColors={['#B394E8', '#D4A5E8']}
+        />
       )}
       {onIggeretHaRamban && (
-        <QuickActionButton icon="✉️" label="איגרת הרמבן" onPress={onIggeretHaRamban} />
+        <QuickActionButton 
+          icon="mail" 
+          label="איגרת הרמבן" 
+          onPress={onIggeretHaRamban}
+          gradientColors={['#74B9FF', '#9DCCFF']}
+        />
       )}
       {onBirkatHaMazon && (
-        <QuickActionButton icon="🍽️" label="ברכת המזון" onPress={onBirkatHaMazon} />
+        <QuickActionButton 
+          icon="restaurant" 
+          label="ברכת המזון" 
+          onPress={onBirkatHaMazon}
+          gradientColors={['#4A90E2', '#B394E8']}
+        />
       )}
       {onBoreiNefashot && (
-        <QuickActionButton icon="🌱" label="בורא נפשות" onPress={onBoreiNefashot} />
+        <QuickActionButton 
+          icon="leaf" 
+          label="בורא נפשות" 
+          onPress={onBoreiNefashot}
+          gradientColors={['#74B9FF', '#4A90E2']}
+        />
       )}
       {onMeeinShalosh && (
-        <QuickActionButton icon="🍇" label="מעין שלוש" onPress={onMeeinShalosh} />
+        <QuickActionButton 
+          icon="wine" 
+          label="מעין שלוש" 
+          onPress={onMeeinShalosh}
+          gradientColors={['#B394E8', '#74B9FF']}
+        />
       )}
     </View>
   );
@@ -121,39 +188,46 @@ const styles = StyleSheet.create({
   button: {
     width: '48%',
     padding: 16,
-    borderRadius: 12,
+    borderRadius: 16,
     alignItems: 'center',
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.08,
-    shadowRadius: 2,
+    elevation: 4,
+    shadowColor: '#4A90E2',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 6,
   },
   iconContainer: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
+    width: 56,
+    height: 56,
+    borderRadius: 28,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 8,
-    marginTop: -10,
+    marginBottom: 10,
+    marginTop: -12,
     position: 'relative',
-  },
-  icon: {
-    fontSize: 24,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.25,
+    shadowRadius: 6,
+    elevation: 5,
   },
   badge: {
     position: 'absolute',
-    top: -4,
-    right: -4,
-    minWidth: 20,
-    height: 20,
-    borderRadius: 10,
+    top: -6,
+    right: -6,
+    minWidth: 22,
+    height: 22,
+    borderRadius: 11,
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: 6,
     borderWidth: 2,
     borderColor: '#FFFFFF',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+    elevation: 4,
   },
   badgeText: {
     color: '#FFFFFF',
@@ -163,5 +237,6 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 14,
     fontWeight: '600',
+    textAlign: 'center',
   },
 });

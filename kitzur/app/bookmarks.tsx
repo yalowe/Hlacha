@@ -4,6 +4,7 @@
 import React from 'react';
 import { StyleSheet, ScrollView, Pressable, View } from 'react-native';
 import { useColorScheme } from '@/hooks/use-color-scheme';
+import { LinearGradient } from 'expo-linear-gradient';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Ionicons } from '@expo/vector-icons';
@@ -23,6 +24,18 @@ export default function BookmarksScreen() {
 
   return (
     <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}>
+      {/* Modern gradient header */}
+      <LinearGradient
+        colors={['#B394E8', '#74B9FF', '#4A90E2']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={[styles.gradientHeader, { paddingTop: 60 }]}
+      >
+        <View style={styles.headerContent}>
+          <ThemedText style={styles.headerTitle}>סימניות</ThemedText>
+          <ThemedText style={styles.headerSubtitle}>המקומות שלי בספר</ThemedText>
+        </View>
+      </LinearGradient>
       <ScrollView style={styles.scrollView}>
         {bookmarks.length === 0 ? (
           <View style={styles.emptyContainer}>
@@ -61,6 +74,28 @@ export default function BookmarksScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  gradientHeader: {
+    paddingHorizontal: spacing.lg,
+    paddingBottom: spacing.lg,
+    borderBottomLeftRadius: 24,
+    borderBottomRightRadius: 24,
+  },
+  headerContent: {
+    alignItems: 'center',
+  },
+  headerTitle: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#fff',
+    textAlign: 'center',
+  },
+  headerSubtitle: {
+    fontSize: 16,
+    color: '#fff',
+    opacity: 0.9,
+    textAlign: 'center',
+    marginTop: 4,
   },
   scrollView: {
     flex: 1,

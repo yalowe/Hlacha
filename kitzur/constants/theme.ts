@@ -89,41 +89,41 @@ type ColorPalette = {
 export const Colors: ColorPalette = {
   light: {
     primary: {
-      main: '#2D5F3F',      // ירוק זית עמוק - ספרדי/מזרחי
-      light: '#5A8A6A',      // ירוק זית בהיר
-      dark: '#1A3D28',       // ירוק זית כהה
+      main: '#4A90E2',      // כחול תכלת מודרני
+      light: '#74B9FF',      // תכלת בהיר
+      dark: '#2C5FFE',       // כחול עמוק
     },
     secondary: {
-      main: '#D4AF37',       // זהב חם - מזרחי
-      light: '#E5C869',      // זהב בהיר
+      main: '#B394E8',       // סגול עדין
+      light: '#DDA0DD',      // פלאם עדין
     },
     accent: {
-      main: '#1B4F72',       // כחול עמוק מזרחי
-      light: '#4A7BA7',      // כחול בהיר
-      bronze: '#B8860B',     // ברונזה זהובה
-      teal: '#2E7D7D',       // טורקיז (שמור)
+      main: '#00D2D3',       // תכלת נוצץ
+      light: '#98FB98',      // מינט עדין
+      bronze: '#20B2AA',     // ירוק-תכלת
+      teal: '#E6E6FA',       // לבנדר עדין
     },
     background: {
-      base: '#F8F5F0',       // שמנת טבעית חמה
+      base: '#FAFBFF',       // לבן עם גוון כחלחל
       surface: '#FFFFFF',
     },
     surface: {
       card: '#FFFFFF',
     },
     text: {
-      primary: '#1A1A1A',
-      secondary: '#4D4D4D',
+      primary: '#1A1A2E',    // כחול כהה כמעט שחור
+      secondary: '#5D6D9E',  // כחול אפור
       onPrimary: '#FFFFFF',
     },
     border: {
-      default: '#E6E2DA',
-      focus: '#2D5F3F',      // ירוק זית לפוקוס
+      default: '#E0E8FF',    // כחלחל עדין לגבולות
+      focus: '#4A90E2',      // כחול תכלת לפוקוס
     },
     semantic: {
-      success: '#2D5F3F',    // ירוק זית
-      warning: '#D97706',
-      error: '#DC2626',
-      info: '#1B4F72',       // כחול מזרחי
+      success: '#20B2AA',    // ירוק-תכלת
+      warning: '#FF8C00',    // כתום עדין
+      error: '#FF6B6B',      // אדום עדין
+      info: '#4A90E2',       // כחול תכלת
     },
   },
   dark: {
@@ -139,7 +139,7 @@ export const Colors: ColorPalette = {
     accent: {
       main: '#5BA3D0',       // כחול מזרחי בהיר
       light: '#89C2E3',      // כחול בהיר מאוד
-      bronze: '#D4AF37',     // זהב
+      bronze: '#B394E8',     // סגול רך
       teal: '#5FD2C8',       // טורקיז (שמור)
     },
     background: {

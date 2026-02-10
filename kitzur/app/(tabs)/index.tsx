@@ -6,6 +6,8 @@ import { StyleSheet, ActivityIndicator, ScrollView, View, Text, Pressable, Alert
 import { useRouter, useFocusEffect } from 'expo-router';
 import { useCallback } from 'react';
 import { useColorScheme } from '@/hooks/use-color-scheme';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { LinearGradient } from 'expo-linear-gradient';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { ContinueLearningCard } from '@/components/ContinueLearningCard';
@@ -24,7 +26,6 @@ import {
   type LastRead,
   type Streak,
 } from '@/utils/progress';
-import { getChapterIds } from '@/utils/contentLoader';
 import { getUnansweredQuestions } from '@/utils/questionsManager';
 import type { Question } from '@/types/questions';
 import { Colors, spacing } from '@/constants/theme';
@@ -36,6 +37,7 @@ const TOTAL_CHAPTER_COUNT = 2008;
 export default function HomeScreen() {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'];
+  const insets = useSafeAreaInsets();
   const router = useRouter();
   
   const [loading, setLoading] = useState(true);
@@ -219,21 +221,33 @@ export default function HomeScreen() {
         contentContainerStyle={styles.contentContainer}
         showsVerticalScrollIndicator={false}
       >
-        {/* Header */}
-        <View style={[styles.header, { backgroundColor: colors.primary.main }]}>
-          <Text style={[styles.greeting, { color: colors.text.onPrimary, opacity: 0.9 }]}>
-            {currentParsha}
+        {/* Modern gradient header 2026 */}
+        <LinearGradient
+          colors={['#4A90E2', '#B394E8', '#74B9FF']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={[styles.header, { paddingTop: insets.top + 5 }]}
+        >
+          <View style={styles.headerIconContainer}>
+            <Ionicons name="book" size={40} color="#fff" />
+          </View>
+          <Text style={styles.headerLabel}>
+            כתר תורה
           </Text>
+          <View style={styles.titleSeparator} />
           <Text style={[styles.title, { color: colors.text.onPrimary }]}>
             לְמַעַן שְׁמוֹ בְּאַהֲבָה
           </Text>
-        </View>
+          <Text style={[styles.parshaHighlight, { color: colors.text.onPrimary }]}>
+            {currentParsha}
+          </Text>
+          <View style={styles.headerDivider} />
+        </LinearGradient>
 
         {/* Sephardic Banner */}
         <View style={[styles.sephardicBanner, { backgroundColor: colors.secondary.main }]}>
-          <Text style={styles.bannerIcon}>🕎</Text>
           <Text style={styles.bannerText}>
-            אפליקציה ספרדית - לפי מרן ופוסקי עדות המזרח
+            לפי מרן ופוסקי עדות המזרח
           </Text>
         </View>
 
@@ -425,19 +439,60 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   },
   header: {
-    paddingTop: 60,
-    paddingBottom: 24,
+    paddingBottom: 32,
     paddingHorizontal: spacing.lg,
     alignItems: 'center',
   },
-  greeting: {
-    fontSize: 14,
-    marginBottom: 4,
+  headerIconContainer: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+  },
+  headerLabel: {
+    color: '#fff',
+    fontSize: 15,
+    fontWeight: '600',
+    opacity: 0.9,
+    marginBottom: 12,
+    textAlign: 'center',
+    letterSpacing: 1,
+  },
+  titleSeparator: {
+    height: 2,
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+    width: 100,
+    marginBottom: 12,
+    borderRadius: 1,
   },
   title: {
-    fontSize: 28,
+    fontSize: 32,
+    fontWeight: '800',
+    textAlign: 'center',
+    marginBottom: 12,
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
+  },
+  parshaHighlight: {
+    fontSize: 18,
     fontWeight: '700',
     textAlign: 'center',
+    opacity: 0.95,
+    marginBottom: 16,
+  },
+  headerDivider: {
+    height: 3,
+    backgroundColor: 'rgba(255, 255, 255, 0.4)',
+    width: 80,
+    borderRadius: 2,
   },
   section: {
     paddingHorizontal: spacing.lg,
@@ -457,13 +512,13 @@ const styles = StyleSheet.create({
   statCard: {
     flex: 1,
     padding: 16,
-    borderRadius: 12,
+    borderRadius: 16,
     alignItems: 'center',
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.08,
-    shadowRadius: 2,
+    elevation: 4,
+    shadowColor: '#4A90E2',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
   },
   statLabel: {
     fontSize: 13,
@@ -496,13 +551,13 @@ const styles = StyleSheet.create({
   },
   questionCard: {
     padding: spacing.md,
-    borderRadius: 12,
+    borderRadius: 16,
     marginBottom: spacing.sm,
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.08,
-    shadowRadius: 2,
+    elevation: 3,
+    shadowColor: '#74B9FF',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.12,
+    shadowRadius: 6,
   },
   questionHeader: {
     flexDirection: 'row',
@@ -547,21 +602,24 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 4,
     paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 8,
+  },
   sephardicBanner: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 12,
-    paddingHorizontal: 16,
+    paddingVertical: 14,
+    paddingHorizontal: 20,
     marginHorizontal: spacing.md,
-    marginTop: -8,
+    marginTop: -12,
     marginBottom: spacing.md,
-    borderRadius: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.15,
-    shadowRadius: 4,
-    elevation: 3,
+    borderRadius: 16,
+    shadowColor: '#B394E8',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.25,
+    shadowRadius: 8,
+    elevation: 6,
   },
   bannerIcon: {
     fontSize: 18,
@@ -572,9 +630,6 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '600',
     textAlign: 'center',
-  },
-    paddingVertical: 6,
-    borderRadius: 8,
   },
   answerNowText: {
     color: '#FFFFFF',

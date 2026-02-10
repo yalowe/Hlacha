@@ -2,7 +2,9 @@ import { StyleSheet, View, ScrollView, ActivityIndicator } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useState, useEffect } from 'react';
-import { formatHebrewChapter, toHebrewNumeral } from '@/utils/hebrewNumbers';
+import { toHebrewNumeral } from '@/utils/hebrewNumbers';
+import { Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
 
 interface Verse {
   verseNum: number;
@@ -67,20 +69,37 @@ export default function ParshatHaMannScreen() {
   return (
     <ThemedView style={styles.container}>
       <ScrollView style={styles.scrollView}>
-        <ThemedView style={styles.header}>
-          <ThemedText type="title" style={styles.title}>
-            {parsha.hebrewName}
-          </ThemedText>
-          <ThemedText style={styles.subtitle}>
-            {parsha.name}
-          </ThemedText>
-          <ThemedText style={styles.description}>
-            {parsha.description}
-          </ThemedText>
-          <ThemedText style={styles.reference}>
-            שמות טז:ד-לו
-          </ThemedText>
-        </ThemedView>
+        {/* Modern gradient header */}
+        <View style={styles.headerWrapper}>
+          <LinearGradient
+            colors={['#00D2D3', '#4A90E2', '#74B9FF']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={[styles.gradientHeader, { paddingTop: 10 }]}
+          >
+            <View style={styles.headerContent}>
+              <View style={styles.iconContainer}>
+                <Ionicons name="gift" size={32} color="#fff" />
+              </View>
+              
+              <ThemedText style={styles.parshaLabel}>פרשת מיוחדת</ThemedText>
+              
+              <ThemedText style={styles.parshaName}>
+                {parsha.hebrewName}
+              </ThemedText>
+              
+              <ThemedText style={styles.subtitle}>
+                שמות טז:ד-לו
+              </ThemedText>
+              
+              <View style={styles.divider} />
+              
+              <ThemedText style={styles.description}>
+                {parsha.description}
+              </ThemedText>
+            </View>
+          </LinearGradient>
+        </View>
 
         <ThemedView style={styles.content}>
           {chapter.verses.map((verse) => (
@@ -94,7 +113,7 @@ export default function ParshatHaMannScreen() {
               <ThemedView style={styles.verseContent}>
                 {/* Hebrew text - first reading */}
                 <ThemedView style={styles.textBlock}>
-                  <ThemedText style={styles.label}>עברי (א')</ThemedText>
+                  <ThemedText style={styles.label}>עברי (א&apos;)</ThemedText>
                   <ThemedText style={styles.hebrewText}>
                     {verse.hebrew}
                   </ThemedText>
@@ -102,7 +121,7 @@ export default function ParshatHaMannScreen() {
 
                 {/* Hebrew text - second reading */}
                 <ThemedView style={styles.textBlock}>
-                  <ThemedText style={styles.label}>עברי (ב')</ThemedText>
+                  <ThemedText style={styles.label}>עברי (ב&apos;)</ThemedText>
                   <ThemedText style={styles.hebrewText}>
                     {verse.hebrew}
                   </ThemedText>
@@ -122,7 +141,7 @@ export default function ParshatHaMannScreen() {
 
         <ThemedView style={styles.footer}>
           <ThemedText style={styles.footerText}>
-            רבי מנחם מנדל מריימאנוב אמר: "המשלים קריאת פרשת המן בכל יום, מובטח לו שלא יחסר לו פרנסתו"
+            רבי מנחם מנדל מריימאנוב אמר: &quot;המשלים קריאת פרשת המן בכל יום, מובטח לו שלא יחסר לו פרנסתו&quot;
           </ThemedText>
         </ThemedView>
       </ScrollView>
@@ -169,18 +188,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 8,
     textAlign: 'center',
-  },
-  subtitle: {
-    fontSize: 18,
-    opacity: 0.7,
-    marginBottom: 8,
-    textAlign: 'center',
-  },
-  description: {
-    fontSize: 14,
-    opacity: 0.6,
-    textAlign: 'center',
-    marginBottom: 4,
   },
   reference: {
     fontSize: 14,
@@ -237,6 +244,68 @@ const styles = StyleSheet.create({
     textAlign: 'right',
     fontFamily: 'System',
     opacity: 0.8,
+  },
+  /* Modern Header Styles */
+  headerWrapper: {
+    marginBottom: 0,
+  },
+  gradientHeader: {
+    paddingHorizontal: 20,
+    paddingVertical: 40,
+    paddingBottom: 30,
+  },
+  headerContent: {
+    alignItems: 'center',
+  },
+  iconContainer: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 16,
+  },
+  parshaLabel: {
+    color: '#fff',
+    fontSize: 14,
+    fontWeight: '600',
+    opacity: 0.9,
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  parshaName: {
+    color: '#fff',
+    fontSize: 32,
+    fontWeight: '800',
+    textAlign: 'center',
+    marginBottom: 8,
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
+  },
+  subtitle: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '500',
+    textAlign: 'center',
+    opacity: 0.9,
+    marginBottom: 16,
+  },
+  divider: {
+    height: 2,
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    width: 60,
+    marginBottom: 16,
+    borderRadius: 1,
+  },
+  description: {
+    color: '#fff',
+    fontSize: 15,
+    textAlign: 'center',
+    lineHeight: 22,
+    opacity: 0.85,
+    paddingHorizontal: 20,
   },
   footer: {
     padding: 20,
