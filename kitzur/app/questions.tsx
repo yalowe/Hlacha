@@ -17,12 +17,12 @@ import {
   getAllQuestions, 
   getPopularQuestions,
   calculateTrustScore,
-  getUnansweredQuestions 
-} from '@/utils/questionsManager';
+  getUnansweredQuestions,
+  subscribeToQuestions 
+} from '@/utils/questionsWrapper';
 import { CATEGORY_LABELS } from '@/types/questions';
 import type { Question, QuestionCategory } from '@/types/questions';
 import { normalizeHebrew } from '@/utils/hebrewNormalize';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Filter state interface
 interface FilterState {
@@ -55,6 +55,17 @@ export default function QuestionsScreen() {
 
   useEffect(() => {
     loadQuestions();
+    
+    // Subscribe to real-time updates from Firebase
+    const unsubscribe = subscribeToQuestions((updatedQuestions) => {
+      console.log('📡 Real-time update:', updatedQuestions.length, 'questions');
+      setAllQuestions(updatedQuestions);
+    });
+    
+    // Cleanup subscription on unmount
+    return () => {
+      if (unsubscribe) unsubscribe();
+    };
   }, []);
   
   // Reload pending answers count when screen regains focus
