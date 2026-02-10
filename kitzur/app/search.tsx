@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
+import { LinearGradient } from 'expo-linear-gradient';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useColorScheme } from '@/hooks/use-color-scheme';
@@ -46,7 +47,19 @@ export default function SearchScreen() {
   }, [query]);
 
   return (
-    <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}> 
+    <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}>
+      <LinearGradient
+        colors={['#4A90E2', '#B394E8', '#00D2D3']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={[styles.gradientHeader, { paddingTop: 60 }]}
+      >
+        <View style={styles.headerContent}>
+          <ThemedText style={styles.headerTitle}>חיפוש</ThemedText>
+          <ThemedText style={styles.headerSubtitle}>חפש בכל הסימנים</ThemedText>
+        </View>
+      </LinearGradient>
+      
       <View style={styles.searchBox}>
         <TextInput
           style={[styles.searchInput, { backgroundColor: colors.surface.card, color: colors.text.primary }]}
@@ -100,6 +113,28 @@ export default function SearchScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  gradientHeader: {
+    paddingHorizontal: spacing.lg,
+    paddingBottom: spacing.lg,
+    borderBottomLeftRadius: 24,
+    borderBottomRightRadius: 24,
+  },
+  headerContent: {
+    alignItems: 'center',
+  },
+  headerTitle: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#fff',
+    textAlign: 'center',
+  },
+  headerSubtitle: {
+    fontSize: 16,
+    color: '#fff',
+    opacity: 0.9,
+    textAlign: 'center',
+    marginTop: 4,
   },
   searchBox: {
     paddingHorizontal: spacing.lg,

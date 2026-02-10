@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Pressable, View, Text } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Colors } from '@/constants/theme';
 
@@ -20,8 +21,13 @@ export function QuickActionButton({ icon, label, onPress, badge }: QuickActionBu
       onPress={onPress}
       android_ripple={{ color: colors.primary.light }}
     >
-      <View style={[styles.iconContainer, { backgroundColor: colors.primary.light }]}>
-        <Text style={[styles.icon, { color: colors.primary.main }]}>{icon}</Text>
+      <LinearGradient
+        colors={['#4A90E2', '#74B9FF']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.iconContainer}
+      >
+        <Text style={styles.icon}>{icon}</Text>
         {badge && (
           <View style={[styles.badge, { backgroundColor: '#FF3B30' }]}>
             <Text style={styles.badgeText}>
@@ -29,7 +35,7 @@ export function QuickActionButton({ icon, label, onPress, badge }: QuickActionBu
             </Text>
           </View>
         )}
-      </View>
+      </LinearGradient>
       <Text style={[styles.label, { color: colors.text.primary }]} numberOfLines={1}>
         {label}
       </Text>
@@ -75,7 +81,7 @@ export function QuickActionsGrid({
   
   return (
     <View style={styles.grid}>
-      <QuickActionButton icon="📖" label="שולחן ערוך" onPress={onBrowse} />
+      <QuickActionButton icon="📖" label="שולחן ערוך - מרן" onPress={onBrowse} />
       <QuickActionButton icon="🔍" label="חיפוש" onPress={onSearch} />
       <QuickActionButton icon="⭐" label="סימניות שמורות" onPress={onBookmarks} />
       <QuickActionButton icon="📅" label="הלכה יומית" onPress={onDailyHalacha} />
@@ -121,26 +127,31 @@ const styles = StyleSheet.create({
   button: {
     width: '48%',
     padding: 16,
-    borderRadius: 12,
+    borderRadius: 16,
     alignItems: 'center',
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.08,
-    shadowRadius: 2,
+    elevation: 3,
+    shadowColor: '#4A90E2',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.12,
+    shadowRadius: 6,
   },
   iconContainer: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
+    width: 52,
+    height: 52,
+    borderRadius: 26,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 8,
-    marginTop: -10,
+    marginBottom: 10,
+    marginTop: -12,
     position: 'relative',
+    shadowColor: '#4A90E2',
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 4,
   },
   icon: {
-    fontSize: 24,
+    fontSize: 26,
   },
   badge: {
     position: 'absolute',

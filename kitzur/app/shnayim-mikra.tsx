@@ -2,8 +2,10 @@ import { StyleSheet, View, ScrollView, TouchableOpacity } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useState } from 'react';
-import { getAllParshiot, getParshiotByBook } from '@/utils/parshaLoader';
+import { getParshiotByBook } from '@/utils/parshaLoader';
 import { router } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
 
 export default function ShnayimMikraScreen() {
   const [selectedBook, setSelectedBook] = useState<string | null>(null);
@@ -21,14 +23,33 @@ export default function ShnayimMikraScreen() {
     return (
       <ThemedView style={styles.container}>
         <ScrollView style={styles.scrollView}>
-          <ThemedView style={styles.header}>
-            <ThemedText type="title" style={styles.title}>
-              שניים מקרא ואחד תרגום
-            </ThemedText>
-            <ThemedText style={styles.subtitle}>
-              בחר ספר
-            </ThemedText>
-          </ThemedView>
+          {/* Modern gradient header */}
+          <View style={styles.headerWrapper}>
+            <LinearGradient
+              colors={['#4A90E2', '#74B9FF', '#B394E8']}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              style={[styles.gradientHeader, { paddingTop: 60 }]}
+            >
+              <View style={styles.headerContent}>
+                <View style={styles.iconContainer}>
+                  <Ionicons name="book" size={32} color="#fff" />
+                </View>
+                
+                <ThemedText style={styles.parshaLabel}>לימוד יומי</ThemedText>
+                
+                <ThemedText style={styles.parshaName}>
+                  שניים מקרא ואחד תרגום
+                </ThemedText>
+                
+                <ThemedText style={styles.subtitle}>
+                  בחר ספר
+                </ThemedText>
+                
+                <View style={styles.divider} />
+              </View>
+            </LinearGradient>
+          </View>
 
           <ThemedView style={styles.booksGrid}>
             {books.map((book) => (
@@ -133,6 +154,53 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: '#007AFF',
   },
+  /* Modern Header Styles */
+  headerWrapper: {
+    marginBottom: 0,
+  },
+  gradientHeader: {
+    paddingHorizontal: 20,
+    paddingVertical: 40,
+    paddingBottom: 30,
+  },
+  headerContent: {
+    alignItems: 'center',
+  },
+  iconContainer: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 16,
+  },
+  parshaLabel: {
+    color: '#fff',
+    fontSize: 14,
+    fontWeight: '600',
+    opacity: 0.9,
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  parshaName: {
+    color: '#fff',
+    fontSize: 28,
+    fontWeight: '800',
+    textAlign: 'center',
+    marginBottom: 8,
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
+  },
+
+  divider: {
+    height: 2,
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    width: 60,
+    marginBottom: 16,
+    borderRadius: 1,
+  },
   booksGrid: {
     padding: 16,
     gap: 16,
@@ -201,10 +269,6 @@ const styles = StyleSheet.create({
   },
   parshaInfo: {
     flex: 1,
-  },
-  parshaName: {
-    fontSize: 18,
-    marginBottom: 2,
   },
   parshaNameEn: {
     fontSize: 14,

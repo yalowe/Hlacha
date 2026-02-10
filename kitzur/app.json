@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "למען שמו באהבה",
-    "slug": "kitzur-shulchan-aruch",
+    "name": "בראשית",
+    "slug": "bereishit",
     "version": "1.4.0",
-    "description": "קיצור שולחן ערוך עם שאלות ותשובות, הלכה יומית (מחזור פרטי), ומעקב התקדמות. אפליקציה מושלמת ללימוד הלכה יומי.",
+    "description": "בראשית - אפליקציית הלכה #1 לפי מרן ופוסקי עדות המזרח. שולחן ערוך מלא, קיצור, שאלות ותשובות, הלכה יומית, ומעקב התקדמות.",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "kitzur",
+    "scheme": "bereishit",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "primaryColor": "#007AFF",
+    "primaryColor": "#4A90E2",
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -29,7 +29,7 @@
       "package": "com.yalkutyosef.kitzur",
       "versionCode": 4,
       "adaptiveIcon": {
-        "backgroundColor": "#007AFF",
+        "backgroundColor": "#4A90E2",
         "foregroundImage": "./assets/images/android-icon-foreground.png"
       },
       "edgeToEdgeEnabled": true,

@@ -89,62 +89,62 @@ type ColorPalette = {
 export const Colors: ColorPalette = {
   light: {
     primary: {
-      main: '#1E3A5F',
-      light: '#5A7FAF',
-      dark: '#0F1D30',
+      main: '#4A90E2',      // כחול תכלת מודרני
+      light: '#74B9FF',      // תכלת בהיר
+      dark: '#2C5FFE',       // כחול עמוק
     },
     secondary: {
-      main: '#B08968',
-      light: '#D4B89A',
+      main: '#B394E8',       // סגול עדין
+      light: '#DDA0DD',      // פלאם עדין
     },
     accent: {
-      main: '#2E7D7D',
-      light: '#6FB0B0',
-      bronze: '#B08968',
-      teal: '#2E7D7D',
+      main: '#00D2D3',       // תכלת נוצץ
+      light: '#98FB98',      // מינט עדין
+      bronze: '#20B2AA',     // ירוק-תכלת
+      teal: '#E6E6FA',       // לבנדר עדין
     },
     background: {
-      base: '#FAF7F1',
+      base: '#FAFBFF',       // לבן עם גוון כחלחל
       surface: '#FFFFFF',
     },
     surface: {
       card: '#FFFFFF',
     },
     text: {
-      primary: '#1A1A1A',
-      secondary: '#4D4D4D',
+      primary: '#1A1A2E',    // כחול כהה כמעט שחור
+      secondary: '#5D6D9E',  // כחול אפור
       onPrimary: '#FFFFFF',
     },
     border: {
-      default: '#E6E2DA',
-      focus: '#1E3A5F',
+      default: '#E0E8FF',    // כחלחל עדין לגבולות
+      focus: '#4A90E2',      // כחול תכלת לפוקוס
     },
     semantic: {
-      success: '#2E7D7D',
-      warning: '#D97706',
-      error: '#DC2626',
-      info: '#1E3A5F',
+      success: '#20B2AA',    // ירוק-תכלת
+      warning: '#FF8C00',    // כתום עדין
+      error: '#FF6B6B',      // אדום עדין
+      info: '#4A90E2',       // כחול תכלת
     },
   },
   dark: {
     primary: {
-      main: '#AFC4FF',
-      light: '#7A9FFF',
-      dark: '#5A7FAF',
+      main: '#6FAF8A',       // ירוק זית בהיר (dark mode)
+      light: '#8FC9A6',      // ירוק בהיר יותר
+      dark: '#4A8A6A',       // ירוק כהה
     },
     secondary: {
-      main: '#E0B084',
-      light: '#F5D4B5',
+      main: '#E5C869',       // זהב חם (dark mode)
+      light: '#F5D89A',      // זהב בהיר
     },
     accent: {
-      main: '#5FD2C8',
-      light: '#8FE0DA',
-      bronze: '#E0B084',
-      teal: '#5FD2C8',
+      main: '#5BA3D0',       // כחול מזרחי בהיר
+      light: '#89C2E3',      // כחול בהיר מאוד
+      bronze: '#B394E8',     // סגול רך
+      teal: '#5FD2C8',       // טורקיז (שמור)
     },
     background: {
-      base: '#0E1220',
-      surface: '#171C2A',
+      base: '#0E1220',       // כהה
+      surface: '#171C2A',    // כהה בהיר
     },
     surface: {
       card: '#1F2937',
@@ -156,13 +156,13 @@ export const Colors: ColorPalette = {
     },
     border: {
       default: '#24314A',
-      focus: '#AFC4FF',
+      focus: '#6FAF8A',      // ירוק לפוקוס
     },
     semantic: {
-      success: '#5FD2C8',
+      success: '#6FAF8A',    // ירוק זית בהיר
       warning: '#F59E0B',
       error: '#EF4444',
-      info: '#AFC4FF',
+      info: '#5BA3D0',       // כחול מזרחי
     },
   },
 };

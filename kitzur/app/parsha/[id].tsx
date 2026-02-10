@@ -55,10 +55,10 @@ export default function ParshaScreen() {
         {/* Modern gradient header */}
         <View style={styles.headerWrapper}>
           <LinearGradient
-            colors={['#2E5C8A', '#4A90E2', '#6FB1FC']}
+            colors={['#4A90E2', '#74B9FF', '#B394E8']}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
-            style={styles.gradientHeader}
+            style={[styles.gradientHeader, { paddingTop: 60 }]}
           >
             <View style={styles.headerContent}>
               <View style={styles.iconContainer}>
@@ -106,7 +106,7 @@ export default function ParshaScreen() {
                 <ThemedView style={styles.verseContent}>
                   {/* Hebrew text - first reading */}
                   <ThemedView style={styles.textBlock}>
-                    <ThemedText style={styles.label}>עברי (א')</ThemedText>
+                    <ThemedText style={styles.label}>עברי (א&apos;)</ThemedText>
                     <ThemedText style={styles.hebrewText}>
                       {verse.hebrew}
                     </ThemedText>
@@ -114,7 +114,7 @@ export default function ParshaScreen() {
 
                   {/* Hebrew text - second reading */}
                   <ThemedView style={styles.textBlock}>
-                    <ThemedText style={styles.label}>עברי (ב')</ThemedText>
+                    <ThemedText style={styles.label}>עברי (ב&apos;)</ThemedText>
                     <ThemedText style={styles.hebrewText}>
                       {verse.hebrew}
                     </ThemedText>
@@ -207,7 +207,7 @@ const styles = StyleSheet.create({
     letterSpacing: 1,
   },
   parshaName: {
-    fontSize: 42,
+    fontSize: 25,
     fontWeight: '900',
     color: '#fff',
     marginBottom: 12,
