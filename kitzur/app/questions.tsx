@@ -4,9 +4,12 @@
  */
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { StyleSheet, ScrollView, View, Pressable, TextInput, ActivityIndicator } from 'react-native';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
 import { router, useFocusEffect } from 'expo-router';
 import { Colors, spacing } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
@@ -15,12 +18,12 @@ import {
   getAllQuestions, 
   getPopularQuestions,
   calculateTrustScore,
-  getUnansweredQuestions 
-} from '@/utils/questionsManager';
+  getUnansweredQuestions,
+  subscribeToQuestions 
+} from '@/utils/questionsWrapper';
 import { CATEGORY_LABELS } from '@/types/questions';
 import type { Question, QuestionCategory } from '@/types/questions';
 import { normalizeHebrew } from '@/utils/hebrewNormalize';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Filter state interface
 interface FilterState {
@@ -32,6 +35,7 @@ interface FilterState {
 export default function QuestionsScreen() {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'];
+  const insets = useSafeAreaInsets();
   
   const [loading, setLoading] = useState(true);
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
@@ -50,56 +54,7 @@ export default function QuestionsScreen() {
   const searchTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const scrollViewRef = useRef<ScrollView>(null);
 
-  useEffect(() => {
-    loadQuestions();
-  }, []);
-  
-  // Reload pending answers count when screen regains focus
-  useFocusEffect(
-    React.useCallback(() => {
-      loadPendingAnswersCount();
-    }, [])
-  );
-
-  async function loadQuestions() {
-    setLoading(true);
-    try {
-      const [all, popular, unanswered] = await Promise.all([
-        getAllQuestions(),
-        getPopularQuestions(5),
-        getUnansweredQuestions()
-      ]);
-      
-      // Load pending answers count
-      await loadPendingAnswersCount();
-      
-      // Initialize sample data if no questions exist
-      // if (all.length === 0) {
-      //   await initializeSampleData();
-      //   const [newAll, newPopular, newUnanswered] = await Promise.all([
-      //     getAllQuestions(),
-      //     getPopularQuestions(5),
-      //     getUnansweredQuestions()
-      //   ]);
-      //   setAllQuestions(newAll);
-      //   setDisplayedQuestions(newAll);
-      //   setPopularQuestions(newPopular);
-      //   setUnansweredCount(newUnanswered.length);
-      // } else {
-      setAllQuestions(all);
-      setDisplayedQuestions(all);
-      setPopularQuestions(popular);
-      setUnansweredCount(unanswered.length);
-      setPendingAnswersCount(0);
-      // }
-    } catch (error) {
-      console.error('Failed to load questions:', error);
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  async function loadPendingAnswersCount() {
+  const loadPendingAnswersCount = useCallback(async () => {
     try {
       const stored = await AsyncStorage.getItem('@kitzur_pending_answers');
       if (stored) {
@@ -112,7 +67,53 @@ export default function QuestionsScreen() {
       console.error('Failed to load pending answers count:', error);
       setPendingAnswersCount(0);
     }
-  }
+  }, []);
+
+  const loadQuestions = useCallback(async () => {
+    setLoading(true);
+    try {
+      const [all, popular, unanswered] = await Promise.all([
+        getAllQuestions(),
+        getPopularQuestions(5),
+        getUnansweredQuestions()
+      ]);
+      
+      // Load pending answers count
+      await loadPendingAnswersCount();
+      
+      setAllQuestions(all);
+      setDisplayedQuestions(all);
+      setPopularQuestions(popular);
+      setUnansweredCount(unanswered.length);
+      setPendingAnswersCount(0);
+    } catch (error) {
+      console.error('Failed to load questions:', error);
+    } finally {
+      setLoading(false);
+    }
+  }, [loadPendingAnswersCount]);
+
+  useEffect(() => {
+    loadQuestions();
+    
+    // Subscribe to real-time updates from Firebase
+    const unsubscribe = subscribeToQuestions((updatedQuestions) => {
+      console.log('📡 Real-time update:', updatedQuestions.length, 'questions');
+      setAllQuestions(updatedQuestions);
+    });
+    
+    // Cleanup subscription on unmount
+    return () => {
+      if (unsubscribe) unsubscribe();
+    };
+  }, [loadQuestions]);
+  
+  // Reload pending answers count when screen regains focus
+  useFocusEffect(
+    React.useCallback(() => {
+      loadPendingAnswersCount();
+    }, [loadPendingAnswersCount])
+  );
   
   // Smart fuzzy search with Hebrew support and relevance filtering
   const fuzzySearchQuestions = useCallback((query: string, questions: Question[]): Question[] => {
@@ -312,16 +313,57 @@ export default function QuestionsScreen() {
   }
 
   return (
-    <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}>
-      <ScrollView ref={scrollViewRef} style={styles.scrollView} showsVerticalScrollIndicator={false}>
-        {/* Header */}
-        <View style={[styles.header, { backgroundColor: colors.primary.main }]}>
-          <ThemedText style={[styles.headerTitle, { color: colors.text.onPrimary }]}>
-            💬 שאלות ותשובות
-          </ThemedText>
-          <ThemedText style={[styles.headerSubtitle, { color: colors.text.onPrimary, opacity: 0.9 }]}>
-            מאגר קהילתי של הלכה למעשה
-          </ThemedText>
+    <SafeAreaView
+      style={[
+        styles.container,
+        { backgroundColor: colors.background.base }
+      ]}
+      edges={['bottom']}
+    >
+      {/* Fixed Modern Gradient Header */}
+      <View style={styles.headerWrapper}>
+        <LinearGradient
+          colors={['#4A90E2', '#B394E8', '#74B9FF']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={[
+            styles.gradientHeader,
+            { paddingTop: insets.top + 20 }
+          ]}
+        >
+          <View style={styles.headerContent}>
+            <View style={styles.iconContainer}>
+              <Ionicons name="chatbubbles" size={32} color="#fff" />
+            </View>
+            
+            <ThemedText style={[styles.sectionLabel, { marginBottom: 10 }]}>
+              מאגר קהילתי
+            </ThemedText>
+            
+
+            <View style={[styles.titleSeparator , { marginTop: 0 }]} />
+            <ThemedText style={[styles.mainTitle, { marginTop: 10 }]}>
+              שאלות ותשובות
+            </ThemedText>
+            
+            <ThemedText style={styles.subtitle}>
+              הלכה למעשה לפי מרן
+            </ThemedText>
+
+            <View style={styles.divider} />
+          </View>
+        </LinearGradient>
+      </View>
+      
+      {/* Scrollable Content */}
+      <ScrollView 
+        ref={scrollViewRef} 
+        style={styles.scrollContent}
+        contentInsetAdjustmentBehavior="never"
+        showsVerticalScrollIndicator={false}
+      >
+        {/* Quick action buttons */}
+        <View style={styles.quickActionsContainer}>
           {pendingAnswersCount > 0 && (
             <Pressable 
               style={({pressed}) => [
@@ -508,7 +550,7 @@ export default function QuestionsScreen() {
           )}
         </View>
       </ScrollView>
-    </ThemedView>
+    </SafeAreaView>
   );
 }
 
@@ -524,7 +566,7 @@ function QuestionCard({
 }) {
   const trustScore = calculateTrustScore(question);
   const hasAnswer = !!question.answer;
-  const isNew = !hasAnswer && question.status === 'pending';
+  const isNew = !hasAnswer && question.status === 'pending_review';
 
   return (
     <Pressable
@@ -561,7 +603,7 @@ function QuestionCard({
         <View style={styles.statsRow}>
           <Ionicons name="eye-outline" size={14} color={colors.text.secondary} />
           <ThemedText style={[styles.statText, { color: colors.text.secondary }]}>
-            {question.stats.views}
+            {question.stats?.views ?? 0}
           </ThemedText>
         </View>
       </View>
@@ -590,7 +632,7 @@ function QuestionCard({
           <View style={styles.helpfulBadge}>
             <Ionicons name="thumbs-up" size={12} color={colors.text.secondary} />
             <ThemedText style={[styles.helpfulText, { color: colors.text.secondary }]}>
-              {question.stats.helpful}
+              {question.stats?.helpful ?? 0}
             </ThemedText>
           </View>
         )}
@@ -603,8 +645,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  scrollView: {
+  scrollContent: {
     flex: 1,
+  },
+  quickActionsContainer: {
+    paddingHorizontal: spacing.lg,
+    paddingTop: spacing.md,
   },
   header: {
     paddingTop: 70,
@@ -837,5 +883,67 @@ const styles = StyleSheet.create({
     marginTop: spacing.sm,
     textAlign: 'center',
     paddingHorizontal: spacing.lg,
+  },
+  // Modern Header Styles
+  headerWrapper: {
+    marginBottom: 0,
+  },
+  gradientHeader: {
+    paddingHorizontal: 20,
+    paddingBottom: 30,
+    // paddingTop is set dynamically using insets.top
+  },
+  headerContent: {
+    alignItems: 'center',
+  },
+  iconContainer: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 16,
+  },
+  sectionLabel: {
+    color: '#fff',
+    fontSize: 14,
+    fontWeight: '600',
+    opacity: 0.9,
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  mainTitle: {
+    color: '#fff',
+    fontSize: 30,
+    fontWeight: '800',
+    textAlign: 'center',
+    marginBottom: 8,
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
+  },
+  subtitle: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '500',
+    textAlign: 'center',
+    opacity: 0.9,
+    marginBottom: 16,
+  },
+  divider: {
+    height: 2,
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    width: 60,
+    marginBottom: 0,
+    borderRadius: 1,
+  },
+  titleSeparator: {
+    height: 1,
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+    width: 80,
+    alignSelf: 'center',
+    marginTop: 8,
+    borderRadius: 0.5,
   },
 });

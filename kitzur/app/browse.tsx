@@ -4,6 +4,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, ActivityIndicator, ScrollView, View, Pressable } from 'react-native';
 import { useColorScheme } from '@/hooks/use-color-scheme';
+import { LinearGradient } from 'expo-linear-gradient';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import ChapterList from '@/components/ChapterList';
@@ -14,10 +15,10 @@ type Category = 'all' | 'kitzur' | 'orach_chaim' | 'yoreh_deah' | 'even_haezer' 
 
 const CATEGORIES = [
   { id: 'kitzur' as Category, name: 'קיצור שולחן ערוך', nameEn: 'Kitzur Shulchan Aruch', count: 303 },
-  { id: 'orach_chaim' as Category, name: 'אורח חיים', nameEn: 'Orach Chaim', count: 697 },
-  { id: 'yoreh_deah' as Category, name: 'יורה דעה', nameEn: 'Yoreh De\'ah', count: 402 },
-  { id: 'even_haezer' as Category, name: 'אבן העזר', nameEn: 'Even HaEzer', count: 178 },
-  { id: 'choshen_mishpat' as Category, name: 'חושן משפט', nameEn: 'Choshen Mishpat', count: 427 },
+  { id: 'orach_chaim' as Category, name: 'מרן - אורח חיים', nameEn: 'Maran - Orach Chaim', count: 697 },
+  { id: 'yoreh_deah' as Category, name: 'מרן - יורה דעה', nameEn: 'Maran - Yoreh De\'ah', count: 402 },
+  { id: 'even_haezer' as Category, name: 'מרן - אבן העזר', nameEn: 'Maran - Even HaEzer', count: 178 },
+  { id: 'choshen_mishpat' as Category, name: 'מרן - חושן משפט', nameEn: 'Maran - Choshen Mishpat', count: 427 },
 ];
 
 export default function BrowseScreen() {
@@ -57,11 +58,19 @@ export default function BrowseScreen() {
   if (!selectedCategory) {
     return (
       <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}>
-        <View style={[styles.header, { backgroundColor: colors.primary.main }]}>
-          <ThemedText style={[styles.headerTitle, { color: colors.text.onPrimary }]}>
-            בחר ספר
-          </ThemedText>
-        </View>
+        {/* Modern gradient header */}
+        <LinearGradient
+          colors={['#74B9FF', '#4A90E2', '#B394E8']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={[styles.gradientHeader, { paddingTop: 60 }]}
+        >
+          <View style={styles.headerContent}>
+            <ThemedText style={styles.headerTitle}>
+              עיון בספרים - לפי מרן
+            </ThemedText>
+          </View>
+        </LinearGradient>
 
         <ScrollView style={styles.scrollView} contentContainerStyle={styles.categoriesContainer}>
           {CATEGORIES.map((category) => (
@@ -136,6 +145,13 @@ const styles = StyleSheet.create({
     paddingTop: spacing.xl,
     alignItems: 'center',
     gap: spacing.xs,
+  },
+  gradientHeader: {
+    paddingHorizontal: spacing.lg,
+    paddingBottom: spacing.lg,
+  },
+  headerContent: {
+    alignItems: 'center',
   },
   headerTitle: {
     fontSize: 24,

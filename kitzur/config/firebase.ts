@@ -1,33 +1,4 @@
-/**
- * Firebase Configuration
- * Setup Firestore for shared questions database
- */
-
-// NOTE: Install firebase first: npm install firebase
-// import { initializeApp } from 'firebase/app';
-// import { getFirestore } from 'firebase/firestore';
-// import { getAuth } from 'firebase/auth';
-
-// Firebase configuration from Firebase Console
-// TODO: Replace with your actual Firebase config
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-
-// Initialize Firebase
-// Uncomment after installing firebase package:
-// const app = initializeApp(firebaseConfig);
-// export const db = getFirestore(app);
-// export const auth = getAuth(app);
-
-// Temporary exports (remove after Firebase setup)
-export const db = null;
-export const auth = null;
+export { auth, db, ensureAnonymousAuth } from '@/src/firebase';
 
 /**
  * SETUP INSTRUCTIONS:

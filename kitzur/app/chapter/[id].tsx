@@ -2,9 +2,9 @@
  * Chapter Detail Screen
  * Displays the list of sections within a selected chapter
  */
-import { useLocalSearchParams, router } from 'expo-router';
-import { useState, useEffect } from 'react';
-import { ScrollView, StyleSheet, ActivityIndicator, View, Pressable, Alert } from 'react-native';
+import { useLocalSearchParams } from 'expo-router';
+import { useState, useEffect, useCallback } from 'react';
+import { ScrollView, StyleSheet, ActivityIndicator, Pressable, Alert } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import { ThemedView } from '@/components/themed-view';
 import { ThemedText } from '@/components/themed-text';
@@ -20,11 +20,7 @@ export default function ChapterDetailScreen() {
   const [loading, setLoading] = useState(true);
   const [completed, setCompleted] = useState(false);
 
-  useEffect(() => {
-    loadChapter();
-  }, [id]);
-
-  async function loadChapter() {
+  const loadChapter = useCallback(async () => {
     if (!id) return;
     setLoading(true);
     const data = await getChapter(id);
@@ -35,7 +31,11 @@ export default function ChapterDetailScreen() {
     setCompleted(isCompleted);
     
     setLoading(false);
-  }
+  }, [id]);
+
+  useEffect(() => {
+    loadChapter();
+  }, [loadChapter]);
 
   async function handleMarkComplete() {
     if (!id || !chapter) return;

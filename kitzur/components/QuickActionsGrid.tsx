@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Pressable, View, Text } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Colors } from '@/constants/theme';
 
@@ -10,7 +11,7 @@ interface QuickActionButtonProps {
   badge?: number | 'new';
 }
 
-export function QuickActionButton({ icon, label, onPress, badge }: QuickActionButtonProps) {
+function QuickActionButton({ icon, label, onPress, badge }: QuickActionButtonProps) {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'];
 
@@ -20,8 +21,15 @@ export function QuickActionButton({ icon, label, onPress, badge }: QuickActionBu
       onPress={onPress}
       android_ripple={{ color: colors.primary.light }}
     >
-      <View style={[styles.iconContainer, { backgroundColor: colors.primary.light }]}>
-        <Text style={[styles.icon, { color: colors.primary.main }]}>{icon}</Text>
+      <View style={styles.iconWrapper}>
+        <LinearGradient
+          colors={['#4A90E2', '#74B9FF']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.iconContainer}
+        >
+          <Text style={styles.icon}>{icon}</Text>
+        </LinearGradient>
         {badge && (
           <View style={[styles.badge, { backgroundColor: '#FF3B30' }]}>
             <Text style={styles.badgeText}>
@@ -75,7 +83,7 @@ export function QuickActionsGrid({
   
   return (
     <View style={styles.grid}>
-      <QuickActionButton icon="📖" label="שולחן ערוך" onPress={onBrowse} />
+      <QuickActionButton icon="📖" label="שולחן ערוך - מרן" onPress={onBrowse} />
       <QuickActionButton icon="🔍" label="חיפוש" onPress={onSearch} />
       <QuickActionButton icon="⭐" label="סימניות שמורות" onPress={onBookmarks} />
       <QuickActionButton icon="📅" label="הלכה יומית" onPress={onDailyHalacha} />
@@ -121,44 +129,57 @@ const styles = StyleSheet.create({
   button: {
     width: '48%',
     padding: 16,
-    borderRadius: 12,
+    borderRadius: 16,
     alignItems: 'center',
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.08,
-    shadowRadius: 2,
+    elevation: 3,
+    shadowColor: '#4A90E2',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.12,
+    shadowRadius: 6,
+  },
+  iconWrapper: {
+    position: 'relative',
+    marginBottom: 10,
+    marginTop: -12,
   },
   iconContainer: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
+    width: 52,
+    height: 52,
+    borderRadius: 26,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 8,
-    marginTop: -10,
-    position: 'relative',
+    shadowColor: '#4A90E2',
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 4,
   },
   icon: {
-    fontSize: 24,
+    fontSize: 26,
   },
   badge: {
     position: 'absolute',
-    top: -4,
-    right: -4,
-    minWidth: 20,
-    height: 20,
-    borderRadius: 10,
+    top: -6,
+    right: -6,
+    minWidth: 22,
+    height: 22,
+    borderRadius: 11,
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: 6,
-    borderWidth: 2,
+    borderWidth: 3,
     borderColor: '#FFFFFF',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
+    elevation: 5,
   },
   badgeText: {
     color: '#FFFFFF',
-    fontSize: 11,
-    fontWeight: '700',
+    fontSize: 12,
+    fontWeight: '800',
+    textAlign: 'center',
   },
   label: {
     fontSize: 14,

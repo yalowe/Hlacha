@@ -110,6 +110,7 @@ export default function RootLayout() {
             name="questions" 
             options={{ 
               title: 'שאלות ותשובות',
+              headerShown: false,
             }} 
           />
           <Stack.Screen

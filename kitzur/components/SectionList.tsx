@@ -5,7 +5,6 @@
 import { Link } from "expo-router";
 import { View, Pressable, StyleSheet } from "react-native";
 import { ThemedText } from "./themed-text";
-import { ThemedView } from "./themed-view";
 import { Chapter } from "../utils/contentLoader";
 import { useApp } from "@/contexts/AppContext";
 import { Colors, spacing } from "@/constants/theme";

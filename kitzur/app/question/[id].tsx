@@ -2,7 +2,7 @@
  * Question Detail Screen
  * View question with answer, sources, and approvals
  */
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { StyleSheet, ScrollView, View, Pressable, Alert, ActivityIndicator } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -16,11 +16,13 @@ import {
   markAsHelpful,
   removeRating,
   calculateTrustScore,
-  getUserRating
-} from '@/utils/questionsManager';
+  getUserRating,
+  subscribeToQuestions,
+  getApprovedAnswer
+} from '@/utils/questionsWrapper';
 import { getDeviceId } from '@/utils/deviceId';
 import { CATEGORY_LABELS, APPROVAL_LABELS } from '@/types/questions';
-import type { Question, HalachicSource } from '@/types/questions';
+import type { Question, HalachicSource, Answer } from '@/types/questions';
 import * as Haptics from 'expo-haptics';
 
 export default function QuestionDetailScreen() {
@@ -29,6 +31,7 @@ export default function QuestionDetailScreen() {
   const colors = Colors[colorScheme ?? 'light'];
   
   const [question, setQuestion] = useState<Question | null>(null);
+  const [approvedAnswer, setApprovedAnswer] = useState<Answer | null>(null);
   const [loading, setLoading] = useState(true);
   const [userRating, setUserRating] = useState<boolean | null>(null);
   const [userId, setUserId] = useState<string>('');
@@ -37,18 +40,12 @@ export default function QuestionDetailScreen() {
     initializeUser();
   }, []);
 
-  useEffect(() => {
-    if (userId) {
-      loadQuestion();
-    }
-  }, [id, userId]);
-
   async function initializeUser() {
     const deviceId = await getDeviceId();
     setUserId(deviceId);
   }
 
-  async function loadQuestion() {
+  const loadQuestion = useCallback(async () => {
     if (!id || !userId) return;
     
     setLoading(true);
@@ -57,6 +54,8 @@ export default function QuestionDetailScreen() {
       const found = questions.find(q => q.id === id);
       if (found) {
         setQuestion(found);
+        const answer = await getApprovedAnswer(id);
+        setApprovedAnswer(answer);
         await incrementQuestionViews(id);
         
         // Load user's previous rating
@@ -68,7 +67,27 @@ export default function QuestionDetailScreen() {
     } finally {
       setLoading(false);
     }
-  }
+  }, [id, userId]);
+
+  useEffect(() => {
+    if (!userId) {
+      return undefined;
+    }
+
+    loadQuestion();
+
+    // Subscribe to real-time updates
+    const unsubscribe = subscribeToQuestions((updatedQuestions) => {
+      const found = updatedQuestions.find(q => q.id === id);
+      if (found) {
+        setQuestion(found);
+      }
+    });
+
+    return () => {
+      if (unsubscribe) unsubscribe();
+    };
+  }, [id, userId, loadQuestion]);
 
   async function handleMarkHelpful(isHelpful: boolean) {
     if (!id || !userId) return;
@@ -134,7 +153,13 @@ export default function QuestionDetailScreen() {
   }
 
   const trustScore = calculateTrustScore(question);
-  const hasAnswer = !!question.answer;
+  const hasAnswer = !!approvedAnswer && approvedAnswer.status === 'approved';
+  const statusLabel = {
+    pending_review: 'ממתין לאישור',
+    approved: 'מאושר',
+    locked: 'נעול',
+    rejected: 'נדחה'
+  } as const;
 
   return (
     <ThemedView style={[styles.container, { backgroundColor: colors.background.base }]}>
@@ -182,6 +207,16 @@ export default function QuestionDetailScreen() {
             {question.question}
           </ThemedText>
 
+          <View style={styles.tagsContainer}>
+            <View style={[styles.tag, { backgroundColor: colors.primary.light }]}
+            >
+              <ThemedText style={[styles.tagText, { color: colors.primary.dark }]}
+              >
+                {statusLabel[question.status] || 'ממתין לאישור'}
+              </ThemedText>
+            </View>
+          </View>
+
           {/* Tags */}
           {question.tags.length > 0 && (
             <View style={styles.tagsContainer}>
@@ -206,7 +241,7 @@ export default function QuestionDetailScreen() {
         </View>
 
         {/* Answer Section */}
-        {hasAnswer && question.answer ? (
+        {hasAnswer && approvedAnswer ? (
           <View style={[styles.answerCard, { backgroundColor: colors.surface.card }]}>
             {/* Trust Score */}
             <View style={[
@@ -219,7 +254,7 @@ export default function QuestionDetailScreen() {
                 color="#FFFFFF" 
               />
               <ThemedText style={styles.trustScoreText}>
-                {trustScore}% אמינות • תשובה מאומתת מהקהילה
+                {trustScore}% אמינות • תשובה מאושרת
               </ThemedText>
             </View>
 
@@ -228,16 +263,16 @@ export default function QuestionDetailScreen() {
               💡 תשובה
             </ThemedText>
             <ThemedText style={[styles.answerText, { color: colors.text.primary }]}>
-              {question.answer.text}
+              {approvedAnswer.text}
             </ThemedText>
 
             {/* Sources */}
-            {question.answer.sources.length > 0 && (
+            {approvedAnswer.sources && approvedAnswer.sources.length > 0 && (
               <View style={styles.sourcesSection}>
                 <ThemedText style={[styles.sourcesTitle, { color: colors.text.primary }]}>
                   📚 מקורות הלכתיים
                 </ThemedText>
-                {question.answer.sources.map((source, index) => (
+                {approvedAnswer.sources.map((source, index) => (
                   <Pressable
                     key={index}
                     style={[styles.sourceItem, { backgroundColor: colors.background.base }]}
@@ -261,12 +296,12 @@ export default function QuestionDetailScreen() {
             )}
 
             {/* Approvals */}
-            {question.answer.approvals.length > 0 && (
+            {approvedAnswer.approvals && approvedAnswer.approvals.length > 0 && (
               <View style={styles.approvalsSection}>
                 <ThemedText style={[styles.approvalsTitle, { color: colors.text.primary }]}>
                   ✅ אישורים
                 </ThemedText>
-                {question.answer.approvals.map((approval, index) => (
+                {approvedAnswer.approvals.map((approval, index) => (
                   <View key={index} style={[styles.approvalItem, { backgroundColor: colors.background.base }]}>
                     <View style={styles.approvalLeft}>
                       <View style={[styles.approvalBadge, { backgroundColor: colors.primary.main }]}>
@@ -298,48 +333,116 @@ export default function QuestionDetailScreen() {
                 <Pressable
                   style={[
                     styles.helpfulButton,
-                    { 
-                      backgroundColor: userRating === true ? Colors.light.semantic.success : colors.surface.card,
-                      borderColor: Colors.light.semantic.success 
-                    }
+                    {
+                      backgroundColor: userRating === true
+                        ? Colors.light.semantic.success
+                        : colors.surface.card,
+                      borderColor: Colors.light.semantic.success,
+                    },
                   ]}
                   onPress={() => handleMarkHelpful(true)}
                 >
-                  <Ionicons 
-                    name={userRating === true ? "thumbs-up" : "thumbs-up-outline"}
-                    size={20} 
-                    color={userRating === true ? "#FFFFFF" : Colors.light.semantic.success} 
+                  <Ionicons
+                    name={userRating === true ? 'thumbs-up' : 'thumbs-up-outline'}
+                    size={20}
+                    color={userRating === true ? '#FFFFFF' : Colors.light.semantic.success}
                   />
-                  <ThemedText style={[
-                    styles.helpfulButtonText,
-                    { color: userRating === true ? "#FFFFFF" : Colors.light.semantic.success }
-                  ]}>
+                  <ThemedText
+                    style={[
+                      styles.helpfulButtonText,
+                      { color: userRating === true ? '#FFFFFF' : Colors.light.semantic.success },
+                    ]}
+                  >
                     כן ({question.stats.helpful})
                   </ThemedText>
                 </Pressable>
                 <Pressable
                   style={[
                     styles.helpfulButton,
-                    { 
-                      backgroundColor: userRating === false ? Colors.light.semantic.error : colors.surface.card,
-                      borderColor: Colors.light.semantic.error 
-                    }
+                    {
+                      backgroundColor: userRating === false
+                        ? Colors.light.semantic.error
+                        : colors.surface.card,
+                      borderColor: Colors.light.semantic.error,
+                    },
                   ]}
                   onPress={() => handleMarkHelpful(false)}
                 >
-                  <Ionicons 
-                    name={userRating === false ? "thumbs-down" : "thumbs-down-outline"}
-                    size={20} 
-                    color={userRating === false ? "#FFFFFF" : Colors.light.semantic.error} 
+                  <Ionicons
+                    name={userRating === false ? 'thumbs-down' : 'thumbs-down-outline'}
+                    size={20}
+                    color={userRating === false ? '#FFFFFF' : Colors.light.semantic.error}
                   />
-                  <ThemedText style={[
-                    styles.helpfulButtonText,
-                    { color: userRating === false ? "#FFFFFF" : Colors.light.semantic.error }
-                  ]}>
+                  <ThemedText
+                    style={[
+                      styles.helpfulButtonText,
+                      { color: userRating === false ? '#FFFFFF' : Colors.light.semantic.error },
+                    ]}
+                  >
                     לא ({question.stats.notHelpful})
                   </ThemedText>
                 </Pressable>
               </View>
+            </View>
+
+            <View style={[styles.answerCard, { backgroundColor: colors.surface.card }]}
+            >
+              <ThemedText style={[styles.answerTitle, { color: colors.text.primary }]}
+              >
+                💬 דיון לימודי
+              </ThemedText>
+              <ThemedText style={[styles.noAnswerText, { color: colors.text.secondary }]}
+              >
+                אין דיון מאושר כרגע.
+              </ThemedText>
+            </View>
+
+            <View style={[styles.answerCard, { backgroundColor: colors.surface.card }]}
+            >
+              <ThemedText style={[styles.answerTitle, { color: colors.text.primary }]}
+              >
+                🧭 דוגמאות מהעולם האמיתי
+              </ThemedText>
+              <ThemedText style={[styles.noAnswerText, { color: colors.text.secondary }]}
+              >
+                אין דוגמאות מאושרות כרגע.
+              </ThemedText>
+            </View>
+
+            <View style={[styles.answerCard, { backgroundColor: colors.surface.card }]}
+            >
+              <ThemedText style={[styles.answerTitle, { color: colors.text.primary }]}
+              >
+                📖 מילים קשות
+              </ThemedText>
+              <ThemedText style={[styles.noAnswerText, { color: colors.text.secondary }]}
+              >
+                אין מילון מאושר כרגע.
+              </ThemedText>
+            </View>
+
+            <View style={[styles.answerCard, { backgroundColor: colors.surface.card }]}
+            >
+              <ThemedText style={[styles.answerTitle, { color: colors.text.primary }]}
+              >
+                🔗 קישורים פנימיים
+              </ThemedText>
+              <ThemedText style={[styles.noAnswerText, { color: colors.text.secondary }]}
+              >
+                אין קישורים זמינים כרגע.
+              </ThemedText>
+            </View>
+
+            <View style={[styles.answerCard, { backgroundColor: colors.surface.card }]}
+            >
+              <ThemedText style={[styles.answerTitle, { color: colors.text.primary }]}
+              >
+                🕒 היסטוריית שינויים
+              </ThemedText>
+              <ThemedText style={[styles.noAnswerText, { color: colors.text.secondary }]}
+              >
+                אין היסטוריה זמינה כרגע.
+              </ThemedText>
             </View>
           </View>
         ) : (

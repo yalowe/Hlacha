@@ -1,0 +1,61 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function role() {
+      return request.auth != null && request.auth.token.role != null ? request.auth.token.role : null;
+    }
+
+    function isStaff() {
+      return role() in ['Editor', 'Posek', 'SuperAdmin'];
+    }
+
+    function isApprover() {
+      return role() in ['Posek', 'SuperAdmin'];
+    }
+
+    match /questions/{questionId} {
+      allow read: if resource.data.visibility == 'public' || isStaff();
+      allow create: if request.resource.data.status == 'pending_review'
+        && request.resource.data.visibility == 'public'
+        && (isSignedIn() || request.resource.data.anon_session_id is string);
+      allow update: if isStaff();
+      allow delete: if isStaff();
+    }
+
+    match /questions/{questionId}/answers/{answerId} {
+      allow read: if resource.data.status == 'approved';
+      allow create: if isApprover();
+      allow update: if isApprover();
+      allow delete: if isApprover();
+    }
+
+    match /questions/{questionId}/discussions/{discussionId} {
+      allow read: if resource.data.status == 'approved';
+      allow create: if request.resource.data.type in ['question', 'kushya', 'source', 'clarification']
+        && request.resource.data.status == 'pending'
+        && (isSignedIn() || request.resource.data.anon_session_id is string);
+      allow update: if isStaff();
+      allow delete: if isStaff();
+    }
+
+    match /answer_submissions/{submissionId} {
+      allow read: if isStaff();
+      allow create: if isSignedIn() || request.resource.data.anon_session_id is string;
+      allow update, delete: if isStaff();
+    }
+
+    match /moderation_flags/{flagId} {
+      allow create: if isSignedIn() || request.resource.data.anon_session_id is string;
+      allow read, update, delete: if isStaff();
+    }
+
+    match /audit_logs/{logId} {
+      allow read: if isStaff();
+      allow create: if isStaff();
+    }
+  }
+}

@@ -102,14 +102,14 @@ export default function ExploreScreen() {
     );
   }
 
-  const textSizes: Array<{ value: typeof textSize; label: string }> = [
+  const textSizes: { value: typeof textSize; label: string }[] = [
     { value: 'small', label: 'קטן' },
     { value: 'medium', label: 'בינוני' },
     { value: 'large', label: 'גדול' },
     { value: 'xlarge', label: 'גדול מאוד' },
   ];
 
-  const themes: Array<{ value: typeof themeMode; label: string }> = [
+  const themes: { value: typeof themeMode; label: string }[] = [
     { value: 'light', label: 'בהיר' },
     { value: 'dark', label: 'כהה' },
     { value: 'system', label: 'אוטומטי' },
