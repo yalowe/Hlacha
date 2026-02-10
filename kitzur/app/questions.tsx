@@ -5,6 +5,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { StyleSheet, ScrollView, View, Pressable, TextInput, ActivityIndicator } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Ionicons } from '@expo/vector-icons';
@@ -616,7 +617,7 @@ function QuestionCard({
         <View style={styles.statsRow}>
           <Ionicons name="eye-outline" size={14} color={colors.text.secondary} />
           <ThemedText style={[styles.statText, { color: colors.text.secondary }]}>
-            {question.stats.views}
+            {question.stats?.views ?? 0}
           </ThemedText>
         </View>
       </View>
@@ -645,7 +646,7 @@ function QuestionCard({
           <View style={styles.helpfulBadge}>
             <Ionicons name="thumbs-up" size={12} color={colors.text.secondary} />
             <ThemedText style={[styles.helpfulText, { color: colors.text.secondary }]}>
-              {question.stats.helpful}
+              {question.stats?.helpful ?? 0}
             </ThemedText>
           </View>
         )}

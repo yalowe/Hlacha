@@ -24,6 +24,19 @@ const COLLECTIONS = {
   ANSWERS: 'answers',
 };
 
+// Normalize question data to ensure all required fields exist
+function normalizeQuestion(data: any): Question {
+  return {
+    ...data,
+    stats: data.stats || {
+      views: 0,
+      helpful: 0,
+      notHelpful: 0,
+      shares: 0
+    }
+  } as Question;
+}
+
 // Real-time listener for all questions
 export function subscribeToQuestions(
   callback: (questions: Question[]) => void,
@@ -39,7 +52,7 @@ export function subscribeToQuestions(
     (snapshot) => {
       const questions: Question[] = [];
       snapshot.forEach((doc) => {
-        questions.push({ id: doc.id, ...doc.data() } as Question);
+        questions.push(normalizeQuestion({ id: doc.id, ...doc.data() }));
       });
       callback(questions);
     },
@@ -75,7 +88,7 @@ export async function getAllQuestions(): Promise<Question[]> {
     const snapshot = await getDocs(q);
     const questions: Question[] = [];
     snapshot.forEach((doc) => {
-      questions.push({ id: doc.id, ...doc.data() } as Question);
+      questions.push(normalizeQuestion({ id: doc.id, ...doc.data() }));
     });
     return questions;
   } catch (error) {
@@ -91,7 +104,7 @@ export async function getQuestion(questionId: string): Promise<Question | null> 
     const docSnap = await getDoc(docRef);
     
     if (docSnap.exists()) {
-      return { id: docSnap.id, ...docSnap.data() } as Question;
+      return normalizeQuestion({ id: docSnap.id, ...docSnap.data() });
     }
     return null;
   } catch (error) {
@@ -165,7 +178,7 @@ export async function getQuestionsByCategory(category: string): Promise<Question
     const snapshot = await getDocs(q);
     const questions: Question[] = [];
     snapshot.forEach((doc) => {
-      questions.push({ id: doc.id, ...doc.data() } as Question);
+      questions.push(normalizeQuestion({ id: doc.id, ...doc.data() }));
     });
     return questions;
   } catch (error) {
