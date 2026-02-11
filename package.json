@@ -14,6 +14,8 @@
   },
   "devDependencies": {
     "@firebase/rules-unit-testing": "^5.0.0",
+    "@types/react": "^19.2.13",
+    "@types/react-native": "^0.72.8",
     "firebase": "^12.9.0",
     "firebase-admin": "^12.6.0",
     "firebase-tools": "^13.31.2",
@@ -23,5 +25,18 @@
   },
   "engines": {
     "node": ">=20 <21"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "expo": "^54.0.33",
+    "expo-clipboard": "^8.0.8",
+    "expo-haptics": "^15.0.8",
+    "expo-linear-gradient": "^15.0.8",
+    "expo-router": "^6.0.23",
+    "react": "^19.2.4",
+    "react-native": "^0.83.1",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-svg": "^15.15.3"
   }
 }
