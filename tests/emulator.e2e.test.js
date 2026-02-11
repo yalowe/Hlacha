@@ -1,71 +1,58 @@
-const admin = require('firebase-admin');
-const { initializeApp } = require('firebase/app');
-const { getAuth, connectAuthEmulator, signInWithCustomToken } = require('firebase/auth');
-const { getFunctions, connectFunctionsEmulator, httpsCallable } = require('firebase/functions');
+const { getApp } = require('firebase/app');
+const { getFunctions, httpsCallable } = require('firebase/functions');
+const { collection, doc, getDoc, getFirestore, setDoc } = require('firebase/firestore');
 
-const PROJECT_ID = 'demo-hlacha';
+async function waitForApprovedAnswer(id, timeoutMs = 8000) {
+  const start = Date.now();
+  const db = getFirestore(getApp());
+  const answerRef = typeof id === 'string'
+    ? doc(db, 'answers', id)
+    : doc(db, 'questions', id.questionId, 'answers', id.answerId);
 
-process.env.FIRESTORE_EMULATOR_HOST = '127.0.0.1:8080';
-process.env.FIREBASE_AUTH_EMULATOR_HOST = '127.0.0.1:9099';
+  while (Date.now() - start < timeoutMs) {
+    const snap = await getDoc(answerRef);
+    if (snap.exists() && snap.data()?.status === 'approved') return;
+    await new Promise((resolve) => setTimeout(resolve, 120));
+  }
 
-function initAdmin() {
-  if (admin.apps.length) return admin.app();
-  return admin.initializeApp({ projectId: PROJECT_ID });
+  throw new Error('Answer not approved in time');
 }
 
 test('e2e: question -> discussion -> approve answer', async () => {
-  const adminApp = initAdmin();
-  const db = adminApp.firestore();
+  const app = getApp();
+  const db = getFirestore(app);
 
-  const questionRef = db.collection('questions').doc();
-  await questionRef.set({
-    question: 'שאלה ארוכה',
-    category: 'other',
-    askedBy: 'anon',
-    timestamp: admin.firestore.FieldValue.serverTimestamp(),
-    createdAt: admin.firestore.FieldValue.serverTimestamp(),
+  const questionRef = doc(collection(db, 'questions'));
+  await setDoc(questionRef, {
+    title: 'שאלה ארוכה',
+    body: 'תוכן שאלה מפורט',
     status: 'pending_review',
     visibility: 'public',
     anon_session_id: 'anon-1'
   });
 
-  const listSnap = await db.collection('questions').get();
-  expect(listSnap.size).toBeGreaterThan(0);
-
-  const discussionRef = questionRef.collection('discussions').doc();
-  await discussionRef.set({
+  const discussionRef = doc(collection(db, 'questions', questionRef.id, 'discussions'));
+  await setDoc(discussionRef, {
     thread_id: discussionRef.id,
     type: 'question',
     body: 'שאלה נוספת',
     status: 'pending',
-    createdAt: admin.firestore.FieldValue.serverTimestamp(),
     anon_session_id: 'anon-1'
   });
 
-  const answerRef = questionRef.collection('answers').doc();
-  await answerRef.set({
+  const answerRef = doc(collection(db, 'questions', questionRef.id, 'answers'));
+  await setDoc(answerRef, {
     text: 'תשובה רשמית',
     status: 'draft',
     sources: [],
     approvals: [],
     isVerified: false,
-    totalApprovalWeight: 0,
-    answeredAt: admin.firestore.FieldValue.serverTimestamp()
+    totalApprovalWeight: 0
   });
 
-  const customToken = await adminApp.auth().createCustomToken('posek-1', { role: 'Posek' });
-
-  const clientApp = initializeApp({ projectId: PROJECT_ID, apiKey: 'fake', authDomain: 'localhost' });
-  const auth = getAuth(clientApp);
-  connectAuthEmulator(auth, 'http://127.0.0.1:9099');
-  await signInWithCustomToken(auth, customToken);
-
-  const functions = getFunctions(clientApp);
-  connectFunctionsEmulator(functions, '127.0.0.1', 5001);
-
+  const functions = getFunctions(app);
   const approve = httpsCallable(functions, 'approveAnswer');
   await approve({ questionId: questionRef.id, answerId: answerRef.id });
 
-  const approvedSnap = await answerRef.get();
-  expect(approvedSnap.data().status).toBe('approved');
+  await waitForApprovedAnswer({ questionId: questionRef.id, answerId: answerRef.id }, 8000);
 });
