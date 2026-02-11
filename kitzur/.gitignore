@@ -72,3 +72,8 @@ app-example
 
 # Large data files (optional - include if needed for distribution)
 data/shulchan_aruch/*.json
+
+# Local dev env & emulator logs
+.env.development
+firebase-debug.log
+firestore-debug.log
